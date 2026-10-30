@@ -1,18 +1,20 @@
 
 /* ==========================================
-   MEDIQ PATIENT DASHBOARD
-   Premium White / Blue / Teal Theme
+   MEDIQ PATIENT DASHBOARD & APP LAYOUT
+   Multicolour Healthcare System:
+   Teal (#269C91), Ivory (#F7F4EF), Charcoal (#34434A),
+   Coral (#F07868), Amber (#E8AC48), Rose (#D96B83)
 ========================================== */
 
 .patient-layout {
-  --patient-blue: #1769b3;
-  --patient-teal: #0d9fa5;
-  --patient-text: #193a55;
-  --patient-muted: #8295a6;
-  --patient-border: #e6edf4;
+  --patient-blue: #269C91;
+  --patient-teal: #269C91;
+  --patient-text: #34434A;
+  --patient-muted: #5C6E78;
+  --patient-border: #E5E1D8;
   display: flex;
   min-height: 100vh;
-  background: #f5f8fc;
+  background: #F7F4EF;
   color: var(--patient-text);
   font-family: "Inter", "Segoe UI", Arial, sans-serif;
 }
@@ -43,10 +45,10 @@
   align-items: center;
   gap: 10px;
   padding: 0 12px;
-  color: #153a58;
+  color: #34434A;
   text-decoration: none;
   font-size: 25px;
-  font-weight: 850;
+  font-weight: 900;
   letter-spacing: -1px;
 }
 
@@ -56,56 +58,58 @@
   display: grid;
   place-items: center;
   color: #ffffff;
-  background: linear-gradient(135deg, #0ca8aa, #0879b8);
-  border-radius: 12px;
+  background: linear-gradient(135deg, #269C91, #1E7E75);
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(38, 156, 145, 0.25);
 }
 
 .patient-brand-dot {
-  color: #0da4a6;
+  color: #269C91;
 }
 
 .patient-sidebar-label {
-  padding: 45px 16px 15px;
-  color: #9aabb9;
+  padding: 40px 16px 14px;
+  color: #8E9EA7;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: 1.6px;
+  text-transform: uppercase;
 }
 
 .patient-nav {
   display: flex;
   flex-direction: column;
-  gap: 7px;
+  gap: 6px;
 }
 
 .patient-nav-item {
   width: 100%;
-  min-height: 48px;
+  min-height: 46px;
   display: flex;
   align-items: center;
   gap: 13px;
   padding: 0 15px;
   border: none;
-  border-radius: 11px;
+  border-radius: 12px;
   background: transparent;
-  color: #71879c;
+  color: #5C6E78;
   font-size: 13px;
-  font-weight: 650;
+  font-weight: 700;
   font-family: inherit;
   text-align: left;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .patient-nav-item:hover {
-  background: #f1f8fc;
-  color: #0c8da4;
+  background: #F7F4EF;
+  color: #269C91;
 }
 
 .patient-nav-item.active {
-  background: linear-gradient(100deg, #e5f8f9, #edf6ff);
-  color: #078f9f;
-  font-weight: 750;
+  background: #E8F5F3;
+  color: #1E7E75;
+  font-weight: 800;
 }
 
 .patient-nav-item span {

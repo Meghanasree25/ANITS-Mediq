@@ -210,25 +210,25 @@ export default function TouchToTriageKiosk() {
   const emergencyFlags = selectedSymptoms.filter((s) => s.isRedFlag);
 
   return (
-    <div className="min-h-screen bg-[#FAF8F5] text-stone-900 flex flex-col font-sans select-none">
+    <div className="min-h-screen bg-[#F7F4EF] text-[#34434A] flex flex-col font-sans select-none">
       {/* Top Accessible Hospital Navigation Bar */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-emerald-100 shadow-xs px-4 sm:px-8 py-3.5 flex items-center justify-between flex-wrap gap-3">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E5E1D8] shadow-2xs px-4 sm:px-8 py-3.5 flex items-center justify-between flex-wrap gap-3">
         {/* Hospital Branding */}
         <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-800 to-teal-900 flex items-center justify-center text-white shadow-md shadow-emerald-950/20">
-            <HeartPulse size={26} className="text-emerald-300" />
+          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#269C91] to-[#1E7E75] flex items-center justify-center text-white shadow-md shadow-[#269C91]/20">
+            <HeartPulse size={26} className="text-[#E8F5F3]" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-lg font-black tracking-tight text-emerald-950">
+              <span className="text-lg font-black tracking-tight text-[#34434A]">
                 MEDIQ
               </span>
-              <span className="text-[10px] font-black uppercase tracking-widest bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full border border-emerald-200">
+              <span className="text-[10px] font-black uppercase tracking-widest bg-[#E8F5F3] text-[#269C91] px-2.5 py-0.5 rounded-full border border-[#269C91]/30">
                 Touch-to-Triage
               </span>
             </div>
-            <p className="text-xs text-stone-500 font-medium">
-              Chandrapuri District Hospital • Kiosk Terminal
+            <p className="text-xs text-[#5C6E78] font-medium">
+              District Hospital OPD • Automated Self-Triage Kiosk
             </p>
           </div>
         </div>
@@ -236,14 +236,14 @@ export default function TouchToTriageKiosk() {
         {/* Action Controls: Language Toggle & Staff Mode Switcher */}
         <div className="flex items-center gap-2.5">
           {/* Trilingual Language Selector */}
-          <div className="flex items-center bg-stone-100 p-1 rounded-2xl border border-stone-200">
+          <div className="flex items-center bg-[#F7F4EF] p-1 rounded-2xl border border-[#E5E1D8]">
             <button
               type="button"
               onClick={() => handleLanguageChange("en")}
-              className={`px-3 py-1.5 rounded-xl text-xs font-black transition ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-black transition cursor-pointer ${
                 language === "en"
-                  ? "bg-white text-emerald-900 shadow-xs"
-                  : "text-stone-600 hover:text-stone-900"
+                  ? "bg-[#269C91] text-white shadow-xs"
+                  : "text-[#5C6E78] hover:text-[#34434A]"
               }`}
             >
               English
@@ -251,10 +251,10 @@ export default function TouchToTriageKiosk() {
             <button
               type="button"
               onClick={() => handleLanguageChange("te")}
-              className={`px-3 py-1.5 rounded-xl text-xs font-black transition ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-black transition cursor-pointer ${
                 language === "te"
-                  ? "bg-white text-emerald-900 shadow-xs"
-                  : "text-stone-600 hover:text-stone-900"
+                  ? "bg-[#269C91] text-white shadow-xs"
+                  : "text-[#5C6E78] hover:text-[#34434A]"
               }`}
             >
               తెలుగు
@@ -262,10 +262,10 @@ export default function TouchToTriageKiosk() {
             <button
               type="button"
               onClick={() => handleLanguageChange("hi")}
-              className={`px-3 py-1.5 rounded-xl text-xs font-black transition ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-black transition cursor-pointer ${
                 language === "hi"
-                  ? "bg-white text-emerald-900 shadow-xs"
-                  : "text-stone-600 hover:text-stone-900"
+                  ? "bg-[#269C91] text-white shadow-xs"
+                  : "text-[#5C6E78] hover:text-[#34434A]"
               }`}
             >
               हिंदी
@@ -277,9 +277,9 @@ export default function TouchToTriageKiosk() {
             type="button"
             onClick={() => announceStep(currentStep, language)}
             title="Repeat instructions"
-            className="p-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 rounded-2xl transition shadow-xs flex items-center gap-1.5"
+            className="p-2.5 bg-[#E8F5F3] hover:bg-[#269C91]/15 text-[#269C91] border border-[#269C91]/30 rounded-2xl transition shadow-2xs flex items-center gap-1.5 cursor-pointer"
           >
-            <Volume2 size={16} className="text-emerald-700" />
+            <Volume2 size={16} className="text-[#269C91]" />
             <span className="text-xs font-bold hidden md:inline">
               {language === "te" ? "సూచనలు వినండి" : language === "hi" ? "निर्देश सुनें" : "Voice Guide"}
             </span>
@@ -288,16 +288,16 @@ export default function TouchToTriageKiosk() {
           {/* Staff Mode Switcher */}
           <Link
             to="/staff"
-            className="flex items-center gap-1.5 px-3.5 py-2 bg-stone-100 hover:bg-emerald-50 text-emerald-900 hover:text-emerald-950 border border-stone-200 hover:border-emerald-300 rounded-2xl text-xs font-bold transition shadow-xs"
+            className="flex items-center gap-1.5 px-3.5 py-2 bg-[#F7F4EF] hover:bg-[#E8F5F3] text-[#34434A] hover:text-[#269C91] border border-[#E5E1D8] hover:border-[#269C91]/40 rounded-2xl text-xs font-bold transition shadow-2xs"
           >
-            <Stethoscope size={16} className="text-emerald-700" />
+            <Stethoscope size={16} className="text-[#269C91]" />
             <span className="hidden sm:inline">Staff Clinical Mode</span>
           </Link>
         </div>
       </header>
 
       {/* Guided 4-Step Patient Journey Navigation Bar */}
-      <div className="w-full bg-white border-b border-stone-200 px-4 py-2.5 shadow-2xs">
+      <div className="w-full bg-white border-b border-[#E5E1D8] px-4 py-2.5 shadow-2xs">
         <div className="max-w-4xl mx-auto flex items-center justify-between gap-2 overflow-x-auto">
           {journeySteps.map((st) => {
             const isActive = currentStep === st.id;
@@ -315,21 +315,21 @@ export default function TouchToTriageKiosk() {
                   setCurrentStep(st.id);
                   announceStep(st.id, language);
                 }}
-                className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-black transition-all shrink-0 ${
+                className={`flex items-center gap-2 px-3.5 py-1.5 rounded-xl text-xs font-black transition-all shrink-0 cursor-pointer ${
                   isActive
-                    ? "bg-emerald-800 text-white shadow-sm"
+                    ? "bg-[#269C91] text-white shadow-xs"
                     : isCompleted
-                    ? "bg-emerald-50 text-emerald-900 hover:bg-emerald-100"
-                    : "text-stone-400 hover:text-stone-700"
+                    ? "bg-[#E8F5F3] text-[#1E7E75] hover:bg-[#E8F5F3]/80"
+                    : "text-[#8E9EA7] hover:text-[#34434A]"
                 }`}
               >
                 <span
                   className={`w-5 h-5 rounded-full flex items-center justify-center text-[11px] font-black ${
                     isActive
-                      ? "bg-white text-emerald-900"
+                      ? "bg-white text-[#269C91]"
                       : isCompleted
-                      ? "bg-emerald-200 text-emerald-900"
-                      : "bg-stone-200 text-stone-600"
+                      ? "bg-[#269C91] text-white"
+                      : "bg-[#E5E1D8] text-[#5C6E78]"
                   }`}
                 >
                   {isCompleted ? "✓" : st.stepNum}
@@ -347,19 +347,19 @@ export default function TouchToTriageKiosk() {
             STEP 1: PATIENT PROFILE (AGE CATEGORY & GENDER)
            ==================================================================== */}
         {currentStep === "demographics" && (
-          <div className="w-full max-w-2xl mx-auto bg-white rounded-3xl p-6 sm:p-8 border border-emerald-100 shadow-xl flex flex-col gap-6 animate-fadeIn">
+          <div className="w-full max-w-2xl mx-auto bg-white rounded-3xl p-6 sm:p-8 border border-[#E5E1D8] shadow-xl flex flex-col gap-6 animate-fadeIn">
             <div className="text-center">
-              <span className="text-xs font-black uppercase tracking-widest text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+              <span className="text-xs font-black uppercase tracking-widest text-[#269C91] bg-[#E8F5F3] px-3 py-1 rounded-full border border-[#269C91]/30">
                 {language === "te" ? "దశ 1 — ప్రొఫైల్ వివరాలు" : language === "hi" ? "चरण 1 — मरीज का विवरण" : "Step 1: Patient Profile"}
               </span>
-              <h1 className="text-2xl sm:text-3xl font-black text-stone-900 mt-3">
+              <h1 className="text-2xl sm:text-3xl font-black text-[#34434A] mt-3">
                 {language === "te"
                   ? "రోగి వయస్సు మరియు వివరాలు"
                   : language === "hi"
                   ? "मरीज की उम्र और विवरण"
                   : "Patient Age & Gender Selection"}
               </h1>
-              <p className="text-xs sm:text-sm text-stone-600 mt-1">
+              <p className="text-xs sm:text-sm text-[#5C6E78] mt-1 font-medium">
                 {language === "te"
                   ? "సరైన వైద్య విభాగాన్ని కేటాయించడానికి మీ వయస్సు వర్గాన్ని ఎంచుకోండి"
                   : language === "hi"
@@ -370,7 +370,7 @@ export default function TouchToTriageKiosk() {
 
             {/* Age Category Cards */}
             <div>
-              <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block mb-2.5">
+              <label className="text-xs font-bold text-[#5C6E78] uppercase tracking-wider block mb-2.5">
                 {language === "te" ? "వయస్సు వర్గం:" : language === "hi" ? "आयु वर्ग:" : "Age Category:"}
               </label>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -414,12 +414,12 @@ export default function TouchToTriageKiosk() {
                       }
                       className={`p-4 rounded-2xl border-2 transition-all flex flex-col items-center justify-center gap-2 cursor-pointer active:scale-95 ${
                         isSelected
-                          ? "bg-emerald-50 border-emerald-600 shadow-md ring-4 ring-emerald-500/20"
-                          : "bg-stone-50 border-stone-200 hover:border-emerald-300 hover:bg-white"
+                          ? "bg-[#E8F5F3] border-[#269C91] shadow-md ring-4 ring-[#269C91]/20"
+                          : "bg-[#F7F4EF] border-[#E5E1D8] hover:border-[#269C91]/40 hover:bg-white"
                       }`}
                     >
                       <span className="text-3xl">{cat.icon}</span>
-                      <span className="font-extrabold text-stone-900 text-xs text-center leading-tight">
+                      <span className="font-extrabold text-[#34434A] text-xs text-center leading-tight">
                         {cat.label[language]}
                       </span>
                     </button>
@@ -430,7 +430,7 @@ export default function TouchToTriageKiosk() {
 
             {/* Gender Selection Cards */}
             <div>
-              <label className="text-xs font-bold text-stone-500 uppercase tracking-wider block mb-2.5">
+              <label className="text-xs font-bold text-[#5C6E78] uppercase tracking-wider block mb-2.5">
                 {language === "te" ? "లింగం:" : language === "hi" ? "लिंग:" : "Gender:"}
               </label>
               <div className="grid grid-cols-2 gap-3">
@@ -443,10 +443,10 @@ export default function TouchToTriageKiosk() {
                       isPregnant: false,
                     }))
                   }
-                  className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-center gap-2 font-bold text-sm ${
+                  className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-center gap-2 font-bold text-sm cursor-pointer ${
                     demographics.gender === "M"
-                      ? "bg-emerald-50 border-emerald-600 text-emerald-950 shadow-sm"
-                      : "bg-stone-50 border-stone-200 text-stone-700 hover:bg-white"
+                      ? "bg-[#E8F5F3] border-[#269C91] text-[#1E7E75] shadow-xs"
+                      : "bg-[#F7F4EF] border-[#E5E1D8] text-[#34434A] hover:bg-white"
                   }`}
                 >
                   <span className="text-xl">👨</span>
@@ -461,10 +461,10 @@ export default function TouchToTriageKiosk() {
                       gender: "F",
                     }))
                   }
-                  className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-center gap-2 font-bold text-sm ${
+                  className={`p-4 rounded-2xl border-2 transition-all flex items-center justify-center gap-2 font-bold text-sm cursor-pointer ${
                     demographics.gender === "F"
-                      ? "bg-emerald-50 border-emerald-600 text-emerald-950 shadow-sm"
-                      : "bg-stone-50 border-stone-200 text-stone-700 hover:bg-white"
+                      ? "bg-[#E8F5F3] border-[#269C91] text-[#1E7E75] shadow-xs"
+                      : "bg-[#F7F4EF] border-[#E5E1D8] text-[#34434A] hover:bg-white"
                   }`}
                 >
                   <span className="text-xl">👩</span>
@@ -474,7 +474,7 @@ export default function TouchToTriageKiosk() {
 
               {/* Maternal Health Pregnancy Guardrail */}
               {demographics.gender === "F" && demographics.ageYears >= 12 && (
-                <div className="mt-3 p-3 bg-rose-50 border border-rose-200 rounded-2xl flex items-center gap-3">
+                <div className="mt-3 p-3.5 bg-[#FDF2F4] border border-[#F3C5CE] rounded-2xl flex items-center gap-3">
                   <input
                     type="checkbox"
                     id="isPregnant"
@@ -485,11 +485,11 @@ export default function TouchToTriageKiosk() {
                         isPregnant: e.target.checked,
                       }))
                     }
-                    className="w-5 h-5 rounded text-rose-600 focus:ring-rose-500"
+                    className="w-5 h-5 rounded text-[#D96B83] focus:ring-[#D96B83] accent-[#D96B83]"
                   />
                   <label
                     htmlFor="isPregnant"
-                    className="text-xs font-extrabold text-rose-950 cursor-pointer"
+                    className="text-xs font-black text-[#8C243B] cursor-pointer"
                   >
                     {language === "te"
                       ? "గర్భవతి (Currently Pregnant) — ప్రత్యేక మాతృత్వ రక్షణ నియమాలు వర్తిస్తాయి"
@@ -508,7 +508,7 @@ export default function TouchToTriageKiosk() {
                 setCurrentStep("anatomy");
                 announceStep("anatomy", language);
               }}
-              className="w-full py-4 px-6 bg-emerald-800 hover:bg-emerald-900 active:scale-95 text-white font-black text-base rounded-2xl shadow-xl shadow-emerald-900/20 flex items-center justify-center gap-2 transition"
+              className="w-full py-4 px-6 bg-[#269C91] hover:bg-[#1E7E75] active:scale-98 text-white font-black text-base rounded-2xl shadow-xl shadow-[#269C91]/25 flex items-center justify-center gap-2 transition cursor-pointer"
             >
               <span>
                 {language === "te"
@@ -530,10 +530,10 @@ export default function TouchToTriageKiosk() {
             {/* Left Column: Interactive Human Anatomical Silhouette */}
             <div className="w-full lg:w-5/12 flex flex-col items-center">
               <div className="w-full text-center lg:text-left mb-2">
-                <span className="text-xs font-black uppercase tracking-widest text-emerald-800 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+                <span className="text-xs font-black uppercase tracking-widest text-[#269C91] bg-[#E8F5F3] px-3 py-1 rounded-full border border-[#269C91]/30">
                   {language === "te" ? "దశ 2 — శరీర భాగం ఎంపిక" : language === "hi" ? "चरण 2 — अंग का चयन" : "Step 2: Anatomical Selection"}
                 </span>
-                <h2 className="text-xl sm:text-2xl font-black text-stone-900 mt-1">
+                <h2 className="text-xl sm:text-2xl font-black text-[#34434A] mt-1">
                   {language === "te"
                     ? "శరీరంపై నొప్పి ఉన్న భాగాన్ని తాకండి"
                     : language === "hi"
@@ -558,7 +558,7 @@ export default function TouchToTriageKiosk() {
             </div>
 
             {/* Right Column: Dynamic Symptom Problem Cards */}
-            <div className="w-full lg:w-7/12 bg-white rounded-3xl p-6 sm:p-7 border border-emerald-900/10 shadow-xl flex flex-col gap-6">
+            <div className="w-full lg:w-7/12 bg-white rounded-3xl p-6 sm:p-7 border border-[#E5E1D8] shadow-xl flex flex-col gap-6">
               {selectedRegions.length > 0 || selectedRegion ? (
                 <>
                   <BodyProblemSelector
@@ -571,11 +571,11 @@ export default function TouchToTriageKiosk() {
                   />
 
                   {/* Navigation Buttons */}
-                  <div className="pt-4 border-t border-stone-200 flex items-center justify-between flex-wrap gap-3">
+                  <div className="pt-4 border-t border-[#E5E1D8] flex items-center justify-between flex-wrap gap-3">
                     <button
                       type="button"
                       onClick={() => setCurrentStep("demographics")}
-                      className="px-4 py-2.5 rounded-xl text-stone-600 hover:bg-stone-100 font-bold text-xs flex items-center gap-1.5"
+                      className="px-4 py-2.5 rounded-xl text-[#5C6E78] hover:text-[#34434A] hover:bg-[#F7F4EF] font-bold text-xs flex items-center gap-1.5 cursor-pointer transition"
                     >
                       <ArrowLeft size={16} />
                       <span>{language === "te" ? "వెనుకకు" : language === "hi" ? "पीछे" : "Back to Profile"}</span>
@@ -588,10 +588,10 @@ export default function TouchToTriageKiosk() {
                         setCurrentStep("questionnaire");
                         announceStep("questionnaire", language);
                       }}
-                      className={`px-6 py-3.5 rounded-2xl font-black text-sm flex items-center gap-2 transition shadow-lg ${
+                      className={`px-6 py-3.5 rounded-2xl font-black text-sm flex items-center gap-2 transition shadow-lg cursor-pointer ${
                         selectedSymptoms.length > 0
-                          ? "bg-emerald-800 hover:bg-emerald-900 active:scale-95 text-white shadow-emerald-900/20"
-                          : "bg-stone-200 text-stone-400 cursor-not-allowed"
+                          ? "bg-[#269C91] hover:bg-[#1E7E75] active:scale-95 text-white shadow-[#269C91]/25"
+                          : "bg-[#E5E1D8] text-[#8E9EA7] cursor-not-allowed"
                       }`}
                     >
                       <span>
@@ -606,9 +606,11 @@ export default function TouchToTriageKiosk() {
                   </div>
                 </>
               ) : (
-                <div className="h-64 flex flex-col items-center justify-center text-center text-stone-400 gap-3">
-                  <Sparkles size={36} className="text-emerald-500 animate-pulse" />
-                  <p className="text-sm font-semibold max-w-xs">
+                <div className="h-64 flex flex-col items-center justify-center text-center text-[#5C6E78] gap-3">
+                  <div className="w-12 h-12 rounded-full bg-[#E8F5F3] flex items-center justify-center text-[#269C91]">
+                    <Sparkles size={28} className="animate-pulse" />
+                  </div>
+                  <p className="text-sm font-semibold max-w-xs text-[#34434A]">
                     {language === "te"
                       ? "దయచేసి ఎడమవైపు శరీర నమూనాపై ఒక భాగాన్ని తాకండి"
                       : language === "hi"
@@ -643,17 +645,17 @@ export default function TouchToTriageKiosk() {
           <div className="w-full flex flex-col items-center gap-6 animate-fadeIn">
             {/* Header Token Alert */}
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto mb-3 shadow-md shadow-emerald-700/10">
+              <div className="w-16 h-16 rounded-full bg-[#E8F5F3] text-[#269C91] flex items-center justify-center mx-auto mb-3 shadow-md shadow-[#269C91]/15">
                 <CheckCircle2 size={36} />
               </div>
-              <h1 className="text-2xl sm:text-3xl font-black text-emerald-950">
+              <h1 className="text-2xl sm:text-3xl font-black text-[#34434A]">
                 {language === "te"
                   ? "మీ ఓపీడీ టోకెన్ సిద్ధమైంది"
                   : language === "hi"
                   ? "आपका ओपीडी टोकन तैयार है"
                   : "OPD Triage Evaluation Ready"}
               </h1>
-              <p className="text-xs sm:text-sm text-stone-500 font-medium mt-1">
+              <p className="text-xs sm:text-sm text-[#5C6E78] font-medium mt-1">
                 {language === "te"
                   ? "దయచేసి కౌంటర్ వద్ద ఈ టోకెన్ నంబర్ చూపించండి"
                   : language === "hi"
@@ -711,7 +713,7 @@ export default function TouchToTriageKiosk() {
                   setCurrentStep("anatomy");
                   setCompletedRecord(null);
                 }}
-                className="px-5 py-3 rounded-2xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold text-xs flex items-center gap-2 transition"
+                className="px-5 py-3 rounded-2xl bg-[#F7F4EF] hover:bg-[#EAE6DD] text-[#34434A] font-bold text-xs flex items-center gap-2 transition border border-[#E5E1D8] cursor-pointer"
               >
                 <RotateCcw size={16} />
                 <span>
@@ -722,7 +724,7 @@ export default function TouchToTriageKiosk() {
               <button
                 type="button"
                 onClick={() => navigate("/staff")}
-                className="px-6 py-3 rounded-2xl bg-emerald-800 hover:bg-emerald-900 text-white font-extrabold text-xs shadow-lg shadow-emerald-900/20 flex items-center gap-2 transition"
+                className="px-6 py-3 rounded-2xl bg-[#269C91] hover:bg-[#1E7E75] text-white font-black text-xs shadow-lg shadow-[#269C91]/25 flex items-center gap-2 transition cursor-pointer"
               >
                 <Stethoscope size={16} />
                 <span>Open Clinical Priority Queue (/staff)</span>
@@ -733,7 +735,7 @@ export default function TouchToTriageKiosk() {
       </main>
 
       {/* Persistent Medical Disclaimer */}
-      <footer className="w-full py-3 px-4 text-center text-[11px] text-stone-500 bg-white/70 border-t border-stone-200/80">
+      <footer className="w-full py-3 px-4 text-center text-[11px] text-[#5C6E78] bg-white/80 border-t border-[#E5E1D8]">
         <p className="max-w-3xl mx-auto">
           <strong>Clinical Notice:</strong> MEDIQ Touch-to-Triage is an initial clinical decision support aid for OPD prioritization in government hospitals. It does not provide medical diagnoses or replace licensed clinical evaluation.
         </p>
@@ -753,13 +755,13 @@ export default function TouchToTriageKiosk() {
 
       {/* Evaluating with MEDIQ AI Loading Overlay */}
       {isEvaluating && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/60 backdrop-blur-sm animate-fadeIn">
-          <div className="bg-white p-6 rounded-3xl shadow-2xl flex flex-col items-center gap-3 border border-emerald-100">
-            <div className="w-12 h-12 border-4 border-emerald-700 border-t-transparent rounded-full animate-spin" />
-            <div className="text-sm font-extrabold text-stone-900">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#34434A]/60 backdrop-blur-sm animate-fadeIn">
+          <div className="bg-white p-6 rounded-3xl shadow-2xl flex flex-col items-center gap-3 border border-[#E5E1D8]">
+            <div className="w-12 h-12 border-4 border-[#269C91] border-t-transparent rounded-full animate-spin" />
+            <div className="text-sm font-black text-[#34434A]">
               Evaluating with MEDIQ AI...
             </div>
-            <p className="text-xs text-stone-500">
+            <p className="text-xs text-[#5C6E78]">
               Running triage classification & safety screening
             </p>
           </div>

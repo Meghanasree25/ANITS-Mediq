@@ -120,20 +120,20 @@ export default function StaffVitalsModal({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/60 backdrop-blur-sm animate-fadeIn">
-      <div className="w-full max-w-lg bg-white rounded-3xl p-6 sm:p-7 border border-emerald-100 shadow-2xl flex flex-col gap-5 max-h-[92vh] overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#34434A]/60 backdrop-blur-sm animate-fadeIn">
+      <div className="w-full max-w-lg bg-white rounded-3xl p-6 sm:p-7 border border-[#E5E1D8] shadow-2xl flex flex-col gap-5 max-h-[92vh] overflow-y-auto">
         {/* Modal Header */}
-        <div className="flex items-center justify-between pb-3 border-b border-stone-200">
+        <div className="flex items-center justify-between pb-3 border-b border-[#E5E1D8]">
           <div className="flex items-center gap-2.5">
-            <div className="p-2.5 bg-emerald-100 text-emerald-800 rounded-xl">
+            <div className="p-2.5 bg-[#E8F5F3] text-[#269C91] rounded-2xl">
               <HeartPulse size={22} />
             </div>
             <div>
-              <h3 className="font-extrabold text-stone-900 text-lg leading-snug">
+              <h3 className="font-extrabold text-[#34434A] text-lg leading-snug">
                 Clinical Vitals Intake
               </h3>
-              <p className="text-xs text-stone-500 font-medium">
-                {patientName} • Token: <span className="font-mono text-emerald-700 font-bold">{patientToken}</span>
+              <p className="text-xs text-[#5C6E78] font-medium">
+                {patientName} • Token: <span className="font-mono text-[#269C91] font-bold">{patientToken}</span>
               </p>
             </div>
           </div>
@@ -141,15 +141,15 @@ export default function StaffVitalsModal({
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 text-stone-400 hover:text-stone-700 rounded-lg hover:bg-stone-100 transition"
+            className="p-1.5 text-[#5C6E78] hover:text-[#34434A] rounded-lg hover:bg-[#F7F4EF] transition cursor-pointer"
           >
             <X size={20} />
           </button>
         </div>
 
         {/* Informational Guidance */}
-        <div className="text-xs text-stone-600 bg-emerald-50/70 border border-emerald-200 p-3 rounded-2xl flex items-start gap-2">
-          <ShieldCheck size={16} className="text-emerald-700 shrink-0 mt-0.5" />
+        <div className="text-xs text-[#1E7E75] bg-[#E8F5F3] border border-[#269C91]/30 p-3 rounded-2xl flex items-start gap-2">
+          <ShieldCheck size={16} className="text-[#269C91] shrink-0 mt-0.5" />
           <span>
             Measurements not yet recorded may be left empty. Any abnormal values trigger automatic priority escalation.
           </span>
@@ -158,9 +158,9 @@ export default function StaffVitalsModal({
         {/* Vitals Form Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* Blood Pressure */}
-          <div className="col-span-full bg-stone-50 p-3.5 rounded-2xl border border-stone-200">
-            <label className="text-xs font-bold text-stone-700 flex items-center gap-1.5 mb-2">
-              <Gauge size={16} className="text-rose-600" />
+          <div className="col-span-full bg-[#F7F4EF] p-3.5 rounded-2xl border border-[#E5E1D8]">
+            <label className="text-xs font-bold text-[#34434A] flex items-center gap-1.5 mb-2">
+              <Gauge size={16} className="text-[#F07868]" />
               <span>Blood Pressure (mmHg)</span>
             </label>
             <div className="flex items-center gap-2">
@@ -169,23 +169,23 @@ export default function StaffVitalsModal({
                 placeholder="Systolic (e.g. 120)"
                 value={systolic}
                 onChange={(e) => setSystolic(e.target.value)}
-                className="w-1/2 p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                className="w-1/2 p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
               />
-              <span className="text-stone-400 font-bold">/</span>
+              <span className="text-[#8E9EA7] font-bold">/</span>
               <input
                 type="number"
                 placeholder="Diastolic (e.g. 80)"
                 value={diastolic}
                 onChange={(e) => setDiastolic(e.target.value)}
-                className="w-1/2 p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                className="w-1/2 p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
               />
             </div>
           </div>
 
           {/* Oxygen Saturation (SpO2) */}
-          <div className="bg-stone-50 p-3.5 rounded-2xl border border-stone-200">
-            <label className="text-xs font-bold text-stone-700 flex items-center gap-1.5 mb-2">
-              <Activity size={16} className="text-sky-600" />
+          <div className="bg-[#F7F4EF] p-3.5 rounded-2xl border border-[#E5E1D8]">
+            <label className="text-xs font-bold text-[#34434A] flex items-center gap-1.5 mb-2">
+              <Activity size={16} className="text-[#69A9DC]" />
               <span>SpO2 Saturation (%)</span>
             </label>
             <input
@@ -193,17 +193,17 @@ export default function StaffVitalsModal({
               placeholder="e.g. 98"
               value={spo2}
               onChange={(e) => setSpo2(e.target.value)}
-              className="w-full p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="w-full p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             />
-            <span className="text-[10px] text-stone-400 mt-1 block">
+            <span className="text-[10px] text-[#5C6E78] mt-1 block">
               Warning threshold: &lt; 92%
             </span>
           </div>
 
           {/* Pulse / Heart Rate */}
-          <div className="bg-stone-50 p-3.5 rounded-2xl border border-stone-200">
-            <label className="text-xs font-bold text-stone-700 flex items-center gap-1.5 mb-2">
-              <HeartPulse size={16} className="text-rose-600" />
+          <div className="bg-[#F7F4EF] p-3.5 rounded-2xl border border-[#E5E1D8]">
+            <label className="text-xs font-bold text-[#34434A] flex items-center gap-1.5 mb-2">
+              <HeartPulse size={16} className="text-[#D96B83]" />
               <span>Pulse Rate (bpm)</span>
             </label>
             <input
@@ -211,17 +211,17 @@ export default function StaffVitalsModal({
               placeholder="e.g. 76"
               value={pulse}
               onChange={(e) => setPulse(e.target.value)}
-              className="w-full p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="w-full p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             />
-            <span className="text-[10px] text-stone-400 mt-1 block">
+            <span className="text-[10px] text-[#5C6E78] mt-1 block">
               Danger band: &le; 40 or &ge; 131 bpm
             </span>
           </div>
 
           {/* Temperature */}
-          <div className="bg-stone-50 p-3.5 rounded-2xl border border-stone-200">
-            <label className="text-xs font-bold text-stone-700 flex items-center gap-1.5 mb-2">
-              <Thermometer size={16} className="text-amber-600" />
+          <div className="bg-[#F7F4EF] p-3.5 rounded-2xl border border-[#E5E1D8]">
+            <label className="text-xs font-bold text-[#34434A] flex items-center gap-1.5 mb-2">
+              <Thermometer size={16} className="text-[#E8AC48]" />
               <span>Temperature (°C or °F)</span>
             </label>
             <input
@@ -230,17 +230,17 @@ export default function StaffVitalsModal({
               placeholder="e.g. 37.0 or 98.6"
               value={temp}
               onChange={(e) => setTemp(e.target.value)}
-              className="w-full p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="w-full p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             />
-            <span className="text-[10px] text-stone-400 mt-1 block">
+            <span className="text-[10px] text-[#5C6E78] mt-1 block">
               Fahrenheit values convert automatically
             </span>
           </div>
 
           {/* Respiratory Rate */}
-          <div className="bg-stone-50 p-3.5 rounded-2xl border border-stone-200">
-            <label className="text-xs font-bold text-stone-700 flex items-center gap-1.5 mb-2">
-              <Wind size={16} className="text-teal-600" />
+          <div className="bg-[#F7F4EF] p-3.5 rounded-2xl border border-[#E5E1D8]">
+            <label className="text-xs font-bold text-[#34434A] flex items-center gap-1.5 mb-2">
+              <Wind size={16} className="text-[#269C91]" />
               <span>Respiratory Rate (/min)</span>
             </label>
             <input
@@ -248,9 +248,9 @@ export default function StaffVitalsModal({
               placeholder="e.g. 18"
               value={respRate}
               onChange={(e) => setRespRate(e.target.value)}
-              className="w-full p-2.5 bg-white border border-stone-300 rounded-xl text-sm font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="w-full p-2.5 bg-white border border-[#E5E1D8] rounded-xl text-sm font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             />
-            <span className="text-[10px] text-stone-400 mt-1 block">
+            <span className="text-[10px] text-[#5C6E78] mt-1 block">
               Adult normal: 12 - 20 /min
             </span>
           </div>
@@ -258,10 +258,10 @@ export default function StaffVitalsModal({
 
         {/* Active Warning Preview */}
         {warnings.length > 0 && (
-          <div className="p-3 bg-rose-50 border border-rose-300 rounded-xl space-y-1">
+          <div className="p-3 bg-[#FDF2F4] border border-[#F3C5CE] rounded-xl space-y-1">
             {warnings.map((w, idx) => (
-              <div key={idx} className="text-xs font-bold text-rose-800 flex items-center gap-1.5">
-                <AlertTriangle size={13} className="text-rose-600 shrink-0" />
+              <div key={idx} className="text-xs font-bold text-[#8C243B] flex items-center gap-1.5">
+                <AlertTriangle size={13} className="text-[#D96B83] shrink-0" />
                 <span>{w}</span>
               </div>
             ))}
@@ -269,18 +269,18 @@ export default function StaffVitalsModal({
         )}
 
         {/* Modal Actions */}
-        <div className="flex items-center gap-3 pt-3 border-t border-stone-200">
+        <div className="flex items-center gap-3 pt-3 border-t border-[#E5E1D8]">
           <button
             type="button"
             onClick={onClose}
-            className="flex-1 py-3 px-4 border border-stone-300 hover:bg-stone-50 rounded-2xl text-stone-700 font-bold text-sm transition"
+            className="flex-1 py-3 px-4 border border-[#E5E1D8] hover:bg-[#F7F4EF] rounded-2xl text-[#34434A] font-bold text-sm transition cursor-pointer"
           >
             Cancel
           </button>
           <button
             type="button"
             onClick={validateAndSave}
-            className="flex-1 py-3 px-4 bg-emerald-800 hover:bg-emerald-900 active:scale-95 text-white font-extrabold text-sm rounded-2xl shadow-lg shadow-emerald-900/20 transition flex items-center justify-center gap-2"
+            className="flex-1 py-3 px-4 bg-[#269C91] hover:bg-[#1E7E75] active:scale-95 text-white font-black text-sm rounded-2xl shadow-lg shadow-[#269C91]/25 transition flex items-center justify-center gap-2 cursor-pointer"
           >
             <CheckCircle2 size={16} />
             <span>Save & Update Triage</span>

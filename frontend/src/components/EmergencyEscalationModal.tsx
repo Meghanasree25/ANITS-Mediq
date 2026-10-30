@@ -2,6 +2,7 @@
    MEDIQ — EMERGENCY RED-FLAG ESCALATION MODAL
    Immediate clinical short-circuit when life-threatening symptoms are detected.
    Bypasses routine registration to prevent delay in emergency care.
+   Palette: Soft Rose (#D96B83), Charcoal (#34434A), White (#FFFFFF)
    ========================================================================== */
 
 import { useEffect } from "react";
@@ -36,15 +37,15 @@ export default function EmergencyEscalationModal({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-red-950/80 backdrop-blur-md animate-fadeIn">
-      <div className="w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 border-4 border-rose-600 shadow-2xl flex flex-col items-center text-center animate-scaleUp">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#34434A]/80 backdrop-blur-md animate-fadeIn">
+      <div className="w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 border-4 border-[#D96B83] shadow-2xl flex flex-col items-center text-center animate-scaleUp">
         {/* Pulsing Emergency Alarm Icon */}
-        <div className="w-20 h-20 rounded-full bg-rose-100 flex items-center justify-center text-rose-600 mb-4 animate-bounce">
+        <div className="w-20 h-20 rounded-full bg-[#FAEEF1] flex items-center justify-center text-[#D96B83] mb-4 animate-bounce">
           <Siren size={44} />
         </div>
 
         {/* Big Alert Banner */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-black uppercase tracking-wider mb-2">
+        <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#FAEEF1] text-[#D96B83] text-xs font-black uppercase tracking-wider mb-2 border border-[#D96B83]/30">
           <AlertTriangle size={14} />
           <span>
             {language === "te"
@@ -55,7 +56,7 @@ export default function EmergencyEscalationModal({
           </span>
         </div>
 
-        <h2 className="text-2xl sm:text-3xl font-black text-rose-950 leading-tight">
+        <h2 className="text-2xl sm:text-3xl font-black text-[#34434A] leading-tight">
           {language === "te"
             ? "దయచేసి వెంటనే అత్యవసర విభాగానికి వెళ్ళండి!"
             : language === "hi"
@@ -63,7 +64,7 @@ export default function EmergencyEscalationModal({
             : "Immediate Emergency Care Required!"}
         </h2>
 
-        <p className="text-sm font-semibold text-rose-800 mt-2">
+        <p className="text-sm font-semibold text-[#D96B83] mt-2">
           {language === "te"
             ? "మీరు ఎంచుకున్న లక్షణం అత్యవసరమైనది. సాధారణ నమోదు పూర్తి చేయడానికి వేచి ఉండకండి."
             : language === "hi"
@@ -72,8 +73,8 @@ export default function EmergencyEscalationModal({
         </p>
 
         {/* Identified Emergency Symptoms List */}
-        <div className="w-full bg-rose-50 border border-rose-200 rounded-2xl p-4 my-5 text-left">
-          <div className="text-xs font-bold text-rose-900 uppercase tracking-wider mb-2 flex items-center gap-1">
+        <div className="w-full bg-[#FAEEF1]/60 border border-[#D96B83]/30 rounded-2xl p-4 my-5 text-left">
+          <div className="text-xs font-bold text-[#D96B83] uppercase tracking-wider mb-2 flex items-center gap-1">
             <ShieldAlert size={14} />
             <span>
               {language === "te"
@@ -88,11 +89,11 @@ export default function EmergencyEscalationModal({
             {emergencySymptoms.map((symp) => (
               <div
                 key={symp.id}
-                className="flex items-center gap-2 text-sm font-bold text-rose-950"
+                className="flex items-center gap-2 text-sm font-bold text-[#34434A]"
               >
-                <span className="w-2 h-2 rounded-full bg-rose-600" />
+                <span className="w-2 h-2 rounded-full bg-[#D96B83]" />
                 <span>{symp.label[language]}</span>
-                <span className="text-xs text-rose-700 font-mono">
+                <span className="text-xs text-[#D96B83] font-mono">
                   ({symp.redFlagCode || "EMERGENCY_SIGN"})
                 </span>
               </div>
@@ -100,35 +101,45 @@ export default function EmergencyEscalationModal({
           </div>
         </div>
 
-        {/* Immediate Instructions */}
-        <div className="w-full bg-stone-100 rounded-2xl p-4 mb-6 text-stone-800 text-xs text-left space-y-1.5">
-          <div className="font-extrabold text-stone-900">
+        {/* Emergency Action Instructions */}
+        <div className="w-full p-4 bg-[#F7F4EF] border border-[#E5E1D8] rounded-2xl text-xs text-[#5C6E78] text-left mb-6 space-y-1">
+          <p className="font-bold text-[#34434A]">
             {language === "te"
-              ? "ఆసుపత్రి సిబ్బంది మార్గదర్శకాలు:"
+              ? "తక్షణ చర్యలు:"
               : language === "hi"
-              ? "अस्पताल निर्देश:"
-              : "Next Step Instructions:"}
-          </div>
-          <div>
-            1. <strong>Casualty / Emergency Room 1</strong> is 30 meters to the left of the reception desk.
-          </div>
-          <div>
-            2. High-priority audio alarm dispatched to triage nursing station.
-          </div>
+              ? "तत्काल कदम:"
+              : "Immediate Hospital Instructions:"}
+          </p>
+          <ul className="list-disc pl-4 space-y-0.5">
+            <li>
+              {language === "te"
+                ? "ఆసుపత్రి ఎమర్జెన్సీ / క్యాజువాలిటీ బోర్డు వైపు నడవండి"
+                : language === "hi"
+                ? "अस्पताल के इमरजेंसी / कैजुअल्टी बोर्ड की ओर जाएं"
+                : "Proceed directly to Casualty / Red-Zone Trauma Counter"}
+            </li>
+            <li>
+              {language === "te"
+                ? "డ్యూటీ నర్సుకు ఈ స్క్రీన్ చూపించండి"
+                : language === "hi"
+                ? "ड्यूटी नर्स को यह स्क्रीन दिखाएं"
+                : "Show this alert badge to the duty triage nursing officer"}
+            </li>
+          </ul>
         </div>
 
-        {/* Action Button: Staff Acknowledged / Patient Proceed */}
+        {/* Acknowledge Action Button */}
         <button
           type="button"
           onClick={onAcknowledge}
-          className="w-full py-4 px-6 bg-rose-600 hover:bg-rose-700 active:scale-95 text-white font-black text-base rounded-2xl shadow-xl shadow-rose-700/30 flex items-center justify-center gap-2 transition"
+          className="w-full py-4 px-6 bg-[#D96B83] hover:bg-[#C5536D] active:scale-95 text-white font-black text-base rounded-2xl shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
         >
           <span>
             {language === "te"
-              ? "అత్యవసర విభాగం వైపు వెళ్ళండి (Proceed to Casualty)"
+              ? "నేను అర్థం చేసుకున్నాను — ఎమర్జెన్సీ కౌంటర్‌కు వెళ్లండి"
               : language === "hi"
-              ? "इमरजेंसी में जाएं (Proceed to Casualty)"
-              : "Proceed to Emergency Casualty Now"}
+              ? "मुझे समझ आ गया — इमरजेंसी काउंटर पर जाएं"
+              : "I Understand — Proceed to Emergency Care"}
           </span>
           <ArrowRight size={20} />
         </button>

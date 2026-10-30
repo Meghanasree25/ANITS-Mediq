@@ -2,6 +2,7 @@
    MEDIQ — AI TRIAGE RESULT & CLINICAL DECISION SUPPORT CARD
    Clearly distinguishes model predictions from clinician confirmation.
    Supports clinician override with mandatory rationale.
+   Palette: Warm Ivory, Medical Teal (#269C91), Lavender (#9584D8), Coral (#F07868), Amber (#E8AC48), Rose (#D96B83)
    ========================================================================== */
 
 import { useState } from "react";
@@ -14,6 +15,7 @@ import {
   UserCheck,
   Edit3,
   BrainCircuit,
+  Info,
 } from "lucide-react";
 import type {
   ESILevel,
@@ -46,45 +48,45 @@ export default function TriageResultCard({
     switch (level) {
       case 1:
         return {
-          bg: "bg-rose-600 text-white",
-          lightBg: "bg-rose-50 border-rose-200 text-rose-900",
-          border: "border-rose-500",
+          bg: "bg-[#D96B83] text-white",
+          lightBg: "bg-[#FAEEF1] border-[#D96B83]/30 text-[#D96B83]",
+          border: "border-[#D96B83]",
           label: "Level 1: Resuscitation (Immediate)",
         };
       case 2:
         return {
-          bg: "bg-orange-500 text-white",
-          lightBg: "bg-orange-50 border-orange-200 text-orange-950",
-          border: "border-orange-500",
+          bg: "bg-[#F07868] text-white",
+          lightBg: "bg-[#FDF1EF] border-[#F07868]/30 text-[#D86354]",
+          border: "border-[#F07868]",
           label: "Level 2: Emergent (≤ 15 min)",
         };
       case 3:
         return {
-          bg: "bg-amber-500 text-white",
-          lightBg: "bg-amber-50 border-amber-200 text-amber-950",
-          border: "border-amber-400",
+          bg: "bg-[#E8AC48] text-white",
+          lightBg: "bg-[#FDF6EB] border-[#E8AC48]/30 text-[#D49631]",
+          border: "border-[#E8AC48]",
           label: "Level 3: Urgent (≤ 60 min)",
         };
       case 4:
         return {
-          bg: "bg-emerald-600 text-white",
-          lightBg: "bg-emerald-50 border-emerald-200 text-emerald-950",
-          border: "border-emerald-400",
+          bg: "bg-[#269C91] text-white",
+          lightBg: "bg-[#E8F5F3] border-[#269C91]/30 text-[#1E7E75]",
+          border: "border-[#269C91]",
           label: "Level 4: Less Urgent (≤ 120 min)",
         };
       case 5:
         return {
-          bg: "bg-slate-600 text-white",
-          lightBg: "bg-slate-50 border-slate-200 text-slate-900",
-          border: "border-slate-300",
+          bg: "bg-[#69A9DC] text-white",
+          lightBg: "bg-[#EEF5FB] border-[#69A9DC]/30 text-[#4F94CD]",
+          border: "border-[#69A9DC]",
           label: "Level 5: Non-urgent (Routine queue)",
         };
       case "ABSTAIN":
       default:
         return {
-          bg: "bg-rose-700 text-white",
-          lightBg: "bg-rose-50 border-rose-300 text-rose-950",
-          border: "border-rose-600",
+          bg: "bg-[#9584D8] text-white",
+          lightBg: "bg-[#F3F1FA] border-[#9584D8]/30 text-[#7F6DC7]",
+          border: "border-[#9584D8]",
           label: "ABSTAIN: Clinician Review Mandated",
         };
     }
@@ -103,31 +105,36 @@ export default function TriageResultCard({
   };
 
   return (
-    <div className="bg-white rounded-3xl p-6 sm:p-8 border border-emerald-100 shadow-xl w-full max-w-2xl mx-auto flex flex-col gap-6">
-      {/* Top Banner: AI Model Source & Token ID */}
-      <div className="flex items-center justify-between pb-4 border-b border-stone-200 flex-wrap gap-2">
-        <div className="flex items-center gap-2">
-          <div className="p-2 bg-emerald-100 text-emerald-800 rounded-xl">
+    <div className="bg-white rounded-3xl p-6 sm:p-8 border border-[#E5E1D8] shadow-sm w-full max-w-2xl mx-auto flex flex-col gap-6">
+      {/* Top Banner: AI Model Source & Token ID (Lavender AI Insight Accent) */}
+      <div className="flex items-center justify-between pb-4 border-b border-[#E5E1D8] flex-wrap gap-2">
+        <div className="flex items-center gap-2.5">
+          <div className="p-2.5 bg-[#F3F1FA] text-[#9584D8] rounded-xl border border-[#9584D8]/20">
             <BrainCircuit size={20} />
           </div>
           <div>
-            <div className="text-xs font-bold text-stone-500 uppercase tracking-wider">
+            <div className="text-[11px] font-black text-[#9584D8] uppercase tracking-wider">
               {aiEvaluation.source === "MEDIQ_ML_BACKEND"
                 ? "AI Backend Prediction (Python scikit-learn)"
                 : "Clinical Decision Engine"}
             </div>
-            <div className="text-sm font-extrabold text-stone-900">
+            <div className="text-sm font-extrabold text-[#34434A]">
               Patient Token:{" "}
-              <span className="font-mono text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-lg border border-emerald-200">
+              <span className="font-mono text-[#269C91] bg-[#E8F5F3] px-2.5 py-0.5 rounded-lg border border-[#269C91]/30 font-bold">
                 {record.token}
               </span>
             </div>
           </div>
         </div>
 
-        <div className="text-xs text-stone-400 font-medium flex items-center gap-1">
+        <div className="text-xs text-[#8E9EA7] font-medium flex items-center gap-1">
           <Clock size={13} />
-          <span>{new Date(aiEvaluation.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+          <span>
+            {new Date(aiEvaluation.timestamp).toLocaleTimeString([], {
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
+          </span>
         </div>
       </div>
 
@@ -137,11 +144,11 @@ export default function TriageResultCard({
       >
         <div>
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-xs font-black uppercase tracking-wider opacity-80">
-              Predicted Urgency Acuity
+            <span className="text-xs font-black uppercase tracking-wider opacity-85">
+              Predicted Acuity Level
             </span>
             {aiEvaluation.confidence > 0 && (
-              <span className="text-[11px] font-bold bg-white/80 px-2 py-0.5 rounded-full border shadow-xs">
+              <span className="text-[11px] font-bold bg-white/90 text-[#34434A] px-2.5 py-0.5 rounded-full border border-stone-200 shadow-2xs">
                 {(aiEvaluation.confidence * 100).toFixed(1)}% Confidence
               </span>
             )}
@@ -152,28 +159,28 @@ export default function TriageResultCard({
           </div>
 
           {aiEvaluation.triageLevel === "ABSTAIN" && (
-            <p className="text-xs font-semibold mt-1 opacity-90">
+            <p className="text-xs font-semibold mt-1 opacity-90 text-[#5C6E78]">
               Automated score withheld by safety protocol. High clinical risk requires human evaluation.
             </p>
           )}
         </div>
 
         {/* Suggested Target OPD Department */}
-        <div className="bg-white/90 p-4 rounded-xl border border-stone-200 shadow-sm sm:text-right">
-          <div className="text-[11px] font-bold text-stone-500 uppercase flex items-center sm:justify-end gap-1">
-            <Building2 size={13} />
-            <span>Recommended OPD</span>
+        <div className="bg-white/95 p-4 rounded-xl border border-[#E5E1D8] shadow-2xs sm:text-right">
+          <div className="text-[11px] font-bold text-[#5C6E78] uppercase flex items-center sm:justify-end gap-1">
+            <Building2 size={13} className="text-[#269C91]" />
+            <span>Assigned OPD</span>
           </div>
-          <div className="text-base font-extrabold text-emerald-950 mt-0.5">
+          <div className="text-base font-extrabold text-[#34434A] mt-0.5">
             {aiEvaluation.department}
           </div>
         </div>
       </div>
 
-      {/* Safety Reasons & Clinical Flags */}
+      {/* Safety Reasons & Clinical Flags (Amber / Attention) */}
       {aiEvaluation.safetyReasons.length > 0 && (
-        <div className="bg-amber-50/70 border border-amber-200 rounded-2xl p-4">
-          <div className="text-xs font-extrabold text-amber-900 uppercase tracking-wider flex items-center gap-1.5 mb-2">
+        <div className="bg-[#FDF6EB] border border-[#E8AC48]/30 rounded-2xl p-4">
+          <div className="text-xs font-extrabold text-[#D49631] uppercase tracking-wider flex items-center gap-1.5 mb-2">
             <ShieldAlert size={15} />
             <span>Identified Clinical Factors & Safeguards</span>
           </div>
@@ -181,9 +188,9 @@ export default function TriageResultCard({
             {aiEvaluation.safetyReasons.map((reason, idx) => (
               <span
                 key={idx}
-                className="inline-flex items-center gap-1 text-xs font-bold bg-white text-amber-950 border border-amber-300 px-3 py-1 rounded-xl shadow-xs"
+                className="inline-flex items-center gap-1 text-xs font-bold bg-white text-[#34434A] border border-[#E8AC48]/40 px-3 py-1 rounded-xl shadow-2xs"
               >
-                <AlertTriangle size={12} className="text-amber-600" />
+                <AlertTriangle size={12} className="text-[#E8AC48]" />
                 {reason}
               </span>
             ))}
@@ -192,149 +199,156 @@ export default function TriageResultCard({
       )}
 
       {/* Clinician Review & Confirmation Status */}
-      <div className="p-5 bg-stone-50 rounded-2xl border border-stone-200 flex flex-col gap-3">
-        <div className="flex items-center justify-between">
-          <span className="text-xs font-extrabold text-stone-600 uppercase tracking-wider flex items-center gap-1.5">
-            <UserCheck size={16} className="text-emerald-700" />
+      <div className="p-5 bg-[#F7F4EF] rounded-2xl border border-[#E5E1D8] flex flex-col gap-3">
+        <div className="flex items-center justify-between flex-wrap gap-2">
+          <span className="text-xs font-extrabold text-[#5C6E78] uppercase tracking-wider flex items-center gap-1.5">
+            <UserCheck size={16} className="text-[#269C91]" />
             <span>Clinician Review Status</span>
           </span>
 
           {clinicianReview ? (
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 border border-emerald-300">
+            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-black bg-[#E8F5F3] text-[#269C91] border border-[#269C91]/30">
               <CheckCircle2 size={13} />
               {clinicianReview.isOverridden
                 ? `Confirmed Override (Level ${clinicianReview.confirmedLevel})`
                 : `Confirmed Level ${clinicianReview.confirmedLevel}`}
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
+            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-[#FDF6EB] text-[#D49631] border border-[#E8AC48]/40">
               Pending Clinician Confirmation
             </span>
           )}
         </div>
 
         {clinicianReview?.overrideReason && (
-          <div className="text-xs text-stone-700 bg-white p-2.5 rounded-xl border border-stone-200">
+          <div className="text-xs text-[#34434A] bg-white p-2.5 rounded-xl border border-[#E5E1D8]">
             <strong>Override Rationale:</strong> {clinicianReview.overrideReason}
           </div>
         )}
 
-        {/* Staff Action Buttons (Only when in Staff Mode or allowed) */}
+        {/* Staff Action Buttons (Only when in Staff Mode) */}
         {isStaffMode && !clinicianReview && (
           <div className="flex items-center gap-3 pt-2">
             <button
               type="button"
               onClick={() => onConfirm(aiEvaluation.suggestedTriageLevel)}
-              className="flex-1 py-3 px-4 bg-emerald-700 hover:bg-emerald-800 active:scale-95 text-white font-extrabold text-sm rounded-xl shadow-md transition flex items-center justify-center gap-2"
+              className="flex-1 py-3 px-4 bg-[#269C91] hover:bg-[#1E7E75] active:scale-95 text-white font-extrabold text-sm rounded-xl shadow-xs transition flex items-center justify-center gap-2 cursor-pointer"
             >
               <CheckCircle2 size={16} />
-              <span>Confirm AI Assessment</span>
+              <span>Confirm Assessment</span>
             </button>
 
             <button
               type="button"
               onClick={() => setShowOverrideModal(true)}
-              className="py-3 px-4 bg-white hover:bg-stone-100 active:scale-95 text-stone-800 border border-stone-300 font-bold text-sm rounded-xl transition flex items-center gap-1.5"
+              className="py-3 px-4 bg-white hover:bg-[#F7F4EF] active:scale-95 text-[#34434A] border border-[#E5E1D8] font-bold text-sm rounded-xl transition flex items-center gap-1.5 cursor-pointer"
             >
-              <Edit3 size={16} />
+              <Edit3 size={16} className="text-[#5C6E78]" />
               <span>Override</span>
             </button>
           </div>
         )}
       </div>
 
+      {/* Clinical Disclaimer Notice */}
+      <div className="p-3 bg-[#EEF5FB] border border-[#69A9DC]/30 rounded-xl flex items-start gap-2 text-[11px] text-[#4F94CD]">
+        <Info size={14} className="shrink-0 mt-0.5 text-[#69A9DC]" />
+        <span>
+          <strong>Triage Decision Support:</strong> This recommendation is generated from visual symptom indicators and vital parameters. Final patient routing remains under the clinical authority of the attending healthcare team.
+        </span>
+      </div>
+
       {/* Clinician Override Modal */}
       {showOverrideModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/60 backdrop-blur-sm animate-fadeIn">
-          <div className="w-full max-w-md bg-white rounded-3xl p-6 border border-stone-200 shadow-2xl flex flex-col gap-4">
-            <div className="flex items-center justify-between pb-3 border-b border-stone-200">
-              <h3 className="font-extrabold text-stone-900 text-lg flex items-center gap-2">
-                <Edit3 size={18} className="text-emerald-700" />
-                <span>Clinician Manual Override</span>
+          <div className="w-full max-w-md bg-white rounded-3xl p-6 border border-[#E5E1D8] shadow-2xl flex flex-col gap-4">
+            <div className="flex items-center justify-between pb-3 border-b border-[#E5E1D8]">
+              <h3 className="font-extrabold text-base text-[#34434A]">
+                Clinical Acuity Override
               </h3>
               <button
                 type="button"
                 onClick={() => setShowOverrideModal(false)}
-                className="text-stone-400 hover:text-stone-700 font-bold"
+                className="text-[#8E9EA7] hover:text-[#34434A] text-lg font-bold"
               >
                 ✕
               </button>
             </div>
 
-            <div>
-              <label className="text-xs font-bold text-stone-600 block mb-1.5">
-                Assign Final ESI Urgency Level:
-              </label>
-              <div className="grid grid-cols-5 gap-2">
-                {([1, 2, 3, 4, 5] as ESILevel[]).map((lvl) => (
-                  <button
-                    key={lvl}
-                    type="button"
-                    onClick={() => setOverrideLevel(lvl)}
-                    className={`py-2.5 rounded-xl font-black text-sm border-2 transition ${
-                      overrideLevel === lvl
-                        ? "bg-emerald-700 text-white border-emerald-700 shadow-sm"
-                        : "bg-stone-50 text-stone-700 border-stone-200 hover:bg-white"
-                    }`}
-                  >
-                    L{lvl}
-                  </button>
-                ))}
-              </div>
+            <p className="text-xs text-[#5C6E78]">
+              Select the adjusted ESI Acuity level and provide clinical justification.
+            </p>
+
+            {/* Level selection chips */}
+            <div className="grid grid-cols-5 gap-1.5">
+              {[1, 2, 3, 4, 5].map((lvl) => (
+                <button
+                  key={lvl}
+                  type="button"
+                  onClick={() => setOverrideLevel(lvl as ESILevel)}
+                  className={`p-2.5 rounded-xl font-black text-xs transition border cursor-pointer ${
+                    overrideLevel === lvl
+                      ? "bg-[#269C91] text-white border-[#269C91] shadow-xs"
+                      : "bg-[#F7F4EF] text-[#34434A] border-[#E5E1D8] hover:bg-white"
+                  }`}
+                >
+                  Lvl {lvl}
+                </button>
+              ))}
             </div>
 
-            <div>
-              <label className="text-xs font-bold text-stone-600 block mb-1.5">
-                Mandatory Clinical Rationale:
+            {/* Common Reasons */}
+            <div className="space-y-1.5">
+              <label className="text-xs font-bold text-[#5C6E78]">
+                Select Rationale:
               </label>
-              <div className="space-y-1.5 mb-2">
-                {[
-                  "Atypical symptom presentation upon bedside exam",
-                  "Discrepancy in recorded patient vitals",
-                  "High-risk comorbidities / elderly vulnerability",
-                  "Doctor clinical discretion based on physical exam",
-                ].map((reason, idx) => (
-                  <button
-                    key={idx}
-                    type="button"
-                    onClick={() => setOverrideReason(reason)}
-                    className={`w-full text-left p-2 rounded-xl text-xs font-semibold border transition ${
-                      overrideReason === reason
-                        ? "bg-emerald-50 border-emerald-500 text-emerald-950"
-                        : "bg-stone-50 border-stone-200 text-stone-700 hover:bg-white"
-                    }`}
-                  >
-                    • {reason}
-                  </button>
-                ))}
-              </div>
-
-              <textarea
-                rows={2}
-                placeholder="Or type specific clinical reason..."
-                value={overrideReason}
-                onChange={(e) => setOverrideReason(e.target.value)}
-                className="w-full p-2.5 rounded-xl border border-stone-300 text-xs focus:ring-2 focus:ring-emerald-500 focus:outline-none"
-              />
-              {reasonError && (
-                <div className="text-rose-600 text-xs font-bold mt-1">
-                  {reasonError}
-                </div>
-              )}
+              {[
+                "Vital signs indicate higher hemodynamic risk",
+                "Severe respiratory distress observed directly",
+                "Patient altered mental status / lethargy",
+                "Known severe immunocompromised status",
+                "Disproportionate acute pain presentation",
+              ].map((reason) => (
+                <button
+                  key={reason}
+                  type="button"
+                  onClick={() => setOverrideReason(reason)}
+                  className={`w-full text-left p-2 rounded-xl text-xs font-semibold border transition cursor-pointer ${
+                    overrideReason === reason
+                      ? "bg-[#E8F5F3] border-[#269C91] text-[#1E7E75]"
+                      : "bg-[#F7F4EF]/60 border-[#E5E1D8] text-[#34434A] hover:bg-white"
+                  }`}
+                >
+                  • {reason}
+                </button>
+              ))}
             </div>
+
+            <textarea
+              rows={2}
+              placeholder="Or type specific clinical reason..."
+              value={overrideReason}
+              onChange={(e) => setOverrideReason(e.target.value)}
+              className="w-full p-2.5 rounded-xl border border-[#E5E1D8] text-xs focus:ring-2 focus:ring-[#269C91] focus:outline-none"
+            />
+            {reasonError && (
+              <div className="text-[#D96B83] text-xs font-bold mt-0.5">
+                {reasonError}
+              </div>
+            )}
 
             <div className="flex items-center gap-3 pt-2">
               <button
                 type="button"
                 onClick={() => setShowOverrideModal(false)}
-                className="flex-1 py-2.5 rounded-xl border border-stone-300 text-stone-700 font-bold text-xs hover:bg-stone-50"
+                className="flex-1 py-2.5 rounded-xl border border-[#E5E1D8] text-[#5C6E78] font-bold text-xs hover:bg-[#F7F4EF] cursor-pointer"
               >
                 Cancel
               </button>
               <button
                 type="button"
                 onClick={handleApplyOverride}
-                className="flex-1 py-2.5 bg-emerald-800 hover:bg-emerald-900 text-white font-extrabold text-xs rounded-xl shadow-md"
+                className="flex-1 py-2.5 bg-[#269C91] hover:bg-[#1E7E75] text-white font-extrabold text-xs rounded-xl shadow-xs cursor-pointer"
               >
                 Apply Override
               </button>

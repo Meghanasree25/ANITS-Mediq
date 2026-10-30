@@ -185,7 +185,7 @@ export default function ClinicalQueuePage() {
       return {
         level: 1,
         label: "L1: Resuscitation",
-        badgeClass: "bg-rose-600 text-white border-rose-700 animate-pulse",
+        badgeClass: "bg-[#D96B83] text-white border-[#B24860] animate-pulse",
       };
     }
 
@@ -201,7 +201,7 @@ export default function ClinicalQueuePage() {
       return {
         level: 2,
         label: "L2: Emergent",
-        badgeClass: "bg-orange-600 text-white border-orange-700",
+        badgeClass: "bg-[#F07868] text-white border-[#D65948]",
       };
     }
 
@@ -215,7 +215,7 @@ export default function ClinicalQueuePage() {
       return {
         level: 3,
         label: "L3: Urgent",
-        badgeClass: "bg-amber-500 text-white border-amber-600",
+        badgeClass: "bg-[#E8AC48] text-white border-[#C98E2A]",
       };
     }
 
@@ -224,7 +224,7 @@ export default function ClinicalQueuePage() {
       return {
         level: 4,
         label: "L4: Less Urgent",
-        badgeClass: "bg-emerald-600 text-white border-emerald-700",
+        badgeClass: "bg-[#269C91] text-white border-[#1E7E75]",
       };
     }
 
@@ -232,7 +232,7 @@ export default function ClinicalQueuePage() {
     return {
       level: 5,
       label: "L5: Routine",
-      badgeClass: "bg-slate-600 text-white border-slate-700",
+      badgeClass: "bg-[#69A9DC] text-white border-[#4D8FBF]",
     };
   };
 
@@ -305,11 +305,11 @@ export default function ClinicalQueuePage() {
       counts[lvl] = (counts[lvl] || 0) + 1;
     });
     return [
-      { name: "L1: Resus", count: counts[1], fill: "#DC2626" },
-      { name: "L2: Emergent", count: counts[2], fill: "#EA580C" },
-      { name: "L3: Urgent", count: counts[3], fill: "#D97706" },
-      { name: "L4: Semi-Urgent", count: counts[4], fill: "#16A34A" },
-      { name: "L5: Routine", count: counts[5], fill: "#475569" },
+      { name: "L1: Resus", count: counts[1], fill: "#D96B83" },
+      { name: "L2: Emergent", count: counts[2], fill: "#F07868" },
+      { name: "L3: Urgent", count: counts[3], fill: "#E8AC48" },
+      { name: "L4: Semi-Urgent", count: counts[4], fill: "#269C91" },
+      { name: "L5: Routine", count: counts[5], fill: "#69A9DC" },
     ];
   }, [patients]);
 
@@ -391,23 +391,23 @@ export default function ClinicalQueuePage() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F7F5] text-stone-900 flex flex-col font-sans select-none">
+    <div className="min-h-screen bg-[#F7F4EF] text-[#34434A] flex flex-col font-sans select-none">
       {/* Top Clinical Header */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-emerald-100 shadow-xs px-4 sm:px-8 py-3.5 flex items-center justify-between flex-wrap gap-4">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E5E1D8] shadow-xs px-4 sm:px-8 py-3.5 flex items-center justify-between flex-wrap gap-4">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-emerald-800 text-white flex items-center justify-center shadow-md shadow-emerald-950/20">
-            <Stethoscope size={22} className="text-emerald-300" />
+          <div className="w-10 h-10 rounded-2xl bg-[#269C91] text-white flex items-center justify-center shadow-md shadow-[#269C91]/25">
+            <Stethoscope size={22} className="text-[#E8F5F3]" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-lg font-black tracking-tight text-emerald-950">
+              <span className="text-lg font-black tracking-tight text-[#34434A]">
                 MEDIQ Staff Hub
               </span>
-              <span className="text-[10px] font-black uppercase tracking-wider bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full border border-emerald-200">
+              <span className="text-[10px] font-black uppercase tracking-wider bg-[#E8F5F3] text-[#269C91] px-2.5 py-0.5 rounded-full border border-[#269C91]/30">
                 Clinical Priority Queue
               </span>
             </div>
-            <p className="text-xs text-stone-500 font-medium">
+            <p className="text-xs text-[#5C6E78] font-medium">
               Chandrapuri District Hospital • OPD Command Centre
             </p>
           </div>
@@ -419,16 +419,16 @@ export default function ClinicalQueuePage() {
             type="button"
             onClick={refreshPatients}
             title="Refresh patient queue"
-            className="p-2.5 bg-stone-100 hover:bg-stone-200 text-stone-700 rounded-2xl transition flex items-center gap-1.5 text-xs font-bold"
+            className="p-2.5 bg-[#F7F4EF] hover:bg-[#EAE6DD] text-[#34434A] border border-[#E5E1D8] rounded-2xl transition flex items-center gap-1.5 text-xs font-bold cursor-pointer"
           >
-            <RefreshCw size={15} />
+            <RefreshCw size={15} className="text-[#269C91]" />
             <span className="hidden sm:inline">Refresh</span>
           </button>
 
           {/* Switch to Patient Mode Kiosk */}
           <Link
             to="/"
-            className="flex items-center gap-1.5 px-4 py-2.5 bg-emerald-800 hover:bg-emerald-900 text-white rounded-2xl text-xs font-black shadow-md shadow-emerald-900/20 transition active:scale-95"
+            className="flex items-center gap-1.5 px-4 py-2.5 bg-[#269C91] hover:bg-[#1E7E75] text-white rounded-2xl text-xs font-black shadow-md shadow-[#269C91]/25 transition active:scale-95 cursor-pointer"
           >
             <PlusCircle size={16} />
             <span>Open Patient Touch Kiosk</span>
@@ -440,57 +440,57 @@ export default function ClinicalQueuePage() {
       <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 md:p-8 flex flex-col gap-6">
         {/* KPI Metrics Strip */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="bg-white p-5 rounded-3xl border border-emerald-100 shadow-sm flex items-center gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-800 flex items-center justify-center font-bold">
+          <div className="bg-white p-5 rounded-3xl border border-[#E5E1D8] shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#E8F5F3] text-[#269C91] flex items-center justify-center font-bold">
               <Users size={24} />
             </div>
             <div>
-              <div className="text-xs font-extrabold text-stone-400 uppercase tracking-wider">
+              <div className="text-xs font-extrabold text-[#5C6E78] uppercase tracking-wider">
                 Total Assessed Today
               </div>
-              <div className="text-2xl font-black text-stone-900 mt-0.5">
+              <div className="text-2xl font-black text-[#34434A] mt-0.5">
                 {totalAssessed}
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-3xl border border-amber-100 shadow-sm flex items-center gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-800 flex items-center justify-center font-bold">
+          <div className="bg-white p-5 rounded-3xl border border-[#E5E1D8] shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#FEF9EE] text-[#E8AC48] flex items-center justify-center font-bold">
               <Clock size={24} />
             </div>
             <div>
-              <div className="text-xs font-extrabold text-stone-400 uppercase tracking-wider">
+              <div className="text-xs font-extrabold text-[#5C6E78] uppercase tracking-wider">
                 Awaiting Clinician
               </div>
-              <div className="text-2xl font-black text-amber-900 mt-0.5">
+              <div className="text-2xl font-black text-[#34434A] mt-0.5">
                 {waitingCount}
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-3xl border border-rose-100 shadow-sm flex items-center gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-rose-50 text-rose-700 flex items-center justify-center font-bold">
+          <div className="bg-white p-5 rounded-3xl border border-[#E5E1D8] shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#FDF2F4] text-[#D96B83] flex items-center justify-center font-bold">
               <ShieldAlert size={24} />
             </div>
             <div>
-              <div className="text-xs font-extrabold text-stone-400 uppercase tracking-wider">
+              <div className="text-xs font-extrabold text-[#5C6E78] uppercase tracking-wider">
                 High Priority (L1/L2)
               </div>
-              <div className="text-2xl font-black text-rose-700 mt-0.5">
+              <div className="text-2xl font-black text-[#D96B83] mt-0.5">
                 {highPriorityCount}
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-5 rounded-3xl border border-teal-100 shadow-sm flex items-center gap-4">
-            <div className="w-12 h-12 rounded-2xl bg-teal-50 text-teal-800 flex items-center justify-center font-bold">
+          <div className="bg-white p-5 rounded-3xl border border-[#E5E1D8] shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#EFF6FC] text-[#69A9DC] flex items-center justify-center font-bold">
               <Activity size={24} />
             </div>
             <div>
-              <div className="text-xs font-extrabold text-stone-400 uppercase tracking-wider">
+              <div className="text-xs font-extrabold text-[#5C6E78] uppercase tracking-wider">
                 In Active Consult
               </div>
-              <div className="text-2xl font-black text-teal-900 mt-0.5">
+              <div className="text-2xl font-black text-[#34434A] mt-0.5">
                 {inConsultCount}
               </div>
             </div>
@@ -500,17 +500,17 @@ export default function ClinicalQueuePage() {
         {/* Overcrowding Analytics Charts (Recharts) */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Department Workload Bar Chart */}
-          <div className="lg:col-span-2 bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm flex flex-col">
+          <div className="lg:col-span-2 bg-white rounded-3xl p-6 border border-[#E5E1D8] shadow-sm flex flex-col">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
+                <span className="text-xs font-bold text-[#269C91] uppercase tracking-wider">
                   OPD Overcrowding Analytics
                 </span>
-                <h3 className="font-extrabold text-stone-900 text-lg">
+                <h3 className="font-extrabold text-[#34434A] text-lg">
                   Department Workload Distribution
                 </h3>
               </div>
-              <span className="text-xs text-stone-400 font-medium">Real-time OPD Intake</span>
+              <span className="text-xs text-[#5C6E78] font-medium">Real-time OPD Intake</span>
             </div>
 
             <div className="h-64 w-full">
@@ -518,25 +518,26 @@ export default function ClinicalQueuePage() {
                 <BarChart data={departmentWorkloadData} margin={{ top: 10, right: 10, left: -20, bottom: 20 }}>
                   <XAxis
                     dataKey="name"
-                    tick={{ fontSize: 11, fill: "#64748B" }}
+                    tick={{ fontSize: 11, fill: "#5C6E78" }}
                     angle={-20}
                     textAnchor="end"
                   />
-                  <YAxis tick={{ fontSize: 11, fill: "#64748B" }} allowDecimals={false} />
+                  <YAxis tick={{ fontSize: 11, fill: "#5C6E78" }} allowDecimals={false} />
                   <Tooltip
                     contentStyle={{
                       backgroundColor: "#FFFFFF",
-                      borderRadius: "12px",
-                      border: "1px solid #CBD5E1",
+                      borderRadius: "16px",
+                      border: "1px solid #E5E1D8",
                       fontSize: "12px",
                       fontWeight: "bold",
+                      color: "#34434A",
                     }}
                   />
-                  <Bar dataKey="patients" fill="#0F382A" radius={[8, 8, 0, 0]}>
+                  <Bar dataKey="patients" fill="#269C91" radius={[8, 8, 0, 0]}>
                     {departmentWorkloadData.map((entry, index) => (
                       <Cell
                         key={`cell-${index}`}
-                        fill={entry.fullName.includes("Emergency") ? "#DC2626" : "#0F382A"}
+                        fill={entry.fullName.includes("Emergency") ? "#D96B83" : "#269C91"}
                       />
                     ))}
                   </Bar>
@@ -546,15 +547,15 @@ export default function ClinicalQueuePage() {
           </div>
 
           {/* Acuity Distribution Breakdown */}
-          <div className="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm flex flex-col justify-between">
+          <div className="bg-white rounded-3xl p-6 border border-[#E5E1D8] shadow-sm flex flex-col justify-between">
             <div>
-              <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
+              <span className="text-xs font-bold text-[#269C91] uppercase tracking-wider">
                 Clinical Acuity
               </span>
-              <h3 className="font-extrabold text-stone-900 text-lg mb-2">
+              <h3 className="font-extrabold text-[#34434A] text-lg mb-2">
                 ESI Urgency Breakdown
               </h3>
-              <p className="text-xs text-stone-500 mb-4">
+              <p className="text-xs text-[#5C6E78] mb-4">
                 Prioritizes clinical urgency over arrival order (ESI Levels 1–5).
               </p>
             </div>
@@ -564,31 +565,31 @@ export default function ClinicalQueuePage() {
                 <div key={idx} className="flex items-center justify-between text-xs font-bold">
                   <div className="flex items-center gap-2">
                     <span className="w-3 h-3 rounded-md" style={{ backgroundColor: item.fill }} />
-                    <span className="text-stone-700">{item.name}</span>
+                    <span className="text-[#34434A]">{item.name}</span>
                   </div>
-                  <span className="font-mono bg-stone-100 px-2 py-0.5 rounded-md text-stone-900">
+                  <span className="font-mono bg-[#F7F4EF] px-2.5 py-0.5 rounded-lg text-[#34434A] border border-[#E5E1D8]">
                     {item.count} patients
                   </span>
                 </div>
               ))}
             </div>
 
-            <div className="mt-4 pt-3 border-t border-stone-200 text-xs text-stone-500 text-center">
+            <div className="mt-4 pt-3 border-t border-[#E5E1D8] text-xs text-[#5C6E78] text-center font-medium">
               Target Time: L1 (Immediate) • L2 (≤15m) • L3 (≤60m)
             </div>
           </div>
         </div>
 
         {/* Filter and Search Bar */}
-        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-emerald-100 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 flex-wrap">
+        <div className="bg-white p-4 sm:p-5 rounded-3xl border border-[#E5E1D8] shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 flex-wrap">
           <div className="relative w-full sm:w-80">
-            <Search className="absolute left-3.5 top-3 text-stone-400" size={18} />
+            <Search className="absolute left-3.5 top-3 text-[#5C6E78]" size={18} />
             <input
               type="text"
               placeholder="Search by name, ID, symptom..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-2 bg-stone-50 border border-stone-200 rounded-2xl text-xs font-semibold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="w-full pl-10 pr-4 py-2 bg-[#F7F4EF] border border-[#E5E1D8] rounded-2xl text-xs font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             />
           </div>
 
@@ -597,7 +598,7 @@ export default function ClinicalQueuePage() {
             <select
               value={selectedDeptFilter}
               onChange={(e) => setSelectedDeptFilter(e.target.value)}
-              className="py-2 px-3 bg-stone-50 border border-stone-200 rounded-2xl text-xs font-semibold text-stone-700 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="py-2 px-3 bg-[#F7F4EF] border border-[#E5E1D8] rounded-2xl text-xs font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             >
               <option value="All">All Departments</option>
               <option value="Emergency/Casualty">Emergency/Casualty</option>
@@ -613,7 +614,7 @@ export default function ClinicalQueuePage() {
             <select
               value={selectedLevelFilter}
               onChange={(e) => setSelectedLevelFilter(e.target.value)}
-              className="py-2 px-3 bg-stone-50 border border-stone-200 rounded-2xl text-xs font-semibold text-stone-700 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+              className="py-2 px-3 bg-[#F7F4EF] border border-[#E5E1D8] rounded-2xl text-xs font-semibold text-[#34434A] focus:ring-2 focus:ring-[#269C91] focus:outline-none"
             >
               <option value="All">All Urgency Levels</option>
               <option value="1">Level 1 (Resuscitation)</option>
@@ -628,21 +629,21 @@ export default function ClinicalQueuePage() {
         {/* CLINICAL PRIORITY QUEUE PATIENT CARDS */}
         <div className="space-y-4">
           <div className="flex items-center justify-between px-2">
-            <h3 className="font-extrabold text-stone-900 text-lg flex items-center gap-2">
+            <h3 className="font-extrabold text-[#34434A] text-lg flex items-center gap-2">
               <span>Patient Queue</span>
-              <span className="text-xs bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full font-bold">
+              <span className="text-xs bg-[#E8F5F3] text-[#269C91] px-2.5 py-0.5 rounded-full font-bold border border-[#269C91]/30">
                 {sortedAndFilteredPatients.length} Active Cases
               </span>
             </h3>
-            <span className="text-xs text-stone-500 font-semibold">
+            <span className="text-xs text-[#5C6E78] font-semibold">
               Prioritized by ESI Clinical Acuity (Level 1 → 5)
             </span>
           </div>
 
           {sortedAndFilteredPatients.length === 0 ? (
-            <div className="bg-white rounded-3xl p-12 text-center border border-stone-200 text-stone-500 space-y-2">
-              <CheckCircle2 size={40} className="text-emerald-500 mx-auto" />
-              <div className="font-bold text-base text-stone-900">Queue is Clear</div>
+            <div className="bg-white rounded-3xl p-12 text-center border border-[#E5E1D8] text-[#5C6E78] space-y-2">
+              <CheckCircle2 size={40} className="text-[#269C91] mx-auto" />
+              <div className="font-bold text-base text-[#34434A]">Queue is Clear</div>
               <p className="text-xs">No pending patients match the selected filter criteria.</p>
             </div>
           ) : (
@@ -658,10 +659,12 @@ export default function ClinicalQueuePage() {
                     key={patient.id}
                     className={`bg-white rounded-3xl p-5 border-2 shadow-xs transition-all flex flex-col md:flex-row md:items-center justify-between gap-4 ${
                       acuity.level === 1
-                        ? "border-rose-500 bg-rose-50/20 shadow-rose-200/50"
+                        ? "border-[#D96B83] bg-[#FDF2F4]/40 shadow-xs shadow-[#D96B83]/15"
                         : acuity.level === 2
-                        ? "border-orange-400 bg-orange-50/15"
-                        : "border-stone-200 hover:border-emerald-300"
+                        ? "border-[#F07868] bg-[#FFF5F4]/40"
+                        : acuity.level === 3
+                        ? "border-[#E8AC48]/80 bg-[#FEF9EE]/30"
+                        : "border-[#E5E1D8] hover:border-[#269C91]/50"
                     }`}
                   >
                     {/* Patient Info Column */}
@@ -675,27 +678,27 @@ export default function ClinicalQueuePage() {
 
                       <div className="space-y-1">
                         <div className="flex items-center gap-2 flex-wrap">
-                          <h4 className="font-black text-stone-900 text-base">
+                          <h4 className="font-black text-[#34434A] text-base">
                             {patient.fullName}
                           </h4>
-                          <span className="font-mono text-xs text-stone-500 font-bold bg-stone-100 px-2 py-0.5 rounded-md border">
+                          <span className="font-mono text-xs text-[#5C6E78] font-bold bg-[#F7F4EF] px-2 py-0.5 rounded-md border border-[#E5E1D8]">
                             {patient.id}
                           </span>
-                          <span className="text-xs text-emerald-900 font-bold bg-emerald-50 px-2.5 py-0.5 rounded-md border border-emerald-200 flex items-center gap-1">
+                          <span className="text-xs text-[#269C91] font-bold bg-[#E8F5F3] px-2.5 py-0.5 rounded-md border border-[#269C91]/30 flex items-center gap-1">
                             <Building2 size={12} />
                             {patient.department}
                           </span>
                         </div>
 
-                        <p className="text-xs text-stone-700 font-medium line-clamp-1">
-                          <strong className="text-stone-900">Complaint:</strong> {patient.visitReason}
+                        <p className="text-xs text-[#34434A] font-medium line-clamp-1">
+                          <strong className="text-[#34434A]">Complaint:</strong> {patient.visitReason}
                         </p>
 
-                        <div className="text-[11px] text-stone-500 flex items-center gap-3 flex-wrap">
+                        <div className="text-[11px] text-[#5C6E78] flex items-center gap-3 flex-wrap">
                           <span className="flex items-center gap-1">
                             <Clock size={12} />
                             Waiting:{" "}
-                            <strong className={waitMinutes > 30 ? "text-rose-600 font-bold" : "text-stone-700"}>
+                            <strong className={waitMinutes > 30 ? "text-[#D96B83] font-bold" : "text-[#34434A]"}>
                               {waitMinutes} mins
                             </strong>
                           </span>
@@ -704,7 +707,7 @@ export default function ClinicalQueuePage() {
                           {patient.existingConditions && (
                             <>
                               <span>•</span>
-                              <span className="text-amber-800 font-semibold">
+                              <span className="text-[#E8AC48] font-bold">
                                 History: {patient.existingConditions}
                               </span>
                             </>
@@ -714,14 +717,14 @@ export default function ClinicalQueuePage() {
                     </div>
 
                     {/* Staff Actions Column */}
-                    <div className="flex items-center gap-2 flex-wrap shrink-0 pt-2 md:pt-0 border-t md:border-t-0 border-stone-100">
+                    <div className="flex items-center gap-2 flex-wrap shrink-0 pt-2 md:pt-0 border-t md:border-t-0 border-[#E5E1D8]">
                       {/* Record Vitals Button */}
                       <button
                         type="button"
                         onClick={() => handleOpenVitals(patient)}
-                        className="px-3 py-2 bg-stone-100 hover:bg-emerald-50 text-emerald-900 border border-stone-200 hover:border-emerald-300 rounded-xl text-xs font-bold transition flex items-center gap-1.5"
+                        className="px-3 py-2 bg-[#E8F5F3] hover:bg-[#269C91]/15 text-[#269C91] border border-[#269C91]/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
                       >
-                        <HeartPulse size={14} className="text-emerald-700" />
+                        <HeartPulse size={14} className="text-[#269C91]" />
                         <span>Vitals</span>
                       </button>
 
@@ -729,9 +732,9 @@ export default function ClinicalQueuePage() {
                       <button
                         type="button"
                         onClick={() => handleViewAssessmentDetail(patient)}
-                        className="px-3 py-2 bg-stone-100 hover:bg-stone-200 text-stone-800 rounded-xl text-xs font-bold transition flex items-center gap-1.5"
+                        className="px-3 py-2 bg-[#F3F0FA] hover:bg-[#9584D8]/20 text-[#6B5BAE] border border-[#9584D8]/30 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer"
                       >
-                        <BrainCircuit size={14} className="text-stone-600" />
+                        <BrainCircuit size={14} className="text-[#9584D8]" />
                         <span>Review AI</span>
                       </button>
 
@@ -744,12 +747,12 @@ export default function ClinicalQueuePage() {
                             e.target.value as PatientRegistration["status"]
                           )
                         }
-                        className={`py-2 px-3 rounded-xl text-xs font-extrabold border transition ${
+                        className={`py-2 px-3 rounded-xl text-xs font-black border transition cursor-pointer ${
                           patient.status === "In Consultation"
-                            ? "bg-teal-50 border-teal-500 text-teal-900"
+                            ? "bg-[#EFF6FC] border-[#69A9DC] text-[#22649B]"
                             : patient.status === "Completed"
-                            ? "bg-stone-100 border-stone-300 text-stone-500"
-                            : "bg-emerald-700 text-white border-emerald-700"
+                            ? "bg-[#F7F4EF] border-[#E5E1D8] text-[#8E9EA7]"
+                            : "bg-[#269C91] text-white border-[#269C91]"
                         }`}
                       >
                         <option value="Waiting">Waiting</option>

@@ -902,96 +902,120 @@
 
 
 /* ==========================================
-   MEDIQ REGISTER - LAVENDER GLASS THEME
+   MEDIQ AUTH & REGISTRATION — COHESIVE THEME
+   Teal (#269C91), Ivory (#F7F4EF), Charcoal (#34434A)
    ========================================== */
 
+.auth-page,
 .auth-register-page {
-  background: linear-gradient(
-    135deg,
-    #e9e6ff 0%,
-    #f5f2ff 48%,
-    #dfe8ff 100%
-  );
+  background: #F7F4EF;
+  color: #34434A;
 }
 
+.auth-panel,
 .auth-register-page .auth-panel {
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: blur(24px);
-  border-right: 1px solid rgba(150, 130, 220, 0.18);
+  background: #FFFFFF;
+  border-right: 1px solid #E5E1D8;
 }
 
+.auth-logo-icon,
 .auth-register-page .auth-logo-icon {
-  background: linear-gradient(135deg, #7563d5, #a794f4);
+  background: linear-gradient(135deg, #269C91, #1E7E75);
   color: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(38, 156, 145, 0.25);
 }
 
+.auth-logo-dot {
+  color: #269C91;
+}
+
+.auth-kicker,
 .auth-register-page .auth-kicker {
-  color: #7563d5;
+  color: #269C91;
 }
 
+.auth-heading h1,
 .auth-register-page .auth-heading h1 {
-  color: #302c51;
+  color: #34434A;
 }
 
+.auth-heading h1 span {
+  color: #269C91;
+}
+
+.auth-input-wrap,
 .auth-register-page .auth-input-wrap {
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid #ddd6f5;
-  border-radius: 13px;
+  background: #FFFFFF;
+  border: 1px solid #E5E1D8;
+  border-radius: 14px;
+  color: #34434A;
+  transition: all 0.2s ease;
 }
 
+.auth-input-wrap:focus-within,
 .auth-register-page .auth-input-wrap:focus-within {
-  border-color: #8975e8;
-  box-shadow: 0 0 0 4px rgba(137, 117, 232, 0.12);
+  border-color: #269C91;
+  box-shadow: 0 0 0 3px rgba(38, 156, 145, 0.15);
 }
 
+.auth-submit,
 .auth-register-page .auth-submit {
-  background: linear-gradient(135deg, #7563d5, #9a86ed);
+  background: #269C91;
   color: white;
-  border-radius: 13px;
-  box-shadow: 0 12px 25px rgba(117, 99, 213, 0.2);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(38, 156, 145, 0.25);
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
+.auth-submit:hover:not(:disabled),
 .auth-register-page .auth-submit:hover:not(:disabled) {
-  background: linear-gradient(135deg, #6550c9, #8975e8);
+  background: #1E7E75;
+  transform: translateY(-1px);
 }
 
+.auth-showcase,
 .auth-register-page .auth-showcase {
   background: linear-gradient(
     145deg,
-    #d8d1ff,
-    #bcb6f5 55%,
-    #a8baf4
+    #1E7E75,
+    #269C91 55%,
+    #2DB8AA
   );
-  color: #302c51;
+  color: white;
 }
 
-.auth-register-page .auth-showcase-content {
-  position: relative;
-  z-index: 1;
-}
-
+.auth-showcase-icon,
 .auth-register-page .auth-showcase-icon {
-  background: rgba(255, 255, 255, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(18px);
-  color: #6651c9;
-  border-radius: 22px;
-}
-
-.auth-register-page .auth-showcase-stats > * {
-  background: rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(16px);
-  border-radius: 15px;
+  color: white;
+  border-radius: 20px;
 }
 
+.auth-showcase-stats > *,
+.auth-register-page .auth-showcase-stats > * {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  color: white;
+}
+
+.auth-switch a,
 .auth-register-page .auth-switch a {
-  color: #6854c7;
+  color: #269C91;
+  font-weight: 800;
 }
 
 @media (max-width: 900px) {
+  .auth-panel,
   .auth-register-page .auth-panel {
     border-right: none;
   }
 }
+
 

@@ -1,7 +1,7 @@
 /* ==========================================================================
    MEDIQ — BODY-PART-BASED PROBLEM SELECTOR
    Illustrated cards with audio pronunciation, selected state & multi-select
-   Trilingual: Telugu, Hindi, English
+   Palette: Warm Ivory, Medical Teal (#269C91), Coral (#F07868), Rose (#D96B83)
    ========================================================================== */
 
 import { useState } from "react";
@@ -41,12 +41,10 @@ export default function BodyProblemSelector({
   language,
   onSelectRegionTab,
 }: BodyProblemSelectorProps) {
-  // If multiple regions are selected, track active tab (defaulting to the first or current regionId)
   const [activeTabRegion, setActiveTabRegion] = useState<BodyRegionId>(
     regionId || (selectedRegions.length > 0 ? selectedRegions[0] : "Chest")
   );
 
-  // Sync tab with external regionId if provided
   const currentViewingRegion: BodyRegionId =
     regionId || activeTabRegion || (selectedRegions[0] ?? "Chest");
 
@@ -67,25 +65,25 @@ export default function BodyProblemSelector({
   const getSymptomIcon = (iconName: string) => {
     switch (iconName) {
       case "HeartPulse":
-        return <HeartPulse className="w-8 h-8 text-rose-600" />;
+        return <HeartPulse className="w-7 h-7 text-[#D96B83]" />;
       case "Flame":
-        return <Flame className="w-8 h-8 text-amber-600" />;
+        return <Flame className="w-7 h-7 text-[#E8AC48]" />;
       case "Wind":
-        return <Wind className="w-8 h-8 text-sky-600" />;
+        return <Wind className="w-7 h-7 text-[#69A9DC]" />;
       case "Droplet":
-        return <Droplet className="w-8 h-8 text-red-600" />;
+        return <Droplet className="w-7 h-7 text-[#D96B83]" />;
       case "Zap":
-        return <Zap className="w-8 h-8 text-yellow-600" />;
+        return <Zap className="w-7 h-7 text-[#9584D8]" />;
       case "RotateCcw":
-        return <RotateCcw className="w-8 h-8 text-indigo-600" />;
+        return <RotateCcw className="w-7 h-7 text-[#269C91]" />;
       case "Eye":
-        return <Eye className="w-8 h-8 text-teal-600" />;
+        return <Eye className="w-7 h-7 text-[#269C91]" />;
       case "ShieldAlert":
-        return <ShieldAlert className="w-8 h-8 text-purple-600" />;
+        return <ShieldAlert className="w-7 h-7 text-[#9584D8]" />;
       case "AlertTriangle":
-        return <AlertTriangle className="w-8 h-8 text-rose-600 animate-pulse" />;
+        return <AlertTriangle className="w-7 h-7 text-[#D96B83] animate-pulse" />;
       default:
-        return <Activity className="w-8 h-8 text-emerald-700" />;
+        return <Activity className="w-7 h-7 text-[#269C91]" />;
     }
   };
 
@@ -93,8 +91,8 @@ export default function BodyProblemSelector({
     <div className="flex flex-col gap-4 w-full">
       {/* If multiple regions selected, show tabs to switch between them */}
       {selectedRegions.length > 1 && (
-        <div className="flex items-center gap-1.5 overflow-x-auto pb-2 border-b border-stone-200">
-          <span className="text-[11px] font-bold text-stone-500 uppercase tracking-wider shrink-0 mr-1">
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-2 border-b border-[#E5E1D8]">
+          <span className="text-[11px] font-bold text-[#5C6E78] uppercase tracking-wider shrink-0 mr-1">
             {language === "te"
               ? "ఎంచుకున్నవి:"
               : language === "hi"
@@ -116,10 +114,10 @@ export default function BodyProblemSelector({
                   setActiveTabRegion(rId);
                   if (onSelectRegionTab) onSelectRegionTab(rId);
                 }}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shrink-0 ${
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 shrink-0 cursor-pointer ${
                   isCurrent
-                    ? "bg-rose-500 text-white shadow-sm shadow-rose-500/30 scale-105"
-                    : "bg-stone-100 text-stone-700 hover:bg-stone-200 border border-stone-200"
+                    ? "bg-[#F07868] text-white shadow-sm shadow-[#F07868]/30 scale-105"
+                    : "bg-[#F7F4EF] text-[#34434A] hover:bg-[#E5E1D8] border border-[#E5E1D8]"
                 }`}
               >
                 <span>{reg ? reg.label[language] : rId}</span>
@@ -127,8 +125,8 @@ export default function BodyProblemSelector({
                   <span
                     className={`w-4 h-4 rounded-full text-[10px] font-black flex items-center justify-center ${
                       isCurrent
-                        ? "bg-white text-rose-600"
-                        : "bg-rose-500 text-white"
+                        ? "bg-white text-[#F07868]"
+                        : "bg-[#F07868] text-white"
                     }`}
                   >
                     {regionSympCount}
@@ -141,28 +139,28 @@ export default function BodyProblemSelector({
       )}
 
       {/* Region Header */}
-      <div className="flex items-center justify-between pb-2 border-b border-stone-200 flex-wrap gap-2">
+      <div className="flex items-center justify-between pb-2 border-b border-[#E5E1D8] flex-wrap gap-2">
         <div>
-          <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
+          <span className="text-xs font-bold text-[#269C91] uppercase tracking-wider">
             {language === "te"
-              ? "సమస్యల జాబితా"
+              ? "లక్షణాల జాబితా"
               : language === "hi"
               ? "लक्षण चुनें"
               : "Select Symptoms"}
           </span>
-          <h3 className="text-xl font-extrabold text-stone-900 flex items-center gap-2">
+          <h3 className="text-xl font-extrabold text-[#34434A] flex items-center gap-2">
             <span>{regionInfo?.label[language] || "Selected Region"}</span>
             {language !== "en" && regionInfo?.label.en && (
-              <span className="text-xs text-stone-400 font-normal">
+              <span className="text-xs text-[#8E9EA7] font-normal">
                 ({regionInfo.label.en})
               </span>
             )}
           </h3>
         </div>
 
-        <div className="text-xs text-stone-600 font-semibold bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200">
+        <div className="text-xs text-[#34434A] font-semibold bg-[#E8F5F3] px-3.5 py-1.5 rounded-full border border-[#269C91]/25">
           {selectedSymptoms.length > 0 ? (
-            <span className="text-emerald-800 font-bold">
+            <span className="text-[#269C91] font-bold">
               ✓ {selectedSymptoms.length}{" "}
               {language === "te"
                 ? "ఎంచుకోబడింది"
@@ -171,7 +169,7 @@ export default function BodyProblemSelector({
                 : "Selected"}
             </span>
           ) : (
-            <span>
+            <span className="text-[#5C6E78]">
               {language === "te"
                 ? "ఒకటి కంటే ఎక్కువ ఎంచుకోవచ్చు"
                 : language === "hi"
@@ -201,18 +199,18 @@ export default function BodyProblemSelector({
               }}
               className={`relative p-4 rounded-2xl border-2 transition-all flex items-start gap-3.5 text-left cursor-pointer active:scale-[0.98] ${
                 active
-                  ? "bg-rose-50/70 border-rose-500 shadow-md shadow-rose-500/10 ring-2 ring-rose-500/20"
-                  : "bg-white border-stone-200/90 hover:border-emerald-300 hover:bg-stone-50/70 shadow-xs"
+                  ? "bg-[#FDF1EF] border-[#F07868] shadow-md shadow-[#F07868]/10 ring-2 ring-[#F07868]/20"
+                  : "bg-white border-[#E5E1D8] hover:border-[#269C91]/50 hover:bg-[#F7F4EF]/50 shadow-2xs"
               }`}
             >
               {/* Left Icon Graphic */}
               <div
                 className={`p-3 rounded-2xl flex items-center justify-center shrink-0 transition-colors ${
                   active
-                    ? "bg-rose-100"
+                    ? "bg-[#FDF1EF]"
                     : symptom.isRedFlag
-                    ? "bg-rose-50"
-                    : "bg-stone-100"
+                    ? "bg-[#FAEEF1]"
+                    : "bg-[#F7F4EF]"
                 }`}
               >
                 {getSymptomIcon(symptom.iconName)}
@@ -221,11 +219,11 @@ export default function BodyProblemSelector({
               {/* Text Description */}
               <div className="flex-1 pr-6">
                 <div className="flex items-center gap-1.5 flex-wrap">
-                  <h4 className="font-extrabold text-stone-900 text-sm sm:text-base leading-snug">
+                  <h4 className="font-extrabold text-[#34434A] text-sm sm:text-base leading-snug">
                     {symptom.label[language]}
                   </h4>
                   {symptom.isRedFlag && (
-                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-rose-100 text-rose-800 border border-rose-300">
+                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-[#FAEEF1] text-[#D96B83] border border-[#D96B83]/30">
                       <AlertTriangle size={11} />
                       {language === "te"
                         ? "అత్యవసరం"
@@ -237,7 +235,7 @@ export default function BodyProblemSelector({
                 </div>
 
                 {language !== "en" && (
-                  <p className="text-xs text-stone-500 font-medium mt-0.5">
+                  <p className="text-xs text-[#5C6E78] font-medium mt-0.5">
                     {symptom.label.en}
                   </p>
                 )}
@@ -249,7 +247,7 @@ export default function BodyProblemSelector({
                   type="button"
                   onClick={(e) => handleAudioClick(e, symptom)}
                   title="Listen to symptom"
-                  className="p-1.5 hover:bg-emerald-100 rounded-lg text-emerald-800 transition"
+                  className="p-1.5 hover:bg-[#E8F5F3] rounded-lg text-[#269C91] transition cursor-pointer"
                 >
                   <Volume2 size={16} />
                 </button>
@@ -257,8 +255,8 @@ export default function BodyProblemSelector({
                 <div
                   className={`w-6 h-6 rounded-full flex items-center justify-center border-2 transition-all ${
                     active
-                      ? "bg-rose-500 border-rose-500 text-white"
-                      : "border-stone-300 bg-white"
+                      ? "bg-[#F07868] border-[#F07868] text-white"
+                      : "border-[#D5CFBF] bg-white"
                   }`}
                 >
                   {active && <CheckCircle2 size={16} />}
@@ -290,27 +288,27 @@ export default function BodyProblemSelector({
           }}
           className={`p-4 rounded-2xl border-2 border-dashed transition-all flex items-center gap-3.5 cursor-pointer ${
             isSelected(`${currentViewingRegion}_other`)
-              ? "bg-rose-50 border-rose-500"
-              : "border-stone-300 hover:border-emerald-400 bg-stone-50/50"
+              ? "bg-[#FDF1EF] border-[#F07868]"
+              : "border-[#D5CFBF] hover:border-[#269C91] bg-[#F7F4EF]/50"
           }`}
         >
-          <div className="p-3 bg-stone-200/80 rounded-2xl text-stone-700 shrink-0">
-            <PlusCircle size={24} />
+          <div className="p-3 bg-white rounded-2xl text-[#5C6E78] border border-[#E5E1D8] shrink-0">
+            <PlusCircle size={22} className="text-[#269C91]" />
           </div>
           <div>
-            <div className="font-bold text-stone-900 text-sm">
+            <div className="font-bold text-[#34434A] text-sm">
               {language === "te"
                 ? "ఇతర సమస్య (జాబితాలో లేదు)"
                 : language === "hi"
                 ? "अन्य समस्या (सूची में नहीं है)"
                 : "Other problem (not listed)"}
             </div>
-            <div className="text-xs text-stone-500">
+            <div className="text-xs text-[#5C6E78]">
               {language === "te"
                 ? "వైద్యుడితో నేరుగా మాట్లాడండి"
                 : language === "hi"
                 ? "डॉक्टर से सीधे बात करें"
-                : "Staff will review in detail"}
+                : "Clinical staff will assess in detail"}
             </div>
           </div>
         </div>

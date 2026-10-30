@@ -1,7 +1,8 @@
 /* ==========================================================================
    MEDIQ — TOUCH-TO-TRIAGE INTERACTIVE HUMAN BODY MAP
    Overlay of SVG hotspots over public/images/mediq-human.png
-   Responsive, accessible, multilingual with Mint-Green hover & Warm-Coral selection
+   Responsive, accessible, multilingual with Medical Teal hover & Warm Coral selection
+   Palette: Warm Ivory (#F7F4EF), Medical Teal (#269C91), Coral (#F07868)
    ========================================================================== */
 
 import { useState } from "react";
@@ -22,7 +23,6 @@ interface InteractiveBodyMapProps {
   onToggleRegion: (regionId: BodyRegionId) => void;
   onClearSelection: () => void;
   language: LanguageCode;
-  // Optional single region prop for backwards compatibility
   selectedRegion?: BodyRegionId | null;
   onSelectRegion?: (regionId: BodyRegionId) => void;
 }
@@ -147,27 +147,27 @@ export default function InteractiveBodyMap({
   };
 
   return (
-    <div className="relative flex flex-col items-center bg-[#FAF8F5] rounded-3xl p-4 sm:p-6 border border-emerald-900/10 shadow-xl overflow-hidden select-none w-full max-w-xl mx-auto">
+    <div className="relative flex flex-col items-center bg-[#F7F4EF] rounded-3xl p-4 sm:p-6 border border-[#E5E1D8] shadow-sm select-none w-full max-w-xl mx-auto">
       {/* Top Header / Kiosk Instructions */}
       <div className="w-full flex items-center justify-between mb-3 z-10 flex-wrap gap-2">
         <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold">
+          <div className="w-8 h-8 rounded-xl bg-[#E8F5F3] text-[#269C91] flex items-center justify-center font-bold">
             <Sparkles size={16} />
           </div>
           <div>
-            <h3 className="text-sm sm:text-base font-extrabold text-stone-900">
+            <h3 className="text-sm sm:text-base font-extrabold text-[#34434A]">
               {language === "te"
                 ? "శరీర భాగం ఎంపిక"
                 : language === "hi"
                 ? "दर्द वाले अंग को स्पर्श करें"
                 : "Touch Affected Body Part"}
             </h3>
-            <p className="text-[11px] text-stone-500 font-medium">
+            <p className="text-[11px] text-[#5C6E78] font-medium">
               {language === "te"
                 ? "ఒకటి కంటే ఎక్కువ భాగాలను కూడా ఎంచుకోవచ్చు"
                 : language === "hi"
                 ? "एक से अधिक अंग भी चुन सकते हैं"
-                : "Multiple regions can be selected"}
+                : "Select single or multiple affected regions"}
             </p>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function InteractiveBodyMap({
           <button
             type="button"
             onClick={onClearSelection}
-            className="px-3 py-1.5 rounded-xl text-xs font-bold bg-white text-stone-600 hover:text-rose-600 hover:bg-rose-50 border border-stone-200 transition-all flex items-center gap-1.5 shadow-xs"
+            className="px-3 py-1.5 rounded-xl text-xs font-bold bg-white text-[#5C6E78] hover:text-[#F07868] hover:bg-[#FDF1EF] border border-[#E5E1D8] transition-all flex items-center gap-1.5 shadow-2xs cursor-pointer active:scale-95"
             title="Clear all selections"
           >
             <RotateCcw size={13} />
@@ -193,8 +193,8 @@ export default function InteractiveBodyMap({
       </div>
 
       {/* Main Human Body Display Area */}
-      {/* Container preserves original image ratio 1408/768 and centers the body with light medical background */}
-      <div className="relative w-full aspect-[1408/768] rounded-2xl bg-white border border-stone-200/80 shadow-inner overflow-hidden flex items-center justify-center">
+      {/* Preserves 1408/768 ratio with clean medical background */}
+      <div className="relative w-full aspect-[1408/768] rounded-2xl bg-white border border-[#E5E1D8] shadow-inner overflow-hidden flex items-center justify-center">
         {/* Background Medical Subtle Grid */}
         <div
           className="absolute inset-0 opacity-40 pointer-events-none"
@@ -219,24 +219,24 @@ export default function InteractiveBodyMap({
           className="absolute inset-0 w-full h-full z-10"
         >
           <defs>
-            {/* Mint Green Glow for Hover */}
-            <filter id="mintGlow" x="-20%" y="-20%" width="140%" height="140%">
+            {/* Medical Teal Glow for Hover */}
+            <filter id="tealHoverGlow" x="-20%" y="-20%" width="140%" height="140%">
               <feDropShadow
                 dx="0"
                 dy="0"
                 stdDeviation="6"
-                floodColor="#059669"
-                floodOpacity="0.7"
+                floodColor="#269C91"
+                floodOpacity="0.75"
               />
             </filter>
 
             {/* Warm Coral Glow for Selection */}
-            <filter id="coralGlow" x="-25%" y="-25%" width="150%" height="150%">
+            <filter id="coralActiveGlow" x="-25%" y="-25%" width="150%" height="150%">
               <feDropShadow
                 dx="0"
                 dy="0"
                 stdDeviation="8"
-                floodColor="#E11D48"
+                floodColor="#F07868"
                 floodOpacity="0.85"
               />
             </filter>
@@ -267,24 +267,24 @@ export default function InteractiveBodyMap({
                   points={region.points}
                   fill={
                     selected
-                      ? "rgba(251, 113, 133, 0.45)" // Warm Coral
+                      ? "rgba(240, 120, 104, 0.45)" // Warm Coral Fill
                       : hovered
-                      ? "rgba(167, 243, 208, 0.45)" // Mint Green
+                      ? "rgba(38, 156, 145, 0.35)" // Medical Teal Hover Fill
                       : "transparent"
                   }
                   stroke={
                     selected
-                      ? "#E11D48" // Warm Coral Dark Stroke
+                      ? "#F07868" // Warm Coral Dark Stroke
                       : hovered
-                      ? "#059669" // Mint Green Dark Stroke
-                      : "rgba(148, 163, 184, 0.15)"
+                      ? "#269C91" // Medical Teal Stroke
+                      : "rgba(148, 163, 184, 0.2)"
                   }
                   strokeWidth={selected ? 3.5 : hovered ? 2.8 : 1}
                   filter={
                     selected
-                      ? "url(#coralGlow)"
+                      ? "url(#coralActiveGlow)"
                       : hovered
-                      ? "url(#mintGlow)"
+                      ? "url(#tealHoverGlow)"
                       : undefined
                   }
                   className={`transition-all duration-200 ${
@@ -299,7 +299,7 @@ export default function InteractiveBodyMap({
                       cx="14"
                       cy="14"
                       r="14"
-                      fill="#E11D48"
+                      fill="#F07868"
                       stroke="#FFFFFF"
                       strokeWidth="2"
                     />
@@ -320,8 +320,8 @@ export default function InteractiveBodyMap({
 
         {/* Pulse Hint Overlay when no region is selected */}
         {activeRegionList.length === 0 && (
-          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-stone-900/85 backdrop-blur-md text-white text-xs px-4 py-2 rounded-full border border-white/20 shadow-xl flex items-center gap-2 pointer-events-none animate-pulse z-20">
-            <Sparkles size={14} className="text-emerald-400" />
+          <div className="absolute bottom-3 left-1/2 transform -translate-x-1/2 bg-[#34434A]/90 backdrop-blur-md text-white text-xs px-4 py-2 rounded-full border border-white/20 shadow-xl flex items-center gap-2 pointer-events-none animate-pulse z-20">
+            <Sparkles size={14} className="text-[#269C91]" />
             <span className="font-bold">
               {language === "te"
                 ? "నొప్పి ఉన్న శరీర భాగాన్ని తాకండి"
@@ -333,11 +333,11 @@ export default function InteractiveBodyMap({
         )}
       </div>
 
-      {/* Accessible Quick Region Selector Chips (Ensures 100% Touch & Accessibility) */}
+      {/* Accessible Quick Region Selector Chips */}
       <div className="w-full mt-3">
-        <div className="flex items-center justify-between text-[11px] font-bold text-stone-500 uppercase tracking-wider mb-1.5 px-1">
+        <div className="flex items-center justify-between text-[11px] font-bold text-[#5C6E78] uppercase tracking-wider mb-1.5 px-1">
           <span className="flex items-center gap-1">
-            <Layers size={12} className="text-emerald-700" />
+            <Layers size={12} className="text-[#269C91]" />
             {language === "te"
               ? "శరీర భాగాలు"
               : language === "hi"
@@ -363,19 +363,19 @@ export default function InteractiveBodyMap({
                 key={h.id}
                 type="button"
                 onClick={() => handleRegionClick(h.id)}
-                className={`py-2 px-1.5 rounded-xl text-xs font-bold transition-all flex flex-col items-center justify-center gap-0.5 border text-center ${
+                className={`py-2 px-1.5 rounded-xl text-xs font-bold transition-all flex flex-col items-center justify-center gap-0.5 border text-center cursor-pointer active:scale-95 ${
                   active
-                    ? "bg-rose-500 text-white border-rose-600 shadow-sm shadow-rose-500/30 scale-[1.02]"
-                    : "bg-white text-stone-700 hover:bg-emerald-50 hover:text-emerald-900 border-stone-200"
+                    ? "bg-[#F07868] text-white border-[#D86354] shadow-sm shadow-[#F07868]/30 scale-[1.02]"
+                    : "bg-white text-[#34434A] hover:bg-[#E8F5F3] hover:text-[#269C91] border-[#E5E1D8]"
                 }`}
               >
-                <span className="truncate w-full leading-tight">
+                <span className="truncate w-full leading-tight font-extrabold">
                   {h.name[language]}
                 </span>
                 {h.sideLabel && (
                   <span
                     className={`text-[9px] font-normal ${
-                      active ? "text-rose-100" : "text-stone-400"
+                      active ? "text-[#FDF1EF]" : "text-[#8E9EA7]"
                     }`}
                   >
                     ({h.sideLabel[language]})
@@ -390,20 +390,20 @@ export default function InteractiveBodyMap({
       {/* Selected Regions Status / Pronunciation Bar */}
       <div className="w-full mt-3">
         {activeRegionList.length > 0 ? (
-          <div className="p-3 bg-gradient-to-r from-rose-50/80 via-emerald-50/50 to-teal-50/80 border border-rose-200/80 rounded-2xl flex items-center justify-between shadow-xs">
+          <div className="p-3 bg-gradient-to-r from-[#FDF1EF] via-[#E8F5F3] to-[#EEF5FB] border border-[#F07868]/30 rounded-2xl flex items-center justify-between shadow-xs">
             <div className="flex items-center gap-2.5 overflow-hidden">
-              <div className="w-8 h-8 rounded-xl bg-rose-500 text-white flex items-center justify-center font-bold text-sm shrink-0 shadow-xs">
+              <div className="w-8 h-8 rounded-xl bg-[#F07868] text-white flex items-center justify-center font-bold text-sm shrink-0 shadow-xs">
                 <Check size={16} />
               </div>
               <div className="overflow-hidden">
-                <div className="text-[10px] font-black text-rose-700 uppercase tracking-wider">
+                <div className="text-[10px] font-black text-[#D86354] uppercase tracking-wider">
                   {language === "te"
                     ? "ఎంచుకున్న శరీర భాగాలు"
                     : language === "hi"
                     ? "चुने गए शारीरिक अंग"
                     : "Selected Body Parts"}
                 </div>
-                <div className="text-xs sm:text-sm font-extrabold text-stone-900 truncate">
+                <div className="text-xs sm:text-sm font-extrabold text-[#34434A] truncate">
                   {activeRegionList
                     .map((rId) => {
                       const found = getRegionById(rId);
@@ -426,10 +426,10 @@ export default function InteractiveBodyMap({
                     );
                   }
                 }}
-                className="p-2 bg-white hover:bg-emerald-100 border border-emerald-200 text-emerald-800 rounded-xl transition flex items-center gap-1 shadow-xs active:scale-95"
+                className="p-2 bg-white hover:bg-[#E8F5F3] border border-[#269C91]/30 text-[#269C91] rounded-xl transition flex items-center gap-1 shadow-2xs active:scale-95 cursor-pointer"
                 title="Pronounce in selected language"
               >
-                <Volume2 size={16} className="text-emerald-700" />
+                <Volume2 size={16} className="text-[#269C91]" />
                 <span className="text-xs font-bold hidden sm:inline">
                   {language === "te"
                     ? "వినండి"
@@ -441,8 +441,8 @@ export default function InteractiveBodyMap({
             </div>
           </div>
         ) : (
-          <div className="p-2.5 text-center text-xs text-stone-500 bg-white rounded-2xl border border-stone-200 flex items-center justify-center gap-1.5">
-            <HelpCircle size={14} className="text-stone-400" />
+          <div className="p-2.5 text-center text-xs text-[#5C6E78] bg-white rounded-2xl border border-[#E5E1D8] flex items-center justify-center gap-1.5">
+            <HelpCircle size={14} className="text-[#8E9EA7]" />
             <span>
               {language === "te"
                 ? "శరీరంపై తాకి లేదా బటన్లపై నొక్కి ఎంచుకోండి"

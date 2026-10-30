@@ -2,6 +2,7 @@
    MEDIQ — ACCESSIBLE GUIDED QUESTIONNAIRE
    One question at a time with picture-based answers, audio guidance & big controls
    Trilingual: Telugu, Hindi, English
+   Palette: Warm Ivory, Medical Teal (#269C91), Coral (#F07868), Amber (#E8AC48), Rose (#D96B83)
    ========================================================================== */
 
 import { useState, useEffect } from "react";
@@ -190,13 +191,13 @@ export default function VisualQuestionnaire({
   };
 
   return (
-    <div className="flex flex-col bg-white rounded-3xl p-6 sm:p-8 border border-emerald-900/10 shadow-xl w-full max-w-2xl mx-auto">
+    <div className="flex flex-col bg-white rounded-3xl p-6 sm:p-8 border border-[#E5E1D8] shadow-sm w-full max-w-2xl mx-auto">
       {/* Progress Bar & Header */}
       <div className="flex items-center justify-between mb-6">
         <button
           type="button"
           onClick={handlePrev}
-          className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-stone-600 hover:bg-stone-100 transition font-semibold text-sm"
+          className="flex items-center gap-1.5 px-3 py-2 rounded-xl text-[#5C6E78] hover:bg-[#F7F4EF] transition font-semibold text-sm cursor-pointer"
         >
           <ArrowLeft size={18} />
           <span>
@@ -215,10 +216,10 @@ export default function VisualQuestionnaire({
               key={idx}
               className={`h-2.5 rounded-full transition-all duration-300 ${
                 idx === currentStep
-                  ? "w-8 bg-emerald-700 shadow-sm"
+                  ? "w-8 bg-[#269C91] shadow-xs"
                   : idx < currentStep
-                  ? "w-2.5 bg-emerald-300"
-                  : "w-2.5 bg-stone-200"
+                  ? "w-2.5 bg-[#269C91]/40"
+                  : "w-2.5 bg-[#E5E1D8]"
               }`}
             />
           ))}
@@ -228,9 +229,9 @@ export default function VisualQuestionnaire({
           type="button"
           onClick={handleSpeakCurrent}
           title="Listen again"
-          className="p-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 rounded-xl transition flex items-center gap-1.5 shadow-xs active:scale-95"
+          className="p-2.5 bg-[#E8F5F3] hover:bg-[#269C91]/15 text-[#269C91] rounded-xl transition flex items-center gap-1.5 shadow-2xs active:scale-95 cursor-pointer"
         >
-          <Volume2 size={20} className="text-emerald-700" />
+          <Volume2 size={20} className="text-[#269C91]" />
           <span className="text-xs font-bold hidden sm:inline">
             {language === "te"
               ? "వినండి"
@@ -243,7 +244,7 @@ export default function VisualQuestionnaire({
 
       {/* Main Question Display */}
       <div className="text-center mb-8">
-        <span className="text-xs font-extrabold text-emerald-800 uppercase tracking-widest bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+        <span className="text-xs font-extrabold text-[#269C91] uppercase tracking-widest bg-[#E8F5F3] px-3.5 py-1 rounded-full border border-[#269C91]/25">
           {language === "te"
             ? `ప్రశ్న ${currentStep + 1} / ${totalSteps}`
             : language === "hi"
@@ -251,10 +252,10 @@ export default function VisualQuestionnaire({
             : `Question ${currentStep + 1} of ${totalSteps}`}
         </span>
 
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-900 mt-3 leading-tight">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#34434A] mt-3 leading-tight">
           {questions[currentStep].title[language]}
         </h2>
-        <p className="text-sm text-stone-600 mt-2">
+        <p className="text-sm text-[#5C6E78] mt-2">
           {questions[currentStep].subtitle[language]}
         </p>
       </div>
@@ -267,44 +268,47 @@ export default function VisualQuestionnaire({
           {[
             {
               id: "mild",
-              icon: <Smile className="w-12 h-12 text-emerald-600" />,
+              icon: <Smile className="w-12 h-12 text-[#269C91]" />,
               label: {
                 en: "Mild Discomfort",
                 te: "తేలికపాటి (తక్కువ)",
                 hi: "हल्का दर्द",
               },
               score: "1 - 3",
-              bg: "bg-emerald-50",
-              border: "border-emerald-500",
+              bg: "bg-[#E8F5F3]",
+              border: "border-[#269C91]",
+              ring: "ring-[#269C91]/20",
             },
             {
               id: "moderate",
-              icon: <Meh className="w-12 h-12 text-amber-500" />,
+              icon: <Meh className="w-12 h-12 text-[#E8AC48]" />,
               label: {
                 en: "Moderate Discomfort",
                 te: "మధ్యస్థ నొప్పి",
                 hi: "मध्यम दर्द",
               },
               score: "4 - 6",
-              bg: "bg-amber-50",
-              border: "border-amber-500",
+              bg: "bg-[#FDF6EB]",
+              border: "border-[#E8AC48]",
+              ring: "ring-[#E8AC48]/20",
             },
             {
               id: "severe",
-              icon: <Frown className="w-12 h-12 text-orange-600" />,
+              icon: <Frown className="w-12 h-12 text-[#F07868]" />,
               label: {
                 en: "Severe Pain",
                 te: "తీవ్రమైన నొప్పి",
                 hi: "बहुत तेज दर्द",
               },
               score: "7 - 8",
-              bg: "bg-orange-50",
-              border: "border-orange-500",
+              bg: "bg-[#FDF1EF]",
+              border: "border-[#F07868]",
+              ring: "ring-[#F07868]/20",
             },
             {
               id: "unbearable",
               icon: (
-                <AlertOctagon className="w-12 h-12 text-rose-600 animate-bounce" />
+                <AlertOctagon className="w-12 h-12 text-[#D96B83] animate-bounce" />
               ),
               label: {
                 en: "Unbearable / Emergency",
@@ -312,8 +316,9 @@ export default function VisualQuestionnaire({
                 hi: "असहनीय दर्द",
               },
               score: "9 - 10",
-              bg: "bg-rose-50",
-              border: "border-rose-600",
+              bg: "bg-[#FAEEF1]",
+              border: "border-[#D96B83]",
+              ring: "ring-[#D96B83]/20",
             },
           ].map((level) => {
             const isSelected = answers.severity === level.id;
@@ -327,16 +332,16 @@ export default function VisualQuestionnaire({
                 }}
                 className={`p-5 rounded-2xl border-2 transition-all flex flex-col items-center text-center gap-3 cursor-pointer active:scale-[0.96] ${
                   isSelected
-                    ? `${level.bg} ${level.border} ring-4 ring-rose-500/20 shadow-lg scale-105`
-                    : "bg-stone-50 border-stone-200 hover:bg-white hover:border-emerald-300"
+                    ? `${level.bg} ${level.border} ring-4 ${level.ring} shadow-md scale-105`
+                    : "bg-[#F7F4EF]/70 border-[#E5E1D8] hover:bg-white hover:border-[#269C91]/40"
                 }`}
               >
                 <div className="p-2">{level.icon}</div>
                 <div>
-                  <div className="text-xs font-bold text-stone-500 mb-0.5">
+                  <div className="text-xs font-bold text-[#5C6E78] mb-0.5">
                     Level {level.score}
                   </div>
-                  <div className="font-extrabold text-stone-900 text-sm leading-tight">
+                  <div className="font-extrabold text-[#34434A] text-sm leading-tight">
                     {level.label[language]}
                   </div>
                 </div>
@@ -354,7 +359,7 @@ export default function VisualQuestionnaire({
           {[
             {
               id: "just_started",
-              icon: <Clock className="w-9 h-9 text-rose-600" />,
+              icon: <Clock className="w-9 h-9 text-[#F07868]" />,
               title: {
                 en: "Just Started Today",
                 te: "ఈ రోజే ప్రారంభమైంది",
@@ -368,7 +373,7 @@ export default function VisualQuestionnaire({
             },
             {
               id: "yesterday",
-              icon: <Calendar className="w-9 h-9 text-amber-600" />,
+              icon: <Calendar className="w-9 h-9 text-[#E8AC48]" />,
               title: {
                 en: "Since Yesterday",
                 te: "నిన్నటి నుండి",
@@ -382,7 +387,7 @@ export default function VisualQuestionnaire({
             },
             {
               id: "several_days",
-              icon: <Calendar className="w-9 h-9 text-teal-600" />,
+              icon: <Calendar className="w-9 h-9 text-[#269C91]" />,
               title: {
                 en: "Few Days (2 to 4 Days)",
                 te: "కొన్ని రోజులుగా (2-4 రోజులు)",
@@ -396,7 +401,7 @@ export default function VisualQuestionnaire({
             },
             {
               id: "over_a_week",
-              icon: <Clock className="w-9 h-9 text-indigo-600" />,
+              icon: <Clock className="w-9 h-9 text-[#69A9DC]" />,
               title: {
                 en: "More Than a Week",
                 te: "వారం కంటే ఎక్కువ రోజులు",
@@ -418,20 +423,20 @@ export default function VisualQuestionnaire({
                   onChange({ duration: opt.id as SymptomDuration });
                   void audioService.speak(opt.title[language], language);
                 }}
-                className={`p-5 rounded-2xl border-2 transition-all flex items-start gap-4 text-left active:scale-[0.98] ${
+                className={`p-5 rounded-2xl border-2 transition-all flex items-start gap-4 text-left active:scale-[0.98] cursor-pointer ${
                   isSelected
-                    ? "bg-rose-50 border-rose-500 shadow-md shadow-rose-500/10 ring-2 ring-rose-500/20"
-                    : "bg-stone-50/70 border-stone-200 hover:border-emerald-300 hover:bg-white"
+                    ? "bg-[#FDF1EF] border-[#F07868] shadow-md shadow-[#F07868]/10 ring-2 ring-[#F07868]/20"
+                    : "bg-[#F7F4EF]/70 border-[#E5E1D8] hover:border-[#269C91]/40 hover:bg-white"
                 }`}
               >
-                <div className="p-3 bg-white rounded-2xl border border-stone-200 shadow-xs">
+                <div className="p-3 bg-white rounded-2xl border border-[#E5E1D8] shadow-2xs">
                   {opt.icon}
                 </div>
                 <div>
-                  <h4 className="font-extrabold text-stone-900 text-base leading-snug">
+                  <h4 className="font-extrabold text-[#34434A] text-base leading-snug">
                     {opt.title[language]}
                   </h4>
-                  <p className="text-xs text-stone-500 font-medium mt-1">
+                  <p className="text-xs text-[#5C6E78] font-medium mt-1">
                     {opt.desc[language]}
                   </p>
                 </div>
@@ -459,21 +464,21 @@ export default function VisualQuestionnaire({
                 language
               );
             }}
-            className={`p-7 rounded-3xl border-3 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-md ${
+            className={`p-7 rounded-3xl border-2 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-xs cursor-pointer ${
               answers.onsetTime === "sudden"
-                ? "bg-rose-50 border-rose-500 ring-4 ring-rose-500/20"
-                : "bg-white border-stone-200 hover:border-rose-300 hover:bg-rose-50/20"
+                ? "bg-[#FDF1EF] border-[#F07868] ring-4 ring-[#F07868]/20"
+                : "bg-white border-[#E5E1D8] hover:border-[#F07868]/40 hover:bg-[#FDF1EF]/30"
             }`}
           >
-            <Zap size={44} className="text-rose-600" />
-            <div className="text-xl font-black text-rose-950">
+            <Zap size={44} className="text-[#F07868]" />
+            <div className="text-xl font-black text-[#34434A]">
               {language === "te"
                 ? "అకస్మాత్తుగా (Sudden)"
                 : language === "hi"
                 ? "अचानक (Sudden)"
                 : "Sudden Onset"}
             </div>
-            <div className="text-xs font-semibold text-rose-700 text-center">
+            <div className="text-xs font-semibold text-[#5C6E78] text-center">
               {language === "te"
                 ? "ఒక్కసారిగా తీవ్రంగా మొదలైంది"
                 : language === "hi"
@@ -495,21 +500,21 @@ export default function VisualQuestionnaire({
                 language
               );
             }}
-            className={`p-7 rounded-3xl border-3 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-md ${
+            className={`p-7 rounded-3xl border-2 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-xs cursor-pointer ${
               answers.onsetTime === "gradual"
-                ? "bg-emerald-50 border-emerald-600 ring-4 ring-emerald-500/20"
-                : "bg-white border-stone-200 hover:border-emerald-300 hover:bg-emerald-50/20"
+                ? "bg-[#E8F5F3] border-[#269C91] ring-4 ring-[#269C91]/20"
+                : "bg-white border-[#E5E1D8] hover:border-[#269C91]/40 hover:bg-[#E8F5F3]/30"
             }`}
           >
-            <Clock size={44} className="text-emerald-700" />
-            <div className="text-xl font-black text-emerald-950">
+            <Clock size={44} className="text-[#269C91]" />
+            <div className="text-xl font-black text-[#34434A]">
               {language === "te"
                 ? "క్రమంగా (Gradual)"
                 : language === "hi"
                 ? "धीरे-धीरे (Gradual)"
                 : "Gradual Development"}
             </div>
-            <div className="text-xs font-semibold text-emerald-700 text-center">
+            <div className="text-xs font-semibold text-[#5C6E78] text-center">
               {language === "te"
                 ? "నెమ్మదిగా మొదలై క్రమంగా పెరిగింది"
                 : language === "hi"
@@ -538,21 +543,21 @@ export default function VisualQuestionnaire({
                 language
               );
             }}
-            className={`p-7 rounded-3xl border-3 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-md ${
+            className={`p-7 rounded-3xl border-2 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-xs cursor-pointer ${
               answers.isGettingWorse === true
-                ? "bg-rose-50 border-rose-500 ring-4 ring-rose-500/20"
-                : "bg-white border-stone-200 hover:border-rose-400 hover:bg-rose-50/30"
+                ? "bg-[#FDF1EF] border-[#F07868] ring-4 ring-[#F07868]/20"
+                : "bg-white border-[#E5E1D8] hover:border-[#F07868]/40 hover:bg-[#FDF1EF]/30"
             }`}
           >
-            <AlertOctagon size={44} className="text-rose-600" />
-            <div className="text-2xl font-black text-rose-950">
+            <AlertOctagon size={44} className="text-[#F07868]" />
+            <div className="text-2xl font-black text-[#34434A]">
               {language === "te"
                 ? "అవును (YES)"
                 : language === "hi"
                 ? "हाँ (YES)"
                 : "YES, Worsening"}
             </div>
-            <div className="text-xs font-semibold text-rose-700 text-center">
+            <div className="text-xs font-semibold text-[#5C6E78] text-center">
               {language === "te"
                 ? "నొప్పి లేదా బాధ నిరంతరం పెరుగుతోంది"
                 : language === "hi"
@@ -574,21 +579,21 @@ export default function VisualQuestionnaire({
                 language
               );
             }}
-            className={`p-7 rounded-3xl border-3 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-md ${
+            className={`p-7 rounded-3xl border-2 transition-all flex flex-col items-center justify-center gap-3 active:scale-95 shadow-xs cursor-pointer ${
               answers.isGettingWorse === false
-                ? "bg-emerald-50 border-emerald-600 ring-4 ring-emerald-500/20"
-                : "bg-white border-stone-200 hover:border-emerald-400 hover:bg-emerald-50/30"
+                ? "bg-[#E8F5F3] border-[#269C91] ring-4 ring-[#269C91]/20"
+                : "bg-white border-[#E5E1D8] hover:border-[#269C91]/40 hover:bg-[#E8F5F3]/30"
             }`}
           >
-            <CheckCircle size={44} className="text-emerald-700" />
-            <div className="text-2xl font-black text-emerald-950">
+            <CheckCircle size={44} className="text-[#269C91]" />
+            <div className="text-2xl font-black text-[#34434A]">
               {language === "te"
                 ? "కాదు (NO)"
                 : language === "hi"
                 ? "नहीं (NO)"
                 : "NO, Stable"}
             </div>
-            <div className="text-xs font-semibold text-emerald-700 text-center">
+            <div className="text-xs font-semibold text-[#5C6E78] text-center">
               {language === "te"
                 ? "పరిస్థితి ఒకే విధంగా స్థిరంగా ఉంది"
                 : language === "hi"
@@ -688,14 +693,14 @@ export default function VisualQuestionnaire({
                     onChange({ otherSymptoms: updated });
                     void audioService.speak(item.label[language], language);
                   }}
-                  className={`p-4 rounded-2xl border-2 transition-all flex flex-col items-center justify-center gap-2 text-center active:scale-95 ${
+                  className={`p-4 rounded-2xl border-2 transition-all flex flex-col items-center justify-center gap-2 text-center active:scale-95 cursor-pointer ${
                     isSelected
-                      ? "bg-rose-50 border-rose-500 shadow-md ring-2 ring-rose-500/20"
-                      : "bg-stone-50 border-stone-200 hover:bg-white hover:border-emerald-300"
+                      ? "bg-[#FDF1EF] border-[#F07868] shadow-xs ring-2 ring-[#F07868]/20"
+                      : "bg-[#F7F4EF]/60 border-[#E5E1D8] hover:bg-white hover:border-[#269C91]/30"
                   }`}
                 >
                   <span className="text-3xl">{item.icon}</span>
-                  <span className="font-extrabold text-stone-900 text-xs leading-tight">
+                  <span className="font-extrabold text-[#34434A] text-xs leading-tight">
                     {item.label[language]}
                   </span>
                 </button>
@@ -706,19 +711,19 @@ export default function VisualQuestionnaire({
       )}
 
       {/* Voice Assistant / Microphone input helper */}
-      <div className="mt-6 pt-5 border-t border-stone-200 flex items-center justify-between flex-wrap gap-3">
+      <div className="mt-6 pt-5 border-t border-[#E5E1D8] flex items-center justify-between flex-wrap gap-3">
         <button
           type="button"
           onClick={handleVoiceInput}
-          className={`flex items-center gap-2 px-4 py-2.5 rounded-2xl font-bold text-xs transition border ${
+          className={`flex items-center gap-2 px-4 py-2.5 rounded-2xl font-bold text-xs transition border cursor-pointer ${
             isListening
-              ? "bg-rose-100 text-rose-800 border-rose-300 animate-pulse"
-              : "bg-stone-100 hover:bg-stone-200/80 text-stone-700 border-stone-200"
+              ? "bg-[#FAEEF1] text-[#D96B83] border-[#D96B83]/40 animate-pulse"
+              : "bg-[#F7F4EF] hover:bg-[#E5E1D8] text-[#5C6E78] border-[#E5E1D8]"
           }`}
         >
           <Mic
             size={16}
-            className={isListening ? "text-rose-600" : "text-stone-600"}
+            className={isListening ? "text-[#D96B83]" : "text-[#5C6E78]"}
           />
           <span>
             {isListening
@@ -739,7 +744,7 @@ export default function VisualQuestionnaire({
         <button
           type="button"
           onClick={handleNext}
-          className="ml-auto px-6 py-3.5 bg-emerald-800 hover:bg-emerald-900 text-white font-extrabold rounded-2xl shadow-lg shadow-emerald-950/20 flex items-center gap-2 transition active:scale-95"
+          className="ml-auto px-6 py-3.5 bg-[#269C91] hover:bg-[#1E7E75] text-white font-extrabold rounded-2xl shadow-sm flex items-center gap-2 transition active:scale-95 cursor-pointer"
         >
           <span>
             {currentStep === totalSteps - 1
