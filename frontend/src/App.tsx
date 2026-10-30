@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter,
   Routes,
@@ -8,6 +7,8 @@ import {
 
 import { Capacitor } from "@capacitor/core";
 
+import TouchToTriageKiosk from "./pages/TouchToTriageKiosk";
+import ClinicalQueuePage from "./pages/ClinicalQueuePage";
 import Landing from "./Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -28,9 +29,31 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Home */}
+        {/* Core Touch-to-Triage Patient Mode Experience */}
         <Route
           path="/"
+          element={<TouchToTriageKiosk />}
+        />
+
+        <Route
+          path="/triage"
+          element={<TouchToTriageKiosk />}
+        />
+
+        {/* Clinical Priority Queue & Staff Command Hub */}
+        <Route
+          path="/staff"
+          element={<ClinicalQueuePage />}
+        />
+
+        <Route
+          path="/queue"
+          element={<ClinicalQueuePage />}
+        />
+
+        {/* Marketing / Hospital Info Landing */}
+        <Route
+          path="/landing"
           element={
             isAndroidApp
               ? <Navigate to="/login" replace />
@@ -101,7 +124,7 @@ export default function App() {
           path="*"
           element={
             <Navigate
-              to={isAndroidApp ? "/login" : "/"}
+              to="/"
               replace
             />
           }
