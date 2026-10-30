@@ -1,0 +1,4 @@
+visit_id,age_years,bp_systolic,pulse_bpm,spo2_pct,chief_complaint,triage_level,true_emergency,red_flags,emergency_probability
+OPD-3HVXCRQY,55,122.0,11.0,89.0,"I have coughing for 3 days, feverish feeling. tiredness",2,1,,0.07086828200391643
+OPD-N5BY465B,50,0.0,99.0,99.0,"mereko subah se khoon ki ulti hui hai. dawai li par aaram nahi mila, bahut buri halat hai",2,1,RF_SEVERE_BLEEDING,0.06073316087095551
+OPD-SEPIKWAJ,80,,88.0,90.0,"asalu shwasa aadatledu, daggu undi",2,1,RF_RESP_DISTRESS,0.05425506435098439

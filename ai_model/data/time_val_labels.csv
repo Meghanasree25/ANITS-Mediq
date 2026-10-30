@@ -1,0 +1,5277 @@
+visit_id,triage_level,department,true_emergency,red_flags,assessable
+OPD-00BAM190,4,General Medicine,0,,1
+OPD-00DET5TR,4,General Medicine,0,,1
+OPD-00YKASWD,3,General Medicine,0,,1
+OPD-018VOMZG,3,General Medicine,0,,1
+OPD-01CPLPJC,3,General Medicine,0,,1
+OPD-01DNEYT2,4,General Surgery,0,,1
+OPD-020PXRF4,4,General Surgery,0,,0
+OPD-02408ETU,4,General Medicine,0,,1
+OPD-02LXR1XH,3,Pulmonology/Chest & TB,0,,1
+OPD-02RSBHR0,4,General Medicine,0,,1
+OPD-02WM3TQI,5,Obstetrics & Gynaecology,0,,1
+OPD-032OD5E8,3,General Surgery,0,,1
+OPD-036NWW4F,5,Obstetrics & Gynaecology,0,,1
+OPD-03C0S59N,3,General Medicine,0,,1
+OPD-03GM0QBL,4,General Medicine,0,,1
+OPD-03HWB2QA,5,General Medicine,0,,1
+OPD-054N5IES,5,General Medicine,0,,1
+OPD-055AL98M,4,General Surgery,0,,1
+OPD-058SSP0M,4,General Medicine,0,,1
+OPD-05CW67PC,4,General Medicine,0,,1
+OPD-05WZ8YQF,4,ENT,0,,1
+OPD-062LRTPT,4,General Medicine,0,,1
+OPD-066SVJM0,5,Orthopaedics,0,,1
+OPD-06HKZB6V,4,Obstetrics & Gynaecology,0,,0
+OPD-06KM2R3T,4,Paediatrics,0,,1
+OPD-06NBTM6P,3,Orthopaedics,0,,1
+OPD-06RWDBHX,3,Paediatrics,0,,1
+OPD-06ZMCXS4,3,General Medicine,0,,1
+OPD-074JI6RQ,4,Dental,0,,1
+OPD-07BXHF24,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-07LDWX8C,5,General Medicine,0,,0
+OPD-07RX2Q7V,5,General Medicine,0,,1
+OPD-07YUF2I7,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-0855XGFK,4,Orthopaedics,0,,1
+OPD-08FSUC29,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-08MLQKMS,5,General Medicine,0,,1
+OPD-0949TNRK,4,General Surgery,0,,1
+OPD-09AYV3J2,4,Pulmonology/Chest & TB,0,,1
+OPD-09HQ24BL,4,General Medicine,0,,1
+OPD-09V1GOYL,3,General Medicine,0,,1
+OPD-0A463NR2,5,Ophthalmology,0,,1
+OPD-0AFAM3Y8,3,General Medicine,0,,1
+OPD-0AFZOIS4,5,General Medicine,0,,1
+OPD-0AG3EZK0,3,General Medicine,0,,1
+OPD-0AKSSUEZ,4,Paediatrics,0,,1
+OPD-0AOPE88C,5,Psychiatry,0,,1
+OPD-0AT2ID1G,5,Dermatology,0,,1
+OPD-0AX83AZM,3,General Medicine,0,,1
+OPD-0B5I3Q00,4,General Surgery,0,,1
+OPD-0BIDGHJN,5,Orthopaedics,0,,1
+OPD-0BNJ6NJT,5,Paediatrics,0,,1
+OPD-0BP5RQ39,5,Obstetrics & Gynaecology,0,,1
+OPD-0BYQQ2MH,5,General Medicine,0,,1
+OPD-0CFMXEK2,5,General Surgery,0,,1
+OPD-0CGY442S,4,General Medicine,0,,1
+OPD-0CIIEM6P,4,ENT,0,,1
+OPD-0CKIZEFS,4,Orthopaedics,0,,1
+OPD-0CM6QGSS,4,General Medicine,0,,1
+OPD-0CZ3RA34,5,Orthopaedics,0,,1
+OPD-0D9G83VN,4,General Medicine,0,,1
+OPD-0D9X9GXA,5,Dermatology,0,,1
+OPD-0DRYS9CM,5,General Medicine,0,,1
+OPD-0E5XE4TZ,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-0E8FYT59,5,ENT,0,,1
+OPD-0EONHS4N,3,General Medicine,0,,1
+OPD-0EPEAKC3,4,General Medicine,0,,1
+OPD-0F01MKJL,5,General Medicine,0,,1
+OPD-0FL9K3ZJ,3,General Surgery,0,,0
+OPD-0FQZPXVH,3,General Medicine,0,,1
+OPD-0FRN1V5D,3,Obstetrics & Gynaecology,0,,1
+OPD-0FXZTJVW,5,Ophthalmology,0,,1
+OPD-0G8DS2JP,4,General Medicine,0,,1
+OPD-0GUYTCDD,3,General Medicine,0,,1
+OPD-0GVVDRO4,4,Dental,0,,1
+OPD-0GY8UL14,4,Paediatrics,0,,1
+OPD-0HA2I91W,4,General Medicine,0,,1
+OPD-0HWMPK31,3,General Medicine,0,,1
+OPD-0HZXTNKM,5,Dermatology,0,,1
+OPD-0IL2DAP8,4,Orthopaedics,0,,1
+OPD-0J6VTMBA,5,General Medicine,0,,1
+OPD-0KI9FQGF,5,General Surgery,0,,1
+OPD-0KOGK6BB,3,Paediatrics,0,,1
+OPD-0KOVJQIC,5,Dermatology,0,,1
+OPD-0KY2FFKY,3,General Medicine,0,,1
+OPD-0M0X8PKT,5,General Medicine,0,,1
+OPD-0M3V1SRS,3,Cardiology,0,,1
+OPD-0MA4I91R,4,Dental,0,,1
+OPD-0MDGPVDJ,3,General Medicine,0,,0
+OPD-0MNM5KQV,4,Dental,0,,1
+OPD-0MR1ZU0I,5,General Medicine,0,,1
+OPD-0MYRMG2G,3,Pulmonology/Chest & TB,0,,1
+OPD-0MZMEMHK,5,Ophthalmology,0,,1
+OPD-0NBSXC4V,4,General Surgery,0,,1
+OPD-0NCBOSXV,5,General Medicine,0,,1
+OPD-0NV43DHC,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-0NVSLAKY,5,General Medicine,0,,1
+OPD-0O6AOSMG,5,Orthopaedics,0,,1
+OPD-0OTK1TMR,3,General Surgery,0,,1
+OPD-0OUXOCVG,3,General Medicine,0,,1
+OPD-0OY8RPH5,4,Paediatrics,0,,1
+OPD-0P65HIHD,4,General Medicine,0,,1
+OPD-0Q3C9PVK,4,Paediatrics,0,,1
+OPD-0Q6E0THG,4,General Medicine,0,,1
+OPD-0QROWPMK,3,Pulmonology/Chest & TB,0,,1
+OPD-0QSOJE0B,3,General Medicine,0,,1
+OPD-0QW7TZDP,5,General Medicine,0,,1
+OPD-0R64TIIT,5,General Medicine,0,,1
+OPD-0R6A1FKP,5,Orthopaedics,0,,1
+OPD-0RCRIRZW,4,Pulmonology/Chest & TB,0,,1
+OPD-0RDKAGEU,2,Emergency/Casualty,1,,1
+OPD-0RMY03MH,4,General Medicine,0,,1
+OPD-0RP3KDX2,4,Paediatrics,0,,1
+OPD-0RPULLMR,4,Pulmonology/Chest & TB,0,,1
+OPD-0RRLB1EJ,4,Paediatrics,0,,1
+OPD-0RU2G9HI,5,Dermatology,0,,1
+OPD-0SD1SD9C,3,Paediatrics,0,,1
+OPD-0SJQG7B7,5,General Medicine,0,,0
+OPD-0TCT7A9L,4,Orthopaedics,0,,1
+OPD-0TQ7VN17,4,General Surgery,0,,1
+OPD-0TQ85EVB,5,Paediatrics,0,,1
+OPD-0U3DG8V3,4,Orthopaedics,0,,1
+OPD-0U9628QZ,4,General Medicine,0,,1
+OPD-0UA1LSYW,4,General Medicine,0,,1
+OPD-0UG9MJOD,4,General Surgery,0,,1
+OPD-0UUXSWTL,4,Psychiatry,0,,1
+OPD-0UVRFAFN,5,General Medicine,0,,1
+OPD-0VUECQIY,5,General Surgery,0,,1
+OPD-0VX8KUPH,4,Dental,0,,1
+OPD-0W0TAEP4,4,General Medicine,0,,1
+OPD-0W5W7LPC,4,General Medicine,0,,1
+OPD-0WBXDOJB,5,Ophthalmology,0,,1
+OPD-0WCIRC5D,5,ENT,0,,1
+OPD-0WH9D11S,3,Pulmonology/Chest & TB,0,,1
+OPD-0X2Y2LGK,5,General Medicine,0,,1
+OPD-0X3VWHAY,4,Orthopaedics,0,,1
+OPD-0X41J22G,5,Obstetrics & Gynaecology,0,,1
+OPD-0X6XR8RC,4,Paediatrics,0,,0
+OPD-0X9TDPEK,4,General Medicine,0,,1
+OPD-0XEFHXPJ,4,Paediatrics,0,,1
+OPD-0XP4O3O1,4,General Medicine,0,,1
+OPD-0XWJ274R,4,General Surgery,0,,1
+OPD-0XXH4R91,5,Obstetrics & Gynaecology,0,,1
+OPD-0XZOZL1F,3,General Surgery,0,,1
+OPD-0Y0W3F11,3,Paediatrics,0,,1
+OPD-0Y13VQTZ,4,General Medicine,0,,1
+OPD-0Y3SOAZA,4,General Medicine,0,,1
+OPD-0Z5FGEZS,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-0Z6AICXB,5,Paediatrics,0,,1
+OPD-0ZB6OB75,5,Dermatology,0,,1
+OPD-0ZD9K7LR,4,General Medicine,0,,1
+OPD-0ZO3IEM1,4,Paediatrics,0,,1
+OPD-104SOZ0C,4,General Medicine,0,,1
+OPD-10AB4N1O,5,Ophthalmology,0,,1
+OPD-10CTW5OE,4,General Medicine,0,,1
+OPD-10KBKJ4M,4,General Medicine,0,,1
+OPD-10MYZL8C,4,General Medicine,0,,1
+OPD-1100T0TZ,4,Dental,0,,1
+OPD-1158W6NB,5,Dermatology,0,,1
+OPD-11D8HBFT,5,Dermatology,0,,1
+OPD-11KTJC0C,5,ENT,0,,1
+OPD-11L2YDTU,3,General Medicine,0,,1
+OPD-12F0AWTY,4,Paediatrics,0,,1
+OPD-12OLPNU7,5,Obstetrics & Gynaecology,0,,1
+OPD-12RWWQPU,3,Pulmonology/Chest & TB,0,,1
+OPD-12T8YKAL,5,Paediatrics,0,,1
+OPD-12U6SBJF,3,General Medicine,0,,1
+OPD-12VHLBQU,4,General Medicine,0,,1
+OPD-12Y4O6VJ,5,Ophthalmology,0,,1
+OPD-136G8Q66,3,General Medicine,0,,1
+OPD-139XJYBT,5,Obstetrics & Gynaecology,0,,1
+OPD-13HDV51M,4,General Surgery,0,,1
+OPD-13J9DTH2,5,Obstetrics & Gynaecology,0,,1
+OPD-140EWYBT,5,Dermatology,0,,1
+OPD-14AKN9QE,4,General Medicine,0,,1
+OPD-14BHYT0P,4,Paediatrics,0,,1
+OPD-14SIQ0SI,5,ENT,0,,1
+OPD-14TTX3P6,4,General Surgery,0,,1
+OPD-153WQECJ,4,General Medicine,0,,1
+OPD-154AHK1U,3,General Surgery,0,,1
+OPD-16B7YMCF,3,General Surgery,0,,1
+OPD-16CO3SJZ,4,Orthopaedics,0,,1
+OPD-16QD475I,4,General Medicine,0,,1
+OPD-16WGWV89,5,Orthopaedics,0,,1
+OPD-173ZHBA3,4,General Medicine,0,,1
+OPD-17MNE6IX,5,Obstetrics & Gynaecology,0,,1
+OPD-17Q8MBVO,4,General Medicine,0,,1
+OPD-184SMBVR,5,General Medicine,0,,1
+OPD-186SRH7N,4,General Medicine,0,,1
+OPD-188GL8B4,4,Pulmonology/Chest & TB,0,,1
+OPD-18C9M933,5,Orthopaedics,0,,1
+OPD-18E03ZR0,4,General Medicine,0,,1
+OPD-18GZOJDV,4,Orthopaedics,0,,1
+OPD-18IDI9KX,3,General Medicine,0,,1
+OPD-19DQC8KN,5,Ophthalmology,0,,1
+OPD-19DYU1HV,4,General Medicine,0,,1
+OPD-19G9TAEK,3,Pulmonology/Chest & TB,0,,1
+OPD-19IW6JUH,5,Dermatology,0,,1
+OPD-19KN79X4,4,Ophthalmology,0,,1
+OPD-19ZUL6J4,5,Dental,0,,1
+OPD-1AAE7E0I,5,Dermatology,0,,1
+OPD-1AGUXAC3,4,General Medicine,0,,1
+OPD-1AH4MVK2,5,General Medicine,0,,1
+OPD-1AUR86PK,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-1B0IHPBY,4,General Medicine,0,,1
+OPD-1B6ANWTA,4,General Medicine,0,,1
+OPD-1C48RHSQ,5,General Medicine,0,,1
+OPD-1C4FA1SJ,5,General Medicine,0,,1
+OPD-1CF5LU1Y,5,General Medicine,0,,1
+OPD-1CIMRZV7,3,General Surgery,0,,1
+OPD-1CNCMDBB,3,General Medicine,0,,1
+OPD-1COU2ZVY,4,Dental,0,,1
+OPD-1CT2AU2M,4,Ophthalmology,0,,1
+OPD-1DDEAV70,4,General Medicine,0,,1
+OPD-1DOPQQU8,5,General Medicine,0,,1
+OPD-1EC3LA3T,5,General Medicine,0,,1
+OPD-1EFFAFPS,5,Pulmonology/Chest & TB,0,,1
+OPD-1EG5KVII,5,General Medicine,0,,1
+OPD-1EMM1KUK,3,General Medicine,0,,1
+OPD-1EP7X9YI,5,General Medicine,0,,1
+OPD-1EVHIYVE,5,Ophthalmology,0,,1
+OPD-1FPJ611I,5,ENT,0,,1
+OPD-1FPN7Z5W,5,Ophthalmology,0,,1
+OPD-1FVRVA7H,3,General Medicine,0,,1
+OPD-1G5390G5,3,Obstetrics & Gynaecology,0,,1
+OPD-1GU1STBY,4,General Medicine,0,,1
+OPD-1H4KPGNJ,4,General Medicine,0,,1
+OPD-1H56XUB7,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-1HA9NQLS,3,General Medicine,0,,1
+OPD-1HNMR0SZ,4,ENT,0,,1
+OPD-1HOMNS5Q,5,General Medicine,0,,1
+OPD-1HOYSM91,5,Orthopaedics,0,,1
+OPD-1HQ51NRY,4,Ophthalmology,0,,1
+OPD-1HT43B1H,4,Orthopaedics,0,,1
+OPD-1IHVVORA,5,Dental,0,,1
+OPD-1IJUZPVA,4,General Surgery,0,,1
+OPD-1IXU0PG9,5,Orthopaedics,0,,1
+OPD-1J66AZNQ,5,Orthopaedics,0,,1
+OPD-1JP9TEIN,4,General Medicine,0,,1
+OPD-1K34XYRR,4,Orthopaedics,0,,1
+OPD-1KFS5USS,4,ENT,0,,1
+OPD-1KNXYKBA,4,Paediatrics,0,,1
+OPD-1KTALZYH,4,General Medicine,0,,1
+OPD-1LFQDXXP,4,Orthopaedics,0,,1
+OPD-1LYOGYH2,3,General Surgery,0,,1
+OPD-1M1HKCIO,3,General Surgery,0,,1
+OPD-1MC6O0OJ,4,General Surgery,0,,1
+OPD-1MXR0XUF,3,Cardiology,0,,1
+OPD-1N28WD31,5,General Surgery,0,,1
+OPD-1NA920D0,3,General Medicine,0,,0
+OPD-1NCLYYLN,5,General Medicine,0,,1
+OPD-1NO5H7II,4,General Medicine,0,,1
+OPD-1NQG4ZN4,5,Orthopaedics,0,,0
+OPD-1NYRVIM1,4,Dental,0,,1
+OPD-1O7DKFSF,3,General Surgery,0,,1
+OPD-1OJWN8M8,5,General Surgery,0,,1
+OPD-1ORC7981,4,Obstetrics & Gynaecology,0,,1
+OPD-1PCYLIUD,4,General Medicine,0,,1
+OPD-1PEPJKCQ,3,General Medicine,0,,1
+OPD-1PVO0PX4,4,General Surgery,0,,1
+OPD-1QI1GDHI,5,Orthopaedics,0,,1
+OPD-1QJ8HB9L,5,General Surgery,0,,1
+OPD-1QK5ZRIW,4,General Surgery,0,,1
+OPD-1QK6ZZYZ,4,General Medicine,0,,1
+OPD-1QVKI4WX,5,General Surgery,0,,1
+OPD-1QX9RF2H,5,General Medicine,0,,1
+OPD-1R7NY0TV,4,General Medicine,0,,1
+OPD-1RUROFVS,4,General Medicine,0,,1
+OPD-1SQ6TNQK,3,Orthopaedics,0,,1
+OPD-1SU3GW71,3,General Medicine,0,,1
+OPD-1SYK2KF9,3,General Medicine,0,,1
+OPD-1T587GF3,5,Dermatology,0,,1
+OPD-1T664QQQ,3,General Medicine,0,,1
+OPD-1TAMB59G,4,General Medicine,0,,1
+OPD-1TFSSVAN,4,General Medicine,0,,1
+OPD-1THJ3QNT,4,General Medicine,0,,1
+OPD-1TR8TJ1F,5,Dermatology,0,,1
+OPD-1TYLRVV2,3,Pulmonology/Chest & TB,0,,1
+OPD-1UBI06MV,5,Dermatology,0,,1
+OPD-1UEV2CK4,5,Orthopaedics,0,,1
+OPD-1UWJVLLM,4,General Medicine,0,,1
+OPD-1V3CXAF7,3,General Surgery,0,,1
+OPD-1V52FAAR,4,General Medicine,0,,1
+OPD-1V98WJ4G,3,General Medicine,0,,1
+OPD-1VAVS4EQ,4,Paediatrics,0,,1
+OPD-1VBSVCYG,4,General Medicine,0,,1
+OPD-1VGMNDHO,4,Paediatrics,0,,1
+OPD-1VIT4VVU,4,General Medicine,0,,1
+OPD-1W5LOF8C,5,General Medicine,0,,1
+OPD-1WBQ8R51,3,Pulmonology/Chest & TB,0,,1
+OPD-1WBY3KZY,4,Ophthalmology,0,,1
+OPD-1WMNJOQM,5,Orthopaedics,0,,1
+OPD-1WWCOS2N,4,Orthopaedics,0,,1
+OPD-1WYLY60Y,4,General Surgery,0,,1
+OPD-1XEEXDMJ,5,Obstetrics & Gynaecology,0,,1
+OPD-1XJ9R8QV,5,ENT,0,,1
+OPD-1YEJ0UID,5,General Medicine,0,,1
+OPD-1YZSEQHF,4,General Medicine,0,,1
+OPD-1Z0G8ZI0,4,Paediatrics,0,,1
+OPD-203KTP23,5,Dermatology,0,,1
+OPD-208T4TDY,4,General Medicine,0,,1
+OPD-20DT5K0C,5,Orthopaedics,0,,1
+OPD-20GDI805,5,Orthopaedics,0,,1
+OPD-20OI9IOJ,5,Dermatology,0,,1
+OPD-20UIE256,3,General Medicine,0,,1
+OPD-21D7F8QE,4,Orthopaedics,0,,1
+OPD-21GWUH8U,4,Orthopaedics,0,,1
+OPD-21LD86NF,5,General Medicine,0,,1
+OPD-21RJZTXZ,3,Pulmonology/Chest & TB,0,,1
+OPD-21VJ6KPV,5,General Surgery,0,,1
+OPD-2200MXWS,4,General Surgery,0,,1
+OPD-22625OUU,5,Paediatrics,0,,1
+OPD-22T163VG,5,Dental,0,,1
+OPD-22VDS3H8,3,General Surgery,0,,1
+OPD-230OL828,4,General Surgery,0,,1
+OPD-23954C24,4,General Medicine,0,,1
+OPD-23BWSFU5,4,General Medicine,0,,1
+OPD-24TTM8AL,1,Emergency/Casualty,1,RF_DENGUE_WARNING;RF_SEPSIS_SIGNS,1
+OPD-257YZ2J4,4,General Surgery,0,,1
+OPD-2599TCBW,5,General Medicine,0,,1
+OPD-25A3LI6A,4,General Surgery,0,,1
+OPD-25GHRQJU,4,General Medicine,0,,1
+OPD-25RDWPRW,5,Pulmonology/Chest & TB,0,,1
+OPD-25TX2BBZ,4,Orthopaedics,0,,1
+OPD-25VZ172R,4,General Medicine,0,,1
+OPD-25WKZ9HQ,5,Paediatrics,0,,1
+OPD-26O948MO,3,Paediatrics,0,,1
+OPD-26UKOX2R,4,Paediatrics,0,,1
+OPD-26UWQNMD,4,Pulmonology/Chest & TB,0,,1
+OPD-27J72MRX,3,General Medicine,0,,1
+OPD-27LYINJV,4,General Medicine,0,,0
+OPD-27PXCLXB,4,Paediatrics,0,,1
+OPD-2823ZXJ0,4,General Medicine,0,,1
+OPD-284P6XAM,5,General Medicine,0,,1
+OPD-2891TNYD,4,General Medicine,0,,1
+OPD-291ITA4T,3,General Surgery,0,,1
+OPD-294Q017U,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-29IP7ZJR,3,General Medicine,0,,1
+OPD-29JKVTSF,3,General Surgery,0,,1
+OPD-29R6F08D,4,General Medicine,0,,1
+OPD-29Z9WDG9,4,General Surgery,0,,1
+OPD-2A440G2M,5,General Medicine,0,,1
+OPD-2ATWQLS7,5,Orthopaedics,0,,1
+OPD-2AU2OVUJ,4,Paediatrics,0,,1
+OPD-2AUBO4PE,4,General Medicine,0,,1
+OPD-2AWRG1V2,5,ENT,0,,1
+OPD-2BCRTXTL,4,Orthopaedics,0,,1
+OPD-2BRYQ225,4,General Medicine,0,,1
+OPD-2C02RRR1,4,General Medicine,0,,1
+OPD-2C2UVIL9,5,Dermatology,0,,1
+OPD-2C4BVKDV,4,General Medicine,0,,1
+OPD-2CB56CHS,5,Paediatrics,0,,1
+OPD-2CTZEEMP,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-2CYM6YL1,1,Emergency/Casualty,1,RF_ANAPHYLAXIS,1
+OPD-2D8LWPIK,4,Paediatrics,0,,1
+OPD-2DB0IY79,3,Pulmonology/Chest & TB,0,,1
+OPD-2DBN49SH,3,Paediatrics,0,,1
+OPD-2DHX3BHG,5,Paediatrics,0,,1
+OPD-2DIV5E9D,4,Orthopaedics,0,,1
+OPD-2DT8MI85,3,Cardiology,0,,1
+OPD-2DTVARJW,4,General Surgery,0,,1
+OPD-2DUB42W8,5,Psychiatry,0,,1
+OPD-2E2FWZIT,5,Obstetrics & Gynaecology,0,,1
+OPD-2E46NX9D,4,General Surgery,0,,1
+OPD-2E7JVNSO,5,Obstetrics & Gynaecology,0,,1
+OPD-2E8TQM7I,4,General Medicine,0,,1
+OPD-2EI767Q0,4,Orthopaedics,0,,1
+OPD-2EMOXQ2D,5,Dermatology,0,,1
+OPD-2ES7GF8D,4,Orthopaedics,0,,1
+OPD-2ETR77ZB,5,General Medicine,0,,1
+OPD-2EV7MHQE,5,Orthopaedics,0,,1
+OPD-2F3LGBJT,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-2F9USUKP,4,Orthopaedics,0,,1
+OPD-2FDEDDTM,3,General Medicine,0,,1
+OPD-2FKLQ74L,3,General Medicine,0,,1
+OPD-2FLDJOET,4,Paediatrics,0,,0
+OPD-2FQ789KC,3,General Medicine,0,,1
+OPD-2FQBRVFJ,4,General Surgery,0,,1
+OPD-2GIYPML5,4,General Medicine,0,,1
+OPD-2GUAM4K2,4,General Surgery,0,,1
+OPD-2HDY10HH,4,General Medicine,0,,1
+OPD-2HZJHLY4,5,Paediatrics,0,,1
+OPD-2ITE3JUP,3,General Medicine,0,,1
+OPD-2IUR6CEF,4,General Medicine,0,,1
+OPD-2J03KVNO,4,General Medicine,0,,1
+OPD-2J1WECEH,4,General Medicine,0,,1
+OPD-2J2HO6RI,3,General Medicine,0,,1
+OPD-2JHRQ6N6,5,Pulmonology/Chest & TB,0,,1
+OPD-2JJ0L7QG,5,Paediatrics,0,,1
+OPD-2JQHY9OO,5,General Medicine,0,,1
+OPD-2JR70G72,3,Paediatrics,0,,1
+OPD-2JWIGMI0,4,General Surgery,0,,1
+OPD-2KBFYXDN,4,General Medicine,0,,1
+OPD-2KOJSLZU,4,General Medicine,0,,1
+OPD-2L1LEKMJ,5,General Surgery,0,,1
+OPD-2L49VWFR,3,Pulmonology/Chest & TB,0,,1
+OPD-2LPY5FVS,4,General Medicine,0,,1
+OPD-2M0NKAAI,4,Paediatrics,0,,1
+OPD-2M4PBUQJ,5,Dental,0,,1
+OPD-2MI447Z5,5,Paediatrics,0,,1
+OPD-2MSL3B3J,4,Paediatrics,0,,1
+OPD-2MY1QPBP,4,Orthopaedics,0,,1
+OPD-2MY8OJJK,4,Paediatrics,0,,1
+OPD-2N09F5Q0,5,General Medicine,0,,1
+OPD-2NAGP5NP,5,Orthopaedics,0,,1
+OPD-2NBMUZJA,4,General Medicine,0,,1
+OPD-2NLR1IUJ,5,Orthopaedics,0,,1
+OPD-2NPC3CHN,4,General Medicine,0,,1
+OPD-2O341KYM,5,Orthopaedics,0,,1
+OPD-2O5AD7XR,4,General Surgery,0,,1
+OPD-2O92WGV0,4,General Medicine,0,,1
+OPD-2OXC54YJ,4,Pulmonology/Chest & TB,0,,1
+OPD-2OY879ZL,4,General Medicine,0,,1
+OPD-2PH6MHEZ,4,General Medicine,0,,1
+OPD-2PHJEGYI,5,General Medicine,0,,1
+OPD-2PNU2YQ6,4,Paediatrics,0,,1
+OPD-2PSO2YR0,5,Dermatology,0,,1
+OPD-2Q6V721L,4,Orthopaedics,0,,1
+OPD-2Q8STUM3,4,General Surgery,0,,1
+OPD-2QIZO5TS,4,Paediatrics,0,,1
+OPD-2QQN28HO,5,General Medicine,0,,1
+OPD-2RBD8APJ,4,General Medicine,0,,1
+OPD-2RBWAVMZ,3,General Medicine,0,,1
+OPD-2RCLFJG3,4,General Medicine,0,,1
+OPD-2REN9K07,5,Paediatrics,0,,1
+OPD-2RR3PJH3,4,Orthopaedics,0,,1
+OPD-2SJXKL4V,2,Emergency/Casualty,1,,1
+OPD-2SN3AWPC,5,Orthopaedics,0,,1
+OPD-2SNAAJWU,5,General Medicine,0,,1
+OPD-2T0FPATS,4,General Medicine,0,,1
+OPD-2TKLCLB1,4,General Medicine,0,,1
+OPD-2TWP31OS,3,General Medicine,0,,1
+OPD-2UE0IV89,4,General Medicine,0,,1
+OPD-2V3A1CT5,3,General Surgery,0,,1
+OPD-2VGJA3AB,4,General Medicine,0,,1
+OPD-2VUFKJ7B,4,General Medicine,0,,1
+OPD-2W6WEMF8,5,General Medicine,0,,1
+OPD-2WH3LQSU,4,Obstetrics & Gynaecology,0,,1
+OPD-2WKC7HUZ,5,Orthopaedics,0,,0
+OPD-2WLWHVQT,5,Obstetrics & Gynaecology,0,,1
+OPD-2WP53ZFH,3,General Surgery,0,,1
+OPD-2X0JTLV2,4,General Surgery,0,,1
+OPD-2X4PX9MP,4,General Medicine,0,,1
+OPD-2X502RI8,3,General Medicine,0,,1
+OPD-2X8KKERZ,5,General Medicine,0,,1
+OPD-2XJ3FJ2C,4,General Medicine,0,,1
+OPD-2XR6121E,4,Paediatrics,0,,1
+OPD-2YAM24Y8,4,General Medicine,0,,1
+OPD-2YEZEC0S,4,Paediatrics,0,,1
+OPD-2YKIZ33E,5,General Medicine,0,,1
+OPD-2YUQT6L4,3,General Medicine,0,,1
+OPD-2ZB1Q7IN,4,General Medicine,0,,1
+OPD-2ZJIRIOU,5,General Medicine,0,,1
+OPD-2ZOKPZ8M,5,General Medicine,0,,1
+OPD-2ZWARPCJ,4,General Medicine,0,,1
+OPD-3072HXI9,5,Ophthalmology,0,,1
+OPD-3073Z7BL,4,General Medicine,0,,1
+OPD-307BFLD8,5,ENT,0,,1
+OPD-30L9C5BX,5,Dental,0,,1
+OPD-30LO4YV7,5,Obstetrics & Gynaecology,0,,1
+OPD-30MGK7Z6,4,General Medicine,0,,1
+OPD-30Q917PX,5,General Medicine,0,,1
+OPD-30S5AG6F,3,General Medicine,0,,1
+OPD-30V66XLB,4,ENT,0,,1
+OPD-30X997Z5,4,General Medicine,0,,1
+OPD-311WIG9W,4,General Medicine,0,,1
+OPD-31J45SG9,4,Paediatrics,0,,1
+OPD-31KIHGXA,4,Orthopaedics,0,,1
+OPD-31NSO0H6,5,ENT,0,,1
+OPD-32KG9XWR,5,General Medicine,0,,1
+OPD-32V55FGY,4,Pulmonology/Chest & TB,0,,1
+OPD-336AAWC6,5,General Medicine,0,,1
+OPD-33BDT266,4,Paediatrics,0,,1
+OPD-33GIE9JG,5,Dental,0,,1
+OPD-33HCU3DI,4,General Medicine,0,,1
+OPD-33V27HH1,4,General Medicine,0,,1
+OPD-3450CSZS,3,General Medicine,0,,1
+OPD-34D7BABR,3,General Surgery,0,,1
+OPD-34LLJLP0,5,Orthopaedics,0,,1
+OPD-34SV45IA,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_TRAUMA_MAJOR,1
+OPD-34ZGZMKT,5,Psychiatry,0,,1
+OPD-355LPE9V,4,General Medicine,0,,1
+OPD-3589GN39,5,Dermatology,0,,1
+OPD-35DGT547,4,General Medicine,0,,1
+OPD-35NKFFGT,5,General Medicine,0,,1
+OPD-3638PKDX,3,Paediatrics,0,,1
+OPD-365GJWZV,1,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-36D23MFW,4,General Medicine,0,,1
+OPD-36MFSQHY,4,General Medicine,0,,1
+OPD-37AE1V99,5,Dermatology,0,,1
+OPD-37MW89PL,2,Emergency/Casualty,1,RF_POISONING;RF_SUICIDAL,1
+OPD-37Z3Z0VH,4,General Medicine,0,,1
+OPD-386FIDEO,4,General Medicine,0,,1
+OPD-38IZJCH9,5,Obstetrics & Gynaecology,0,,1
+OPD-38QKARR3,4,General Medicine,0,,1
+OPD-3919I311,4,General Surgery,0,,1
+OPD-394PXPT5,5,Paediatrics,0,,1
+OPD-39OMAXIC,5,Orthopaedics,0,,1
+OPD-39TJPLRS,3,General Surgery,0,,1
+OPD-39WXE993,4,General Medicine,0,,1
+OPD-3A8JY2WE,3,General Medicine,0,,1
+OPD-3ARQP74W,5,Paediatrics,0,,0
+OPD-3ATZY5GL,4,General Medicine,0,,1
+OPD-3BBAKRKM,3,General Medicine,0,,1
+OPD-3BTZ3OYQ,4,General Surgery,0,,1
+OPD-3BW2VQ56,4,General Medicine,0,,1
+OPD-3BYZTQ8R,5,General Medicine,0,,1
+OPD-3CA5CWHD,3,General Medicine,0,,1
+OPD-3CAN9AVX,4,General Medicine,0,,1
+OPD-3CGUV86D,5,General Medicine,0,,1
+OPD-3CP9B277,4,General Medicine,0,,1
+OPD-3CSIC7I5,3,General Surgery,0,,1
+OPD-3CW9STQJ,5,General Medicine,0,,1
+OPD-3D54LERO,4,General Medicine,0,,1
+OPD-3D72FVIX,4,ENT,0,,1
+OPD-3DAGTZ0M,3,Paediatrics,0,,1
+OPD-3DDVHNBK,4,Paediatrics,0,,0
+OPD-3DKCMUDU,5,General Medicine,0,,0
+OPD-3DO43WV2,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-3EHBE17O,5,Dermatology,0,,1
+OPD-3EJQLG49,3,General Surgery,0,,1
+OPD-3EQTJIHV,4,General Medicine,0,,1
+OPD-3ERELR1S,3,General Medicine,0,,1
+OPD-3F4MZOJU,5,Psychiatry,0,,1
+OPD-3FDEAI0Z,3,Obstetrics & Gynaecology,0,,1
+OPD-3FFNVYG9,3,General Medicine,0,,1
+OPD-3FTHHF7J,5,Paediatrics,0,,1
+OPD-3G7FW6TW,5,Dermatology,0,,1
+OPD-3GHFEST8,5,General Medicine,0,,1
+OPD-3GJ56008,2,Emergency/Casualty,1,RF_BURNS_MAJOR,1
+OPD-3H64K8AZ,5,Obstetrics & Gynaecology,0,,1
+OPD-3HF6JN1G,5,Ophthalmology,0,,1
+OPD-3HG628HB,4,General Medicine,0,,1
+OPD-3HNQH8PR,4,Orthopaedics,0,,1
+OPD-3HVZZEBE,5,General Medicine,0,,1
+OPD-3HXOED7X,3,General Surgery,0,,1
+OPD-3IFV4CEL,4,General Medicine,0,,1
+OPD-3IG0SAQR,5,General Medicine,0,,1
+OPD-3IL4F20X,3,General Medicine,0,,1
+OPD-3IM94NR2,4,Obstetrics & Gynaecology,0,,1
+OPD-3IZVWXVX,4,ENT,0,,1
+OPD-3J8HH56V,5,Dermatology,0,,1
+OPD-3JAVL6QE,4,General Medicine,0,,1
+OPD-3JBVJGOT,3,General Medicine,0,,1
+OPD-3KAAT7YH,5,General Medicine,0,,1
+OPD-3KJSYIG4,4,Paediatrics,0,,1
+OPD-3LFYPMKI,5,General Medicine,0,,1
+OPD-3LU6FDML,5,General Medicine,0,,1
+OPD-3LYRJCLN,4,Dental,0,,1
+OPD-3M62JEA7,2,Emergency/Casualty,1,,1
+OPD-3MFNSMO9,4,General Medicine,0,,1
+OPD-3MWT86CQ,4,General Medicine,0,,1
+OPD-3MXAQ60V,3,General Surgery,0,,1
+OPD-3MXXWEVT,4,Obstetrics & Gynaecology,0,,1
+OPD-3NGMDHVM,4,General Medicine,0,,1
+OPD-3NLKZNFT,4,Paediatrics,0,,1
+OPD-3NRPRY0H,3,General Surgery,0,,1
+OPD-3O6IJQOA,5,Ophthalmology,0,,1
+OPD-3O9I1CH7,4,General Medicine,0,,1
+OPD-3OCKUJIF,5,General Medicine,0,,0
+OPD-3OCWGSA9,3,Paediatrics,0,,1
+OPD-3ONQ0NJZ,4,General Medicine,0,,1
+OPD-3OP7CJNC,5,General Medicine,0,,1
+OPD-3ORYV5RC,4,Obstetrics & Gynaecology,0,,1
+OPD-3OXPFQQK,4,Ophthalmology,0,,1
+OPD-3P49EYWM,5,Dermatology,0,,1
+OPD-3PATXJ6Y,4,General Surgery,0,,1
+OPD-3PN48QZF,4,General Surgery,0,,1
+OPD-3QCI0ODW,3,Pulmonology/Chest & TB,0,,1
+OPD-3QG72FKZ,3,General Surgery,0,,0
+OPD-3R8LZTDE,4,General Medicine,0,,1
+OPD-3RUCZCKE,4,General Surgery,0,,1
+OPD-3SKNOLF8,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-3SW03SID,3,General Medicine,0,,1
+OPD-3SZ9HQD6,4,General Medicine,0,,1
+OPD-3T9EX1I8,4,General Medicine,0,,1
+OPD-3TCFPEXY,4,General Surgery,0,,1
+OPD-3TRJN768,3,General Medicine,0,,1
+OPD-3TY7FIJM,5,Psychiatry,0,,1
+OPD-3UYFOLLY,3,General Medicine,0,,1
+OPD-3V0KGNQ7,4,General Medicine,0,,1
+OPD-3VABKOIO,4,ENT,0,,1
+OPD-3VILJWKG,4,General Surgery,0,,1
+OPD-3VM5UXAG,5,Dental,0,,1
+OPD-3W8JAHXP,3,Cardiology,0,,1
+OPD-3WA53V3E,4,Paediatrics,0,,1
+OPD-3WSOXLJA,3,Pulmonology/Chest & TB,0,,1
+OPD-3X1CIDHJ,4,Paediatrics,0,,1
+OPD-3XCCG5AT,4,General Surgery,0,,1
+OPD-3XHYPBYD,3,General Medicine,0,,1
+OPD-3XK55KEK,3,General Surgery,0,,1
+OPD-3Y65QS58,3,General Surgery,0,,1
+OPD-3YB0XXME,4,Orthopaedics,0,,1
+OPD-3YIL0B7E,4,General Medicine,0,,1
+OPD-3ZDOQV7R,5,Dental,0,,1
+OPD-400RCA2M,5,General Medicine,0,,1
+OPD-409T02F7,3,General Surgery,0,,1
+OPD-40L0AP02,3,General Surgery,0,,1
+OPD-410WP701,5,Psychiatry,0,,1
+OPD-414MMJFU,5,Dermatology,0,,1
+OPD-41C2K095,4,General Medicine,0,,1
+OPD-41UW5YA2,4,General Medicine,0,,1
+OPD-42OFV5S7,4,General Surgery,0,,1
+OPD-42Y1HJDW,5,Obstetrics & Gynaecology,0,,1
+OPD-43F87S5H,5,Pulmonology/Chest & TB,0,,1
+OPD-43TBIOHQ,4,Orthopaedics,0,,1
+OPD-43YKF1W8,5,Obstetrics & Gynaecology,0,,1
+OPD-44EWQBJG,4,Paediatrics,0,,1
+OPD-44WLR3WZ,5,General Medicine,0,,1
+OPD-450MQS5T,4,General Medicine,0,,1
+OPD-457ITOU2,5,Obstetrics & Gynaecology,0,,1
+OPD-45H0XI6R,5,General Surgery,0,,1
+OPD-45KNCFPN,4,General Medicine,0,,1
+OPD-45LTD74U,4,General Medicine,0,,1
+OPD-45PVMAYQ,4,General Medicine,0,,1
+OPD-46IBY8H0,4,General Medicine,0,,1
+OPD-46PGCUOD,4,General Medicine,0,,1
+OPD-46S18P1I,5,ENT,0,,1
+OPD-46UIU0TD,2,Emergency/Casualty,1,,1
+OPD-4734ZZCR,4,Orthopaedics,0,,1
+OPD-47953ZJB,4,General Medicine,0,,1
+OPD-47KPWXDG,4,General Surgery,0,,1
+OPD-47RNW9VP,4,General Medicine,0,,1
+OPD-48FE8UGK,4,Obstetrics & Gynaecology,0,,1
+OPD-48GET2J4,4,General Medicine,0,,1
+OPD-48O4W4S5,4,General Medicine,0,,1
+OPD-48QRDIBL,5,Obstetrics & Gynaecology,0,,1
+OPD-49NW86L9,5,General Medicine,0,,1
+OPD-4A3JFQAJ,5,General Medicine,0,,1
+OPD-4AAQVM3W,4,General Medicine,0,,1
+OPD-4AD2IVN3,4,General Medicine,0,,1
+OPD-4AGO1UD7,4,General Medicine,0,,1
+OPD-4AI8TXT3,4,ENT,0,,1
+OPD-4AOIC6L8,5,Orthopaedics,0,,1
+OPD-4ARJS43T,5,Ophthalmology,0,,1
+OPD-4AUI143S,4,General Medicine,0,,1
+OPD-4B2Y2CVK,5,Orthopaedics,0,,1
+OPD-4BIVP2ZT,5,Orthopaedics,0,,1
+OPD-4BJNY384,4,Paediatrics,0,,1
+OPD-4BMKVNSN,4,General Medicine,0,,1
+OPD-4BRA4N4O,5,General Medicine,0,,1
+OPD-4BUE8DJP,4,General Medicine,0,,1
+OPD-4C6QYFXA,1,Emergency/Casualty,1,RF_SEIZURE,1
+OPD-4CBQ5T61,3,Cardiology,0,,1
+OPD-4CU7QN11,4,General Surgery,0,,1
+OPD-4CZ5NN0T,5,Dental,0,,1
+OPD-4D74UZAO,3,Pulmonology/Chest & TB,0,,1
+OPD-4DL9PNC6,4,General Medicine,0,,1
+OPD-4DQKPNSS,1,Emergency/Casualty,1,RF_POISONING,1
+OPD-4E80XEXL,4,Psychiatry,0,,1
+OPD-4EEVGGFH,5,General Surgery,0,,1
+OPD-4F1EB4MB,4,General Medicine,0,,1
+OPD-4FD8P4RM,4,General Medicine,0,,1
+OPD-4FHEWO34,4,ENT,0,,1
+OPD-4FPTHEZI,5,General Medicine,0,,1
+OPD-4FRXMA4O,3,General Medicine,0,,1
+OPD-4FU2NQ19,4,General Medicine,0,,1
+OPD-4G3WPCCN,4,General Medicine,0,,1
+OPD-4G4CL3SD,4,Paediatrics,0,,1
+OPD-4G725IVK,5,Pulmonology/Chest & TB,0,,1
+OPD-4GBBCZ4I,4,Dental,0,,1
+OPD-4GR6ET1G,4,General Surgery,0,,1
+OPD-4GTLV4BB,4,General Medicine,0,,1
+OPD-4GU4C5CT,4,General Surgery,0,,1
+OPD-4GW5JV0W,4,General Medicine,0,,1
+OPD-4GYGAPHJ,5,Ophthalmology,0,,1
+OPD-4H0W85RI,4,Pulmonology/Chest & TB,0,,1
+OPD-4HN1FJGC,3,General Medicine,0,,1
+OPD-4HY8RC1U,4,General Medicine,0,,1
+OPD-4I7NQ4T4,4,Paediatrics,0,,1
+OPD-4IAYVDE5,4,General Surgery,0,,1
+OPD-4IGUZGW7,4,Dental,0,,1
+OPD-4ILB1BWU,3,General Medicine,0,,1
+OPD-4INGIDIW,4,General Medicine,0,,1
+OPD-4JST4RD5,5,General Medicine,0,,1
+OPD-4JWX1NBG,5,Ophthalmology,0,,1
+OPD-4K8L9TF3,5,Dental,0,,1
+OPD-4KBKF6S7,4,Paediatrics,0,,1
+OPD-4KFV53CO,4,General Medicine,0,,1
+OPD-4KN630ND,3,General Surgery,0,,1
+OPD-4KV63QP2,4,Paediatrics,0,,1
+OPD-4LDRXVX5,4,Paediatrics,0,,1
+OPD-4LRJ9CAP,4,General Medicine,0,,1
+OPD-4LRYGXCE,5,Paediatrics,0,,1
+OPD-4LSPK783,5,General Medicine,0,,1
+OPD-4LTCNDV3,4,General Medicine,0,,1
+OPD-4M0YZFY4,4,General Medicine,0,,1
+OPD-4MBQBNGZ,5,Dermatology,0,,1
+OPD-4MEGEC5O,3,Pulmonology/Chest & TB,0,,1
+OPD-4MJPQM6Y,3,Cardiology,0,,1
+OPD-4MYK4W2S,3,General Medicine,0,,1
+OPD-4N3MOZS3,4,General Medicine,0,,1
+OPD-4NA4LKQP,4,Paediatrics,0,,1
+OPD-4NBYFW75,5,General Medicine,0,,0
+OPD-4NCFX0JB,5,Ophthalmology,0,,1
+OPD-4OIOUANJ,4,General Medicine,0,,1
+OPD-4OKT6V0P,5,General Surgery,0,,1
+OPD-4OU4X052,4,General Medicine,0,,1
+OPD-4P8GYK1D,5,Dermatology,0,,1
+OPD-4PMJGAEX,4,General Surgery,0,,1
+OPD-4PZIGQS4,4,General Medicine,0,,1
+OPD-4Q8GL6ML,5,Dental,0,,1
+OPD-4QHJTL5Q,4,Obstetrics & Gynaecology,0,,1
+OPD-4QJROTN5,4,General Medicine,0,,1
+OPD-4QRLDDYO,5,General Medicine,0,,1
+OPD-4QV0KIHN,5,Paediatrics,0,,1
+OPD-4QVQR03B,3,Orthopaedics,0,,1
+OPD-4QXK4Q4M,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_RESP_DISTRESS,1
+OPD-4R3HTWY9,5,General Medicine,0,,1
+OPD-4R8N0GP8,4,Orthopaedics,0,,1
+OPD-4RIK9FJN,4,General Medicine,0,,1
+OPD-4RKOVBVA,5,Orthopaedics,0,,1
+OPD-4RNKUPNM,5,ENT,0,,1
+OPD-4RQ0ZZ0G,4,General Medicine,0,,1
+OPD-4SJA2RX5,3,General Surgery,0,,1
+OPD-4T03V15N,5,Paediatrics,0,,1
+OPD-4T0F16LL,1,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-4U3RQNQH,5,General Medicine,0,,1
+OPD-4UDPU3NJ,5,Orthopaedics,0,,1
+OPD-4UFVXZRL,5,Orthopaedics,0,,1
+OPD-4UM7HN03,4,General Medicine,0,,1
+OPD-4UOC51W0,3,General Medicine,0,,1
+OPD-4UWSRVRS,4,General Surgery,0,,1
+OPD-4V1I4GRQ,4,General Medicine,0,,1
+OPD-4V25ATLC,4,Paediatrics,0,,1
+OPD-4V32HIDO,3,Paediatrics,0,,1
+OPD-4VXMWHBV,1,Emergency/Casualty,1,RF_SEIZURE,1
+OPD-4VY5N87C,4,General Medicine,0,,1
+OPD-4W30PNTX,3,General Surgery,0,,1
+OPD-4WA3OZR6,4,General Medicine,0,,1
+OPD-4WMHTMR3,4,Paediatrics,0,,1
+OPD-4WRC52TD,4,General Medicine,0,,1
+OPD-4X5EMT5P,4,Paediatrics,0,,1
+OPD-4XITE4S6,5,General Medicine,0,,1
+OPD-4XWQG94H,4,General Surgery,0,,1
+OPD-4YGSUN03,3,General Medicine,0,,1
+OPD-4YZHD3B5,5,Pulmonology/Chest & TB,0,,1
+OPD-4Z6BH4OV,4,General Medicine,0,,1
+OPD-4ZWI0Y47,3,General Medicine,0,,1
+OPD-503HKF1M,4,General Medicine,0,,1
+OPD-505X0BC3,5,General Medicine,0,,1
+OPD-508O9B9Z,3,Pulmonology/Chest & TB,0,,1
+OPD-50J669ZR,4,General Medicine,0,,1
+OPD-50NEY25E,3,Cardiology,0,,1
+OPD-50R850AA,4,General Medicine,0,,1
+OPD-50W23YVL,4,General Medicine,0,,1
+OPD-51G5D9H4,4,General Medicine,0,,1
+OPD-51O8OYL3,5,Orthopaedics,0,,1
+OPD-51PJBPBK,5,Paediatrics,0,,1
+OPD-528CNZXK,5,Pulmonology/Chest & TB,0,,1
+OPD-52IGZDM4,5,ENT,0,,1
+OPD-52P0GBCI,5,Pulmonology/Chest & TB,0,,1
+OPD-52V6URKM,4,General Medicine,0,,1
+OPD-545NAJ2O,4,Orthopaedics,0,,1
+OPD-54NFMWRQ,5,Dermatology,0,,1
+OPD-54PZCZ40,3,General Medicine,0,,1
+OPD-54WQ1W80,5,General Medicine,0,,1
+OPD-55E5RZUK,4,General Medicine,0,,1
+OPD-55JIOLS7,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-56T3XIU5,3,General Medicine,0,,1
+OPD-56U0Z93E,5,Orthopaedics,0,,1
+OPD-575NK879,5,ENT,0,,1
+OPD-57NND16A,4,ENT,0,,1
+OPD-57P9HTBG,3,Paediatrics,0,,1
+OPD-57PB3M1U,4,Paediatrics,0,,1
+OPD-58AD32QL,3,General Medicine,0,,1
+OPD-58CJS9V3,4,General Medicine,0,,1
+OPD-58OKOJIF,4,General Medicine,0,,1
+OPD-59EFSGD1,3,Pulmonology/Chest & TB,0,,1
+OPD-5A66SM48,4,General Medicine,0,,1
+OPD-5A6XU4BH,4,General Medicine,0,,1
+OPD-5A6YR73W,4,General Medicine,0,,1
+OPD-5A8QVUTA,5,Paediatrics,0,,1
+OPD-5A9Y9MX4,4,General Surgery,0,,1
+OPD-5AAOPXEP,4,General Medicine,0,,1
+OPD-5AIW1RYB,4,Paediatrics,0,,1
+OPD-5AT6G7KG,5,General Medicine,0,,1
+OPD-5BE844S1,5,Orthopaedics,0,,1
+OPD-5BEZSZI3,4,Pulmonology/Chest & TB,0,,1
+OPD-5BQJMNJM,4,General Medicine,0,,1
+OPD-5CAVGYQB,5,General Medicine,0,,1
+OPD-5CBIPTGW,4,Dental,0,,1
+OPD-5CGIZMXX,5,Dental,0,,1
+OPD-5CKCFW5U,4,General Medicine,0,,1
+OPD-5COT7GAJ,4,General Medicine,0,,1
+OPD-5CTEXIE9,3,Pulmonology/Chest & TB,0,,1
+OPD-5CV27ZER,5,Ophthalmology,0,,1
+OPD-5CYACM31,4,Pulmonology/Chest & TB,0,,1
+OPD-5D5I9ZRV,4,Paediatrics,0,,1
+OPD-5D7RE2S9,3,General Surgery,0,,1
+OPD-5DQSICEM,5,ENT,0,,1
+OPD-5DUAJGHI,3,General Medicine,0,,1
+OPD-5DZDYWHG,3,Pulmonology/Chest & TB,0,,1
+OPD-5E4MFI8W,4,General Medicine,0,,1
+OPD-5EL1HLXC,3,General Medicine,0,,1
+OPD-5EW50CMC,4,General Medicine,0,,1
+OPD-5FLD45A1,5,General Medicine,0,,1
+OPD-5FQBWAVQ,5,Obstetrics & Gynaecology,0,,1
+OPD-5FSVR792,4,General Medicine,0,,1
+OPD-5G7SBISB,4,General Medicine,0,,1
+OPD-5GF1H8JM,3,Paediatrics,0,,1
+OPD-5GF7FK0X,4,Paediatrics,0,,1
+OPD-5GLIAE86,4,Paediatrics,0,,1
+OPD-5GXQY1VI,5,Pulmonology/Chest & TB,0,,1
+OPD-5H3O658O,4,Paediatrics,0,,1
+OPD-5H8YG2CU,4,Paediatrics,0,,1
+OPD-5HEN69AM,5,Dental,0,,1
+OPD-5HRUAYQ4,5,Ophthalmology,0,,1
+OPD-5IECCS2I,4,General Medicine,0,,1
+OPD-5IFB6ZB4,5,General Medicine,0,,1
+OPD-5IJ5Q9XI,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-5IM5NCXE,4,General Medicine,0,,1
+OPD-5IO113XW,4,General Medicine,0,,1
+OPD-5J4V28P1,3,General Medicine,0,,1
+OPD-5J860TKU,5,General Medicine,0,,1
+OPD-5JJO3BUN,3,General Medicine,0,,1
+OPD-5JM94PW8,3,Pulmonology/Chest & TB,0,,1
+OPD-5JNUKMKE,4,General Surgery,0,,1
+OPD-5JP5ANDW,4,General Medicine,0,,1
+OPD-5K6GC7ID,4,Dental,0,,1
+OPD-5KAQT38L,3,Paediatrics,0,,1
+OPD-5KN6Q527,5,Dermatology,0,,1
+OPD-5LA1H201,4,General Medicine,0,,1
+OPD-5LBRLW6R,5,Obstetrics & Gynaecology,0,,1
+OPD-5LN7SWAU,5,Pulmonology/Chest & TB,0,,1
+OPD-5LQ083ZU,4,General Medicine,0,,1
+OPD-5LZ6VEA9,5,Paediatrics,0,,1
+OPD-5M1E9P80,4,General Surgery,0,,1
+OPD-5M2XN39N,3,General Medicine,0,,1
+OPD-5MB2J5IF,5,Orthopaedics,0,,1
+OPD-5MDPGFHD,5,Orthopaedics,0,,1
+OPD-5MHM2V8Z,4,General Medicine,0,,1
+OPD-5MMD1603,3,Pulmonology/Chest & TB,0,,1
+OPD-5MSRPVGY,5,Obstetrics & Gynaecology,0,,1
+OPD-5MTV46SW,4,General Medicine,0,,1
+OPD-5MWREJFG,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-5NT9VHW4,4,General Surgery,0,,1
+OPD-5NYWFDL8,4,General Medicine,0,,1
+OPD-5OILU2YZ,3,Obstetrics & Gynaecology,0,,1
+OPD-5ORTNTPR,5,Psychiatry,0,,1
+OPD-5OY14OZ3,4,General Medicine,0,,1
+OPD-5PB5F6DP,4,General Medicine,0,,1
+OPD-5PK6BCFZ,5,General Medicine,0,,1
+OPD-5Q6DKAH4,4,General Medicine,0,,1
+OPD-5Q854VUR,4,General Medicine,0,,1
+OPD-5QFN8A2V,4,General Medicine,0,,1
+OPD-5QFO7J3B,3,General Surgery,0,,1
+OPD-5QOF7HEL,2,Emergency/Casualty,1,RF_SEPSIS_SIGNS,1
+OPD-5QRDHDSJ,5,General Medicine,0,,1
+OPD-5R34H8MA,5,ENT,0,,1
+OPD-5R7QJU11,4,Paediatrics,0,,1
+OPD-5RD29J06,4,General Medicine,0,,1
+OPD-5RFW0OE3,4,General Medicine,0,,1
+OPD-5RM6QZJ2,5,Orthopaedics,0,,1
+OPD-5RMPDM10,5,Ophthalmology,0,,1
+OPD-5RT5A9UP,3,General Medicine,0,,1
+OPD-5S3MHRCR,4,General Medicine,0,,1
+OPD-5S5FG1LC,3,General Surgery,0,,1
+OPD-5S6MA0EX,3,General Medicine,0,,1
+OPD-5SP3K9H4,5,Dermatology,0,,1
+OPD-5SW42UG2,3,General Medicine,0,,1
+OPD-5SWBSDSS,5,General Medicine,0,,1
+OPD-5T8LPKKI,4,Dental,0,,1
+OPD-5TNKFD4N,3,General Medicine,0,,1
+OPD-5UQ3FY05,4,General Medicine,0,,1
+OPD-5VAOA284,4,Orthopaedics,0,,1
+OPD-5VP7QLRT,4,Orthopaedics,0,,1
+OPD-5W2DU9D8,5,General Medicine,0,,1
+OPD-5W432FAH,5,Dental,0,,1
+OPD-5W5R670Q,4,General Surgery,0,,1
+OPD-5WP8JYKG,5,Orthopaedics,0,,1
+OPD-5WPJC036,5,General Medicine,0,,1
+OPD-5XHFERZ8,4,General Medicine,0,,1
+OPD-5XIOQSYA,4,General Medicine,0,,1
+OPD-5XOOVNRP,5,General Medicine,0,,1
+OPD-5XWKL1IG,4,Obstetrics & Gynaecology,0,,1
+OPD-5Z2VEURI,4,Obstetrics & Gynaecology,0,,1
+OPD-5Z3J409L,4,Orthopaedics,0,,1
+OPD-5Z4C4MG9,5,General Medicine,0,,1
+OPD-605UBB8K,4,General Medicine,0,,1
+OPD-60ATFC4C,4,Orthopaedics,0,,1
+OPD-60AU5OYW,4,Orthopaedics,0,,1
+OPD-615GEDVR,4,Paediatrics,0,,1
+OPD-6199227T,5,General Medicine,0,,0
+OPD-61H5LZ9K,3,Pulmonology/Chest & TB,0,,1
+OPD-61O9KTME,4,General Medicine,0,,1
+OPD-61UWQ77F,4,Orthopaedics,0,,1
+OPD-6259AHCD,4,General Medicine,0,,1
+OPD-62WMIGK4,4,General Medicine,0,,1
+OPD-634HMMFN,3,General Medicine,0,,1
+OPD-63C2CD46,4,Pulmonology/Chest & TB,0,,1
+OPD-63GIL1YZ,4,General Medicine,0,,1
+OPD-63P7Q27B,3,General Medicine,0,,1
+OPD-63PMOF1E,4,Paediatrics,0,,1
+OPD-63SSZ6LY,5,Obstetrics & Gynaecology,0,,1
+OPD-63SZ7IHR,4,General Surgery,0,,1
+OPD-64HCI9PW,4,Pulmonology/Chest & TB,0,,1
+OPD-64W0PVQT,3,General Medicine,0,,1
+OPD-64X2LAZI,5,Orthopaedics,0,,1
+OPD-6540CPQW,5,General Medicine,0,,1
+OPD-65XZESFF,5,Orthopaedics,0,,1
+OPD-662DOLZW,4,Orthopaedics,0,,1
+OPD-66LXQZG5,3,General Medicine,0,,1
+OPD-66U0YV2T,4,General Surgery,0,,1
+OPD-6780U37F,5,General Medicine,0,,1
+OPD-67LZRPU9,5,General Surgery,0,,1
+OPD-67YXS268,5,General Medicine,0,,1
+OPD-685XJNIH,4,Dental,0,,1
+OPD-68CERRWV,5,Ophthalmology,0,,1
+OPD-68KR1D21,4,ENT,0,,1
+OPD-68TNBA7B,4,General Medicine,0,,1
+OPD-699OGDXI,4,Paediatrics,0,,1
+OPD-69AKNYHZ,5,General Medicine,0,,1
+OPD-6AIY777Q,5,Orthopaedics,0,,1
+OPD-6AJYDDFJ,3,Orthopaedics,0,,1
+OPD-6ANPTMCW,5,Paediatrics,0,,1
+OPD-6AR8PZG0,3,Orthopaedics,0,,1
+OPD-6ASVKWIE,3,Cardiology,0,,1
+OPD-6B7D4FFI,4,General Medicine,0,,1
+OPD-6BEXRIF3,5,Dental,0,,1
+OPD-6CBKFX8E,3,General Surgery,0,,1
+OPD-6CNV8HWO,5,General Medicine,0,,1
+OPD-6CPFTFB8,5,Dental,0,,1
+OPD-6CQJ5X4P,5,Ophthalmology,0,,1
+OPD-6D6RVZVO,5,General Medicine,0,,1
+OPD-6D72AMEI,4,General Medicine,0,,1
+OPD-6D80EUCP,5,Orthopaedics,0,,1
+OPD-6E2RZ9DF,3,Obstetrics & Gynaecology,0,,1
+OPD-6EE7GZN2,4,General Surgery,0,,1
+OPD-6EWKHDD8,4,Dental,0,,1
+OPD-6F2OXGHM,4,General Medicine,0,,1
+OPD-6F4ZTM0B,4,Paediatrics,0,,1
+OPD-6FQC9SBO,4,Orthopaedics,0,,1
+OPD-6FYA6BFM,4,Paediatrics,0,,1
+OPD-6GKM99B3,4,General Medicine,0,,1
+OPD-6GTRW3YH,4,General Surgery,0,,1
+OPD-6H9L0RMS,4,General Surgery,0,,1
+OPD-6HEG13F3,4,General Medicine,0,,1
+OPD-6HRNKJYF,3,Pulmonology/Chest & TB,0,,1
+OPD-6IJ22OUT,4,General Medicine,0,,1
+OPD-6IKZRYDV,5,Dermatology,0,,1
+OPD-6IZ4WYAM,5,General Medicine,0,,1
+OPD-6J7YVOWC,4,General Medicine,0,,1
+OPD-6J8N73IH,4,General Surgery,0,,1
+OPD-6JEQK04V,5,Orthopaedics,0,,1
+OPD-6JGYKJX3,3,Obstetrics & Gynaecology,0,,1
+OPD-6JIVGXRF,5,Psychiatry,0,,1
+OPD-6JOUBE1H,5,Ophthalmology,0,,1
+OPD-6K5288EO,4,General Medicine,0,,1
+OPD-6KGTG0JA,4,General Medicine,0,,1
+OPD-6KJH2CE1,4,ENT,0,,1
+OPD-6KMJ36DZ,5,Dental,0,,1
+OPD-6KP7DA5Z,4,General Medicine,0,,1
+OPD-6KPO8P14,5,Dental,0,,1
+OPD-6L87JJ2A,5,General Medicine,0,,1
+OPD-6L8CXS0R,4,General Medicine,0,,1
+OPD-6LA4YAZ8,4,Pulmonology/Chest & TB,0,,1
+OPD-6LB5LW9R,3,General Medicine,0,,1
+OPD-6LMI9NV8,5,General Medicine,0,,1
+OPD-6LMOHPRK,3,Paediatrics,0,,1
+OPD-6LOP0NW6,5,Pulmonology/Chest & TB,0,,1
+OPD-6M08IOG8,5,Paediatrics,0,,1
+OPD-6MITR8QG,5,Obstetrics & Gynaecology,0,,1
+OPD-6MKQ8A0M,1,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_POISONING,1
+OPD-6MOGTF1R,4,Obstetrics & Gynaecology,0,,1
+OPD-6MZ7SHGN,4,General Medicine,0,,1
+OPD-6N0QNHMJ,4,General Medicine,0,,1
+OPD-6NAV6MV3,5,General Medicine,0,,1
+OPD-6O5ZPO7K,5,General Medicine,0,,1
+OPD-6O921XVO,4,Paediatrics,0,,1
+OPD-6OPCBPFI,5,Dermatology,0,,1
+OPD-6OPYS05V,4,General Medicine,0,,1
+OPD-6OZPVNG2,3,Paediatrics,0,,1
+OPD-6P2DUEYH,4,Paediatrics,0,,1
+OPD-6P5KLRF8,4,General Surgery,0,,1
+OPD-6Q1GRN4H,3,General Medicine,0,,1
+OPD-6QCP2IBV,4,General Medicine,0,,1
+OPD-6QE22CP5,5,Dental,0,,1
+OPD-6QWP0EF6,5,Ophthalmology,0,,1
+OPD-6R7KT6Z9,4,General Medicine,0,,1
+OPD-6R8J9H62,4,Pulmonology/Chest & TB,0,,1
+OPD-6R9LN7XB,4,Orthopaedics,0,,1
+OPD-6RQFNU8U,4,Paediatrics,0,,1
+OPD-6S8UGFDL,5,General Medicine,0,,1
+OPD-6SGKYR23,4,General Medicine,0,,1
+OPD-6SJEN7ET,3,Cardiology,0,,1
+OPD-6SU1SN2U,4,Pulmonology/Chest & TB,0,,1
+OPD-6SW1GUQS,5,Obstetrics & Gynaecology,0,,1
+OPD-6TH95DLO,4,Paediatrics,0,,1
+OPD-6TINU3PI,5,General Medicine,0,,1
+OPD-6TWAKS12,4,Orthopaedics,0,,1
+OPD-6UBYD2UB,3,General Medicine,0,,1
+OPD-6UETM17M,4,General Medicine,0,,1
+OPD-6ULO9XAE,5,Ophthalmology,0,,1
+OPD-6UO5B8WQ,4,General Medicine,0,,1
+OPD-6US1C084,3,Pulmonology/Chest & TB,0,,1
+OPD-6UWGKUCR,5,General Medicine,0,,1
+OPD-6VM98C67,3,General Medicine,0,,1
+OPD-6VQRL1XJ,5,General Medicine,0,,1
+OPD-6VRN2F6G,5,ENT,0,,1
+OPD-6W91QBSO,4,General Medicine,0,,1
+OPD-6WK0053Z,4,General Medicine,0,,1
+OPD-6WMCD8UV,5,General Medicine,0,,1
+OPD-6X0PPKZH,3,General Medicine,0,,1
+OPD-6X1QSA0D,4,General Medicine,0,,1
+OPD-6X38XSK6,4,General Medicine,0,,1
+OPD-6XKF6RWB,4,Orthopaedics,0,,1
+OPD-6Y2MGUB4,5,Dental,0,,1
+OPD-6YDQ1E5C,5,Paediatrics,0,,1
+OPD-6Z0Z2GXU,5,Obstetrics & Gynaecology,0,,1
+OPD-6Z243KGB,5,General Medicine,0,,1
+OPD-6Z7892VD,4,General Medicine,0,,1
+OPD-6Z98IDVT,4,General Medicine,0,,1
+OPD-6ZFER539,4,General Surgery,0,,1
+OPD-6ZT1Z4AX,5,General Medicine,0,,1
+OPD-6ZUQHCHU,5,ENT,0,,1
+OPD-6ZWYG4YY,4,General Medicine,0,,1
+OPD-70D1QGAN,4,General Medicine,0,,1
+OPD-70M7UP7P,5,General Medicine,0,,1
+OPD-70Q6JLJS,5,General Medicine,0,,1
+OPD-70YLI8DG,5,Dental,0,,1
+OPD-712NTD19,5,General Medicine,0,,1
+OPD-71DLFX2Y,3,General Medicine,0,,0
+OPD-71E5H8GC,4,Obstetrics & Gynaecology,0,,1
+OPD-72M50RS7,3,Pulmonology/Chest & TB,0,,1
+OPD-73GE288M,5,General Medicine,0,,1
+OPD-73QHO50T,4,General Medicine,0,,1
+OPD-73X6O3HE,5,Dermatology,0,,1
+OPD-742UNFKE,5,Obstetrics & Gynaecology,0,,1
+OPD-74990SPT,4,General Medicine,0,,1
+OPD-74E16VDH,5,Ophthalmology,0,,1
+OPD-74FUZ53M,4,General Surgery,0,,1
+OPD-74PBL020,5,Paediatrics,0,,1
+OPD-74S2FY1R,5,Orthopaedics,0,,1
+OPD-74VW3O6J,4,General Medicine,0,,1
+OPD-74W2ZFI5,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN;RF_PREGNANCY_BLEEDING,1
+OPD-756D5Q0F,5,General Medicine,0,,1
+OPD-757POEJI,3,General Medicine,0,,1
+OPD-75AR61FB,4,General Medicine,0,,1
+OPD-75LXX0EE,4,General Surgery,0,,1
+OPD-75XDWJFD,4,Orthopaedics,0,,1
+OPD-763U7X8G,2,Emergency/Casualty,1,RF_POISONING,1
+OPD-76539ETE,5,Obstetrics & Gynaecology,0,,1
+OPD-76EMXS5A,3,General Medicine,0,,1
+OPD-76J6LOTC,5,ENT,0,,1
+OPD-7783EVFF,5,Orthopaedics,0,,1
+OPD-77AOLZE0,5,ENT,0,,1
+OPD-77BH6D4J,4,General Medicine,0,,1
+OPD-77H770A8,3,General Surgery,0,,1
+OPD-77OUICQW,5,Orthopaedics,0,,1
+OPD-77UZUI8C,5,General Medicine,0,,1
+OPD-77YMPKRI,5,Dental,0,,1
+OPD-7845NAMF,5,Orthopaedics,0,,1
+OPD-78SM56FV,5,Obstetrics & Gynaecology,0,,1
+OPD-78YKQI8R,5,Paediatrics,0,,1
+OPD-79X1WOMW,5,Obstetrics & Gynaecology,0,,1
+OPD-7A1CYJH5,5,Dental,0,,1
+OPD-7A6ZMSEF,4,Orthopaedics,0,,1
+OPD-7AFOTBKX,3,General Medicine,0,,1
+OPD-7AS82JNY,4,General Medicine,0,,1
+OPD-7AURDY2G,3,Paediatrics,0,,1
+OPD-7BQJWJVZ,4,General Surgery,0,,1
+OPD-7CF8FJ9S,3,General Surgery,0,,1
+OPD-7CLH5XPB,3,General Surgery,0,,1
+OPD-7CO6ZFDZ,4,General Medicine,0,,1
+OPD-7CTQ9C37,4,General Medicine,0,,1
+OPD-7DGI3RTL,5,General Medicine,0,,1
+OPD-7DHYN745,4,Orthopaedics,0,,1
+OPD-7DP8C7MZ,4,General Medicine,0,,1
+OPD-7DRYC6PF,4,General Surgery,0,,1
+OPD-7DXC6Q8H,3,General Medicine,0,,1
+OPD-7DXMFD7Y,4,General Medicine,0,,1
+OPD-7E1CR4U8,4,General Medicine,0,,0
+OPD-7E210O6K,4,General Medicine,0,,1
+OPD-7EAHKKNK,5,Dermatology,0,,1
+OPD-7EYRPNYQ,5,General Medicine,0,,1
+OPD-7F34GV69,4,General Surgery,0,,1
+OPD-7FLJJ7TO,5,General Medicine,0,,1
+OPD-7FPMUMEY,4,Paediatrics,0,,1
+OPD-7FUBUEM3,5,ENT,0,,1
+OPD-7FVG8C6M,4,General Medicine,0,,1
+OPD-7GH3DJHA,5,Dermatology,0,,1
+OPD-7GJ68ETP,3,Pulmonology/Chest & TB,0,,1
+OPD-7GPM4IHY,4,Psychiatry,0,,1
+OPD-7GS9O05D,4,General Surgery,0,,1
+OPD-7H45XUB1,3,Pulmonology/Chest & TB,0,,1
+OPD-7HDI0CNA,4,Paediatrics,0,,1
+OPD-7HI5Q4AN,4,General Medicine,0,,1
+OPD-7HIU0YK4,3,Cardiology,0,,1
+OPD-7HUOLLNL,3,General Medicine,0,,1
+OPD-7HZ0LOMH,5,Dental,0,,1
+OPD-7I3WPFDE,3,Obstetrics & Gynaecology,0,,1
+OPD-7I55Q901,4,Paediatrics,0,,1
+OPD-7INO9IT7,5,Orthopaedics,0,,1
+OPD-7IU95NXZ,4,General Medicine,0,,1
+OPD-7JKDCM2S,4,Paediatrics,0,,1
+OPD-7KW5L9RC,3,Pulmonology/Chest & TB,0,,1
+OPD-7KZM6YS8,3,Paediatrics,0,,1
+OPD-7L1SPCU6,4,General Medicine,0,,0
+OPD-7L45RNE2,3,General Medicine,0,,1
+OPD-7LD3UIH5,5,Orthopaedics,0,,1
+OPD-7LGBN8W3,5,Pulmonology/Chest & TB,0,,1
+OPD-7LL67ZR3,5,General Medicine,0,,1
+OPD-7M1JUDMU,4,General Medicine,0,,1
+OPD-7MAWGRHY,5,General Medicine,0,,1
+OPD-7MSSCB4Q,4,Paediatrics,0,,1
+OPD-7MVL1CDH,5,General Medicine,0,,1
+OPD-7MX2GBIG,4,General Medicine,0,,1
+OPD-7N167G0M,5,General Medicine,0,,1
+OPD-7N9KZ2E2,5,General Medicine,0,,1
+OPD-7NWCUK22,5,Ophthalmology,0,,1
+OPD-7O3S1HGC,5,Ophthalmology,0,,1
+OPD-7O9VTJ0O,4,General Surgery,0,,1
+OPD-7OEPC650,4,Paediatrics,0,,1
+OPD-7OG7ZLWO,4,General Surgery,0,,1
+OPD-7OLI3WAQ,3,General Medicine,0,,1
+OPD-7OODAY8E,3,Paediatrics,0,,1
+OPD-7OPVJFRI,4,Dental,0,,1
+OPD-7OXKNKUX,4,Orthopaedics,0,,1
+OPD-7P88QM4Q,5,General Medicine,0,,1
+OPD-7PJVTUS4,4,General Medicine,0,,1
+OPD-7PLVIN5S,4,General Medicine,0,,1
+OPD-7PPUBEVQ,5,ENT,0,,1
+OPD-7PRQYFRR,5,Dental,0,,1
+OPD-7PUSUCKD,3,Obstetrics & Gynaecology,0,,1
+OPD-7QU54CJY,3,Orthopaedics,0,,1
+OPD-7QUU3M0F,5,ENT,0,,1
+OPD-7R676TEV,3,Paediatrics,0,,1
+OPD-7RE0OVK9,4,General Medicine,0,,1
+OPD-7RLBE8QT,4,General Surgery,0,,1
+OPD-7RQC966L,4,General Medicine,0,,1
+OPD-7S15E5CP,4,General Medicine,0,,1
+OPD-7S2FWDWI,3,General Medicine,0,,1
+OPD-7SP1V0M1,5,Ophthalmology,0,,1
+OPD-7STFFZIB,4,Pulmonology/Chest & TB,0,,1
+OPD-7SWRQE46,4,Orthopaedics,0,,1
+OPD-7TBANEIN,4,Pulmonology/Chest & TB,0,,1
+OPD-7TBXFFBN,4,General Surgery,0,,1
+OPD-7TMSDGCS,4,General Medicine,0,,1
+OPD-7TQHEMC6,2,Emergency/Casualty,1,RF_BURNS_MAJOR,1
+OPD-7TRTOPIW,3,Obstetrics & Gynaecology,0,,1
+OPD-7UC13EQY,4,General Medicine,0,,1
+OPD-7UG07EH7,5,Paediatrics,0,,1
+OPD-7UHWFH00,5,Dermatology,0,,1
+OPD-7UNYA9WX,4,General Surgery,0,,1
+OPD-7V6IZGRL,4,General Medicine,0,,1
+OPD-7V6S8Q0Q,5,Orthopaedics,0,,1
+OPD-7VA8PMQ1,4,Dental,0,,1
+OPD-7VUB5K3C,4,General Medicine,0,,1
+OPD-7WDSPK2K,5,Orthopaedics,0,,1
+OPD-7WG5NP3C,5,General Medicine,0,,1
+OPD-7WP0BO5O,4,General Surgery,0,,1
+OPD-7WXK4KSK,4,General Medicine,0,,1
+OPD-7WZ6J4RJ,3,Cardiology,0,,1
+OPD-7X0JDHID,5,ENT,0,,1
+OPD-7YIYZG2T,4,Paediatrics,0,,1
+OPD-7YRNLWEJ,4,General Medicine,0,,1
+OPD-7Z6FQVTO,2,Emergency/Casualty,1,RF_SEPSIS_SIGNS,1
+OPD-7ZEP2MGG,3,General Medicine,0,,1
+OPD-7ZFNI6Q2,4,General Medicine,0,,1
+OPD-7ZJRCHXT,4,General Medicine,0,,1
+OPD-7ZK9QXBC,4,Ophthalmology,0,,1
+OPD-7ZKI1QKU,5,Dermatology,0,,1
+OPD-7ZLGWLWM,5,General Medicine,0,,1
+OPD-808LIBO6,5,Dermatology,0,,1
+OPD-80CVIJBW,3,General Medicine,0,,1
+OPD-80H624QE,3,Orthopaedics,0,,1
+OPD-80J0SX53,4,General Surgery,0,,1
+OPD-80P11AKJ,5,General Medicine,0,,1
+OPD-80Y20EUG,5,Dermatology,0,,1
+OPD-811Y5QRV,5,General Medicine,0,,1
+OPD-815S1QWQ,4,General Medicine,0,,1
+OPD-81BA0UZQ,3,Obstetrics & Gynaecology,0,,1
+OPD-81I2BN8D,5,Obstetrics & Gynaecology,0,,1
+OPD-81QM8H06,5,Paediatrics,0,,1
+OPD-81XVDTAS,5,General Surgery,0,,1
+OPD-82AZG328,5,Paediatrics,0,,1
+OPD-82FSY5XG,3,General Medicine,0,,1
+OPD-82R1UBVB,5,Dermatology,0,,1
+OPD-830T17FE,5,General Medicine,0,,1
+OPD-8320O7U7,5,Psychiatry,0,,1
+OPD-839OAE0Y,4,Orthopaedics,0,,1
+OPD-83J5JEN2,4,Paediatrics,0,,1
+OPD-83YGTHEQ,3,Pulmonology/Chest & TB,0,,1
+OPD-840ILJ0B,4,General Medicine,0,,1
+OPD-84H6VCT6,3,General Medicine,0,,1
+OPD-84KV54OV,4,General Medicine,0,,1
+OPD-8520HCMP,5,Ophthalmology,0,,1
+OPD-85BFLZ0O,5,Psychiatry,0,,1
+OPD-85E6URXC,4,Pulmonology/Chest & TB,0,,1
+OPD-85N0MJCN,5,Orthopaedics,0,,1
+OPD-85SZX1BR,5,Dental,0,,1
+OPD-85VINMBE,4,General Medicine,0,,1
+OPD-864YJMP9,4,General Surgery,0,,1
+OPD-8655LSBE,4,General Medicine,0,,1
+OPD-865YQAA0,4,General Medicine,0,,1
+OPD-870URP8A,5,Paediatrics,0,,1
+OPD-8795SGQH,4,General Medicine,0,,1
+OPD-87AXJYYP,3,Pulmonology/Chest & TB,0,,1
+OPD-87O0948C,4,General Medicine,0,,1
+OPD-888M29HG,3,Obstetrics & Gynaecology,0,,1
+OPD-88ALRPMP,5,Ophthalmology,0,,1
+OPD-88GPA811,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-88R8IPXP,4,General Medicine,0,,1
+OPD-8936L9JQ,3,Cardiology,0,,1
+OPD-895HV2K8,3,General Surgery,0,,1
+OPD-89N8ZP82,5,General Medicine,0,,1
+OPD-89SXJOIN,5,ENT,0,,1
+OPD-8A6JTAN4,3,Cardiology,0,,1
+OPD-8AB9F8A4,5,Dental,0,,1
+OPD-8AFBXWDK,4,General Medicine,0,,1
+OPD-8B85M4VO,4,General Medicine,0,,1
+OPD-8B9QUU16,5,Ophthalmology,0,,1
+OPD-8BH71NXS,3,General Surgery,0,,1
+OPD-8BL0V8S7,4,Ophthalmology,0,,1
+OPD-8C55LUMD,4,General Surgery,0,,1
+OPD-8CEPFWYQ,3,General Surgery,0,,1
+OPD-8CF7UIUX,4,Ophthalmology,0,,0
+OPD-8CJS0M6Z,5,General Medicine,0,,0
+OPD-8CMZ3JFT,4,General Medicine,0,,1
+OPD-8CN0KAOH,5,Dermatology,0,,1
+OPD-8D2PKROV,4,General Medicine,0,,1
+OPD-8D9IGAIK,5,Orthopaedics,0,,1
+OPD-8DEKYFJG,3,General Surgery,0,,0
+OPD-8DUGONDD,4,General Medicine,0,,1
+OPD-8E86J63R,5,General Surgery,0,,1
+OPD-8ECDIZZ0,4,General Medicine,0,,1
+OPD-8ESPE0E9,5,Ophthalmology,0,,1
+OPD-8F70EOYD,2,Emergency/Casualty,1,,1
+OPD-8F9J6CRU,4,General Surgery,0,,1
+OPD-8FH6CRCF,5,General Medicine,0,,1
+OPD-8FHR4HYB,4,General Medicine,0,,1
+OPD-8FT40W3J,4,Orthopaedics,0,,1
+OPD-8FWQK7FN,4,General Surgery,0,,1
+OPD-8FYGZBI6,4,Pulmonology/Chest & TB,0,,1
+OPD-8GBA58NK,5,Obstetrics & Gynaecology,0,,1
+OPD-8GQSBE4E,5,Dermatology,0,,1
+OPD-8H3XFZRN,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-8H9507NV,3,General Medicine,0,,1
+OPD-8HJ2TMR6,4,Paediatrics,0,,1
+OPD-8HSVEXDQ,5,Dermatology,0,,0
+OPD-8HSVWZNN,5,General Medicine,0,,1
+OPD-8HUPE9L3,4,General Medicine,0,,1
+OPD-8HVAM5XG,5,Orthopaedics,0,,1
+OPD-8I51XC2W,5,Dermatology,0,,1
+OPD-8I7OVP01,4,Orthopaedics,0,,1
+OPD-8IDY774H,3,Obstetrics & Gynaecology,0,,1
+OPD-8IH6TSIY,3,General Surgery,0,,1
+OPD-8IJ2SODK,4,General Medicine,0,,1
+OPD-8ILIWWRW,4,General Medicine,0,,1
+OPD-8IUCXTNI,3,Obstetrics & Gynaecology,0,,1
+OPD-8JK59U8K,5,Dental,0,,1
+OPD-8JRBF3ZF,4,Pulmonology/Chest & TB,0,,1
+OPD-8K05W2NB,5,ENT,0,,1
+OPD-8K0WSPGP,4,Orthopaedics,0,,1
+OPD-8KD0553Q,3,General Medicine,0,,1
+OPD-8KFMSGQU,4,General Medicine,0,,1
+OPD-8L4WVI3V,5,General Medicine,0,,1
+OPD-8LAZ0B7R,4,General Surgery,0,,1
+OPD-8LCQNR6S,3,General Surgery,0,,1
+OPD-8LDEIQQN,4,General Medicine,0,,1
+OPD-8LFQMM4J,4,Paediatrics,0,,1
+OPD-8LO9WRPY,3,General Medicine,0,,1
+OPD-8LSWAAR9,4,ENT,0,,1
+OPD-8MF5WEH1,5,Orthopaedics,0,,1
+OPD-8MMSIR8T,3,General Surgery,0,,1
+OPD-8MSG1P8I,4,General Surgery,0,,1
+OPD-8N50T63Q,5,Orthopaedics,0,,1
+OPD-8N72FUGM,4,General Surgery,0,,1
+OPD-8NCII44P,4,General Medicine,0,,1
+OPD-8O00OYNF,5,Obstetrics & Gynaecology,0,,1
+OPD-8OCUIACW,4,Obstetrics & Gynaecology,0,,1
+OPD-8OE2BXEK,5,ENT,0,,1
+OPD-8OGNRBE7,4,General Medicine,0,,1
+OPD-8OL29PUJ,4,General Medicine,0,,1
+OPD-8OUT48X8,4,General Medicine,0,,1
+OPD-8P2MLWYX,4,General Medicine,0,,1
+OPD-8PC0HW5K,2,Emergency/Casualty,1,RF_SEPSIS_SIGNS,1
+OPD-8PD11YNZ,3,General Surgery,0,,1
+OPD-8PM3BSV4,4,General Medicine,0,,1
+OPD-8PM8RLW4,5,Dermatology,0,,1
+OPD-8PNFPU2S,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-8QAZXZRW,3,Pulmonology/Chest & TB,0,,1
+OPD-8QJEMYX1,5,Obstetrics & Gynaecology,0,,1
+OPD-8QRK449Y,3,Paediatrics,0,,1
+OPD-8QY1XDJI,5,Paediatrics,0,,1
+OPD-8QZ0XZE3,5,Orthopaedics,0,,1
+OPD-8R0QG0BN,4,General Medicine,0,,1
+OPD-8R5N1HMU,5,Obstetrics & Gynaecology,0,,1
+OPD-8SAA7GLO,4,General Surgery,0,,1
+OPD-8SJQKZ61,5,Orthopaedics,0,,1
+OPD-8SSYNL0Y,5,General Medicine,0,,1
+OPD-8SYGV3DO,5,General Medicine,0,,1
+OPD-8TR02TEM,4,Paediatrics,0,,1
+OPD-8UBXHMAW,5,General Medicine,0,,1
+OPD-8V6CXH9I,3,General Surgery,0,,1
+OPD-8VNB99R8,4,General Surgery,0,,1
+OPD-8VPOKU5Y,4,General Medicine,0,,1
+OPD-8W2B9NEI,4,General Medicine,0,,1
+OPD-8W9JIB1D,5,Orthopaedics,0,,1
+OPD-8WK12J58,3,Obstetrics & Gynaecology,0,,1
+OPD-8WKNL38C,3,General Medicine,0,,1
+OPD-8WM3X73M,5,Dermatology,0,,1
+OPD-8WVWA2IR,4,General Surgery,0,,1
+OPD-8X72LWC9,4,General Medicine,0,,1
+OPD-8X9BO33X,4,General Medicine,0,,1
+OPD-8XFJ5OHB,5,Ophthalmology,0,,1
+OPD-8XGZ9DOE,5,General Surgery,0,,1
+OPD-8XLHYR6E,3,Paediatrics,0,,1
+OPD-8XQJBRVU,3,General Medicine,0,,1
+OPD-8Y39YV1G,4,Orthopaedics,0,,1
+OPD-8Y6F1RI4,4,General Medicine,0,,1
+OPD-8YPGXPMN,5,General Medicine,0,,1
+OPD-8YS127TI,4,Dental,0,,1
+OPD-8Z25BQVH,3,Obstetrics & Gynaecology,0,,1
+OPD-8ZI6Q9UE,3,General Medicine,0,,1
+OPD-8ZNBDLDA,4,General Medicine,0,,1
+OPD-8ZOQV4B0,5,Dental,0,,1
+OPD-90CSZ6KD,4,Pulmonology/Chest & TB,0,,1
+OPD-90IQ0ER4,5,General Medicine,0,,1
+OPD-91CWBCML,4,General Medicine,0,,1
+OPD-91K2UG6N,4,Orthopaedics,0,,1
+OPD-91OVF9FF,5,Dermatology,0,,1
+OPD-936RXTCE,4,Paediatrics,0,,1
+OPD-93JNI6FJ,4,General Medicine,0,,1
+OPD-93XIH2OG,4,Orthopaedics,0,,1
+OPD-941R7COC,3,General Medicine,0,,1
+OPD-949XZ1ON,5,Obstetrics & Gynaecology,0,,1
+OPD-94OG4IPK,5,Paediatrics,0,,1
+OPD-94VGRESW,5,Dermatology,0,,1
+OPD-94YPVRSF,5,Paediatrics,0,,1
+OPD-95435BP4,4,Paediatrics,0,,1
+OPD-95EPWRDN,4,General Medicine,0,,1
+OPD-95NDUAQP,4,Paediatrics,0,,1
+OPD-96CVP3M5,5,General Medicine,0,,1
+OPD-96CZ5FVU,5,Dental,0,,1
+OPD-96E4EES6,5,General Medicine,0,,1
+OPD-96L9I7QW,4,Paediatrics,0,,1
+OPD-96PCXS67,5,Dermatology,0,,1
+OPD-96XMY5R7,5,General Medicine,0,,1
+OPD-96YDH9UT,5,Psychiatry,0,,1
+OPD-973Q60AK,4,General Medicine,0,,1
+OPD-973XQ5R7,5,General Medicine,0,,1
+OPD-9767D8G7,3,General Surgery,0,,1
+OPD-97CAABL9,3,General Medicine,0,,1
+OPD-97J1UI3B,3,Paediatrics,0,,1
+OPD-97P9KD69,4,Orthopaedics,0,,1
+OPD-97R51B3N,3,Pulmonology/Chest & TB,0,,1
+OPD-97X7F20S,4,General Surgery,0,,1
+OPD-97YBE9FZ,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-984XCYVL,4,Paediatrics,0,,1
+OPD-9852GH5M,5,ENT,0,,1
+OPD-98FUFPBJ,5,Ophthalmology,0,,1
+OPD-98UGXESC,3,Pulmonology/Chest & TB,0,,1
+OPD-98VOLNRD,3,Orthopaedics,0,,1
+OPD-98W3O3RG,2,Emergency/Casualty,1,,1
+OPD-990O4GHW,4,General Medicine,0,,1
+OPD-996UKY8I,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-99GZZAG3,4,General Medicine,0,,1
+OPD-99KZIVQB,4,General Medicine,0,,1
+OPD-99VPPNW1,5,General Medicine,0,,1
+OPD-99XKM8RT,3,Pulmonology/Chest & TB,0,,1
+OPD-99Y619PY,5,General Medicine,0,,1
+OPD-9AIX17PM,4,General Medicine,0,,1
+OPD-9AJA7KYD,5,General Medicine,0,,1
+OPD-9AOI4DIM,4,General Medicine,0,,1
+OPD-9AP968XO,4,General Medicine,0,,1
+OPD-9BA4XSV5,5,General Medicine,0,,1
+OPD-9BE85EM3,3,Obstetrics & Gynaecology,0,,1
+OPD-9BS0I9BE,4,General Surgery,0,,1
+OPD-9BXP6192,4,Obstetrics & Gynaecology,0,,1
+OPD-9C47RCJK,4,General Medicine,0,,1
+OPD-9CYMTX1K,5,Paediatrics,0,,1
+OPD-9D1K1G7N,4,General Medicine,0,,1
+OPD-9DBUP9K0,4,General Medicine,0,,1
+OPD-9DCLBL9M,4,General Medicine,0,,1
+OPD-9DH73N17,5,General Medicine,0,,1
+OPD-9DOKMKEO,3,General Surgery,0,,1
+OPD-9DZ7APHV,4,General Surgery,0,,1
+OPD-9EBDZ834,5,General Medicine,0,,1
+OPD-9ECVJP2T,4,Paediatrics,0,,1
+OPD-9EO9J8TF,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-9EUXLM9Q,3,General Medicine,0,,1
+OPD-9F100VLO,5,Obstetrics & Gynaecology,0,,1
+OPD-9FZ1Y5RL,4,Paediatrics,0,,1
+OPD-9G2NHKNN,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-9G59IHNW,5,Orthopaedics,0,,1
+OPD-9G7VCERR,5,General Medicine,0,,1
+OPD-9GEE3T7D,2,Emergency/Casualty,1,RF_POISONING,1
+OPD-9GENC6V5,4,General Surgery,0,,1
+OPD-9GIO97XJ,4,Paediatrics,0,,1
+OPD-9GUOQHA7,4,General Medicine,0,,1
+OPD-9H3DR9VA,4,General Medicine,0,,1
+OPD-9HA1YM9E,4,General Surgery,0,,1
+OPD-9HF0WYXB,5,Paediatrics,0,,1
+OPD-9J1SKDWW,4,General Surgery,0,,1
+OPD-9J8EAC9L,5,General Medicine,0,,1
+OPD-9JZXAYSC,4,General Medicine,0,,1
+OPD-9K1LFXCX,5,General Medicine,0,,1
+OPD-9K30MCBH,5,General Medicine,0,,1
+OPD-9KEUVI8U,4,General Medicine,0,,1
+OPD-9KS3VU0Q,5,ENT,0,,1
+OPD-9KUNC8U5,5,Dermatology,0,,1
+OPD-9KV8WX05,4,Paediatrics,0,,1
+OPD-9KVRFJ3U,5,Pulmonology/Chest & TB,0,,1
+OPD-9KW5Q6KC,3,General Medicine,0,,1
+OPD-9LE3Y8AI,5,ENT,0,,1
+OPD-9LMXSQ8Q,5,Dental,0,,1
+OPD-9LP9203R,4,General Medicine,0,,1
+OPD-9LPXYEXW,5,General Medicine,0,,1
+OPD-9LR4DJNI,3,General Medicine,0,,1
+OPD-9LZOUMM2,4,General Medicine,0,,1
+OPD-9MHCU2UC,4,General Medicine,0,,1
+OPD-9MHONZ5U,3,Pulmonology/Chest & TB,0,,1
+OPD-9MQQ8AYI,4,General Medicine,0,,1
+OPD-9N1C8HY9,4,General Surgery,0,,1
+OPD-9NDRF5UG,4,General Medicine,0,,1
+OPD-9NJ2T3SR,5,General Surgery,0,,1
+OPD-9NL23P2H,5,General Medicine,0,,1
+OPD-9NM91AI7,3,General Medicine,0,,1
+OPD-9NRZP28I,4,Paediatrics,0,,1
+OPD-9O0TB79M,4,General Medicine,0,,1
+OPD-9O4751VI,4,Pulmonology/Chest & TB,0,,1
+OPD-9OEFAUDP,5,General Medicine,0,,1
+OPD-9OEOVS33,4,Psychiatry,0,,1
+OPD-9OFGRH5A,5,Dental,0,,1
+OPD-9OP6XFFB,4,General Medicine,0,,1
+OPD-9OT6J8VZ,4,General Medicine,0,,1
+OPD-9P56M7RB,3,Paediatrics,0,,1
+OPD-9PNP7AJV,3,General Medicine,0,,1
+OPD-9PQV1THY,5,Paediatrics,0,,1
+OPD-9PR2GP1I,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-9Q4H3LJZ,4,General Medicine,0,,1
+OPD-9Q7EEHAK,5,Dental,0,,1
+OPD-9R9ICU8O,5,General Medicine,0,,1
+OPD-9RB6NJEN,3,Pulmonology/Chest & TB,0,,1
+OPD-9RBQC0PJ,4,General Medicine,0,,1
+OPD-9RFQEN3C,5,General Surgery,0,,1
+OPD-9RUIDQUQ,5,Dermatology,0,,1
+OPD-9RUTMJ9Z,3,General Medicine,0,,1
+OPD-9RV6HET4,3,General Medicine,0,,1
+OPD-9S66UWB4,5,Dental,0,,1
+OPD-9S85G71B,5,General Medicine,0,,1
+OPD-9S9RAWZ9,3,General Surgery,0,,1
+OPD-9SB21RHX,4,General Medicine,0,,1
+OPD-9SGPLU3T,3,General Medicine,0,,1
+OPD-9SU5BZ9Y,3,General Surgery,0,,1
+OPD-9SVPHVAI,4,ENT,0,,1
+OPD-9SYHTGV7,4,General Medicine,0,,1
+OPD-9T3ZSIAS,4,General Medicine,0,,1
+OPD-9TBF4D9A,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-9TF35E4E,4,Paediatrics,0,,1
+OPD-9TLN8DVJ,4,Orthopaedics,0,,1
+OPD-9TTO7Z0W,3,General Medicine,0,,1
+OPD-9U6MYQJX,5,General Medicine,0,,1
+OPD-9UWGRKRG,3,General Medicine,0,,1
+OPD-9VBNIWE1,4,General Medicine,0,,1
+OPD-9VFCTQF8,4,Obstetrics & Gynaecology,0,,1
+OPD-9VXZEV9Q,4,General Medicine,0,,1
+OPD-9WJGOGNZ,5,General Medicine,0,,1
+OPD-9WR9WCG2,4,General Medicine,0,,1
+OPD-9X1NNSRE,3,General Surgery,0,,1
+OPD-9XF1AQFO,5,Obstetrics & Gynaecology,0,,1
+OPD-9XZSFPO8,4,General Medicine,0,,1
+OPD-9Y1NDVTZ,5,Paediatrics,0,,0
+OPD-9Y96ZV1K,4,ENT,0,,1
+OPD-9YIX87VE,5,Dermatology,0,,1
+OPD-9YKXIX3F,4,Paediatrics,0,,1
+OPD-9YL2FHGD,5,ENT,0,,1
+OPD-9Z1RQW38,5,General Medicine,0,,1
+OPD-9ZCTIHAD,4,ENT,0,,1
+OPD-9ZEYWQE8,4,Paediatrics,0,,1
+OPD-9ZM1KHZH,4,General Surgery,0,,1
+OPD-A011HDVN,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-A0DHMH9G,4,Pulmonology/Chest & TB,0,,1
+OPD-A0FKXJAP,3,General Medicine,0,,1
+OPD-A114G5GM,2,Emergency/Casualty,1,RF_ECLAMPSIA_SIGNS,1
+OPD-A14U17TR,4,General Medicine,0,,1
+OPD-A1QWVO3I,3,Paediatrics,0,,1
+OPD-A2BT7ZRG,4,General Medicine,0,,1
+OPD-A2KVU1JO,5,General Medicine,0,,1
+OPD-A2SADFV3,4,General Surgery,0,,1
+OPD-A31HNCP4,4,General Medicine,0,,1
+OPD-A382D9XD,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-A3V9YLIA,4,General Medicine,0,,1
+OPD-A407KNNE,4,Orthopaedics,0,,1
+OPD-A48TO128,3,Paediatrics,0,,1
+OPD-A49N01YW,4,General Medicine,0,,1
+OPD-A4T43HVV,4,General Medicine,0,,1
+OPD-A559UZEX,4,General Medicine,0,,1
+OPD-A5BYAQZR,4,General Medicine,0,,1
+OPD-A5K5ZZ2O,5,Dental,0,,1
+OPD-A5T1AAXL,4,General Surgery,0,,1
+OPD-A5XOONXE,5,Dermatology,0,,1
+OPD-A5Z6YL1G,4,Paediatrics,0,,1
+OPD-A6BUJTAN,5,General Medicine,0,,1
+OPD-A6CEWWK2,4,General Medicine,0,,1
+OPD-A6R3F8J1,3,Pulmonology/Chest & TB,0,,1
+OPD-A7G5LGJK,5,General Medicine,0,,1
+OPD-A82NU77F,4,Paediatrics,0,,1
+OPD-A8FMQ3W4,3,General Medicine,0,,1
+OPD-A8L7TZQ5,5,Ophthalmology,0,,1
+OPD-A8MVSBE7,5,Psychiatry,0,,1
+OPD-A9BOAHUF,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_SEPSIS_SIGNS,1
+OPD-A9FX4SNB,4,Paediatrics,0,,1
+OPD-A9J9SXXR,4,General Medicine,0,,1
+OPD-A9PQHW4C,4,General Medicine,0,,1
+OPD-A9TGGTUM,4,Obstetrics & Gynaecology,0,,1
+OPD-A9XQX9N9,5,General Medicine,0,,1
+OPD-AA0EB5K1,4,Paediatrics,0,,1
+OPD-AA31ZL9L,4,Pulmonology/Chest & TB,0,,1
+OPD-AA96E6F6,4,Paediatrics,0,,1
+OPD-AADFTRHP,4,Orthopaedics,0,,1
+OPD-AAM5BBNN,3,General Medicine,0,,1
+OPD-AAN0RVKF,4,General Medicine,0,,1
+OPD-AANW26Z9,2,Emergency/Casualty,1,RF_SEIZURE;RF_TRAUMA_MAJOR,1
+OPD-AAUQK4H3,3,General Surgery,0,,1
+OPD-AB5HYXBQ,4,Pulmonology/Chest & TB,0,,1
+OPD-AB9KQ2TJ,4,General Medicine,0,,1
+OPD-ABHAT0Q2,5,Orthopaedics,0,,1
+OPD-ABO6DD18,5,General Medicine,0,,0
+OPD-ABRNNNV5,4,Obstetrics & Gynaecology,0,,1
+OPD-AC2PVJ3O,4,Dental,0,,1
+OPD-AC4KLFM2,5,General Medicine,0,,1
+OPD-ACA90T2T,5,Dermatology,0,,1
+OPD-ACBIHGPJ,3,Pulmonology/Chest & TB,0,,1
+OPD-ACFRWWCQ,4,General Surgery,0,,1
+OPD-ACRN59D0,3,Pulmonology/Chest & TB,0,,1
+OPD-AD1Y9MWI,5,ENT,0,,1
+OPD-AD2RZI88,3,Orthopaedics,0,,1
+OPD-ADHZPE24,4,General Surgery,0,,1
+OPD-ADJ3ZYX4,4,Dental,0,,1
+OPD-ADS2U0SY,5,Paediatrics,0,,1
+OPD-AEY29RWB,4,Paediatrics,0,,1
+OPD-AFKZI9NC,3,General Medicine,0,,1
+OPD-AG34O4BP,3,Pulmonology/Chest & TB,0,,1
+OPD-AGAPGPSL,4,General Surgery,0,,1
+OPD-AGSFUGKW,3,Obstetrics & Gynaecology,0,,1
+OPD-AGT99Q0L,4,General Surgery,0,,1
+OPD-AGY244NR,4,General Surgery,0,,1
+OPD-AH17PG33,4,General Medicine,0,,1
+OPD-AH3GNXWE,3,General Medicine,0,,1
+OPD-AH7RAUK3,5,Paediatrics,0,,1
+OPD-AH958GDF,4,Paediatrics,0,,1
+OPD-AHH5IZ78,5,Obstetrics & Gynaecology,0,,1
+OPD-AHNHVFPM,4,General Medicine,0,,1
+OPD-AHS7QSTH,5,Dental,0,,1
+OPD-AHSMOTNY,4,General Medicine,0,,1
+OPD-AI171TXS,4,Orthopaedics,0,,1
+OPD-AI4KMFMN,5,Ophthalmology,0,,1
+OPD-AIEJ9PCR,5,Orthopaedics,0,,1
+OPD-AIUH48JM,4,General Medicine,0,,1
+OPD-AJ1JQLKV,5,Ophthalmology,0,,1
+OPD-AJ2WLSUL,5,ENT,0,,1
+OPD-AJ3E8YIG,4,General Medicine,0,,1
+OPD-AJ4G4RK8,5,General Surgery,0,,1
+OPD-AJIZ7TQJ,5,Dermatology,0,,1
+OPD-AJUG2CSM,3,General Surgery,0,,1
+OPD-AL68YIUH,3,Paediatrics,0,,1
+OPD-AL7ZZD8M,5,Obstetrics & Gynaecology,0,,1
+OPD-ALACMMU2,4,General Medicine,0,,1
+OPD-ALKKJBMK,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-ALUC0FKY,5,General Medicine,0,,1
+OPD-AM1DHDUX,4,Paediatrics,0,,1
+OPD-AM41AFQR,4,General Medicine,0,,1
+OPD-AM6JYEJF,5,General Medicine,0,,1
+OPD-AMJGQ9I9,5,Orthopaedics,0,,1
+OPD-AMQHMRC1,3,General Surgery,0,,1
+OPD-AMTR8PWS,3,Paediatrics,0,,1
+OPD-AMUQV5LN,4,Orthopaedics,0,,1
+OPD-AN5R335J,5,Ophthalmology,0,,1
+OPD-AN5XJS6I,4,Paediatrics,0,,1
+OPD-AN76BOAX,4,General Surgery,0,,1
+OPD-AN8E2IBO,3,Pulmonology/Chest & TB,0,,1
+OPD-ANDWUQCX,4,General Medicine,0,,1
+OPD-ANIQ6EXC,4,Ophthalmology,0,,1
+OPD-ANKVQXYT,5,Dental,0,,1
+OPD-ANWRG55U,4,General Medicine,0,,1
+OPD-ANZ5QZCI,5,General Medicine,0,,1
+OPD-AO3IBEUZ,5,General Medicine,0,,1
+OPD-AO9Q1J9R,4,Orthopaedics,0,,1
+OPD-AOCLC9PA,3,Paediatrics,0,,1
+OPD-AOHDUVKF,5,General Medicine,0,,1
+OPD-AOTJEP1T,3,General Medicine,0,,1
+OPD-AOZXBF3B,4,General Medicine,0,,1
+OPD-AP2NHC68,5,Dermatology,0,,1
+OPD-AP4D2N75,3,General Medicine,0,,1
+OPD-APEF6OO1,3,Pulmonology/Chest & TB,0,,1
+OPD-APGUB0W3,5,Obstetrics & Gynaecology,0,,1
+OPD-APPVDKJK,4,General Surgery,0,,1
+OPD-APWS3AQ2,4,General Medicine,0,,1
+OPD-AQ5B08ZJ,5,Ophthalmology,0,,1
+OPD-AQJX8MHO,3,Pulmonology/Chest & TB,0,,1
+OPD-AQKCED4F,4,General Surgery,0,,1
+OPD-AQLGBSZS,4,Paediatrics,0,,1
+OPD-AQNAPHBI,4,General Medicine,0,,1
+OPD-AR8MPW12,5,ENT,0,,1
+OPD-ARA402LL,5,General Medicine,0,,1
+OPD-ARRTJ3IF,4,General Medicine,0,,1
+OPD-ARUQYQBH,5,Dermatology,0,,1
+OPD-AS4M376A,4,ENT,0,,1
+OPD-ASDL21A1,3,General Medicine,0,,1
+OPD-ASH4C8XQ,4,General Medicine,0,,1
+OPD-AT7BTTNG,5,Dermatology,0,,1
+OPD-AT8IP2DB,4,Obstetrics & Gynaecology,0,,1
+OPD-ATGTJZAP,5,General Medicine,0,,1
+OPD-ATIEUR4Z,3,General Medicine,0,,1
+OPD-ATTIDOZ7,5,Dental,0,,1
+OPD-AU7VVSEP,5,General Medicine,0,,1
+OPD-AUPHYUHJ,5,Ophthalmology,0,,1
+OPD-AVFLGFTL,4,ENT,0,,1
+OPD-AVXUPCTR,4,General Medicine,0,,1
+OPD-AW82SY3S,4,General Surgery,0,,1
+OPD-AWN1F6JH,5,General Medicine,0,,1
+OPD-AX1X9TF6,5,General Surgery,0,,1
+OPD-AX6FCVZD,5,Obstetrics & Gynaecology,0,,1
+OPD-AXGV0QTB,4,General Medicine,0,,1
+OPD-AYTO9RXB,5,General Medicine,0,,1
+OPD-AYW9J5NS,3,General Medicine,0,,1
+OPD-AZ0MTFQH,4,General Medicine,0,,1
+OPD-AZ4AQEZ9,4,General Medicine,0,,1
+OPD-AZ85KEM3,3,General Surgery,0,,1
+OPD-AZDWL2BD,3,Paediatrics,0,,1
+OPD-AZZUOEK5,4,Orthopaedics,0,,1
+OPD-B02PB3EK,5,Obstetrics & Gynaecology,0,,1
+OPD-B0AQRTT2,4,General Surgery,0,,1
+OPD-B0DYM3IA,4,General Medicine,0,,1
+OPD-B0MLBDIA,3,Paediatrics,0,,1
+OPD-B11UB1KI,5,Obstetrics & Gynaecology,0,,1
+OPD-B24BS61L,5,General Medicine,0,,1
+OPD-B276YHIL,3,General Medicine,0,,1
+OPD-B2821SP5,4,General Surgery,0,,1
+OPD-B2L7SGQZ,4,Psychiatry,0,,1
+OPD-B2QT3SFJ,5,Orthopaedics,0,,1
+OPD-B2XY1ZOS,5,ENT,0,,1
+OPD-B31QDV67,5,General Medicine,0,,1
+OPD-B32Y34GC,5,General Medicine,0,,1
+OPD-B3II0CBK,4,General Surgery,0,,1
+OPD-B3Q7FUJA,4,Orthopaedics,0,,1
+OPD-B3VREMS9,5,Dermatology,0,,1
+OPD-B44JQMX2,4,ENT,0,,1
+OPD-B4A8X999,5,General Surgery,0,,1
+OPD-B4DBV3AM,5,General Medicine,0,,1
+OPD-B4KJ0XOH,4,Orthopaedics,0,,1
+OPD-B5GPH7XB,4,Psychiatry,0,,1
+OPD-B5H95KEX,5,General Medicine,0,,1
+OPD-B5OTI3IE,5,General Medicine,0,,1
+OPD-B6DMWM6H,4,Paediatrics,0,,1
+OPD-B6FKN6W4,4,General Medicine,0,,1
+OPD-B6NESXH8,4,General Medicine,0,,1
+OPD-B6NZ491T,3,Pulmonology/Chest & TB,0,,1
+OPD-B6QZZYXF,4,Paediatrics,0,,1
+OPD-B6VNTNWG,5,General Medicine,0,,1
+OPD-B6WMC5R2,4,Paediatrics,0,,1
+OPD-B6ZJKDTU,3,Paediatrics,0,,1
+OPD-B7DN80SS,5,Psychiatry,0,,1
+OPD-B7IKTK2A,4,General Medicine,0,,1
+OPD-B7TITQJR,5,Dental,0,,1
+OPD-B80MDAKX,5,Dental,0,,1
+OPD-B8A8NUOI,4,Orthopaedics,0,,1
+OPD-B8EW70YE,5,Obstetrics & Gynaecology,0,,1
+OPD-B8F0OG57,4,Orthopaedics,0,,1
+OPD-B8N7G47P,3,Pulmonology/Chest & TB,0,,1
+OPD-B8ZPMKTA,3,Pulmonology/Chest & TB,0,,1
+OPD-B93KHUL7,4,General Medicine,0,,1
+OPD-B9F17MT7,4,Orthopaedics,0,,1
+OPD-BAFRILBS,5,Obstetrics & Gynaecology,0,,1
+OPD-BAKWYK90,4,General Medicine,0,,1
+OPD-BB0Q4D9B,4,General Surgery,0,,1
+OPD-BB6JZ1K5,5,General Medicine,0,,1
+OPD-BBYHGKWR,4,General Medicine,0,,1
+OPD-BC4GUN4U,3,Pulmonology/Chest & TB,0,,1
+OPD-BCFDPBGC,3,General Surgery,0,,1
+OPD-BCY5PSW0,5,General Medicine,0,,1
+OPD-BD51EES0,4,Orthopaedics,0,,1
+OPD-BD7PIOEY,3,Pulmonology/Chest & TB,0,,1
+OPD-BD9LZSHM,5,General Medicine,0,,1
+OPD-BDDO6CZF,4,General Medicine,0,,1
+OPD-BDGABX30,5,Obstetrics & Gynaecology,0,,1
+OPD-BDX67AZ2,5,Orthopaedics,0,,1
+OPD-BEGKBIZV,4,General Surgery,0,,1
+OPD-BEXLME2E,5,Obstetrics & Gynaecology,0,,1
+OPD-BF0Q5H3M,3,Cardiology,0,,1
+OPD-BF753KPF,4,Ophthalmology,0,,1
+OPD-BFL6R8GW,5,Ophthalmology,0,,1
+OPD-BFP1DINT,5,General Medicine,0,,1
+OPD-BG5FCDB0,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-BGD8F66K,5,Ophthalmology,0,,1
+OPD-BGFZL68S,5,General Medicine,0,,1
+OPD-BGYP9KWD,5,Obstetrics & Gynaecology,0,,1
+OPD-BH6BOHEA,5,General Medicine,0,,1
+OPD-BHMWEJ0N,3,General Medicine,0,,1
+OPD-BHR2M607,5,ENT,0,,1
+OPD-BHTFOAYQ,4,General Medicine,0,,1
+OPD-BIPYWY2L,3,Paediatrics,0,,1
+OPD-BIWC1JMA,3,General Medicine,0,,1
+OPD-BIXRPAI5,4,General Medicine,0,,1
+OPD-BJ2OIPWQ,4,General Medicine,0,,1
+OPD-BJ6YPSPT,4,General Medicine,0,,1
+OPD-BJQJE23F,4,General Medicine,0,,0
+OPD-BJTHW0BL,4,Dental,0,,1
+OPD-BK2QSG0F,4,General Medicine,0,,1
+OPD-BK675AI8,5,Psychiatry,0,,1
+OPD-BKD52MX1,5,Psychiatry,0,,1
+OPD-BKIMRX8D,5,General Medicine,0,,1
+OPD-BKV0UPK6,4,Obstetrics & Gynaecology,0,,1
+OPD-BKY20IR5,5,General Surgery,0,,1
+OPD-BL3KORQR,5,Pulmonology/Chest & TB,0,,1
+OPD-BL4RWX7N,5,Orthopaedics,0,,1
+OPD-BL8SCRNT,4,Pulmonology/Chest & TB,0,,1
+OPD-BLCGM6B9,5,Ophthalmology,0,,1
+OPD-BLUGAMH7,3,Pulmonology/Chest & TB,0,,1
+OPD-BLVLMKFI,4,General Medicine,0,,1
+OPD-BLX3LA02,3,General Medicine,0,,1
+OPD-BMMAZ552,4,General Medicine,0,,1
+OPD-BMNFWHVY,5,General Medicine,0,,1
+OPD-BMU5WWAS,2,Emergency/Casualty,1,RF_THUNDERCLAP_HEADACHE,1
+OPD-BN98XTRL,5,ENT,0,,1
+OPD-BNGHQYGJ,4,General Surgery,0,,1
+OPD-BNGUKK7N,4,General Medicine,0,,1
+OPD-BNJ4GEIH,3,General Medicine,0,,1
+OPD-BO92OAZS,5,Pulmonology/Chest & TB,0,,1
+OPD-BOBD86A0,4,Dental,0,,1
+OPD-BOFFV4ZB,4,Ophthalmology,0,,1
+OPD-BOOZTXDZ,3,General Medicine,0,,1
+OPD-BOVOU83W,4,ENT,0,,1
+OPD-BOVQXRJ6,5,Dental,0,,1
+OPD-BOYQJH46,4,Orthopaedics,0,,1
+OPD-BP0648UD,4,General Medicine,0,,1
+OPD-BP4IDZWP,5,Dental,0,,1
+OPD-BP7NHBFR,4,General Medicine,0,,1
+OPD-BPD3ER30,3,Obstetrics & Gynaecology,0,,1
+OPD-BQ1T4WHH,4,Ophthalmology,0,,1
+OPD-BQ9OWSO2,3,General Surgery,0,,1
+OPD-BQP63OZ2,3,General Medicine,0,,1
+OPD-BQVG3YEO,3,Paediatrics,0,,1
+OPD-BQWVYUX3,4,General Medicine,0,,1
+OPD-BQXNC9BY,3,General Medicine,0,,1
+OPD-BQYJIJET,3,Paediatrics,0,,1
+OPD-BR46PS9G,3,General Surgery,0,,1
+OPD-BRGQORAM,4,Dental,0,,1
+OPD-BRP6HBKI,5,Psychiatry,0,,1
+OPD-BRUEJYWF,4,General Medicine,0,,1
+OPD-BRV9218V,5,Ophthalmology,0,,1
+OPD-BSLSLXBI,5,General Medicine,0,,1
+OPD-BSMR8ZN9,3,Cardiology,0,,1
+OPD-BSXGXEQ4,3,Pulmonology/Chest & TB,0,,1
+OPD-BTDSZYNG,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-BTZITFLC,2,Emergency/Casualty,1,RF_SEIZURE,1
+OPD-BUBZE378,4,Paediatrics,0,,1
+OPD-BUIPVO4N,4,General Medicine,0,,1
+OPD-BVN3Y1Y0,5,Orthopaedics,0,,1
+OPD-BVUVE2QB,4,General Medicine,0,,1
+OPD-BW47I0OK,4,General Medicine,0,,1
+OPD-BW5NMFG3,4,Paediatrics,0,,1
+OPD-BWFJORZA,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-BWGTFXQR,3,Obstetrics & Gynaecology,0,,1
+OPD-BWZSYA1H,4,General Medicine,0,,1
+OPD-BXSPGSG1,4,General Medicine,0,,1
+OPD-BXVB4KWM,4,General Surgery,0,,1
+OPD-BXX08ZQ5,5,Ophthalmology,0,,1
+OPD-BXYJ9XBM,5,Dental,0,,1
+OPD-BYE1PNRZ,4,General Medicine,0,,1
+OPD-BYXNTK8B,4,General Surgery,0,,1
+OPD-BYY9GSXT,4,General Medicine,0,,1
+OPD-BZ2TGH12,4,General Medicine,0,,1
+OPD-BZ4T9BBD,4,General Surgery,0,,1
+OPD-BZB7E21A,4,General Medicine,0,,1
+OPD-BZJIN1Y1,3,General Medicine,0,,1
+OPD-BZKL3I3I,3,Pulmonology/Chest & TB,0,,1
+OPD-BZUU7BNC,4,General Medicine,0,,1
+OPD-C01SXZOA,5,Dental,0,,1
+OPD-C07OAMYI,5,Orthopaedics,0,,1
+OPD-C0NL34KQ,4,General Medicine,0,,1
+OPD-C0YORUHP,5,ENT,0,,1
+OPD-C1E0SQ1T,5,Psychiatry,0,,1
+OPD-C1MT6JJJ,4,General Medicine,0,,1
+OPD-C25M7UKX,4,General Medicine,0,,1
+OPD-C2A0LHKP,4,General Medicine,0,,1
+OPD-C2TB05ER,3,Obstetrics & Gynaecology,0,,1
+OPD-C3BXGC9C,4,General Medicine,0,,1
+OPD-C3FGZKG3,5,Psychiatry,0,,0
+OPD-C3HMXRD9,3,Pulmonology/Chest & TB,0,,1
+OPD-C3ZYBJXM,4,Dental,0,,1
+OPD-C4MGGSBJ,4,Orthopaedics,0,,1
+OPD-C4PSCWA6,4,General Medicine,0,,1
+OPD-C4TCV8WH,4,ENT,0,,1
+OPD-C4UOC81Q,4,General Medicine,0,,1
+OPD-C504JIT6,5,General Medicine,0,,1
+OPD-C51UDPFU,5,General Medicine,0,,1
+OPD-C526PZT8,3,Paediatrics,0,,1
+OPD-C55IONRH,5,Pulmonology/Chest & TB,0,,1
+OPD-C5LKAWHV,4,General Medicine,0,,1
+OPD-C5X1KDP7,3,General Surgery,0,,1
+OPD-C62KMA75,5,General Medicine,0,,1
+OPD-C67WPQLB,4,General Medicine,0,,1
+OPD-C6ENC0OR,5,Orthopaedics,0,,1
+OPD-C6X8AMNK,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-C72B2MGF,4,General Medicine,0,,1
+OPD-C77ET0EV,4,General Medicine,0,,1
+OPD-C84UJK7S,3,General Surgery,0,,1
+OPD-C8ACD709,5,Paediatrics,0,,1
+OPD-C8AM3QTP,4,Orthopaedics,0,,1
+OPD-C8HL4O9S,4,General Medicine,0,,1
+OPD-C8T92C61,5,Obstetrics & Gynaecology,0,,0
+OPD-C92UM7KE,5,General Surgery,0,,1
+OPD-C99MDT3F,4,General Surgery,0,,1
+OPD-C9R0IU1D,4,General Medicine,0,,1
+OPD-C9R9057X,5,General Medicine,0,,1
+OPD-CA0STY55,4,General Medicine,0,,1
+OPD-CA48TV1P,4,General Medicine,0,,1
+OPD-CA6Y1A4Q,5,General Medicine,0,,1
+OPD-CAKLG1H6,5,Pulmonology/Chest & TB,0,,1
+OPD-CALTL0DS,4,General Medicine,0,,1
+OPD-CAUPZS0J,5,Dental,0,,1
+OPD-CB09NY3X,5,Ophthalmology,0,,1
+OPD-CBBQKAKV,5,Obstetrics & Gynaecology,0,,1
+OPD-CBFSDKTR,5,General Medicine,0,,1
+OPD-CCGHMG3F,4,Pulmonology/Chest & TB,0,,1
+OPD-CCVIA6RI,4,General Surgery,0,,1
+OPD-CCVKERXH,4,General Medicine,0,,1
+OPD-CD0EL81T,3,General Surgery,0,,1
+OPD-CD0U9I8W,3,General Surgery,0,,1
+OPD-CD7SSP49,3,General Medicine,0,,1
+OPD-CDDSNO12,3,General Surgery,0,,1
+OPD-CDHWWZVT,4,ENT,0,,1
+OPD-CDP9MHEU,3,General Medicine,0,,1
+OPD-CE8GOO37,5,ENT,0,,1
+OPD-CEDS7ZDH,4,Paediatrics,0,,1
+OPD-CEPHA70A,4,General Medicine,0,,1
+OPD-CETGLJYN,4,Pulmonology/Chest & TB,0,,1
+OPD-CEXFC7LU,5,Orthopaedics,0,,1
+OPD-CEZVMKMN,5,Dermatology,0,,1
+OPD-CFEP9QB2,5,Orthopaedics,0,,1
+OPD-CFKN2CEA,5,Orthopaedics,0,,1
+OPD-CFLYZB2F,4,Paediatrics,0,,1
+OPD-CFNOCPQI,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-CFR0YWC3,4,General Medicine,0,,1
+OPD-CG357G74,4,General Medicine,0,,1
+OPD-CG7PR30B,4,General Medicine,0,,1
+OPD-CG7T2TMT,5,Orthopaedics,0,,1
+OPD-CGFT8DE6,4,Paediatrics,0,,1
+OPD-CGOGTD0G,5,General Medicine,0,,1
+OPD-CGTROJAX,4,General Medicine,0,,1
+OPD-CGVFI867,3,Obstetrics & Gynaecology,0,,1
+OPD-CHETCP0M,3,General Surgery,0,,1
+OPD-CHF08RLB,4,Psychiatry,0,,1
+OPD-CHL534YL,3,General Medicine,0,,1
+OPD-CHNCPP46,4,General Medicine,0,,1
+OPD-CHNQY5DQ,4,General Surgery,0,,1
+OPD-CHPWIPW7,4,Paediatrics,0,,1
+OPD-CHT8RI4B,4,Paediatrics,0,,1
+OPD-CIRJP85R,3,Orthopaedics,0,,1
+OPD-CJBXQTOS,5,General Medicine,0,,1
+OPD-CJLW0E8N,4,General Medicine,0,,1
+OPD-CK5DMZH7,5,Paediatrics,0,,1
+OPD-CKMCMUUY,4,General Medicine,0,,1
+OPD-CKR1M0Q5,4,General Surgery,0,,1
+OPD-CL1J9WNH,5,General Medicine,0,,1
+OPD-CL1X0NPW,4,General Medicine,0,,0
+OPD-CL74EF40,4,General Medicine,0,,1
+OPD-CL7MRU7M,4,General Surgery,0,,1
+OPD-CLBCCS4L,3,General Medicine,0,,0
+OPD-CLI93SOS,5,ENT,0,,1
+OPD-CLO4O85F,3,Obstetrics & Gynaecology,0,,1
+OPD-CLQR4K4Q,3,Pulmonology/Chest & TB,0,,1
+OPD-CLRB547B,5,Psychiatry,0,,1
+OPD-CLTVTVYT,4,General Surgery,0,,1
+OPD-CLTYNIIC,4,General Medicine,0,,1
+OPD-CLXNTH3F,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-CLZAOP59,3,General Medicine,0,,1
+OPD-CM1GV3E9,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-CMETZZWR,4,Paediatrics,0,,1
+OPD-CMP1NFXF,3,General Medicine,0,,1
+OPD-CMP34O14,5,Paediatrics,0,,1
+OPD-CNA6OKBZ,3,General Surgery,0,,1
+OPD-CNGPE9XI,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-CNTS156B,5,Paediatrics,0,,1
+OPD-CNXX6LZ8,5,Orthopaedics,0,,1
+OPD-CO7UV7B5,3,General Medicine,0,,1
+OPD-COA1XFLH,4,General Surgery,0,,1
+OPD-CPDO2K3G,4,General Medicine,0,,1
+OPD-CPLWC8M7,3,General Medicine,0,,1
+OPD-CPPN528I,5,Orthopaedics,0,,1
+OPD-CPWGVBXV,5,General Medicine,0,,1
+OPD-CQBJO2OX,5,General Medicine,0,,1
+OPD-CQDFF7GN,3,Orthopaedics,0,,1
+OPD-CQSUFLVU,4,General Medicine,0,,1
+OPD-CRJK2JU3,4,Orthopaedics,0,,1
+OPD-CRKNBD1Y,4,Orthopaedics,0,,1
+OPD-CRKYV6SJ,5,Dermatology,0,,1
+OPD-CSB8CC5H,5,General Medicine,0,,1
+OPD-CSU2KZQR,4,General Medicine,0,,1
+OPD-CSXG47IR,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_SEPSIS_SIGNS,1
+OPD-CT621HUK,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-CTD1WLA7,3,General Medicine,0,,1
+OPD-CTG6EJP9,3,General Medicine,0,,1
+OPD-CTQOMOI3,4,Paediatrics,0,,1
+OPD-CTZ4X2PP,4,General Medicine,0,,1
+OPD-CU3ZAKRG,5,Dermatology,0,,1
+OPD-CU6ZY5RJ,4,General Medicine,0,,1
+OPD-CUS4HWI4,3,Orthopaedics,0,,1
+OPD-CVB9HLO7,5,General Medicine,0,,1
+OPD-CVBKGIQJ,5,General Medicine,0,,1
+OPD-CVIQ81L1,5,General Medicine,0,,1
+OPD-CVWHR5BP,3,General Medicine,0,,1
+OPD-CW41B568,5,Paediatrics,0,,0
+OPD-CW4DLGLI,5,Orthopaedics,0,,1
+OPD-CWACSLXD,4,General Medicine,0,,1
+OPD-CWNINZJN,5,Dermatology,0,,1
+OPD-CWWI6EGA,3,General Medicine,0,,1
+OPD-CX8XTBSP,5,General Surgery,0,,1
+OPD-CXC5TP51,3,General Surgery,0,,1
+OPD-CXLBQ5OA,5,Dermatology,0,,1
+OPD-CXO081VO,3,Pulmonology/Chest & TB,0,,1
+OPD-CY00MWCO,5,General Medicine,0,,1
+OPD-CY3VCAIY,5,General Medicine,0,,1
+OPD-CY9290YP,5,General Medicine,0,,1
+OPD-CYMIL7L2,4,General Medicine,0,,1
+OPD-CYUHTNOU,5,ENT,0,,1
+OPD-CZATM1DU,4,Paediatrics,0,,1
+OPD-CZGCC631,4,Orthopaedics,0,,1
+OPD-CZJVV5H5,3,Paediatrics,0,,1
+OPD-CZU7RGQF,4,Orthopaedics,0,,1
+OPD-D09YRXVD,4,Orthopaedics,0,,1
+OPD-D0DNCN2N,5,ENT,0,,1
+OPD-D0FY0WO7,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-D0GCSPHQ,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_RESP_DISTRESS,1
+OPD-D174PRTI,5,General Medicine,0,,1
+OPD-D1IITBYY,5,ENT,0,,1
+OPD-D1N50UEK,3,General Surgery,0,,1
+OPD-D20PGMAI,5,Pulmonology/Chest & TB,0,,1
+OPD-D25PTR5T,4,Paediatrics,0,,1
+OPD-D2IPJM17,4,Dental,0,,1
+OPD-D2KHYISD,5,General Medicine,0,,1
+OPD-D2R7PDHW,4,Pulmonology/Chest & TB,0,,1
+OPD-D2WY4CC0,5,Orthopaedics,0,,1
+OPD-D3U4F2P0,4,Pulmonology/Chest & TB,0,,1
+OPD-D3VFX6WU,4,General Medicine,0,,1
+OPD-D3YHD01O,3,General Medicine,0,,1
+OPD-D448OCLS,4,General Medicine,0,,1
+OPD-D46EVBL5,4,Paediatrics,0,,1
+OPD-D4FRCM13,3,Paediatrics,0,,1
+OPD-D54F1TZ0,4,General Medicine,0,,1
+OPD-D57AYNKQ,3,General Medicine,0,,1
+OPD-D5B74IAO,3,General Medicine,0,,1
+OPD-D5FQRSF1,5,General Medicine,0,,1
+OPD-D5LTK6TT,5,Dermatology,0,,1
+OPD-D5M13IZ9,4,Orthopaedics,0,,1
+OPD-D5X5IN0M,5,Dental,0,,1
+OPD-D6AAIPVV,4,Paediatrics,0,,1
+OPD-D76ZANI5,3,General Medicine,0,,1
+OPD-D7DJCB8M,5,General Medicine,0,,1
+OPD-D81I159A,4,Dental,0,,1
+OPD-D81LFV3C,5,Dermatology,0,,1
+OPD-D87NZAG5,4,General Surgery,0,,1
+OPD-D896EG9P,4,General Medicine,0,,1
+OPD-D957RDSO,4,General Medicine,0,,1
+OPD-D97TEHYK,3,General Surgery,0,,1
+OPD-D99GB1SO,4,General Medicine,0,,1
+OPD-D9H8DC7K,4,General Medicine,0,,1
+OPD-D9K08Y2L,5,General Medicine,0,,1
+OPD-D9UQD5YE,4,General Medicine,0,,1
+OPD-DA9DN1MB,4,Pulmonology/Chest & TB,0,,1
+OPD-DAW9VWY7,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-DB79AEWN,5,General Medicine,0,,1
+OPD-DBC8QTBH,5,General Medicine,0,,1
+OPD-DBGL54DX,5,General Medicine,0,,1
+OPD-DBZ8Q7KP,5,ENT,0,,1
+OPD-DC4781UX,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-DC8B3OH6,5,Dental,0,,1
+OPD-DCV6UGUF,3,General Medicine,0,,1
+OPD-DCVD25SH,4,Paediatrics,0,,1
+OPD-DD846O4D,4,General Medicine,0,,1
+OPD-DDJ2CCX0,5,General Medicine,0,,1
+OPD-DDOPFMH8,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_SEPSIS_SIGNS,1
+OPD-DDWHTDZ4,3,Paediatrics,0,,1
+OPD-DDXDC02D,4,ENT,0,,1
+OPD-DE1BR17K,4,General Medicine,0,,1
+OPD-DEIV654K,4,ENT,0,,1
+OPD-DEOKNBI5,4,General Medicine,0,,1
+OPD-DF5ZCI0C,3,Pulmonology/Chest & TB,0,,1
+OPD-DFHERMRH,4,General Medicine,0,,1
+OPD-DFHFKCJ3,5,Dermatology,0,,1
+OPD-DFJNJ08W,4,ENT,0,,1
+OPD-DG99YD36,5,General Medicine,0,,1
+OPD-DGIPSBUF,4,General Medicine,0,,1
+OPD-DGK65147,4,Paediatrics,0,,1
+OPD-DGOG0LTL,5,General Medicine,0,,1
+OPD-DH5FY4CC,4,General Medicine,0,,1
+OPD-DH7Y7TSF,3,Cardiology,0,,1
+OPD-DH9KH10R,5,Orthopaedics,0,,1
+OPD-DHCKT8WA,3,Obstetrics & Gynaecology,0,,1
+OPD-DHE1Q9SL,4,General Surgery,0,,1
+OPD-DIMCAX77,5,Pulmonology/Chest & TB,0,,1
+OPD-DIQKSJKY,5,General Medicine,0,,1
+OPD-DIW1PZIN,4,General Medicine,0,,1
+OPD-DIZWQOE8,5,Dental,0,,1
+OPD-DJ5VZ8GR,4,General Medicine,0,,1
+OPD-DJ7N1162,4,General Medicine,0,,1
+OPD-DJCT06QD,5,Dermatology,0,,1
+OPD-DJIQEDAO,3,General Surgery,0,,1
+OPD-DJOLX72N,3,General Medicine,0,,1
+OPD-DJRQ4R2H,4,General Medicine,0,,1
+OPD-DJS8NBDF,4,General Medicine,0,,1
+OPD-DKC065WB,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-DKLNSN6Y,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-DKOTU8SA,5,Orthopaedics,0,,1
+OPD-DKVWXL7O,4,General Medicine,0,,1
+OPD-DKY1CI0M,4,Pulmonology/Chest & TB,0,,1
+OPD-DKZAEXMV,3,General Medicine,0,,1
+OPD-DL61P0PE,3,General Medicine,0,,1
+OPD-DLOGZEIN,4,Orthopaedics,0,,1
+OPD-DLPGL14T,4,General Medicine,0,,1
+OPD-DMEUQPX5,3,General Medicine,0,,1
+OPD-DMHGIKYL,4,General Surgery,0,,1
+OPD-DMJBO1IH,5,General Medicine,0,,1
+OPD-DMY44P1G,4,Dental,0,,1
+OPD-DN31LJ3O,3,Obstetrics & Gynaecology,0,,1
+OPD-DNT47ZSO,4,General Medicine,0,,1
+OPD-DNWBZ2D1,2,Emergency/Casualty,1,,1
+OPD-DO2AACS2,4,Pulmonology/Chest & TB,0,,1
+OPD-DOGCFGSF,4,ENT,0,,1
+OPD-DOMU0ZEO,4,General Medicine,0,,1
+OPD-DOZ8PIQY,2,Emergency/Casualty,1,,1
+OPD-DPB42K1L,5,Obstetrics & Gynaecology,0,,1
+OPD-DPYALSDF,4,Ophthalmology,0,,1
+OPD-DR0B7RVK,5,Orthopaedics,0,,1
+OPD-DR24G3NH,4,General Surgery,0,,1
+OPD-DRJM3RDN,4,General Medicine,0,,1
+OPD-DRJZJ56J,4,Orthopaedics,0,,1
+OPD-DRNHLYY0,4,General Surgery,0,,1
+OPD-DRWUF9BB,2,Emergency/Casualty,1,,1
+OPD-DSF9WDXF,4,General Medicine,0,,1
+OPD-DSKTPEFH,5,Dental,0,,1
+OPD-DSYU9MQ4,3,Pulmonology/Chest & TB,0,,1
+OPD-DT5UE4NL,4,General Medicine,0,,1
+OPD-DTT04375,5,Paediatrics,0,,1
+OPD-DU88ZL24,5,General Medicine,0,,1
+OPD-DUDFDVHR,3,General Surgery,0,,1
+OPD-DVCINWQJ,5,General Medicine,0,,1
+OPD-DVIVP24E,4,Orthopaedics,0,,1
+OPD-DVKVLEND,5,General Medicine,0,,1
+OPD-DWB7WJWR,5,General Medicine,0,,1
+OPD-DWQWRTEU,2,Emergency/Casualty,1,RF_SEIZURE,1
+OPD-DX9NBIEG,4,General Medicine,0,,1
+OPD-DXACBKHJ,3,Pulmonology/Chest & TB,0,,1
+OPD-DXKETUG9,4,General Surgery,0,,1
+OPD-DXLLJIBU,4,General Medicine,0,,1
+OPD-DXN65KGA,5,Dermatology,0,,1
+OPD-DY1TZQ77,4,General Medicine,0,,1
+OPD-DY9RX8H8,3,General Surgery,0,,1
+OPD-DYLF1IA6,4,General Medicine,0,,1
+OPD-DYOFOBYS,4,General Medicine,0,,1
+OPD-DYR69B5Y,4,ENT,0,,1
+OPD-DYSW773V,5,General Medicine,0,,1
+OPD-DZTP12ZV,5,General Medicine,0,,1
+OPD-DZV2R7OQ,4,Orthopaedics,0,,1
+OPD-DZYTRS6P,3,General Surgery,0,,1
+OPD-E03PO6VQ,5,General Surgery,0,,1
+OPD-E07EPRWZ,5,General Medicine,0,,1
+OPD-E0DGZEBR,4,Orthopaedics,0,,1
+OPD-E0KC9A7C,4,General Medicine,0,,1
+OPD-E0NBQFNU,4,General Medicine,0,,1
+OPD-E0XA3KD7,3,General Medicine,0,,1
+OPD-E1OVJ5O6,4,Orthopaedics,0,,1
+OPD-E1TEN5B5,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-E1ZKR0JX,4,General Medicine,0,,1
+OPD-E2142MER,3,General Medicine,0,,1
+OPD-E2ADOMAO,4,General Medicine,0,,1
+OPD-E2FX2UG9,5,General Medicine,0,,1
+OPD-E2J4JO06,4,General Medicine,0,,1
+OPD-E2R4XPFE,3,General Medicine,0,,1
+OPD-E3HQTZXM,5,Ophthalmology,0,,1
+OPD-E3LYLIFF,4,General Medicine,0,,1
+OPD-E3NNY4PG,4,General Surgery,0,,1
+OPD-E4IFD1ER,4,General Medicine,0,,1
+OPD-E4LIV5R0,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_TRAUMA_MAJOR,1
+OPD-E5ENQ0VB,4,Paediatrics,0,,1
+OPD-E5OJAUMJ,4,General Medicine,0,,1
+OPD-E6JNL9JX,5,General Medicine,0,,1
+OPD-E6KN2UD3,4,General Medicine,0,,1
+OPD-E6M5PMPA,5,Ophthalmology,0,,1
+OPD-E6QGPBFD,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_HEAT_STROKE,1
+OPD-E6XVXSTD,3,General Surgery,0,,1
+OPD-E7A2RPQZ,2,Emergency/Casualty,1,,1
+OPD-E7HAZWSP,5,General Medicine,0,,1
+OPD-E7O84115,4,General Medicine,0,,1
+OPD-E7U46CB8,5,General Medicine,0,,1
+OPD-E8HZ35MG,4,Orthopaedics,0,,1
+OPD-E8LMT5Y1,5,General Medicine,0,,1
+OPD-E8RDDMWX,5,General Medicine,0,,1
+OPD-E8RO065Q,5,Ophthalmology,0,,1
+OPD-E8VJQGI2,5,General Medicine,0,,1
+OPD-E99MCF7P,3,Pulmonology/Chest & TB,0,,1
+OPD-E9KODIH0,4,General Medicine,0,,1
+OPD-E9XPVSAU,3,General Medicine,0,,1
+OPD-EA4CWGJM,4,Pulmonology/Chest & TB,0,,1
+OPD-EA62UT5J,3,General Medicine,0,,1
+OPD-EA74G1YG,4,Paediatrics,0,,1
+OPD-EAE1CDGW,4,Paediatrics,0,,1
+OPD-EB9EN14Q,4,Paediatrics,0,,1
+OPD-EBAEGW4V,5,General Medicine,0,,1
+OPD-EBGPDWRV,3,General Surgery,0,,1
+OPD-ECCFQ36K,3,General Medicine,0,,1
+OPD-ECIJA6JV,3,Pulmonology/Chest & TB,0,,1
+OPD-ED02GR15,3,General Surgery,0,,1
+OPD-EE42E2ML,4,General Medicine,0,,1
+OPD-EE42RPC4,4,Ophthalmology,0,,1
+OPD-EECJWIM7,4,Obstetrics & Gynaecology,0,,1
+OPD-EEKXB0F3,5,ENT,0,,1
+OPD-EEYGY15X,5,General Medicine,0,,1
+OPD-EFLN5VF6,5,Orthopaedics,0,,1
+OPD-EFLW8FCM,4,General Surgery,0,,1
+OPD-EFTYPKBR,5,General Medicine,0,,1
+OPD-EG0WJ8U4,5,ENT,0,,1
+OPD-EGKBNNFV,5,General Medicine,0,,1
+OPD-EGPZ94CD,3,General Medicine,0,,1
+OPD-EGZ635F4,4,Orthopaedics,0,,1
+OPD-EH7YW2YZ,5,General Medicine,0,,1
+OPD-EHFJLPWT,5,General Medicine,0,,1
+OPD-EHKTSKU6,4,General Medicine,0,,1
+OPD-EHZCLDM5,5,General Medicine,0,,1
+OPD-EI35U8NZ,4,General Medicine,0,,1
+OPD-EIDOJASL,5,Obstetrics & Gynaecology,0,,1
+OPD-EIEL8WQW,5,General Medicine,0,,1
+OPD-EIHAPTYH,5,Orthopaedics,0,,1
+OPD-EJ44T8ZL,4,General Medicine,0,,1
+OPD-EJ59M4N1,5,Obstetrics & Gynaecology,0,,1
+OPD-EJ99RWF3,4,General Medicine,0,,1
+OPD-EJG6U6NQ,3,Pulmonology/Chest & TB,0,,1
+OPD-EJTFSDM6,4,General Medicine,0,,1
+OPD-EJY0PGTH,5,General Medicine,0,,1
+OPD-EK3MWADC,5,Orthopaedics,0,,1
+OPD-EK4MTN17,2,Emergency/Casualty,1,RF_SEIZURE;RF_TRAUMA_MAJOR,1
+OPD-EK87HGON,4,Paediatrics,0,,1
+OPD-EK99LULK,5,Pulmonology/Chest & TB,0,,1
+OPD-EKEDUE5P,4,General Medicine,0,,1
+OPD-EKJM73X9,4,Paediatrics,0,,1
+OPD-EKRKMLPE,5,Orthopaedics,0,,1
+OPD-EKRU0TSC,5,Orthopaedics,0,,1
+OPD-EKYH1GAQ,4,General Medicine,0,,1
+OPD-EL077Q2Z,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-EL206T7P,4,General Medicine,0,,1
+OPD-EL42H09H,4,General Medicine,0,,1
+OPD-EL5FZ16K,4,Paediatrics,0,,1
+OPD-EL5ZDCPJ,3,General Medicine,0,,1
+OPD-ELHJ1Y9U,4,General Medicine,0,,1
+OPD-ELM9YUSK,5,Paediatrics,0,,1
+OPD-EM50076Q,4,Psychiatry,0,,1
+OPD-EMD0S4T8,3,General Surgery,0,,1
+OPD-EMNPVJEA,3,Pulmonology/Chest & TB,0,,1
+OPD-EMPEG5MH,5,Ophthalmology,0,,1
+OPD-ENF0KA3Q,4,General Surgery,0,,1
+OPD-ENTQ0D1R,4,General Medicine,0,,1
+OPD-ENV08FUA,4,General Surgery,0,,1
+OPD-EO9KBROA,4,General Medicine,0,,1
+OPD-EOB63AWE,4,Orthopaedics,0,,1
+OPD-EOCXC4G4,3,General Medicine,0,,1
+OPD-EOFIT3DO,4,General Surgery,0,,1
+OPD-EOFPIKN5,4,General Medicine,0,,1
+OPD-EOVTXQF8,4,Orthopaedics,0,,1
+OPD-EP1R6REB,3,General Medicine,0,,1
+OPD-EP3OQBZT,4,Paediatrics,0,,1
+OPD-EP5APX1X,4,General Medicine,0,,1
+OPD-EPQKRL6H,4,General Medicine,0,,1
+OPD-EPQWCZ79,4,General Medicine,0,,1
+OPD-EPTXZ9ME,4,Paediatrics,0,,1
+OPD-EPWLJRNO,3,General Surgery,0,,1
+OPD-EPX9ZRJG,4,General Surgery,0,,1
+OPD-EQ2NF5HC,4,General Surgery,0,,1
+OPD-EQ8672AH,4,ENT,0,,1
+OPD-EQ8BIZFS,3,General Surgery,0,,1
+OPD-EQR3HCSP,3,General Medicine,0,,1
+OPD-EQWSOWXK,3,General Medicine,0,,1
+OPD-ERJ5T2ZP,5,General Medicine,0,,1
+OPD-ERQRU9PT,5,General Medicine,0,,1
+OPD-ERR2XPJ8,4,Obstetrics & Gynaecology,0,,1
+OPD-ES4HGK2P,2,Emergency/Casualty,1,,1
+OPD-ESMHBV3Y,3,General Medicine,0,,1
+OPD-ESOMSV4V,5,General Medicine,0,,1
+OPD-ESZLJGIE,3,Pulmonology/Chest & TB,0,,1
+OPD-ET2LBBVM,3,General Medicine,0,,1
+OPD-ETAJI7OS,4,General Medicine,0,,1
+OPD-ETBTK5MF,5,General Medicine,0,,1
+OPD-ETH1O5FH,3,General Medicine,0,,1
+OPD-ETMJB246,3,General Medicine,0,,1
+OPD-ETOQVZ8N,3,Pulmonology/Chest & TB,0,,1
+OPD-ETSUAHL3,5,Dental,0,,1
+OPD-EU29ZQK9,3,General Surgery,0,,1
+OPD-EU56TW7R,5,General Medicine,0,,1
+OPD-EUC0XTP5,5,Dermatology,0,,1
+OPD-EUFAO097,5,Paediatrics,0,,1
+OPD-EUHD5AJ4,5,General Medicine,0,,1
+OPD-EURH5POM,5,General Medicine,0,,1
+OPD-EVAOBR0K,5,Ophthalmology,0,,1
+OPD-EVCD60TH,4,General Medicine,0,,1
+OPD-EVJXPMD7,5,General Medicine,0,,1
+OPD-EWD7I86A,4,General Medicine,0,,1
+OPD-EWEYAL4K,4,General Surgery,0,,1
+OPD-EWG8DMR4,4,ENT,0,,1
+OPD-EWNXPNIB,4,General Medicine,0,,1
+OPD-EWSAJ5W6,4,Paediatrics,0,,1
+OPD-EWTQANZN,4,General Medicine,0,,1
+OPD-EY0SELHJ,5,General Medicine,0,,1
+OPD-EZBFUY3P,4,General Medicine,0,,1
+OPD-EZF2TRQ4,5,Obstetrics & Gynaecology,0,,0
+OPD-EZK0TZ40,4,General Medicine,0,,1
+OPD-EZND7O60,5,General Medicine,0,,1
+OPD-EZTEWFLU,4,General Medicine,0,,1
+OPD-F04K2BS0,4,Paediatrics,0,,1
+OPD-F07UTXTK,4,General Medicine,0,,1
+OPD-F08FJ9J7,4,Orthopaedics,0,,1
+OPD-F0FNUM6D,4,Paediatrics,0,,1
+OPD-F0M4G4BQ,5,General Medicine,0,,1
+OPD-F0VQIX3S,4,Pulmonology/Chest & TB,0,,1
+OPD-F0VROU59,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-F1X5R717,5,Ophthalmology,0,,1
+OPD-F1XCN600,4,Paediatrics,0,,1
+OPD-F20VIMFE,3,Paediatrics,0,,0
+OPD-F22DFQS6,4,General Medicine,0,,1
+OPD-F2AM25E0,5,ENT,0,,1
+OPD-F2LH870M,4,General Medicine,0,,1
+OPD-F2Q0R0V3,4,General Medicine,0,,1
+OPD-F2RGC436,5,General Surgery,0,,1
+OPD-F37NYTRY,3,General Surgery,0,,1
+OPD-F38F64Z2,3,General Surgery,0,,1
+OPD-F3B1NVM5,4,General Medicine,0,,1
+OPD-F3CBH26X,2,Emergency/Casualty,1,,1
+OPD-F3ENML6R,4,Orthopaedics,0,,1
+OPD-F3YCI387,4,Pulmonology/Chest & TB,0,,1
+OPD-F405OH0B,3,Pulmonology/Chest & TB,0,,1
+OPD-F497B7QW,4,General Medicine,0,,1
+OPD-F4FE3H49,4,General Surgery,0,,1
+OPD-F4G9N6DT,3,General Medicine,0,,1
+OPD-F4RRQEI6,5,Dermatology,0,,1
+OPD-F52WTKA3,4,General Medicine,0,,1
+OPD-F5D54SBH,4,Pulmonology/Chest & TB,0,,1
+OPD-F5G14Y0N,4,Paediatrics,0,,1
+OPD-F6QSSE3E,3,Orthopaedics,0,,1
+OPD-F772CBTQ,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-F793YS00,3,General Surgery,0,,1
+OPD-F7EDU5NN,5,Dental,0,,1
+OPD-F7I7JNZ9,4,General Medicine,0,,1
+OPD-F7OSV9O8,3,General Medicine,0,,1
+OPD-F7Y9NEHQ,4,Orthopaedics,0,,1
+OPD-F7YXLV3L,5,Obstetrics & Gynaecology,0,,1
+OPD-F902GVGP,5,Paediatrics,0,,1
+OPD-F9C2RSK3,5,General Medicine,0,,1
+OPD-F9CNWHHM,5,Dermatology,0,,1
+OPD-F9UAFYD8,4,General Medicine,0,,1
+OPD-FA4PR5US,4,General Surgery,0,,1
+OPD-FAIDQCIL,5,Pulmonology/Chest & TB,0,,1
+OPD-FAV8Z0YO,4,General Medicine,0,,1
+OPD-FAZ7PN6D,5,Dermatology,0,,1
+OPD-FBF3NCA5,3,General Surgery,0,,1
+OPD-FBGPO76P,4,Obstetrics & Gynaecology,0,,1
+OPD-FBXC2YDN,4,Paediatrics,0,,1
+OPD-FCUL2NFE,4,Paediatrics,0,,1
+OPD-FCYEK8TB,5,Orthopaedics,0,,1
+OPD-FD1A8WYW,4,Orthopaedics,0,,1
+OPD-FD6B3UIC,5,Dental,0,,1
+OPD-FDNZKEMU,5,Ophthalmology,0,,1
+OPD-FDTNVAOL,3,General Surgery,0,,1
+OPD-FDU58AOH,4,General Medicine,0,,1
+OPD-FF6PX84G,5,Obstetrics & Gynaecology,0,,1
+OPD-FFIQJSKY,4,General Medicine,0,,1
+OPD-FFLA4J93,5,Dental,0,,1
+OPD-FFSLTUDK,5,Dermatology,0,,1
+OPD-FFZCQ5F1,4,General Medicine,0,,1
+OPD-FFZY6DCJ,4,General Medicine,0,,1
+OPD-FG6WV0OE,3,General Surgery,0,,1
+OPD-FGC871IE,4,Paediatrics,0,,1
+OPD-FGEHSUIV,4,Orthopaedics,0,,1
+OPD-FGGYOSHJ,5,ENT,0,,1
+OPD-FGSLTHTC,5,Obstetrics & Gynaecology,0,,1
+OPD-FHCZ20ZW,4,General Medicine,0,,1
+OPD-FHMD1L37,4,General Medicine,0,,1
+OPD-FHUT360P,5,General Medicine,0,,1
+OPD-FHV7Y3OX,5,Dermatology,0,,1
+OPD-FI0JAKHR,4,General Medicine,0,,1
+OPD-FIB76BTJ,5,General Medicine,0,,1
+OPD-FIH28MUM,4,General Medicine,0,,1
+OPD-FIHT36HR,4,Pulmonology/Chest & TB,0,,1
+OPD-FIL2BJ3D,4,Paediatrics,0,,1
+OPD-FIY6A1L5,5,Dermatology,0,,1
+OPD-FJCT1WPG,4,ENT,0,,1
+OPD-FJNRWPY4,3,General Medicine,0,,1
+OPD-FJROHD4R,4,Obstetrics & Gynaecology,0,,1
+OPD-FK0HXRWS,5,Orthopaedics,0,,1
+OPD-FK5ZP7N5,5,Dermatology,0,,1
+OPD-FKCLLM24,4,Paediatrics,0,,1
+OPD-FKNAEGIT,3,General Medicine,0,,1
+OPD-FKO47CCO,5,General Medicine,0,,1
+OPD-FKWU69TY,4,Obstetrics & Gynaecology,0,,1
+OPD-FLJO3TQZ,4,Obstetrics & Gynaecology,0,,1
+OPD-FLKIY20Y,3,General Medicine,0,,1
+OPD-FLVYNCU3,5,General Medicine,0,,1
+OPD-FLWTNIPH,3,General Medicine,0,,1
+OPD-FMDXIUBE,3,General Medicine,0,,1
+OPD-FMG0W21M,4,General Medicine,0,,1
+OPD-FMIQ8MKX,5,General Medicine,0,,1
+OPD-FMIYQUKS,3,General Medicine,0,,1
+OPD-FMLEQA10,4,General Medicine,0,,1
+OPD-FNAVDP1H,4,General Surgery,0,,1
+OPD-FNNELBTK,3,General Medicine,0,,1
+OPD-FNU21SAR,5,Dermatology,0,,1
+OPD-FOJPM785,3,General Surgery,0,,1
+OPD-FOV3Q79Y,4,General Medicine,0,,1
+OPD-FPJLMS0L,4,Dental,0,,1
+OPD-FPMEUKRW,3,Pulmonology/Chest & TB,0,,1
+OPD-FPTLSDU4,3,General Surgery,0,,1
+OPD-FQ0KR08I,5,General Medicine,0,,1
+OPD-FQ4W8L1L,4,General Medicine,0,,1
+OPD-FQANMFWB,5,Ophthalmology,0,,1
+OPD-FQCL08N0,4,General Medicine,0,,1
+OPD-FQTZM3B8,3,General Medicine,0,,1
+OPD-FR0U1W4N,5,General Medicine,0,,1
+OPD-FR130801,3,General Surgery,0,,1
+OPD-FR2F9HRU,4,General Medicine,0,,1
+OPD-FR7LHKFS,5,Ophthalmology,0,,1
+OPD-FRK8KGPY,4,General Medicine,0,,1
+OPD-FSHEJMTC,4,Orthopaedics,0,,1
+OPD-FSNERU6C,4,General Medicine,0,,1
+OPD-FSS5ZWFM,4,General Medicine,0,,1
+OPD-FSXICGUB,4,General Medicine,0,,1
+OPD-FTVCDVLH,5,General Medicine,0,,1
+OPD-FU0X1ECT,3,General Surgery,0,,1
+OPD-FUIUZY1B,5,General Medicine,0,,1
+OPD-FVL6ACEA,3,Orthopaedics,0,,1
+OPD-FVLLSZ91,5,Dermatology,0,,1
+OPD-FVLULS4R,4,General Medicine,0,,1
+OPD-FVOZV72X,3,General Surgery,0,,1
+OPD-FVQREA6K,4,Paediatrics,0,,1
+OPD-FW9OWK66,4,General Medicine,0,,1
+OPD-FWT5XCKG,4,General Surgery,0,,1
+OPD-FWZA41JU,5,Dental,0,,1
+OPD-FX4DDCOL,4,General Medicine,0,,1
+OPD-FXB2V1NB,4,General Medicine,0,,1
+OPD-FXD03M2I,4,Psychiatry,0,,1
+OPD-FXETW75M,5,Dental,0,,1
+OPD-FXUQ9FMK,5,Dermatology,0,,1
+OPD-FY8FP79I,5,General Medicine,0,,1
+OPD-FYPNXKV7,4,General Surgery,0,,1
+OPD-FZ2BUPS7,5,Ophthalmology,0,,1
+OPD-FZ343VWN,2,Emergency/Casualty,1,RF_ACUTE_PSYCHOSIS_AGITATION,1
+OPD-FZ7C8VLS,4,General Surgery,0,,1
+OPD-FZYZ8KES,5,Paediatrics,0,,1
+OPD-G021PG0H,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-G02A03LH,5,Paediatrics,0,,1
+OPD-G0AJZM1Q,5,General Medicine,0,,0
+OPD-G0HJSFV3,5,Obstetrics & Gynaecology,0,,1
+OPD-G0RCIIFE,4,General Medicine,0,,1
+OPD-G0SAUONC,4,Paediatrics,0,,1
+OPD-G10QPY7U,3,Paediatrics,0,,1
+OPD-G19BWIHF,4,Paediatrics,0,,1
+OPD-G1C2TFZD,4,General Medicine,0,,1
+OPD-G1FC0T5N,4,General Medicine,0,,1
+OPD-G25ETVR4,4,General Medicine,0,,0
+OPD-G26RPV7U,4,General Medicine,0,,1
+OPD-G2AK8D0Y,4,General Surgery,0,,1
+OPD-G31ZGGTN,3,General Medicine,0,,1
+OPD-G3EYINUB,3,General Surgery,0,,1
+OPD-G3JT9IS6,5,General Medicine,0,,1
+OPD-G3JVP1Q1,4,Orthopaedics,0,,1
+OPD-G4JM5JLX,3,General Medicine,0,,1
+OPD-G4NN3L8U,5,General Surgery,0,,1
+OPD-G4R8NM9U,5,Dermatology,0,,1
+OPD-G4X9RSI9,5,General Medicine,0,,1
+OPD-G5N6L4D9,3,Pulmonology/Chest & TB,0,,1
+OPD-G5UJUV85,4,General Medicine,0,,1
+OPD-G67BS6OT,4,Paediatrics,0,,1
+OPD-G67DXOU9,5,ENT,0,,1
+OPD-G77P7FW7,4,General Surgery,0,,1
+OPD-G7LW8E42,4,General Medicine,0,,1
+OPD-G88SQPTD,3,General Medicine,0,,1
+OPD-G8OIRNUX,5,General Medicine,0,,1
+OPD-G8R1Y06O,3,Paediatrics,0,,1
+OPD-G98IAT7I,3,General Medicine,0,,1
+OPD-G9JR7ZFL,5,General Medicine,0,,1
+OPD-G9NBYNGR,4,General Medicine,0,,1
+OPD-GAGK5CWS,3,General Surgery,0,,1
+OPD-GAIJB8FQ,4,Paediatrics,0,,1
+OPD-GAYW58T7,4,General Medicine,0,,1
+OPD-GB1MXH1A,5,General Medicine,0,,1
+OPD-GB1RT9G2,4,General Surgery,0,,1
+OPD-GB6YTOAC,3,Orthopaedics,0,,1
+OPD-GC0ZGUL1,3,General Surgery,0,,1
+OPD-GCHC58JR,4,General Surgery,0,,1
+OPD-GD75U3D1,4,General Medicine,0,,1
+OPD-GDAYSTXO,5,General Medicine,0,,1
+OPD-GDB17O7N,4,General Surgery,0,,1
+OPD-GEABYKOH,4,General Surgery,0,,1
+OPD-GFFBJUT7,3,General Surgery,0,,1
+OPD-GFFQQBO8,4,General Medicine,0,,1
+OPD-GFKILVYF,3,General Surgery,0,,1
+OPD-GG3WZ1QW,4,Paediatrics,0,,1
+OPD-GG4Q28Y5,5,Dermatology,0,,1
+OPD-GGB9CMP2,5,Obstetrics & Gynaecology,0,,1
+OPD-GGDNA8EI,4,General Medicine,0,,1
+OPD-GH3M9JTH,5,General Medicine,0,,1
+OPD-GHOSBSOW,3,Orthopaedics,0,,1
+OPD-GI28FN6B,4,General Surgery,0,,1
+OPD-GI47DZB5,4,General Medicine,0,,1
+OPD-GI65KGON,3,Paediatrics,0,,1
+OPD-GI69Y70V,4,General Medicine,0,,1
+OPD-GI97P8YE,4,Psychiatry,0,,1
+OPD-GIGKTRT0,4,General Medicine,0,,1
+OPD-GJ0B782R,4,General Surgery,0,,1
+OPD-GJGLTCVO,3,General Medicine,0,,1
+OPD-GJIYJAGT,4,Paediatrics,0,,1
+OPD-GK0LZXUI,3,General Surgery,0,,1
+OPD-GKE6U2AR,5,Dental,0,,1
+OPD-GKNDBYL9,5,Dental,0,,1
+OPD-GKNPAE0W,3,General Surgery,0,,1
+OPD-GKU1H9WY,3,Obstetrics & Gynaecology,0,,1
+OPD-GL2Q1LD3,4,General Medicine,0,,1
+OPD-GLH9CIGE,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-GLHZJ3KV,4,Paediatrics,0,,1
+OPD-GLWXIDUL,5,General Medicine,0,,1
+OPD-GLYD3MB8,5,Ophthalmology,0,,1
+OPD-GM7GMXNO,4,General Medicine,0,,1
+OPD-GMAHFO6I,4,General Medicine,0,,1
+OPD-GMEQ7IB1,3,Orthopaedics,0,,1
+OPD-GMLK8R3T,4,General Surgery,0,,1
+OPD-GN9MKSYI,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-GNO5PS5M,5,Dermatology,0,,1
+OPD-GO7FVFCE,5,General Medicine,0,,1
+OPD-GOAI51EP,5,ENT,0,,1
+OPD-GOJVOPO0,5,General Medicine,0,,1
+OPD-GP07QJ81,4,Paediatrics,0,,1
+OPD-GP5OTYB9,5,Ophthalmology,0,,1
+OPD-GPOX55RN,4,Obstetrics & Gynaecology,0,,1
+OPD-GR54TWE2,5,General Medicine,0,,1
+OPD-GRLRBA35,4,General Medicine,0,,1
+OPD-GROY98UA,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-GS918T2K,4,General Surgery,0,,1
+OPD-GSS39SFH,4,General Medicine,0,,1
+OPD-GT6UCD93,4,Orthopaedics,0,,1
+OPD-GT7WKZB0,4,General Medicine,0,,1
+OPD-GU1OYJWR,5,Dermatology,0,,1
+OPD-GU63PMEO,5,General Medicine,0,,1
+OPD-GUKZKVWZ,4,General Medicine,0,,1
+OPD-GUXVR0LJ,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-GVTWS1CM,3,General Medicine,0,,1
+OPD-GVVDM5MJ,4,General Medicine,0,,1
+OPD-GVZ8B46B,4,Paediatrics,0,,1
+OPD-GWKAJOVF,4,General Surgery,0,,1
+OPD-GWN5HFJG,4,General Surgery,0,,1
+OPD-GYCWTN1R,4,Paediatrics,0,,1
+OPD-GYF5OBT0,3,General Surgery,0,,1
+OPD-GYLSTN52,5,Paediatrics,0,,1
+OPD-GYMXQ9V2,4,General Medicine,0,,1
+OPD-GYQ8ITWO,4,General Medicine,0,,1
+OPD-GYWRMW4H,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-GZ75HDER,4,General Medicine,0,,1
+OPD-GZ8T2MV0,1,Emergency/Casualty,1,RF_SEVERE_BLEEDING;RF_TRAUMA_MAJOR,1
+OPD-GZKX7MUD,5,Paediatrics,0,,1
+OPD-GZLWP9KN,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-GZUM7NV9,4,Orthopaedics,0,,1
+OPD-GZWYV3DH,4,Orthopaedics,0,,1
+OPD-GZYKQ75T,5,Pulmonology/Chest & TB,0,,1
+OPD-H08CIQAH,3,General Surgery,0,,1
+OPD-H099ROW1,4,General Medicine,0,,1
+OPD-H0E4XSFV,5,General Medicine,0,,1
+OPD-H0HALDWS,5,General Medicine,0,,1
+OPD-H1DTCGJR,4,General Medicine,0,,1
+OPD-H1GP3MMB,4,Orthopaedics,0,,1
+OPD-H1KQ4MUG,5,ENT,0,,1
+OPD-H1VWLSBH,5,Obstetrics & Gynaecology,0,,1
+OPD-H1WDTLFK,4,General Medicine,0,,1
+OPD-H1Z9OXYE,4,General Medicine,0,,1
+OPD-H28ECA4S,4,Orthopaedics,0,,1
+OPD-H2CPTXP9,4,General Surgery,0,,1
+OPD-H2QIL6W0,3,General Surgery,0,,0
+OPD-H2ZC5BAG,4,Paediatrics,0,,1
+OPD-H30AR4KA,5,Pulmonology/Chest & TB,0,,1
+OPD-H3AWEQDM,5,Obstetrics & Gynaecology,0,,1
+OPD-H3DQYIRI,4,General Medicine,0,,1
+OPD-H3JHTWQ0,4,Paediatrics,0,,1
+OPD-H3JS4YKZ,3,General Surgery,0,,1
+OPD-H3U4KPFC,4,Pulmonology/Chest & TB,0,,1
+OPD-H47L00UU,5,Ophthalmology,0,,1
+OPD-H5A00X4R,5,General Medicine,0,,1
+OPD-H5DZUNAR,5,General Medicine,0,,1
+OPD-H5KB7MC8,3,General Surgery,0,,1
+OPD-H60A4Z67,3,Pulmonology/Chest & TB,0,,1
+OPD-H61AGL9W,4,General Medicine,0,,1
+OPD-H6CVC2PI,4,General Medicine,0,,1
+OPD-H6EE6DSH,4,General Surgery,0,,1
+OPD-H6LKT259,3,General Medicine,0,,1
+OPD-H6PXAH31,4,General Medicine,0,,1
+OPD-H6YQV4RW,4,Paediatrics,0,,1
+OPD-H73JMIMW,5,Orthopaedics,0,,1
+OPD-H7C8UMP0,4,General Medicine,0,,1
+OPD-H7NXSK2C,4,General Surgery,0,,1
+OPD-H7SX00OZ,4,General Medicine,0,,1
+OPD-H8O9R3IY,4,General Medicine,0,,1
+OPD-H8YGQDLV,4,Obstetrics & Gynaecology,0,,1
+OPD-H93H3VD2,4,General Medicine,0,,1
+OPD-H97WQBO9,4,General Surgery,0,,1
+OPD-H9LH948O,5,General Medicine,0,,1
+OPD-H9QLMMB0,4,Ophthalmology,0,,1
+OPD-H9YS6TVH,3,Obstetrics & Gynaecology,0,,1
+OPD-H9ZEQWO1,4,General Medicine,0,,1
+OPD-HA2T0L8I,5,General Surgery,0,,1
+OPD-HARN8DXU,3,General Surgery,0,,1
+OPD-HB7WZOAI,5,Dental,0,,1
+OPD-HB8IYITJ,3,Obstetrics & Gynaecology,0,,1
+OPD-HBST2T1V,3,Cardiology,0,,1
+OPD-HCNN0NYA,4,General Medicine,0,,1
+OPD-HD39YX7D,5,Dental,0,,1
+OPD-HD592AJD,4,General Medicine,0,,1
+OPD-HDCZFV54,5,Paediatrics,0,,1
+OPD-HDRT8D8E,4,General Surgery,0,,1
+OPD-HE4GBTCL,5,Dermatology,0,,1
+OPD-HE63Q9ZD,4,Pulmonology/Chest & TB,0,,1
+OPD-HE6U7C5M,5,General Medicine,0,,1
+OPD-HFFEAALX,3,Paediatrics,0,,1
+OPD-HFPZHT58,5,General Medicine,0,,1
+OPD-HG1A8VCE,5,Orthopaedics,0,,1
+OPD-HG68GBVK,4,General Surgery,0,,1
+OPD-HG84V3HN,4,Paediatrics,0,,1
+OPD-HGX7PRUM,3,General Medicine,0,,1
+OPD-HHR1X13P,4,General Medicine,0,,1
+OPD-HI1WSH7P,3,Pulmonology/Chest & TB,0,,1
+OPD-HI4ZOBTJ,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-HI6KWVAP,5,General Medicine,0,,1
+OPD-HIAT5W04,4,Orthopaedics,0,,1
+OPD-HILZD8I6,5,Ophthalmology,0,,1
+OPD-HJ4Y5GS9,5,General Medicine,0,,1
+OPD-HJ8WFHUE,5,General Medicine,0,,1
+OPD-HJ9MPITK,5,ENT,0,,1
+OPD-HK75SCES,4,General Medicine,0,,1
+OPD-HKCLOJ3B,4,General Medicine,0,,1
+OPD-HKUV0WMU,4,General Medicine,0,,1
+OPD-HLHZ5KIJ,4,General Surgery,0,,1
+OPD-HLK1N0EW,5,Ophthalmology,0,,1
+OPD-HLWVM30V,5,Obstetrics & Gynaecology,0,,1
+OPD-HLX3ZDU9,4,General Medicine,0,,1
+OPD-HLYOMOFF,5,ENT,0,,1
+OPD-HLZR1PUP,4,Obstetrics & Gynaecology,0,,1
+OPD-HM2WJDBX,3,Obstetrics & Gynaecology,0,,1
+OPD-HM5NMQDU,4,General Medicine,0,,1
+OPD-HMA11L74,4,Pulmonology/Chest & TB,0,,1
+OPD-HMEGOQOA,5,Psychiatry,0,,1
+OPD-HML0Q35M,5,General Medicine,0,,1
+OPD-HMRM02QT,3,General Medicine,0,,1
+OPD-HMWVYNDP,4,General Medicine,0,,1
+OPD-HN9F3ELO,2,Emergency/Casualty,1,RF_SEIZURE;RF_TRAUMA_MAJOR,1
+OPD-HOB25XMX,4,General Medicine,0,,1
+OPD-HP3TSBZR,5,General Medicine,0,,1
+OPD-HPJB353V,5,Dental,0,,1
+OPD-HPJDJTNY,5,General Medicine,0,,1
+OPD-HPMOOEG3,3,Pulmonology/Chest & TB,0,,1
+OPD-HPWNYIMC,3,General Surgery,0,,1
+OPD-HQ7GSHFJ,4,Paediatrics,0,,1
+OPD-HQB47B3U,5,General Medicine,0,,1
+OPD-HQD1XXH2,5,Ophthalmology,0,,1
+OPD-HQEN8HX0,4,Orthopaedics,0,,1
+OPD-HQK8GXI1,3,General Surgery,0,,1
+OPD-HQLFHCJQ,4,General Surgery,0,,1
+OPD-HQNM3LTU,5,Dental,0,,1
+OPD-HQQLCS3C,5,Obstetrics & Gynaecology,0,,1
+OPD-HQQZNIS0,3,General Medicine,0,,1
+OPD-HR5CTCHR,4,General Surgery,0,,1
+OPD-HR7LS6AK,5,Ophthalmology,0,,1
+OPD-HRH0V4Y0,4,General Medicine,0,,1
+OPD-HRJM7ZNO,4,General Surgery,0,,1
+OPD-HRP1ZCZC,4,General Medicine,0,,1
+OPD-HRPWA4WW,2,Emergency/Casualty,1,,1
+OPD-HRUP6H26,4,General Medicine,0,,1
+OPD-HRZR469E,4,General Surgery,0,,1
+OPD-HS7Z42VW,3,General Surgery,0,,1
+OPD-HT5JKHQF,3,Obstetrics & Gynaecology,0,,1
+OPD-HT7WHOK8,3,General Medicine,0,,1
+OPD-HTLQ7EP5,3,Obstetrics & Gynaecology,0,,1
+OPD-HTNWA46N,4,General Medicine,0,,1
+OPD-HU18HCRU,4,General Medicine,0,,1
+OPD-HU5ARUI1,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-HU6ACJRS,5,General Medicine,0,,1
+OPD-HUB5B112,3,General Surgery,0,,1
+OPD-HUTC30Y0,5,Dermatology,0,,0
+OPD-HUZ2ZEQP,5,Orthopaedics,0,,1
+OPD-HV4Z4P0B,4,Paediatrics,0,,1
+OPD-HV7TAPXQ,4,General Medicine,0,,1
+OPD-HV95Q2BZ,3,Pulmonology/Chest & TB,0,,1
+OPD-HVFB2954,4,General Medicine,0,,1
+OPD-HVJZIFR3,3,Pulmonology/Chest & TB,0,,1
+OPD-HVO03Z0K,3,Paediatrics,0,,1
+OPD-HVST6KZ5,4,General Surgery,0,,1
+OPD-HWGICGXY,5,Dermatology,0,,1
+OPD-HWJIU7Q1,5,ENT,0,,1
+OPD-HWJNPV8R,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_MENINGITIS_SIGNS;RF_SEIZURE,1
+OPD-HX2BEY71,5,General Medicine,0,,1
+OPD-HXAE47RU,4,General Medicine,0,,1
+OPD-HXJ8KJYA,3,Paediatrics,0,,1
+OPD-HXKOIXZX,5,General Medicine,0,,0
+OPD-HXKT3N1W,4,Obstetrics & Gynaecology,0,,1
+OPD-HXX5O5N4,5,General Medicine,0,,1
+OPD-HXXO0QR3,3,Paediatrics,0,,1
+OPD-HYR4ZLE4,3,Pulmonology/Chest & TB,0,,1
+OPD-HYTBOV4W,4,General Medicine,0,,1
+OPD-HYUGDSJY,5,Ophthalmology,0,,1
+OPD-HYXVN0M6,4,General Medicine,0,,0
+OPD-HZARKICL,4,General Medicine,0,,1
+OPD-HZNME1LT,4,General Medicine,0,,1
+OPD-HZWLDIWU,4,General Surgery,0,,1
+OPD-I06NL2ER,4,Paediatrics,0,,1
+OPD-I0BDGCKJ,4,General Medicine,0,,1
+OPD-I0IWLZL7,4,General Medicine,0,,1
+OPD-I0PHMY6E,4,ENT,0,,1
+OPD-I0TJUUOX,3,Cardiology,0,,1
+OPD-I1DH59YI,5,General Medicine,0,,1
+OPD-I1EBFKPC,5,General Surgery,0,,1
+OPD-I1VSPDX8,5,Paediatrics,0,,1
+OPD-I204X2QV,3,General Medicine,0,,1
+OPD-I20IWVAX,5,General Surgery,0,,1
+OPD-I27AST6Y,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-I2KOYBIQ,4,Paediatrics,0,,1
+OPD-I2OWB2MZ,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-I2SNSZIZ,4,Paediatrics,0,,1
+OPD-I30UEA6C,3,General Surgery,0,,1
+OPD-I31F7MIM,5,Ophthalmology,0,,1
+OPD-I3K1KNFX,3,General Surgery,0,,1
+OPD-I3TPCO7B,4,General Surgery,0,,1
+OPD-I3WK8A76,5,Obstetrics & Gynaecology,0,,1
+OPD-I3ZLIWFZ,3,General Medicine,0,,0
+OPD-I47SBVJC,5,General Medicine,0,,1
+OPD-I4UF34OA,5,General Medicine,0,,1
+OPD-I54Q2PKN,5,General Medicine,0,,1
+OPD-I5G5WU8C,4,Obstetrics & Gynaecology,0,,1
+OPD-I5I8K003,5,Dental,0,,1
+OPD-I5JXP031,3,General Surgery,0,,1
+OPD-I5N9JQG1,5,Paediatrics,0,,1
+OPD-I5PP7SSX,4,ENT,0,,1
+OPD-I5ZGDHPL,5,General Medicine,0,,1
+OPD-I605D5DA,3,General Medicine,0,,1
+OPD-I6CDVRWQ,4,General Surgery,0,,1
+OPD-I6NUQBEG,3,Orthopaedics,0,,1
+OPD-I6QIEUXV,5,General Medicine,0,,1
+OPD-I6TK2TT2,4,General Surgery,0,,1
+OPD-I6YJTB2P,4,Paediatrics,0,,1
+OPD-I6ZOILRK,4,General Medicine,0,,1
+OPD-I74TRQP2,4,Orthopaedics,0,,1
+OPD-I7AGHP1E,5,Ophthalmology,0,,1
+OPD-I7AV3IY0,4,General Medicine,0,,1
+OPD-I7LWWL84,4,General Medicine,0,,1
+OPD-I7TEC3NT,5,General Medicine,0,,1
+OPD-I7ZEOFQV,4,General Medicine,0,,1
+OPD-I839T8WU,5,General Medicine,0,,1
+OPD-I8CETH7W,5,Orthopaedics,0,,1
+OPD-I8NZJ2JI,4,General Medicine,0,,1
+OPD-I8OZ217Y,4,ENT,0,,1
+OPD-I8SVWV48,4,General Surgery,0,,1
+OPD-I8ZI1R4O,4,General Surgery,0,,1
+OPD-I93X6393,5,Dermatology,0,,0
+OPD-I9OZPD8V,5,Ophthalmology,0,,1
+OPD-I9QUPF95,4,General Medicine,0,,1
+OPD-I9VZJCGY,3,General Medicine,0,,1
+OPD-I9W5VNRY,4,General Medicine,0,,1
+OPD-IA5EUF75,4,Paediatrics,0,,1
+OPD-IAFX1IPC,2,Emergency/Casualty,1,,1
+OPD-IAMSR4VK,4,General Medicine,0,,1
+OPD-IAYK8YXN,5,Dermatology,0,,1
+OPD-IB14URN2,4,General Medicine,0,,1
+OPD-IBPMTNF6,4,General Medicine,0,,1
+OPD-IBWFOBJQ,4,Orthopaedics,0,,1
+OPD-IC58DUJD,4,General Medicine,0,,1
+OPD-ICRKLXAD,5,General Medicine,0,,1
+OPD-ICSQ7DVI,5,Obstetrics & Gynaecology,0,,1
+OPD-ID3X1O64,3,General Medicine,0,,1
+OPD-IDA1AQKY,5,Orthopaedics,0,,1
+OPD-IDAPPYM7,4,Paediatrics,0,,1
+OPD-IDHM5ONW,3,Pulmonology/Chest & TB,0,,1
+OPD-IDI7C93F,5,General Medicine,0,,1
+OPD-IDKBV6N6,3,General Medicine,0,,1
+OPD-IDMKSTSV,4,General Medicine,0,,1
+OPD-IE4XRIK9,5,General Medicine,0,,1
+OPD-IE6408R7,5,Orthopaedics,0,,1
+OPD-IE7PTMYI,4,Paediatrics,0,,1
+OPD-IE8PS7WT,4,General Medicine,0,,1
+OPD-IEHB3ZA6,5,General Medicine,0,,1
+OPD-IEZG5RZE,3,General Medicine,0,,1
+OPD-IF4D8DS3,4,Obstetrics & Gynaecology,0,,1
+OPD-IF8BEBVY,4,General Surgery,0,,1
+OPD-IF9VDS8D,5,Ophthalmology,0,,1
+OPD-IFS9N3XD,5,Dermatology,0,,1
+OPD-IG5HN56X,4,General Medicine,0,,1
+OPD-IG704E4I,5,Dental,0,,1
+OPD-IGBBVD90,3,General Medicine,0,,1
+OPD-IGBR6FIH,4,Paediatrics,0,,1
+OPD-IGKGDDP4,4,General Medicine,0,,1
+OPD-IGMQ34ON,5,Orthopaedics,0,,1
+OPD-IGRSTU4S,5,Orthopaedics,0,,1
+OPD-IHBXV5XX,3,Cardiology,0,,1
+OPD-IHHVZIOA,5,General Medicine,0,,1
+OPD-IHHWJXDY,4,General Surgery,0,,1
+OPD-IHOEIPB3,3,General Medicine,0,,1
+OPD-IHPHCA3I,4,General Medicine,0,,1
+OPD-IHRP9O4Z,4,General Surgery,0,,1
+OPD-II7FH07W,4,Paediatrics,0,,1
+OPD-IIM5004J,5,Paediatrics,0,,1
+OPD-IIM9GN3J,4,General Medicine,0,,1
+OPD-IITCB6UR,4,General Medicine,0,,1
+OPD-IIX1GDMO,5,General Medicine,0,,1
+OPD-IIX3WG1M,5,ENT,0,,1
+OPD-IJ4EY8SI,3,Cardiology,0,,1
+OPD-IJ9C1UO8,3,General Medicine,0,,1
+OPD-IJFTYTWG,2,Emergency/Casualty,1,RF_POISONING;RF_SUICIDAL,1
+OPD-IJIIE5WV,3,Paediatrics,0,,1
+OPD-IJQ04NIS,4,Ophthalmology,0,,1
+OPD-IKHOLAAT,3,Cardiology,0,,1
+OPD-IKQWK94H,5,Orthopaedics,0,,1
+OPD-ILHD5V70,4,General Medicine,0,,1
+OPD-ILMG3X6K,5,General Medicine,0,,1
+OPD-ILNLWVWF,2,Emergency/Casualty,1,RF_HIGH_FEVER_INFANT,1
+OPD-IMQQV9LJ,4,General Surgery,0,,1
+OPD-IMYJLHRG,4,Paediatrics,0,,1
+OPD-IMYXLYGR,4,Paediatrics,0,,1
+OPD-IN89AEIM,5,General Medicine,0,,1
+OPD-IN8RZP4J,4,Paediatrics,0,,1
+OPD-INQNBHN5,3,General Surgery,0,,1
+OPD-INZKGMF5,5,Obstetrics & Gynaecology,0,,1
+OPD-IO8CPS24,4,General Medicine,0,,1
+OPD-IOBGBLYL,4,Orthopaedics,0,,1
+OPD-IOCPMNDB,5,General Medicine,0,,1
+OPD-IOG9JG9T,5,General Medicine,0,,1
+OPD-IOLS1R4S,5,Dental,0,,1
+OPD-IOTU51T2,4,Dental,0,,1
+OPD-IP088K7R,3,General Medicine,0,,1
+OPD-IP54LQ0W,5,Ophthalmology,0,,1
+OPD-IPHWVN4Z,3,General Medicine,0,,1
+OPD-IPOWH35J,3,General Surgery,0,,1
+OPD-IPRT937S,5,Dermatology,0,,1
+OPD-IPU9OC29,3,General Surgery,0,,1
+OPD-IPZE7QKD,3,General Surgery,0,,1
+OPD-IQEML8Q1,3,General Medicine,0,,1
+OPD-IQM0V08G,5,General Medicine,0,,1
+OPD-IQQB14S7,5,Psychiatry,0,,1
+OPD-IQULRJAI,4,General Medicine,0,,1
+OPD-IRLH49V8,5,Orthopaedics,0,,1
+OPD-IS27BVI3,4,General Medicine,0,,1
+OPD-ISAI2IZZ,5,Dermatology,0,,1
+OPD-ISFYRAD4,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_RESP_DISTRESS,1
+OPD-ISGUPMTE,4,General Surgery,0,,1
+OPD-ISJWVX8X,5,Orthopaedics,0,,1
+OPD-ISO8Y789,5,General Medicine,0,,1
+OPD-ISU5N4BB,4,Obstetrics & Gynaecology,0,,1
+OPD-ITJ8SA27,3,General Medicine,0,,1
+OPD-ITQNB5BI,5,General Medicine,0,,1
+OPD-ITYQ7RCG,4,General Medicine,0,,1
+OPD-ITYWS8Y0,5,ENT,0,,1
+OPD-IU1ON6TX,4,General Medicine,0,,1
+OPD-IU25L8AQ,5,Paediatrics,0,,1
+OPD-IUGP46JN,5,General Medicine,0,,1
+OPD-IUMSBPOR,4,General Medicine,0,,1
+OPD-IUOC2OOL,4,General Medicine,0,,1
+OPD-IUTYN7FQ,4,General Medicine,0,,1
+OPD-IV7CGCPP,4,General Medicine,0,,1
+OPD-IVWQAIG4,5,Ophthalmology,0,,1
+OPD-IW87T9PG,4,Obstetrics & Gynaecology,0,,1
+OPD-IWNFIGVT,5,Dental,0,,1
+OPD-IXV2HRA9,4,General Medicine,0,,1
+OPD-IY1ADOWC,5,Dermatology,0,,1
+OPD-IY65ZMCG,3,General Medicine,0,,1
+OPD-IY8L1JDM,4,Orthopaedics,0,,1
+OPD-IYC2IK9F,5,General Medicine,0,,1
+OPD-IYDD09LS,5,Ophthalmology,0,,1
+OPD-IYE0F9XH,3,General Medicine,0,,1
+OPD-IYG9X4SL,3,General Medicine,0,,1
+OPD-IYQGJNL7,4,Ophthalmology,0,,1
+OPD-IYS59C83,5,General Medicine,0,,1
+OPD-IYZP6XKG,4,General Medicine,0,,1
+OPD-IZ1JM4YU,5,Dermatology,0,,1
+OPD-IZ4F3GOS,4,General Medicine,0,,1
+OPD-IZ4UCVRP,4,General Medicine,0,,1
+OPD-IZE7IPVG,4,General Surgery,0,,1
+OPD-IZG5KGG1,4,Orthopaedics,0,,1
+OPD-IZL50SFN,4,Paediatrics,0,,1
+OPD-IZME0VLG,4,Paediatrics,0,,1
+OPD-IZPDL2RD,4,General Medicine,0,,1
+OPD-J04A0A1D,5,General Medicine,0,,1
+OPD-J05GKNFZ,4,General Surgery,0,,1
+OPD-J08KPWTH,5,General Medicine,0,,1
+OPD-J09KFTQ4,5,Ophthalmology,0,,1
+OPD-J0G80F28,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-J0HPHGN7,3,General Medicine,0,,1
+OPD-J1238SGO,4,Psychiatry,0,,1
+OPD-J1A1M868,4,General Medicine,0,,1
+OPD-J1BI4L7L,4,General Surgery,0,,1
+OPD-J1R23SRZ,5,ENT,0,,1
+OPD-J1XQ801Z,5,General Medicine,0,,1
+OPD-J2B1TDFC,4,Orthopaedics,0,,1
+OPD-J2FJQGJP,5,Ophthalmology,0,,1
+OPD-J2YM8MHE,3,General Surgery,0,,1
+OPD-J38GTTP7,4,Orthopaedics,0,,1
+OPD-J3C5EWYP,4,General Surgery,0,,1
+OPD-J3CQ3R21,3,General Medicine,0,,1
+OPD-J3CY66XW,3,General Surgery,0,,1
+OPD-J3DT18LN,4,General Medicine,0,,1
+OPD-J3G7PWQA,5,General Medicine,0,,1
+OPD-J40MTOZ9,4,Obstetrics & Gynaecology,0,,1
+OPD-J42HP8MY,3,Pulmonology/Chest & TB,0,,1
+OPD-J4ALC4FG,4,General Medicine,0,,1
+OPD-J4JPNIWT,5,General Medicine,0,,1
+OPD-J4S50T91,5,General Medicine,0,,1
+OPD-J4UAY54L,4,General Medicine,0,,1
+OPD-J5DQBF7C,4,General Medicine,0,,1
+OPD-J5E83TF4,3,Cardiology,0,,1
+OPD-J5EH4ED7,3,General Surgery,0,,1
+OPD-J5F0GO8K,3,General Medicine,0,,1
+OPD-J5GGK4LU,3,Orthopaedics,0,,1
+OPD-J5LQ01TZ,4,Orthopaedics,0,,1
+OPD-J5PG8XHR,5,Paediatrics,0,,1
+OPD-J6HCOLLP,3,Obstetrics & Gynaecology,0,,1
+OPD-J6JM4770,4,Orthopaedics,0,,1
+OPD-J6LEZUTZ,5,General Medicine,0,,1
+OPD-J72XJ4HX,4,General Medicine,0,,1
+OPD-J733T4PH,5,Orthopaedics,0,,1
+OPD-J77MH0AT,4,General Medicine,0,,1
+OPD-J7JLWUTO,4,General Medicine,0,,1
+OPD-J7TIAUGN,3,General Medicine,0,,1
+OPD-J7VPEKZH,5,General Surgery,0,,1
+OPD-J7X7MP96,5,General Medicine,0,,1
+OPD-J84Z6EF5,4,General Medicine,0,,1
+OPD-J8CFRNY4,4,Paediatrics,0,,1
+OPD-J8GZJIMI,3,General Medicine,0,,1
+OPD-J8JH1HL8,5,ENT,0,,1
+OPD-J8N3QM04,3,General Medicine,0,,1
+OPD-J8Q0OK2E,3,Pulmonology/Chest & TB,0,,1
+OPD-J8UPKH8D,3,General Medicine,0,,1
+OPD-J8XS5PG1,3,Pulmonology/Chest & TB,0,,1
+OPD-J8YAJNH7,4,General Medicine,0,,1
+OPD-J9AP928T,3,Cardiology,0,,1
+OPD-J9IM6PEI,1,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-J9JFDSZK,4,Paediatrics,0,,1
+OPD-J9RIM7WL,5,General Medicine,0,,1
+OPD-J9VLG2YP,4,Paediatrics,0,,1
+OPD-J9Z2237K,3,Cardiology,0,,1
+OPD-JAK9GOOW,4,General Medicine,0,,1
+OPD-JAKWHOCY,5,General Medicine,0,,1
+OPD-JANUIUNN,3,Cardiology,0,,1
+OPD-JASQV2A7,3,General Surgery,0,,1
+OPD-JBJJQLYN,4,Paediatrics,0,,1
+OPD-JBW7EE6D,4,General Surgery,0,,1
+OPD-JC0Q8RIJ,4,General Medicine,0,,1
+OPD-JC19MCWM,4,General Medicine,0,,1
+OPD-JC691TB2,5,Ophthalmology,0,,1
+OPD-JC6BLNUV,4,Paediatrics,0,,1
+OPD-JC7FRYUL,5,Orthopaedics,0,,1
+OPD-JCGG8WY7,4,General Medicine,0,,1
+OPD-JD2HYE4B,4,Paediatrics,0,,1
+OPD-JD78ADVM,5,General Medicine,0,,1
+OPD-JD9QCM5W,5,Orthopaedics,0,,1
+OPD-JDA3EX17,3,Obstetrics & Gynaecology,0,,1
+OPD-JDXS62DX,4,General Medicine,0,,1
+OPD-JDZZG361,5,General Medicine,0,,1
+OPD-JEDPXCG6,4,Paediatrics,0,,1
+OPD-JEE7NOJJ,4,General Medicine,0,,1
+OPD-JEGBZN6D,3,Cardiology,0,,1
+OPD-JEMWOQ7V,5,Obstetrics & Gynaecology,0,,1
+OPD-JFDINL3T,4,General Medicine,0,,1
+OPD-JFHFCE15,4,General Medicine,0,,1
+OPD-JFHR3IT3,5,Orthopaedics,0,,1
+OPD-JFJ5RJVH,4,General Medicine,0,,1
+OPD-JFNQKC4D,5,Obstetrics & Gynaecology,0,,1
+OPD-JFSTGAZ0,3,Paediatrics,0,,1
+OPD-JFXACBAK,5,Orthopaedics,0,,1
+OPD-JFXMEL4M,4,Orthopaedics,0,,1
+OPD-JFYIPG2G,4,General Medicine,0,,1
+OPD-JG1UP5P0,2,Emergency/Casualty,1,RF_SCORPION_STING,1
+OPD-JG3QY5R9,5,Orthopaedics,0,,1
+OPD-JGQHB4TP,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-JGRULDLO,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-JGYJCMRJ,5,Ophthalmology,0,,1
+OPD-JH85SYIX,5,Paediatrics,0,,1
+OPD-JHUFUBS0,3,Pulmonology/Chest & TB,0,,1
+OPD-JI57NIRV,4,Obstetrics & Gynaecology,0,,1
+OPD-JIA4PTYC,4,General Surgery,0,,1
+OPD-JIDE1X3C,4,General Medicine,0,,1
+OPD-JIEWCWXJ,4,Paediatrics,0,,1
+OPD-JIPV0A37,5,General Medicine,0,,1
+OPD-JJEDJZDC,5,ENT,0,,1
+OPD-JJSYPSW0,4,Pulmonology/Chest & TB,0,,1
+OPD-JKCCAE36,3,General Medicine,0,,1
+OPD-JKJZ0140,4,Ophthalmology,0,,1
+OPD-JKSJQKWZ,4,General Medicine,0,,1
+OPD-JL71CZM2,4,General Medicine,0,,1
+OPD-JLEA7FYY,4,Orthopaedics,0,,1
+OPD-JLRLILY1,3,General Medicine,0,,1
+OPD-JLTW8Z0V,3,Pulmonology/Chest & TB,0,,1
+OPD-JMB0MMYY,4,General Medicine,0,,1
+OPD-JMCSWJKT,4,Pulmonology/Chest & TB,0,,1
+OPD-JMDNLV7G,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-JN4S36ZC,5,General Medicine,0,,1
+OPD-JNZRWUH7,5,Obstetrics & Gynaecology,0,,1
+OPD-JOF52R6Z,4,General Medicine,0,,1
+OPD-JP9M5HDK,3,General Surgery,0,,1
+OPD-JPCAL2MB,4,General Medicine,0,,1
+OPD-JPE1N95M,5,General Medicine,0,,1
+OPD-JPE2UABF,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-JPEMWWL3,4,General Medicine,0,,1
+OPD-JPJLHDQZ,4,Paediatrics,0,,1
+OPD-JPNZZ2YX,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-JPSCJDBB,3,General Surgery,0,,1
+OPD-JQJBTBEZ,5,Obstetrics & Gynaecology,0,,1
+OPD-JQSS9YI7,4,Ophthalmology,0,,1
+OPD-JQTPI6XI,5,Orthopaedics,0,,1
+OPD-JR4JSWQ7,5,Psychiatry,0,,1
+OPD-JRAI2JWW,4,General Surgery,0,,1
+OPD-JS21UB0U,5,General Medicine,0,,1
+OPD-JSIUKQEM,5,Obstetrics & Gynaecology,0,,1
+OPD-JT1YFPKP,3,General Medicine,0,,1
+OPD-JT6R3GKI,5,General Medicine,0,,1
+OPD-JT9H1ST0,5,General Medicine,0,,1
+OPD-JTNO1IIR,5,General Medicine,0,,1
+OPD-JTNZU1CS,4,General Medicine,0,,1
+OPD-JTP4HLCX,4,General Surgery,0,,1
+OPD-JTVJ4JNG,5,Ophthalmology,0,,1
+OPD-JUPS59ZY,3,General Medicine,0,,1
+OPD-JV3RF21J,5,Dermatology,0,,1
+OPD-JV5UC6K3,4,Orthopaedics,0,,1
+OPD-JVCE5JJT,4,General Medicine,0,,1
+OPD-JVYY8UZQ,4,General Medicine,0,,1
+OPD-JVZ4WMLZ,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-JW3WENTO,4,General Medicine,0,,1
+OPD-JWPAZU0R,3,General Medicine,0,,1
+OPD-JXECIX1J,4,General Medicine,0,,1
+OPD-JXTBTH1A,5,ENT,0,,0
+OPD-JY1LYZX3,5,General Medicine,0,,1
+OPD-JY41GTNW,4,Paediatrics,0,,1
+OPD-JYUC38S9,3,General Surgery,0,,1
+OPD-JZ8VZDY9,3,General Medicine,0,,1
+OPD-JZAJ7AUO,5,General Medicine,0,,1
+OPD-JZI63P4I,4,General Medicine,0,,1
+OPD-K0GY1FJO,5,General Medicine,0,,1
+OPD-K0L95FMB,3,General Medicine,0,,1
+OPD-K0SZMCVW,4,General Medicine,0,,1
+OPD-K14QX1D7,5,Orthopaedics,0,,1
+OPD-K1H67IHM,4,General Medicine,0,,1
+OPD-K1YUXVRQ,4,Psychiatry,0,,1
+OPD-K213VD9B,5,General Medicine,0,,1
+OPD-K21IIF6J,4,Ophthalmology,0,,1
+OPD-K235A765,3,General Medicine,0,,1
+OPD-K247MTFE,4,General Medicine,0,,1
+OPD-K2AD6YCY,4,General Medicine,0,,1
+OPD-K2FK4LEX,3,Pulmonology/Chest & TB,0,,1
+OPD-K2QVA2N6,5,General Medicine,0,,1
+OPD-K3ALA35E,4,Paediatrics,0,,1
+OPD-K3EOPOHJ,4,General Medicine,0,,1
+OPD-K3K9N4MB,5,Paediatrics,0,,1
+OPD-K4484DWH,3,Pulmonology/Chest & TB,0,,1
+OPD-K4CGCT8K,4,Dental,0,,1
+OPD-K5593W3C,3,Paediatrics,0,,1
+OPD-K5RUPCXQ,3,General Surgery,0,,1
+OPD-K6BC5VWR,5,Dermatology,0,,1
+OPD-K6GY5MGJ,3,Pulmonology/Chest & TB,0,,1
+OPD-K6HRTTO9,4,ENT,0,,1
+OPD-K6IRC2UQ,5,General Medicine,0,,0
+OPD-K78PDGG2,5,General Medicine,0,,1
+OPD-K7EVR9GE,3,General Surgery,0,,1
+OPD-K7S4X58X,3,Pulmonology/Chest & TB,0,,1
+OPD-K7TTC4KS,3,General Medicine,0,,1
+OPD-K83XUST7,5,Dental,0,,1
+OPD-K8C70EAZ,5,General Medicine,0,,1
+OPD-K8HUJWA2,5,Obstetrics & Gynaecology,0,,1
+OPD-K8J9XTD9,5,Ophthalmology,0,,1
+OPD-K8K885SZ,1,Emergency/Casualty,1,RF_DENGUE_WARNING;RF_SEPSIS_SIGNS,1
+OPD-K8MF34QL,4,General Medicine,0,,1
+OPD-K8YP9V0P,5,Dental,0,,1
+OPD-K9IZMGCO,5,General Medicine,0,,1
+OPD-K9JDACPG,4,General Medicine,0,,1
+OPD-K9KKQ86B,3,General Surgery,0,,1
+OPD-K9L4HYWV,4,Paediatrics,0,,1
+OPD-KA6QZ93R,4,Paediatrics,0,,1
+OPD-KAE1FJL3,4,General Surgery,0,,1
+OPD-KALX6ZLV,5,Paediatrics,0,,1
+OPD-KAZSB9SJ,4,Paediatrics,0,,1
+OPD-KB59HAIB,3,Orthopaedics,0,,1
+OPD-KB9GPATV,5,Dermatology,0,,1
+OPD-KBLKOZUD,5,ENT,0,,1
+OPD-KC7L085N,5,Obstetrics & Gynaecology,0,,1
+OPD-KCPGOG3V,4,Paediatrics,0,,1
+OPD-KCPSAVNT,5,Obstetrics & Gynaecology,0,,1
+OPD-KD00FTLF,4,Dental,0,,1
+OPD-KDDKCIUX,5,General Surgery,0,,1
+OPD-KDFZ3GB5,5,Ophthalmology,0,,1
+OPD-KDHAQART,5,General Medicine,0,,1
+OPD-KDJUHGZ8,4,General Medicine,0,,1
+OPD-KDNCPD4V,4,General Medicine,0,,1
+OPD-KE2X0NRD,5,ENT,0,,1
+OPD-KENKFVZC,4,General Medicine,0,,1
+OPD-KEXAR9PA,5,Dermatology,0,,1
+OPD-KEZW8QW9,5,Dermatology,0,,1
+OPD-KFJ1SHFU,5,Obstetrics & Gynaecology,0,,1
+OPD-KFMJ4V7D,4,General Medicine,0,,1
+OPD-KFOYZUNV,3,Pulmonology/Chest & TB,0,,1
+OPD-KFSRVA7I,3,General Medicine,0,,1
+OPD-KFWRI67P,4,General Medicine,0,,1
+OPD-KG2T0TDM,5,Obstetrics & Gynaecology,0,,1
+OPD-KGF9O4RW,5,General Surgery,0,,1
+OPD-KGRTLRI0,5,Dental,0,,1
+OPD-KGWTR2FU,4,Orthopaedics,0,,1
+OPD-KH4789LX,4,General Surgery,0,,1
+OPD-KHIFDL56,4,General Surgery,0,,1
+OPD-KI9ITYA9,4,General Medicine,0,,1
+OPD-KI9VDUOE,4,Dental,0,,1
+OPD-KIAR27HA,4,General Medicine,0,,1
+OPD-KIHJ2ASY,4,General Surgery,0,,1
+OPD-KIKPPF48,5,General Medicine,0,,1
+OPD-KIO760UK,3,Pulmonology/Chest & TB,0,,1
+OPD-KIRMS1QN,4,General Medicine,0,,1
+OPD-KJ4X7AOH,5,Orthopaedics,0,,1
+OPD-KJAFOMA9,4,ENT,0,,1
+OPD-KJHK7MVW,4,General Medicine,0,,1
+OPD-KJNBZUZT,4,General Medicine,0,,1
+OPD-KJR87ICI,5,General Medicine,0,,1
+OPD-KJYREM2K,4,Paediatrics,0,,1
+OPD-KK4R6M0F,4,General Medicine,0,,1
+OPD-KKJL0ZWD,3,General Surgery,0,,1
+OPD-KL0KFMMA,3,General Medicine,0,,1
+OPD-KLAMJWM5,3,Obstetrics & Gynaecology,0,,1
+OPD-KLBR3J2V,4,General Surgery,0,,1
+OPD-KLPD2IID,5,General Medicine,0,,1
+OPD-KLT4LKFN,3,General Medicine,0,,1
+OPD-KLVQDR3Z,3,Pulmonology/Chest & TB,0,,1
+OPD-KLZCLX55,5,ENT,0,,1
+OPD-KM0BJUTH,5,Ophthalmology,0,,1
+OPD-KM6W435Q,3,General Surgery,0,,1
+OPD-KM6ZE2WI,5,General Medicine,0,,1
+OPD-KMBM4AVA,4,General Medicine,0,,1
+OPD-KMEUMB2T,2,Emergency/Casualty,1,RF_EYE_EMERGENCY,1
+OPD-KMRR8BTI,4,ENT,0,,1
+OPD-KMTCP3B5,4,General Medicine,0,,1
+OPD-KMUKLPIC,4,General Medicine,0,,1
+OPD-KMW7LC9S,4,General Medicine,0,,1
+OPD-KN3DN7BL,2,Emergency/Casualty,1,RF_POISONING;RF_SUICIDAL,1
+OPD-KN8GRSI0,5,General Medicine,0,,0
+OPD-KNPAAMU3,4,Paediatrics,0,,1
+OPD-KNRZG1OA,4,General Medicine,0,,1
+OPD-KO18HWPK,4,Paediatrics,0,,1
+OPD-KO4BLHNY,5,Obstetrics & Gynaecology,0,,1
+OPD-KOFJ1T1H,3,General Medicine,0,,1
+OPD-KOGE51OS,5,General Medicine,0,,1
+OPD-KP9NA3RI,4,Orthopaedics,0,,1
+OPD-KPCAPUSW,5,Dermatology,0,,1
+OPD-KPE1GOYF,5,Obstetrics & Gynaecology,0,,1
+OPD-KPGR538U,4,General Medicine,0,,1
+OPD-KPJJREO8,4,General Medicine,0,,1
+OPD-KPT5WWFJ,3,Paediatrics,0,,1
+OPD-KQA2967I,3,General Surgery,0,,1
+OPD-KQRM9YWW,5,Dermatology,0,,1
+OPD-KRETBN27,5,General Medicine,0,,1
+OPD-KRQQVOTM,1,Emergency/Casualty,1,RF_SEVERE_BLEEDING;RF_TRAUMA_MAJOR,1
+OPD-KS1WYMCS,4,General Medicine,0,,1
+OPD-KS5MP3N3,1,Emergency/Casualty,1,RF_ANAPHYLAXIS,1
+OPD-KSEBYPAK,3,Pulmonology/Chest & TB,0,,1
+OPD-KSXCHGMN,5,Orthopaedics,0,,1
+OPD-KTERKGWK,5,General Medicine,0,,1
+OPD-KTG3R75N,5,Dental,0,,1
+OPD-KTH8L547,4,General Medicine,0,,1
+OPD-KTPL9K6V,3,General Surgery,0,,1
+OPD-KU4I6ARN,4,General Medicine,0,,1
+OPD-KUA6SQU9,3,General Medicine,0,,1
+OPD-KUFE40FY,5,General Medicine,0,,1
+OPD-KUOSFZVG,5,Paediatrics,0,,1
+OPD-KUP6SMS7,4,General Medicine,0,,1
+OPD-KV122HHG,4,General Medicine,0,,1
+OPD-KVN5FGFN,3,General Surgery,0,,1
+OPD-KW1KDU9G,4,Obstetrics & Gynaecology,0,,1
+OPD-KW3DQ2LM,4,Paediatrics,0,,1
+OPD-KW6K40R8,4,General Medicine,0,,1
+OPD-KWESA6K1,5,Pulmonology/Chest & TB,0,,1
+OPD-KWIJRV3L,5,General Medicine,0,,1
+OPD-KWLYEAGH,4,General Medicine,0,,1
+OPD-KWPLCROX,5,Orthopaedics,0,,1
+OPD-KWU0KFM3,5,General Medicine,0,,1
+OPD-KX8R75VU,3,Pulmonology/Chest & TB,0,,1
+OPD-KXSAOEHD,5,ENT,0,,1
+OPD-KXXCLZ20,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-KY075YY5,4,General Surgery,0,,1
+OPD-KY6MB91A,4,General Medicine,0,,1
+OPD-KYM27U4X,3,Paediatrics,0,,1
+OPD-KZ18MJIN,4,General Medicine,0,,1
+OPD-KZGIB12K,5,Ophthalmology,0,,1
+OPD-KZO2TQ4H,5,Pulmonology/Chest & TB,0,,1
+OPD-KZTFCIW7,5,Orthopaedics,0,,1
+OPD-L0ATT3QM,5,General Medicine,0,,1
+OPD-L0B6JT45,3,General Medicine,0,,1
+OPD-L0CLOTFT,4,General Medicine,0,,1
+OPD-L0D4W8G1,3,General Medicine,0,,1
+OPD-L0EU9DFW,3,General Medicine,0,,1
+OPD-L0LQS3LC,5,Obstetrics & Gynaecology,0,,1
+OPD-L0WD2VFK,5,Dental,0,,1
+OPD-L22UXXEE,3,Pulmonology/Chest & TB,0,,1
+OPD-L2PU04RB,3,General Medicine,0,,1
+OPD-L40QQ9FF,4,General Medicine,0,,1
+OPD-L42ORP21,4,General Medicine,0,,1
+OPD-L4DQ84HD,4,General Medicine,0,,1
+OPD-L4VJKXRZ,4,General Surgery,0,,1
+OPD-L5FT1Y9B,4,General Medicine,0,,1
+OPD-L5QZFMVJ,5,Orthopaedics,0,,1
+OPD-L5WHD019,3,Obstetrics & Gynaecology,0,,1
+OPD-L6WIJ7X3,5,General Medicine,0,,1
+OPD-L76EVERM,5,Obstetrics & Gynaecology,0,,1
+OPD-L7C2CT00,4,General Surgery,0,,1
+OPD-L7LNEF56,4,Pulmonology/Chest & TB,0,,1
+OPD-L7N1JC4V,5,General Surgery,0,,0
+OPD-L7YEXTHC,3,Pulmonology/Chest & TB,0,,1
+OPD-L86H69C0,5,General Medicine,0,,1
+OPD-L8A58K2S,5,General Medicine,0,,1
+OPD-L8HOOR97,5,Dental,0,,1
+OPD-L8K69Y6X,4,General Medicine,0,,1
+OPD-L8NF3VOV,5,Ophthalmology,0,,1
+OPD-L8VPN51A,4,General Medicine,0,,1
+OPD-L9HO9XA1,5,Ophthalmology,0,,1
+OPD-LA29SU32,4,General Surgery,0,,1
+OPD-LAN2QTZ3,5,General Medicine,0,,1
+OPD-LASMLRAL,5,Obstetrics & Gynaecology,0,,1
+OPD-LAV8Y0SI,4,General Medicine,0,,1
+OPD-LB5PX23E,5,General Medicine,0,,1
+OPD-LBFRGM87,4,General Surgery,0,,1
+OPD-LBJ8W8Z7,4,General Medicine,0,,1
+OPD-LBP8MIUH,3,General Medicine,0,,1
+OPD-LCJ9CP9X,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,0
+OPD-LCPF7MXC,3,General Medicine,0,,1
+OPD-LCYXQIS9,4,General Medicine,0,,1
+OPD-LDBKRORW,4,Paediatrics,0,,1
+OPD-LDC0JLMZ,4,Orthopaedics,0,,1
+OPD-LDDLXW2T,5,Dental,0,,1
+OPD-LE6B4C1T,5,General Medicine,0,,1
+OPD-LE9IQKBN,3,General Medicine,0,,1
+OPD-LECPT6RK,2,Emergency/Casualty,1,RF_SEIZURE,1
+OPD-LEMKANOY,4,Paediatrics,0,,1
+OPD-LFTLAZU1,3,Paediatrics,0,,1
+OPD-LFVXWTVL,5,Ophthalmology,0,,1
+OPD-LFYYWA1U,4,General Medicine,0,,1
+OPD-LGCQ9WCK,5,Paediatrics,0,,1
+OPD-LGJY5IJI,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-LGMCKXD1,4,Paediatrics,0,,1
+OPD-LGRI2P44,3,Obstetrics & Gynaecology,0,,1
+OPD-LH5MY4UL,3,Paediatrics,0,,1
+OPD-LH720J6O,4,ENT,0,,1
+OPD-LH8Y86DJ,5,Dermatology,0,,1
+OPD-LHFMV6L2,4,General Medicine,0,,1
+OPD-LHKJ6O4W,5,General Medicine,0,,1
+OPD-LHM6YIFP,4,General Medicine,0,,1
+OPD-LHQHQ6DG,4,General Medicine,0,,1
+OPD-LICP07FA,3,General Medicine,0,,1
+OPD-LJ8JAP3I,3,Cardiology,0,,1
+OPD-LJFFTIFC,3,Paediatrics,0,,1
+OPD-LJKXRNTL,5,General Medicine,0,,1
+OPD-LJUR7KLI,4,General Medicine,0,,0
+OPD-LK01CH55,5,Ophthalmology,0,,1
+OPD-LK1DF8YW,4,Paediatrics,0,,1
+OPD-LK40RONJ,4,Obstetrics & Gynaecology,0,,1
+OPD-LK485TAE,5,Dental,0,,1
+OPD-LKPK4PNM,4,Orthopaedics,0,,1
+OPD-LKPNTTVX,4,Ophthalmology,0,,1
+OPD-LKSOC31L,5,Ophthalmology,0,,1
+OPD-LKVKNN97,3,General Surgery,0,,1
+OPD-LKX6SS1O,4,General Medicine,0,,1
+OPD-LL2TGCAI,3,Pulmonology/Chest & TB,0,,1
+OPD-LLE30GC8,5,Psychiatry,0,,1
+OPD-LLMOBQTQ,4,General Medicine,0,,1
+OPD-LLRQ3F68,5,Paediatrics,0,,1
+OPD-LLSGGOZT,4,Orthopaedics,0,,1
+OPD-LLTXGWQ2,4,General Medicine,0,,1
+OPD-LLUTJJKJ,5,General Medicine,0,,1
+OPD-LM4X2KG4,4,Obstetrics & Gynaecology,0,,1
+OPD-LMAX14G8,4,General Surgery,0,,1
+OPD-LMF52FHY,5,ENT,0,,1
+OPD-LMHLO3W6,4,General Medicine,0,,1
+OPD-LMLP62T6,3,General Medicine,0,,1
+OPD-LMPBYFLV,4,General Surgery,0,,1
+OPD-LMY3DFUA,5,Obstetrics & Gynaecology,0,,1
+OPD-LN0WIE63,5,General Medicine,0,,1
+OPD-LN14EWAX,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-LN3TSGZZ,5,Orthopaedics,0,,1
+OPD-LNNH7ZJG,4,General Medicine,0,,1
+OPD-LNQROYQI,3,General Medicine,0,,1
+OPD-LNSR5MNO,5,ENT,0,,1
+OPD-LO60ROLY,4,General Surgery,0,,1
+OPD-LOKPD1XN,5,Ophthalmology,0,,1
+OPD-LPV18QFA,5,General Medicine,0,,1
+OPD-LPZAP413,3,Orthopaedics,0,,1
+OPD-LQ6E037H,4,General Surgery,0,,1
+OPD-LQKTREYK,5,General Surgery,0,,1
+OPD-LQNSZGYX,4,General Medicine,0,,1
+OPD-LQQHWXFX,3,General Medicine,0,,1
+OPD-LQTF7WZW,4,General Medicine,0,,0
+OPD-LR02JLRP,3,General Surgery,0,,1
+OPD-LR7YHU2T,4,General Surgery,0,,1
+OPD-LRJYWNXV,3,Paediatrics,0,,1
+OPD-LRNUT5D9,4,General Medicine,0,,1
+OPD-LRQEZTUK,4,General Medicine,0,,1
+OPD-LSDO6TOK,4,General Medicine,0,,1
+OPD-LSHAJOFO,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-LSI3RAKN,4,General Medicine,0,,1
+OPD-LSJENR9T,5,General Medicine,0,,1
+OPD-LSOC0Y4H,4,General Medicine,0,,1
+OPD-LSQ5ULCE,4,General Medicine,0,,1
+OPD-LSSK78A0,5,Dental,0,,1
+OPD-LSSTGDSM,5,General Medicine,0,,1
+OPD-LSWU4I1U,4,Obstetrics & Gynaecology,0,,1
+OPD-LTFVONGZ,4,General Surgery,0,,1
+OPD-LTHEAGNO,5,General Medicine,0,,1
+OPD-LTS4WY4U,5,Pulmonology/Chest & TB,0,,1
+OPD-LTWZVQ1A,4,General Medicine,0,,1
+OPD-LUCTJ88W,4,General Surgery,0,,1
+OPD-LUKJUIF9,4,General Surgery,0,,1
+OPD-LUVHQWL9,5,General Medicine,0,,1
+OPD-LUWUKLOH,4,General Medicine,0,,1
+OPD-LUZT16M9,3,General Medicine,0,,1
+OPD-LV57Z6AV,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-LV787QUA,5,ENT,0,,1
+OPD-LVOGK93U,5,Orthopaedics,0,,1
+OPD-LVQC80J2,4,General Medicine,0,,1
+OPD-LVUUOQO7,4,General Medicine,0,,1
+OPD-LVVHGDN8,5,Obstetrics & Gynaecology,0,,1
+OPD-LVXZFQZS,4,General Medicine,0,,1
+OPD-LW8RIMSL,4,Paediatrics,0,,1
+OPD-LWDM8UTA,5,General Medicine,0,,1
+OPD-LWIJDF6V,4,General Surgery,0,,1
+OPD-LWJ986MD,4,General Medicine,0,,1
+OPD-LWMLKI5H,5,General Medicine,0,,1
+OPD-LX1ZTGS4,5,General Surgery,0,,1
+OPD-LX6DU5CU,4,General Surgery,0,,1
+OPD-LXDC02YU,3,General Surgery,0,,1
+OPD-LXDZ5TVF,4,General Medicine,0,,1
+OPD-LXEBBHF8,4,Orthopaedics,0,,1
+OPD-LXQHIDO6,5,General Medicine,0,,1
+OPD-LYFMI716,4,General Medicine,0,,1
+OPD-LZ6DFCJE,4,General Medicine,0,,1
+OPD-LZ9BFBSD,5,General Medicine,0,,1
+OPD-LZUIYSKE,3,General Surgery,0,,1
+OPD-LZW7VCNE,4,Orthopaedics,0,,1
+OPD-M024HSTH,3,General Surgery,0,,1
+OPD-M02A1FT7,5,General Medicine,0,,1
+OPD-M0LO67K2,4,General Medicine,0,,1
+OPD-M0UT8GXN,4,General Medicine,0,,1
+OPD-M11RXDDK,5,Dental,0,,1
+OPD-M13EKENR,4,General Medicine,0,,1
+OPD-M18FZND2,4,Orthopaedics,0,,1
+OPD-M18U14IL,4,Paediatrics,0,,1
+OPD-M1FBPE2M,4,Dental,0,,1
+OPD-M1OB27HL,4,General Medicine,0,,1
+OPD-M28RPNCW,4,General Surgery,0,,1
+OPD-M2GYM226,4,Pulmonology/Chest & TB,0,,1
+OPD-M2K7PS0M,4,General Medicine,0,,1
+OPD-M2TVXL9W,5,Orthopaedics,0,,1
+OPD-M2UUIO2P,4,General Medicine,0,,1
+OPD-M3B7W6PI,4,General Medicine,0,,1
+OPD-M3I9M28F,4,Ophthalmology,0,,1
+OPD-M3MHTTSO,5,Obstetrics & Gynaecology,0,,1
+OPD-M3R26CPO,4,Pulmonology/Chest & TB,0,,1
+OPD-M482KNQL,4,Orthopaedics,0,,1
+OPD-M48RX0KF,4,General Surgery,0,,1
+OPD-M4OHMHJR,4,Psychiatry,0,,1
+OPD-M4W0KI4R,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-M62Z6KJZ,3,General Surgery,0,,1
+OPD-M63SCNTN,4,General Surgery,0,,1
+OPD-M65CAWEY,4,General Medicine,0,,1
+OPD-M69GZ70E,5,Pulmonology/Chest & TB,0,,1
+OPD-M6ASTDNA,4,General Medicine,0,,1
+OPD-M6J3TXLP,4,General Surgery,0,,1
+OPD-M6WUQ7HR,5,General Medicine,0,,1
+OPD-M7N1YK4E,4,Paediatrics,0,,1
+OPD-M7RH7OOM,5,Ophthalmology,0,,1
+OPD-M7UWZBSD,3,Pulmonology/Chest & TB,0,,1
+OPD-M88APGP9,4,General Medicine,0,,1
+OPD-M8A6NZGJ,3,General Medicine,0,,1
+OPD-M8B6048T,5,Orthopaedics,0,,1
+OPD-M8EWVCWI,4,Orthopaedics,0,,1
+OPD-M8S6SX62,3,General Medicine,0,,1
+OPD-M8WVAVTI,4,General Medicine,0,,1
+OPD-M9I2AM3B,4,ENT,0,,1
+OPD-M9O4I5EK,5,Paediatrics,0,,1
+OPD-M9Y125FK,4,General Surgery,0,,1
+OPD-MA0X3WQT,4,Orthopaedics,0,,0
+OPD-MA8IODPL,5,Ophthalmology,0,,0
+OPD-MAD3LFWP,4,General Medicine,0,,1
+OPD-MAQC8HEX,4,Paediatrics,0,,1
+OPD-MAQEN0QR,4,General Medicine,0,,1
+OPD-MBJZ7OYQ,5,Dental,0,,1
+OPD-MBT429GU,3,Pulmonology/Chest & TB,0,,1
+OPD-MBT7Z8WS,5,Obstetrics & Gynaecology,0,,1
+OPD-MBVUQH2T,4,General Surgery,0,,1
+OPD-MBYV653N,4,General Medicine,0,,1
+OPD-MC7R85A8,4,General Medicine,0,,1
+OPD-MCMRGRWA,3,General Medicine,0,,1
+OPD-MD34YVHJ,3,General Surgery,0,,1
+OPD-MD4LUUPN,5,General Medicine,0,,1
+OPD-MD69B2RN,3,Pulmonology/Chest & TB,0,,1
+OPD-MDJVTFDT,4,General Medicine,0,,1
+OPD-MEAHCO4O,5,Psychiatry,0,,1
+OPD-MEHIBXF8,3,General Medicine,0,,1
+OPD-MEHMA41N,5,Obstetrics & Gynaecology,0,,1
+OPD-MEKW63GV,3,General Surgery,0,,1
+OPD-MERVFSVG,5,Psychiatry,0,,1
+OPD-MEY9IU50,5,Orthopaedics,0,,1
+OPD-MFKFTHA8,5,Paediatrics,0,,1
+OPD-MFNWMY86,2,Emergency/Casualty,1,RF_DKA_SIGNS,1
+OPD-MFO9M5T2,4,General Surgery,0,,1
+OPD-MFR5FCZM,4,General Surgery,0,,1
+OPD-MFWKH1TG,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-MG3K31D2,5,General Medicine,0,,1
+OPD-MGACIQ6Q,4,General Medicine,0,,1
+OPD-MGDQBV53,5,Orthopaedics,0,,1
+OPD-MGOV6DC3,5,Orthopaedics,0,,1
+OPD-MGV72MB7,4,Paediatrics,0,,1
+OPD-MHOPIJBG,5,General Medicine,0,,1
+OPD-MHRQJJM3,5,General Medicine,0,,1
+OPD-MHT54PS2,3,Paediatrics,0,,1
+OPD-MHXR62B9,4,Ophthalmology,0,,1
+OPD-MI4VI8IY,4,General Medicine,0,,0
+OPD-MI51E6DD,3,Obstetrics & Gynaecology,0,,1
+OPD-MJGKM1NC,4,General Medicine,0,,1
+OPD-MJJEYT8A,5,Obstetrics & Gynaecology,0,,1
+OPD-MJQFF1LC,4,General Medicine,0,,1
+OPD-MKHP80P4,3,General Medicine,0,,1
+OPD-MKMC2LQ6,4,General Medicine,0,,1
+OPD-ML3AROEF,5,Orthopaedics,0,,1
+OPD-MLDM5G70,4,Orthopaedics,0,,1
+OPD-MLDPQZBI,4,General Medicine,0,,1
+OPD-MLUBN8A9,4,General Medicine,0,,1
+OPD-MM7KS40L,5,General Medicine,0,,1
+OPD-MM8SC6HM,5,General Medicine,0,,1
+OPD-MMA1AYKF,4,General Surgery,0,,1
+OPD-MMK5XH4I,5,Dental,0,,1
+OPD-MMRYFMOY,4,General Medicine,0,,1
+OPD-MNRP7LHZ,3,Pulmonology/Chest & TB,0,,1
+OPD-MODKJGB9,4,Orthopaedics,0,,1
+OPD-MOK42ZES,5,Ophthalmology,0,,1
+OPD-MORD6D30,5,General Medicine,0,,1
+OPD-MOW225E0,4,General Medicine,0,,1
+OPD-MPF9X9IC,5,Dental,0,,1
+OPD-MPMWRHOG,4,General Medicine,0,,1
+OPD-MPS7LR53,3,Paediatrics,0,,1
+OPD-MPUCIQHQ,4,General Medicine,0,,1
+OPD-MQ1940HQ,3,General Medicine,0,,1
+OPD-MQ6JLE5D,4,General Surgery,0,,1
+OPD-MQAJP58P,3,Pulmonology/Chest & TB,0,,0
+OPD-MQDMGQLR,4,General Medicine,0,,1
+OPD-MRE2L0DX,4,Obstetrics & Gynaecology,0,,1
+OPD-MRO1LWK0,5,General Medicine,0,,1
+OPD-MRT3SSXQ,4,Paediatrics,0,,1
+OPD-MRW48S8F,5,Dermatology,0,,1
+OPD-MS5ZLINW,5,ENT,0,,1
+OPD-MSR5UDMJ,5,General Medicine,0,,1
+OPD-MSXVC9H5,5,Dermatology,0,,1
+OPD-MT0DL7J0,5,Obstetrics & Gynaecology,0,,1
+OPD-MT5LZJVK,4,General Medicine,0,,1
+OPD-MTHHY45Y,3,Pulmonology/Chest & TB,0,,1
+OPD-MTNERL0Q,3,Pulmonology/Chest & TB,0,,1
+OPD-MTRG8ZLU,5,General Medicine,0,,0
+OPD-MU5B8XS2,4,General Medicine,0,,1
+OPD-MU7JE2A3,2,Emergency/Casualty,1,RF_ECLAMPSIA_SIGNS,1
+OPD-MUG53FD2,4,Paediatrics,0,,1
+OPD-MUH1JEKG,4,Paediatrics,0,,1
+OPD-MUHHC09G,4,General Surgery,0,,1
+OPD-MULMFF2Y,4,General Medicine,0,,1
+OPD-MV3J6CC9,4,Paediatrics,0,,1
+OPD-MV81BXKW,4,ENT,0,,1
+OPD-MVOW1CAO,3,General Medicine,0,,1
+OPD-MVQT640S,4,General Medicine,0,,0
+OPD-MWPOZSZC,5,Dental,0,,1
+OPD-MWRQCS1Y,4,Paediatrics,0,,1
+OPD-MWRSYT6J,4,Orthopaedics,0,,1
+OPD-MWX93VXV,3,Paediatrics,0,,1
+OPD-MWZMJ436,3,General Surgery,0,,1
+OPD-MX67QPGZ,4,General Medicine,0,,1
+OPD-MXYPK46C,5,Dermatology,0,,1
+OPD-MY4NXQXM,5,Dermatology,0,,1
+OPD-MYJTZ772,4,General Medicine,0,,1
+OPD-MYWDUECF,4,General Surgery,0,,1
+OPD-MZ064RLT,5,Dermatology,0,,1
+OPD-MZ4G5M1U,3,General Medicine,0,,1
+OPD-MZ9FKALU,4,Orthopaedics,0,,1
+OPD-MZDSXH8K,3,General Surgery,0,,0
+OPD-MZPT9PNN,3,General Medicine,0,,1
+OPD-MZRM6YK7,5,General Surgery,0,,1
+OPD-N0DVE56Y,5,Ophthalmology,0,,1
+OPD-N0K7ERIS,5,General Medicine,0,,1
+OPD-N0TRKRM6,4,Ophthalmology,0,,1
+OPD-N14AGZCD,5,Obstetrics & Gynaecology,0,,1
+OPD-N19B7BNY,5,Dermatology,0,,1
+OPD-N1AKVQ09,5,Dental,0,,1
+OPD-N1PTMX79,5,Dermatology,0,,1
+OPD-N1RZP7BF,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-N1YAMEXQ,5,General Medicine,0,,1
+OPD-N22B1XL7,3,General Medicine,0,,1
+OPD-N236AT3U,4,General Medicine,0,,1
+OPD-N29HOJS1,4,General Medicine,0,,1
+OPD-N29QVOO0,3,General Medicine,0,,1
+OPD-N2HVZO3R,5,General Medicine,0,,1
+OPD-N2I1A3G9,4,General Medicine,0,,1
+OPD-N2K5BL76,5,Orthopaedics,0,,1
+OPD-N2UQCSTR,3,Cardiology,0,,1
+OPD-N2XPPBJQ,4,General Medicine,0,,1
+OPD-N31UXNJ9,4,Orthopaedics,0,,1
+OPD-N39S5O6G,3,General Medicine,0,,1
+OPD-N3ADGX48,4,General Medicine,0,,1
+OPD-N3IVK1W5,4,General Medicine,0,,1
+OPD-N3NWGP99,4,General Surgery,0,,1
+OPD-N402X1W9,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-N47RX237,5,Obstetrics & Gynaecology,0,,1
+OPD-N4DGFPXD,4,General Medicine,0,,1
+OPD-N4HO45UZ,4,Psychiatry,0,,1
+OPD-N4KSWPTO,4,General Medicine,0,,1
+OPD-N5IN6PSO,4,General Medicine,0,,1
+OPD-N5UMC8O9,5,Obstetrics & Gynaecology,0,,1
+OPD-N661Z2DO,5,Dermatology,0,,1
+OPD-N6J21DTX,4,General Medicine,0,,1
+OPD-N6UUV5PD,5,Obstetrics & Gynaecology,0,,1
+OPD-N6V1DNA4,4,Paediatrics,0,,1
+OPD-N742GFT8,5,Orthopaedics,0,,1
+OPD-N7CJ20SZ,4,General Medicine,0,,1
+OPD-N7N7PBNT,3,General Medicine,0,,1
+OPD-N7OLGW36,4,General Medicine,0,,1
+OPD-N7PH922U,4,General Medicine,0,,1
+OPD-N7Q5JRS4,3,General Medicine,0,,1
+OPD-N7X3P0GY,5,General Medicine,0,,1
+OPD-N87FZG6N,3,Orthopaedics,0,,1
+OPD-N8MD5P6O,5,Ophthalmology,0,,1
+OPD-N8WIK6OJ,5,Psychiatry,0,,1
+OPD-N92J0NQ0,4,Paediatrics,0,,1
+OPD-N93TTF7R,4,General Medicine,0,,1
+OPD-N9A86CUZ,4,General Surgery,0,,1
+OPD-N9C9KZL1,4,General Medicine,0,,1
+OPD-N9MN4Q94,4,General Medicine,0,,1
+OPD-N9P2A43X,4,Orthopaedics,0,,1
+OPD-NA9GRTT3,4,General Medicine,0,,1
+OPD-NB0ZTPQS,4,General Surgery,0,,1
+OPD-NBQ1KI0A,3,General Medicine,0,,1
+OPD-NCHNCJMA,4,General Medicine,0,,1
+OPD-NCORYWHV,2,Emergency/Casualty,1,RF_DKA_SIGNS,1
+OPD-NCPYJG6Y,4,Orthopaedics,0,,1
+OPD-NCWBRZ5D,5,General Medicine,0,,1
+OPD-ND7JD0C0,4,General Medicine,0,,1
+OPD-NDJ22J12,4,General Medicine,0,,1
+OPD-NDQYAI3F,5,Psychiatry,0,,1
+OPD-NE0N1KWP,4,ENT,0,,1
+OPD-NE4RGN1O,4,General Medicine,0,,1
+OPD-NE7IBZQO,3,Pulmonology/Chest & TB,0,,1
+OPD-NENVPOT0,4,Orthopaedics,0,,1
+OPD-NEPZEOLI,3,General Medicine,0,,1
+OPD-NFEAR6SG,4,Orthopaedics,0,,1
+OPD-NFFACRYF,4,General Medicine,0,,1
+OPD-NFYIBX4Y,5,Orthopaedics,0,,1
+OPD-NG4LVZO3,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-NG5UNZDW,4,General Medicine,0,,1
+OPD-NG8AD5J5,4,General Medicine,0,,1
+OPD-NGAFH4I1,5,ENT,0,,1
+OPD-NGHBOQOI,4,General Medicine,0,,1
+OPD-NGMMZZO7,3,General Medicine,0,,1
+OPD-NH280W48,5,General Medicine,0,,1
+OPD-NHDWNJER,5,General Medicine,0,,1
+OPD-NHEPJT5G,4,Paediatrics,0,,1
+OPD-NHG43RHG,4,General Medicine,0,,1
+OPD-NHO46JHA,3,Obstetrics & Gynaecology,0,,1
+OPD-NHSB0JNE,4,Paediatrics,0,,1
+OPD-NHXLRGIP,5,General Medicine,0,,1
+OPD-NIC3UGLA,3,Cardiology,0,,1
+OPD-NIC4SYAW,4,Paediatrics,0,,1
+OPD-NIU7UKFI,4,General Medicine,0,,1
+OPD-NIWMTWHO,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-NJ03OG97,5,General Medicine,0,,1
+OPD-NJFH8JHI,4,Orthopaedics,0,,1
+OPD-NJJG6L6K,4,Orthopaedics,0,,1
+OPD-NL3IZ3BY,5,General Medicine,0,,1
+OPD-NLBPO30C,4,General Medicine,0,,1
+OPD-NLH2S3OC,5,Obstetrics & Gynaecology,0,,1
+OPD-NLOAM68W,4,General Medicine,0,,1
+OPD-NLTFP0K7,5,Dermatology,0,,1
+OPD-NM23OAY8,5,Dental,0,,1
+OPD-NM9DJZJT,5,Obstetrics & Gynaecology,0,,1
+OPD-NMQEF9CC,4,General Medicine,0,,1
+OPD-NN8V88SU,5,Orthopaedics,0,,1
+OPD-NNGHAVN8,4,General Medicine,0,,1
+OPD-NNTWXV14,4,General Surgery,0,,1
+OPD-NNWWLT6B,5,General Medicine,0,,1
+OPD-NOAUGDM0,5,General Medicine,0,,1
+OPD-NOH138XZ,4,General Surgery,0,,1
+OPD-NOIUDHX9,4,General Surgery,0,,1
+OPD-NOLL31D1,4,ENT,0,,1
+OPD-NOO1SHL5,4,Orthopaedics,0,,1
+OPD-NOP72HW1,4,Orthopaedics,0,,1
+OPD-NP324FC6,4,General Medicine,0,,1
+OPD-NP56KVQA,3,General Medicine,0,,1
+OPD-NP5ZB2G4,4,Pulmonology/Chest & TB,0,,1
+OPD-NPWW9N75,4,Psychiatry,0,,1
+OPD-NQ02QZBW,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN,1
+OPD-NQ52ENZB,3,General Surgery,0,,1
+OPD-NQ5OFEXI,4,General Surgery,0,,1
+OPD-NQ9VLR2H,3,General Medicine,0,,1
+OPD-NQDVX72E,5,Ophthalmology,0,,1
+OPD-NQFG5QTO,3,General Surgery,0,,1
+OPD-NQRPH1IL,4,General Medicine,0,,1
+OPD-NR2OV3G5,5,Dental,0,,1
+OPD-NR2UD0G2,5,General Medicine,0,,1
+OPD-NR4J2IAZ,4,Dental,0,,1
+OPD-NRAMTWPB,1,Emergency/Casualty,1,RF_POISONING,1
+OPD-NRLSFC9I,5,Ophthalmology,0,,1
+OPD-NRLX1PVO,5,General Medicine,0,,1
+OPD-NROSJCWE,3,Pulmonology/Chest & TB,0,,1
+OPD-NS81ZB95,4,Paediatrics,0,,1
+OPD-NSBAXGGS,2,Emergency/Casualty,1,RF_DKA_SIGNS,1
+OPD-NSE7O0FN,5,General Medicine,0,,1
+OPD-NSWYT1XR,5,Orthopaedics,0,,1
+OPD-NSXYM5KY,3,General Medicine,0,,1
+OPD-NTFYMQXQ,5,General Medicine,0,,1
+OPD-NTIDY1A4,4,General Medicine,0,,1
+OPD-NTNY39GW,4,General Medicine,0,,1
+OPD-NTQORGVJ,5,Dermatology,0,,1
+OPD-NU9AMDB9,4,ENT,0,,1
+OPD-NUF1E4B0,4,General Medicine,0,,1
+OPD-NUKRLOSL,4,General Medicine,0,,1
+OPD-NUL5FDGG,5,Orthopaedics,0,,1
+OPD-NUPICDXX,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-NUYNHONG,5,Dermatology,0,,1
+OPD-NVOH20H5,3,General Surgery,0,,1
+OPD-NWRACT0C,4,Paediatrics,0,,1
+OPD-NWTLTMY7,4,General Medicine,0,,1
+OPD-NX15L92Z,4,General Medicine,0,,1
+OPD-NXBYD0QP,4,General Medicine,0,,1
+OPD-NXQJDLF7,4,Pulmonology/Chest & TB,0,,1
+OPD-NXRM3YYH,4,Pulmonology/Chest & TB,0,,1
+OPD-NY81T8CC,1,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_POISONING,1
+OPD-NYIAKCJ1,3,General Medicine,0,,1
+OPD-NYJJFFS6,4,General Medicine,0,,1
+OPD-NYL52GSD,4,General Medicine,0,,1
+OPD-NYPBU0D0,5,Dermatology,0,,1
+OPD-NYPXDRS5,4,ENT,0,,1
+OPD-NYS2DLP0,5,General Medicine,0,,1
+OPD-NYZ9PTAT,5,ENT,0,,1
+OPD-NZ0Q9OA6,5,Dental,0,,1
+OPD-NZ3A73EA,3,General Medicine,0,,1
+OPD-NZMVTN2M,5,Paediatrics,0,,1
+OPD-NZQQ6GY3,4,General Medicine,0,,1
+OPD-O0IGIU34,4,Dental,0,,1
+OPD-O0J0I8ZW,3,General Medicine,0,,1
+OPD-O0V5HS2H,5,General Medicine,0,,1
+OPD-O1AM1BHT,4,General Medicine,0,,1
+OPD-O1JGTTZI,4,General Medicine,0,,1
+OPD-O1UTTFI4,5,General Medicine,0,,1
+OPD-O26R28IJ,4,General Medicine,0,,1
+OPD-O276E8LO,3,General Medicine,0,,1
+OPD-O2IFLMHV,4,General Medicine,0,,1
+OPD-O2RZQU99,4,General Medicine,0,,1
+OPD-O2SF3V41,4,Paediatrics,0,,1
+OPD-O3HNDVNB,3,General Surgery,0,,1
+OPD-O3LDCE79,4,General Medicine,0,,1
+OPD-O3LTOFKF,4,General Surgery,0,,1
+OPD-O46GH1L5,3,General Surgery,0,,1
+OPD-O4COMUJB,4,Paediatrics,0,,1
+OPD-O4L238UB,4,General Medicine,0,,1
+OPD-O51Q5ROI,5,General Medicine,0,,1
+OPD-O57VL1OM,3,General Medicine,0,,1
+OPD-O58MA76A,4,Paediatrics,0,,1
+OPD-O5ZIVNMK,5,General Medicine,0,,1
+OPD-O64L6953,5,General Medicine,0,,1
+OPD-O68KM55B,4,Paediatrics,0,,1
+OPD-O6J40K73,5,Paediatrics,0,,1
+OPD-O6TKJEFD,4,General Surgery,0,,1
+OPD-O7FPBCLH,4,General Surgery,0,,1
+OPD-O7USL3MJ,3,General Surgery,0,,1
+OPD-O7Z9EEWC,4,General Medicine,0,,1
+OPD-O82VVPXO,5,Orthopaedics,0,,1
+OPD-O8FXJCMS,4,General Medicine,0,,1
+OPD-O8P9Q6GI,5,Orthopaedics,0,,1
+OPD-O8SQQJM3,5,Dermatology,0,,1
+OPD-O8ZFAYC6,4,General Medicine,0,,1
+OPD-O954B1SR,5,Dental,0,,1
+OPD-O9EMAU3M,3,Obstetrics & Gynaecology,0,,1
+OPD-O9F5S872,4,General Medicine,0,,1
+OPD-O9Y33Q89,4,Paediatrics,0,,1
+OPD-OA5R0RW7,4,Paediatrics,0,,1
+OPD-OAFSXQLY,5,Ophthalmology,0,,1
+OPD-OAG9A8ZY,3,General Medicine,0,,1
+OPD-OAPQ2GTS,5,ENT,0,,1
+OPD-OAR961KD,5,Dental,0,,1
+OPD-OAX4CZVL,5,Dental,0,,1
+OPD-OB00U8BT,4,General Medicine,0,,1
+OPD-OBII2KA6,4,General Medicine,0,,1
+OPD-OBJA2NE5,4,General Medicine,0,,1
+OPD-OBK5SVG7,3,General Medicine,0,,1
+OPD-OBLNXAKE,5,General Medicine,0,,1
+OPD-OCGJFF48,5,Dermatology,0,,1
+OPD-OCTTY67I,5,General Medicine,0,,1
+OPD-OCVRR4DD,4,Orthopaedics,0,,1
+OPD-OD2LU14H,3,Pulmonology/Chest & TB,0,,1
+OPD-OD306YDQ,5,ENT,0,,1
+OPD-OD79LTNL,4,General Medicine,0,,1
+OPD-ODGGKTOR,4,General Surgery,0,,1
+OPD-ODL29XPP,5,Dermatology,0,,1
+OPD-ODLFIA92,4,General Medicine,0,,1
+OPD-ODPQ0AAO,5,Obstetrics & Gynaecology,0,,1
+OPD-ODX1J43R,5,General Medicine,0,,1
+OPD-ODXAA3L1,4,General Medicine,0,,1
+OPD-OEWUTH13,4,General Medicine,0,,1
+OPD-OF5OAL0Y,3,Orthopaedics,0,,1
+OPD-OFF56WYV,3,General Surgery,0,,1
+OPD-OFIDEVRY,4,General Medicine,0,,1
+OPD-OFP2612C,4,General Medicine,0,,1
+OPD-OFQBYN5P,3,Pulmonology/Chest & TB,0,,1
+OPD-OFRVQWAT,4,General Medicine,0,,1
+OPD-OGCC83V3,5,Ophthalmology,0,,1
+OPD-OGHVD76T,5,General Medicine,0,,1
+OPD-OGL074OP,3,General Medicine,0,,1
+OPD-OH588RLZ,5,Psychiatry,0,,1
+OPD-OHHJBZDW,3,Cardiology,0,,1
+OPD-OHKHQAYH,4,General Medicine,0,,1
+OPD-OHZB3LYZ,5,Paediatrics,0,,1
+OPD-OI3EII9I,4,Orthopaedics,0,,1
+OPD-OI5Y97LN,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-OIA26TLS,5,Obstetrics & Gynaecology,0,,1
+OPD-OINR7G3Y,5,General Medicine,0,,0
+OPD-OK27S93D,3,General Medicine,0,,1
+OPD-OK5OIVWQ,4,General Medicine,0,,1
+OPD-OK6Q7PR8,4,General Medicine,0,,1
+OPD-OKICWM02,5,General Medicine,0,,1
+OPD-OKIKAA2U,4,General Medicine,0,,1
+OPD-OKRZ9Q7K,4,General Medicine,0,,1
+OPD-OL3T6IEU,5,Psychiatry,0,,1
+OPD-OL4SV3B1,5,Pulmonology/Chest & TB,0,,1
+OPD-OLCPB25Q,3,Paediatrics,0,,1
+OPD-OLD5RWFB,3,General Medicine,0,,1
+OPD-OLPFT1R7,4,General Surgery,0,,1
+OPD-OM2E6BLT,4,Orthopaedics,0,,1
+OPD-OM5ZD34S,4,General Surgery,0,,1
+OPD-OMO2O6NZ,5,General Medicine,0,,1
+OPD-OMQJKJFR,4,General Medicine,0,,1
+OPD-ON9AIG7J,4,Paediatrics,0,,1
+OPD-ONAVI4PN,3,General Medicine,0,,1
+OPD-ONK0CE52,3,Pulmonology/Chest & TB,0,,1
+OPD-ONSJUD21,1,Emergency/Casualty,1,RF_DENGUE_WARNING;RF_SEPSIS_SIGNS,1
+OPD-ONSZZHZ2,5,General Medicine,0,,1
+OPD-OO7V0J4X,4,Ophthalmology,0,,1
+OPD-OO8TJ2GT,5,General Medicine,0,,1
+OPD-OOFFDC0F,4,General Medicine,0,,1
+OPD-OOHI5447,3,Pulmonology/Chest & TB,0,,1
+OPD-OOS7L1NE,3,Cardiology,0,,1
+OPD-OOVNADLW,4,Paediatrics,0,,1
+OPD-OPGQUAGA,3,General Medicine,0,,1
+OPD-OPQX9FMU,4,General Medicine,0,,1
+OPD-OPSG8QFZ,4,General Medicine,0,,1
+OPD-OPXG1G5V,4,General Medicine,0,,1
+OPD-OQAZ7ALQ,4,Paediatrics,0,,1
+OPD-OQDSTT66,4,Orthopaedics,0,,1
+OPD-OQNFPXEO,4,General Surgery,0,,1
+OPD-OQWDSTFO,4,General Medicine,0,,1
+OPD-OR2V9VCI,5,General Medicine,0,,1
+OPD-ORBQRCFO,4,General Medicine,0,,1
+OPD-ORSA2SPE,4,General Surgery,0,,1
+OPD-ORYELBKL,4,Paediatrics,0,,1
+OPD-OTBF3YZR,4,General Medicine,0,,1
+OPD-OTGDQS7V,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-OTQYF0OG,4,General Medicine,0,,1
+OPD-OTROZOJF,5,General Surgery,0,,1
+OPD-OUE4EL52,4,General Surgery,0,,0
+OPD-OUGTY5L0,2,Emergency/Casualty,1,RF_SNAKEBITE,0
+OPD-OUN6KY5Q,5,General Medicine,0,,1
+OPD-OV35N3WO,5,Orthopaedics,0,,1
+OPD-OVGOY4V8,4,ENT,0,,1
+OPD-OVJRZM10,5,Ophthalmology,0,,1
+OPD-OVV5QY3H,5,Ophthalmology,0,,1
+OPD-OVWVGMRO,4,Paediatrics,0,,1
+OPD-OVYVF0ZY,4,General Surgery,0,,1
+OPD-OVZ3GILM,4,Paediatrics,0,,1
+OPD-OW039TK0,4,General Medicine,0,,0
+OPD-OW2W80Q6,4,General Medicine,0,,1
+OPD-OW6N4L1G,3,General Medicine,0,,1
+OPD-OW8G7U6A,3,Pulmonology/Chest & TB,0,,1
+OPD-OWWC7AV3,3,Pulmonology/Chest & TB,0,,1
+OPD-OXJ5VR8N,5,Dental,0,,1
+OPD-OY342FX3,5,Paediatrics,0,,1
+OPD-OY7795L4,4,General Medicine,0,,1
+OPD-OYA3HK2G,4,Orthopaedics,0,,1
+OPD-OYECFZ2D,4,General Medicine,0,,1
+OPD-OZDGCG8E,4,General Medicine,0,,1
+OPD-OZIZQMJ8,4,General Medicine,0,,1
+OPD-OZQQ8Y9A,4,Orthopaedics,0,,1
+OPD-P0A1NXLT,5,General Medicine,0,,1
+OPD-P0DA66QP,4,General Surgery,0,,1
+OPD-P0JOFGMO,5,ENT,0,,1
+OPD-P0V02275,4,General Medicine,0,,1
+OPD-P12W7AYJ,5,General Medicine,0,,1
+OPD-P14IU4XZ,4,General Medicine,0,,1
+OPD-P181ZYTE,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-P1R75CSM,3,General Medicine,0,,1
+OPD-P3MVBK4H,3,Pulmonology/Chest & TB,0,,1
+OPD-P47ZZJ5N,4,General Medicine,0,,1
+OPD-P4E87YSV,5,Orthopaedics,0,,1
+OPD-P4HG37ZF,5,Orthopaedics,0,,1
+OPD-P4IECNKE,4,Pulmonology/Chest & TB,0,,1
+OPD-P5I7G0M2,3,Cardiology,0,,1
+OPD-P5OSYFJX,4,Pulmonology/Chest & TB,0,,0
+OPD-P6CEAMFP,3,Obstetrics & Gynaecology,0,,1
+OPD-P6LFT92R,4,General Surgery,0,,1
+OPD-P73JBH6W,2,Emergency/Casualty,1,RF_ACUTE_ABDOMEN;RF_PREGNANCY_BLEEDING,1
+OPD-P7B759SH,3,Obstetrics & Gynaecology,0,,1
+OPD-P7E8GH29,4,General Surgery,0,,1
+OPD-P7IBQIMI,3,General Surgery,0,,1
+OPD-P7W38I2Z,5,Orthopaedics,0,,1
+OPD-P8BALF2J,5,Pulmonology/Chest & TB,0,,1
+OPD-P8GUN821,5,Paediatrics,0,,1
+OPD-P90TOYKP,4,General Medicine,0,,1
+OPD-P9A1K361,5,General Medicine,0,,1
+OPD-P9L33RTW,4,Paediatrics,0,,1
+OPD-P9MBITNM,3,General Medicine,0,,1
+OPD-P9ME7HS9,4,General Medicine,0,,1
+OPD-P9QEMQJA,5,Orthopaedics,0,,1
+OPD-PASHC55Z,3,General Medicine,0,,1
+OPD-PAW3U6V5,4,Paediatrics,0,,1
+OPD-PBCL9K7V,4,General Medicine,0,,1
+OPD-PBD6O2CZ,4,General Medicine,0,,1
+OPD-PBJ8ABJZ,5,Dental,0,,1
+OPD-PBP4ZAM1,4,General Medicine,0,,1
+OPD-PBRGDEP1,4,General Medicine,0,,1
+OPD-PC4LFBWV,3,General Surgery,0,,1
+OPD-PEAAG6R2,5,General Medicine,0,,1
+OPD-PELTDYC6,5,Ophthalmology,0,,1
+OPD-PERKQHGX,3,General Medicine,0,,1
+OPD-PF1XOIWP,5,General Surgery,0,,1
+OPD-PF8N1Y7G,4,ENT,0,,1
+OPD-PFHXK9M8,5,Orthopaedics,0,,1
+OPD-PFQ0EHHW,4,General Medicine,0,,1
+OPD-PFQ13W7Y,4,General Medicine,0,,1
+OPD-PFUCTSW9,4,General Medicine,0,,1
+OPD-PFUTZ5IL,3,General Surgery,0,,1
+OPD-PG3PDC2P,5,Dermatology,0,,1
+OPD-PG7QSL3A,4,Paediatrics,0,,1
+OPD-PGJ8BCO3,5,Obstetrics & Gynaecology,0,,1
+OPD-PH4SXZ1V,4,General Medicine,0,,1
+OPD-PH8HJTM8,4,General Medicine,0,,1
+OPD-PHLM0UPD,4,Orthopaedics,0,,1
+OPD-PHQAHRKW,5,General Medicine,0,,1
+OPD-PHSUKO4R,4,General Medicine,0,,1
+OPD-PI2VV1P2,4,General Medicine,0,,1
+OPD-PI7SZ0LQ,3,General Surgery,0,,1
+OPD-PIW476XQ,5,Pulmonology/Chest & TB,0,,1
+OPD-PJ4XC9YW,4,General Medicine,0,,1
+OPD-PJ5LITEL,3,General Medicine,0,,1
+OPD-PJHYLSSR,3,Pulmonology/Chest & TB,0,,1
+OPD-PJNJ306E,5,Dental,0,,1
+OPD-PJW1DWPK,3,General Surgery,0,,1
+OPD-PK58OS33,5,Dermatology,0,,1
+OPD-PK9QZG8A,3,General Medicine,0,,1
+OPD-PKDEKFRM,4,General Surgery,0,,1
+OPD-PKWXDEA4,5,Obstetrics & Gynaecology,0,,1
+OPD-PKXE74UX,4,General Medicine,0,,1
+OPD-PL00UFNB,5,General Medicine,0,,1
+OPD-PL60VQC4,4,Paediatrics,0,,1
+OPD-PLEJ5DMH,4,General Medicine,0,,1
+OPD-PLMVM0FE,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-PM0CF3TP,4,General Medicine,0,,1
+OPD-PMDOLVFW,4,General Medicine,0,,1
+OPD-PMLTSIVF,4,Ophthalmology,0,,1
+OPD-PMORLQ8W,4,General Medicine,0,,1
+OPD-PMP6VCUR,4,General Medicine,0,,1
+OPD-PMTPFIBL,4,General Medicine,0,,1
+OPD-PMVHG2TT,5,Orthopaedics,0,,1
+OPD-PMVMZWP0,4,Pulmonology/Chest & TB,0,,1
+OPD-PNEKG6CR,4,Orthopaedics,0,,1
+OPD-PNG1T4KH,5,Dental,0,,1
+OPD-PNOTA4V7,3,General Surgery,0,,1
+OPD-PNS7R4J3,4,Orthopaedics,0,,1
+OPD-PNT147C1,4,Paediatrics,0,,1
+OPD-PNZRL8E7,4,Orthopaedics,0,,1
+OPD-POIXROY1,4,General Medicine,0,,1
+OPD-POOO6CTH,4,General Medicine,0,,1
+OPD-POS9V3KJ,4,General Medicine,0,,1
+OPD-PP3NFDQA,5,General Medicine,0,,1
+OPD-PPBO10JX,4,Paediatrics,0,,1
+OPD-PPJXLFQM,4,General Surgery,0,,1
+OPD-PPMPGGXW,5,ENT,0,,1
+OPD-PPRVMXBC,3,General Surgery,0,,1
+OPD-PPU50SPS,5,Orthopaedics,0,,1
+OPD-PPXGC8P1,5,Obstetrics & Gynaecology,0,,1
+OPD-PQ43ZD8M,3,General Medicine,0,,1
+OPD-PQCXEZVN,5,ENT,0,,1
+OPD-PQQGWVVU,4,General Medicine,0,,1
+OPD-PQT9N1PG,5,General Medicine,0,,1
+OPD-PQWFYALO,5,Obstetrics & Gynaecology,0,,1
+OPD-PQZTL4HZ,4,General Medicine,0,,1
+OPD-PRAJHQ79,4,Dental,0,,0
+OPD-PRAL4WLG,5,Ophthalmology,0,,1
+OPD-PRKVN3WO,5,General Medicine,0,,1
+OPD-PRNMVTJG,5,General Medicine,0,,1
+OPD-PRP8ON3J,5,General Medicine,0,,1
+OPD-PRSY7G7X,4,Paediatrics,0,,1
+OPD-PSQ8NKVB,4,General Medicine,0,,1
+OPD-PSQR5SPH,3,General Surgery,0,,1
+OPD-PSQRIDF8,5,General Medicine,0,,1
+OPD-PTCF7Z0B,2,Emergency/Casualty,1,RF_EYE_EMERGENCY,1
+OPD-PTEVGEFM,5,Obstetrics & Gynaecology,0,,1
+OPD-PTTSDF6K,4,General Surgery,0,,1
+OPD-PU0EVK39,4,General Medicine,0,,1
+OPD-PU3QV2LY,4,Paediatrics,0,,1
+OPD-PUI4PCEX,3,General Medicine,0,,1
+OPD-PUVTCMBM,5,Ophthalmology,0,,1
+OPD-PV78ZVRB,5,ENT,0,,1
+OPD-PV8Z2H21,5,General Medicine,0,,1
+OPD-PVEC14US,3,General Surgery,0,,1
+OPD-PVYEH2QU,4,General Surgery,0,,1
+OPD-PW09SKGW,4,Orthopaedics,0,,1
+OPD-PW9WVS7W,4,General Medicine,0,,1
+OPD-PWLX6KA8,4,General Medicine,0,,1
+OPD-PWND7R6P,4,Orthopaedics,0,,1
+OPD-PWNL6VNK,4,Paediatrics,0,,1
+OPD-PWSN6QY6,4,General Surgery,0,,1
+OPD-PX5J7EPF,4,General Surgery,0,,1
+OPD-PX66MZZL,3,Pulmonology/Chest & TB,0,,1
+OPD-PX9CIMWZ,4,General Medicine,0,,1
+OPD-PXFGGHQ0,5,General Medicine,0,,1
+OPD-PXH2PP6Q,5,Obstetrics & Gynaecology,0,,1
+OPD-PXY9TZHV,3,General Medicine,0,,1
+OPD-PYBBSXWH,5,General Medicine,0,,1
+OPD-PYMJX5IA,5,General Medicine,0,,1
+OPD-PYP9ZK4T,4,General Medicine,0,,1
+OPD-PYTFVBXZ,4,Paediatrics,0,,1
+OPD-PZ2OZA7X,5,Ophthalmology,0,,1
+OPD-PZ4027OU,4,General Medicine,0,,1
+OPD-PZ50ZHW2,4,General Surgery,0,,1
+OPD-PZMWUF4C,4,Pulmonology/Chest & TB,0,,1
+OPD-Q0533ENK,4,General Medicine,0,,1
+OPD-Q08DA0PK,3,Obstetrics & Gynaecology,0,,1
+OPD-Q0EL72QJ,3,General Medicine,0,,1
+OPD-Q0L9C7NM,4,Paediatrics,0,,1
+OPD-Q1IPQCA4,5,ENT,0,,1
+OPD-Q1W30UVQ,5,General Medicine,0,,1
+OPD-Q1X0GO0B,4,General Medicine,0,,1
+OPD-Q25PI81Z,4,Paediatrics,0,,1
+OPD-Q284EJ5Q,4,General Medicine,0,,1
+OPD-Q2RIZ9RL,4,General Medicine,0,,1
+OPD-Q2Y1RDN8,4,Pulmonology/Chest & TB,0,,1
+OPD-Q3GABJ7Q,4,General Medicine,0,,1
+OPD-Q3IPH9QS,4,General Medicine,0,,1
+OPD-Q41LFP1Y,5,ENT,0,,1
+OPD-Q46MDZN0,4,General Medicine,0,,1
+OPD-Q4BTY8IN,4,Paediatrics,0,,1
+OPD-Q4QNKLJK,4,General Medicine,0,,1
+OPD-Q538EXCN,4,General Medicine,0,,1
+OPD-Q5LV8FV7,5,Ophthalmology,0,,1
+OPD-Q5RYYAWG,5,General Medicine,0,,1
+OPD-Q5WB29UT,5,Dermatology,0,,1
+OPD-Q6FXS98S,4,General Surgery,0,,1
+OPD-Q6GCS07Y,4,General Medicine,0,,1
+OPD-Q6R04837,3,General Surgery,0,,1
+OPD-Q6UIPZF5,3,Pulmonology/Chest & TB,0,,1
+OPD-Q72BFE8M,5,General Medicine,0,,0
+OPD-Q74GOSH6,5,General Medicine,0,,1
+OPD-Q7GJKQVW,4,General Medicine,0,,1
+OPD-Q7J8HTZP,4,General Medicine,0,,1
+OPD-Q7PPB8FV,4,Orthopaedics,0,,1
+OPD-Q7PT5KKP,4,General Medicine,0,,1
+OPD-Q84M32Q2,4,General Medicine,0,,1
+OPD-Q85OOU50,5,Obstetrics & Gynaecology,0,,1
+OPD-Q86L3BGY,5,Dermatology,0,,1
+OPD-Q8SYN8TN,3,General Medicine,0,,1
+OPD-Q91M2OH6,3,General Medicine,0,,1
+OPD-QA6DAMHV,5,Obstetrics & Gynaecology,0,,1
+OPD-QAI4PLCJ,4,Paediatrics,0,,1
+OPD-QAXWAWWF,4,General Medicine,0,,1
+OPD-QB6KXD4V,2,Emergency/Casualty,1,,1
+OPD-QBGAKLDY,4,General Medicine,0,,1
+OPD-QC2CU4MW,5,General Medicine,0,,1
+OPD-QC3ZXM8X,5,General Medicine,0,,1
+OPD-QC6QLS29,4,Dental,0,,1
+OPD-QCI45898,3,General Surgery,0,,1
+OPD-QCWTE19N,5,General Medicine,0,,1
+OPD-QCWZI3JZ,5,General Surgery,0,,1
+OPD-QD5F8P79,5,Obstetrics & Gynaecology,0,,1
+OPD-QD6PRLZG,5,General Medicine,0,,1
+OPD-QDA6U81J,5,General Surgery,0,,1
+OPD-QEADQ5GS,5,General Medicine,0,,1
+OPD-QEKOY53B,5,General Medicine,0,,1
+OPD-QENWVXXO,4,Paediatrics,0,,1
+OPD-QEU6QYF7,3,General Medicine,0,,1
+OPD-QEX1AQ0T,3,Cardiology,0,,1
+OPD-QFUC3DGU,3,General Medicine,0,,1
+OPD-QFUPVO2X,4,General Medicine,0,,1
+OPD-QFY4D0OG,3,Orthopaedics,0,,1
+OPD-QGE5SMBP,4,General Surgery,0,,1
+OPD-QGFVJD7X,3,General Surgery,0,,1
+OPD-QGIDNEA0,4,General Surgery,0,,1
+OPD-QH8DVKXF,4,General Surgery,0,,1
+OPD-QH9ABPBM,5,General Medicine,0,,1
+OPD-QHB5RJLP,4,Paediatrics,0,,1
+OPD-QHNWP2CO,5,Obstetrics & Gynaecology,0,,1
+OPD-QHR25N81,4,General Medicine,0,,0
+OPD-QI1H8655,4,Paediatrics,0,,1
+OPD-QI95FNW8,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-QI9FKK8X,4,Ophthalmology,0,,1
+OPD-QICMB49T,4,General Medicine,0,,1
+OPD-QII642XA,5,General Medicine,0,,1
+OPD-QIRNTHZI,4,Orthopaedics,0,,1
+OPD-QJ93HUD4,5,General Medicine,0,,1
+OPD-QJAZ2TH8,5,General Medicine,0,,1
+OPD-QJKPX39P,5,Paediatrics,0,,1
+OPD-QJQ03UTD,4,General Medicine,0,,1
+OPD-QJQTN90S,4,General Medicine,0,,1
+OPD-QK51Q70Y,3,General Medicine,0,,1
+OPD-QKBOW3GE,4,General Surgery,0,,1
+OPD-QKEQAZI9,3,Obstetrics & Gynaecology,0,,1
+OPD-QKITJF83,5,Dental,0,,1
+OPD-QKJNTHB4,3,Cardiology,0,,1
+OPD-QKMRMN38,5,Dermatology,0,,0
+OPD-QKRZCOAB,5,General Medicine,0,,1
+OPD-QKTX3LPO,3,General Medicine,0,,1
+OPD-QL1MMTMU,5,Paediatrics,0,,1
+OPD-QL3CLC40,5,General Medicine,0,,1
+OPD-QL9STGL9,4,Ophthalmology,0,,1
+OPD-QLAZ40MS,4,General Medicine,0,,1
+OPD-QLI6JDA4,4,General Medicine,0,,1
+OPD-QM0UTO2S,5,General Medicine,0,,1
+OPD-QM5UL20N,4,General Medicine,0,,1
+OPD-QMAYNKUA,3,General Medicine,0,,1
+OPD-QMDJB8U4,3,General Surgery,0,,1
+OPD-QMICWFN1,4,Dental,0,,1
+OPD-QMMWMDDG,3,General Surgery,0,,1
+OPD-QMT8DTJB,4,General Surgery,0,,1
+OPD-QN106EFZ,3,General Medicine,0,,1
+OPD-QN2OU6AE,5,General Medicine,0,,1
+OPD-QNGVX0UX,4,Paediatrics,0,,1
+OPD-QNJFUOY8,5,General Medicine,0,,1
+OPD-QNMQ4P62,4,Psychiatry,0,,1
+OPD-QNTFMBA7,4,General Medicine,0,,1
+OPD-QOTFHYPJ,1,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_STROKE_SIGNS,1
+OPD-QPNFKTIB,4,General Medicine,0,,1
+OPD-QQ1LCA69,3,Paediatrics,0,,1
+OPD-QQBHW5J6,4,General Medicine,0,,1
+OPD-QQXZOZN0,3,General Medicine,0,,1
+OPD-QR0ZUNOH,5,General Medicine,0,,1
+OPD-QR48W61P,4,ENT,0,,1
+OPD-QR7D3KNJ,3,General Medicine,0,,1
+OPD-QRC04IMF,5,Pulmonology/Chest & TB,0,,1
+OPD-QRGFC5G8,3,General Medicine,0,,1
+OPD-QRWHZ50X,3,Cardiology,0,,1
+OPD-QS2Z2G9B,4,General Medicine,0,,1
+OPD-QS8BTPW5,5,Ophthalmology,0,,1
+OPD-QSFF02HL,4,Orthopaedics,0,,1
+OPD-QSFWALO3,3,Paediatrics,0,,1
+OPD-QSP0UUUI,5,General Medicine,0,,1
+OPD-QT626AOT,4,General Medicine,0,,1
+OPD-QT9C50SW,4,General Medicine,0,,1
+OPD-QTPW9YJS,5,Dermatology,0,,1
+OPD-QU03Y1L7,5,Obstetrics & Gynaecology,0,,1
+OPD-QU3L56YX,4,General Medicine,0,,1
+OPD-QUNYHSZ8,5,ENT,0,,1
+OPD-QUOR4JT5,5,General Medicine,0,,1
+OPD-QUU8IQ4J,5,General Medicine,0,,1
+OPD-QUWA2M48,5,Obstetrics & Gynaecology,0,,1
+OPD-QV7R6B6X,4,Orthopaedics,0,,1
+OPD-QV8QBK4N,3,Pulmonology/Chest & TB,0,,1
+OPD-QVG3YBMV,5,Dental,0,,1
+OPD-QVJC11B0,4,General Medicine,0,,1
+OPD-QVNAWVGN,4,Orthopaedics,0,,1
+OPD-QVTMGYRM,4,Paediatrics,0,,1
+OPD-QWUOO59U,5,Paediatrics,0,,1
+OPD-QWW93V9E,4,General Medicine,0,,1
+OPD-QXDD9Z8U,3,General Medicine,0,,1
+OPD-QXDM2UI1,3,General Medicine,0,,1
+OPD-QXU0SP9F,5,Ophthalmology,0,,1
+OPD-QXXXTFK1,5,Orthopaedics,0,,1
+OPD-QY84HBVA,4,General Medicine,0,,1
+OPD-QZ1H61FM,3,Cardiology,0,,1
+OPD-QZ3LI39V,4,General Medicine,0,,1
+OPD-QZNI1ER2,5,General Medicine,0,,1
+OPD-QZUVKVBE,4,Paediatrics,0,,1
+OPD-QZYLJSTL,4,Ophthalmology,0,,1
+OPD-R064IGZ2,2,Emergency/Casualty,1,RF_SUICIDAL,1
+OPD-R0AMK4SP,5,General Medicine,0,,1
+OPD-R0F2MM7Q,5,Dental,0,,1
+OPD-R0OY2B4B,4,General Medicine,0,,1
+OPD-R0Z1OQLA,5,Dermatology,0,,1
+OPD-R12YR8V3,4,General Surgery,0,,1
+OPD-R1G1ZEQF,3,Paediatrics,0,,1
+OPD-R1H9WHAJ,4,Paediatrics,0,,1
+OPD-R1KJFLJ1,3,General Medicine,0,,1
+OPD-R2LLHCGT,4,General Surgery,0,,1
+OPD-R2TEZWVG,3,Obstetrics & Gynaecology,0,,1
+OPD-R2V88D0G,5,Dermatology,0,,1
+OPD-R3LCJ1HG,4,General Medicine,0,,1
+OPD-R3RL6CXC,5,General Medicine,0,,1
+OPD-R43WYKTE,4,General Medicine,0,,1
+OPD-R4NTRVC0,4,General Medicine,0,,1
+OPD-R4VS3VKE,4,General Medicine,0,,1
+OPD-R56G0TFM,5,Dermatology,0,,1
+OPD-R5ECHXFL,4,General Medicine,0,,1
+OPD-R5LB4VE5,3,General Surgery,0,,1
+OPD-R5OYKHV3,4,Orthopaedics,0,,1
+OPD-R5ZNIHZ1,5,Dermatology,0,,1
+OPD-R627NXWE,4,Paediatrics,0,,1
+OPD-R73I5JKK,3,General Medicine,0,,1
+OPD-R77MWQZG,5,Ophthalmology,0,,1
+OPD-R77ZNW93,4,General Surgery,0,,1
+OPD-R78RY767,3,Pulmonology/Chest & TB,0,,1
+OPD-R7EJOPJ6,5,Dental,0,,1
+OPD-R7FYD49H,4,General Surgery,0,,1
+OPD-R7H87MKI,3,General Medicine,0,,1
+OPD-R7HB8XUS,4,General Medicine,0,,1
+OPD-R7Y80N9Z,3,General Surgery,0,,1
+OPD-R880XDPT,5,Orthopaedics,0,,1
+OPD-R8A4EESZ,4,General Medicine,0,,1
+OPD-R8Z52M3P,4,General Medicine,0,,1
+OPD-R9K13D5Z,5,General Medicine,0,,1
+OPD-R9VE9GPE,4,General Medicine,0,,1
+OPD-R9ZD6BYH,4,General Medicine,0,,1
+OPD-R9ZGC6BC,4,General Surgery,0,,1
+OPD-RA3ASRRN,3,General Surgery,0,,1
+OPD-RA8ZRW9O,3,General Surgery,0,,1
+OPD-RAC54LNL,5,Dermatology,0,,1
+OPD-RAIUXO0T,4,Orthopaedics,0,,1
+OPD-RB5UTQ8N,4,Obstetrics & Gynaecology,0,,1
+OPD-RBMANKOO,5,General Medicine,0,,1
+OPD-RCDD7WK3,4,Orthopaedics,0,,1
+OPD-RCIQUWHX,3,General Surgery,0,,1
+OPD-RCLPYHJC,4,General Surgery,0,,1
+OPD-RCQL386J,5,ENT,0,,1
+OPD-RCYEV5CV,4,Orthopaedics,0,,1
+OPD-RD58P2KK,5,General Medicine,0,,1
+OPD-RD6T32O3,5,Dental,0,,1
+OPD-RDNII2K1,4,Paediatrics,0,,1
+OPD-REDCJZ9V,5,General Medicine,0,,1
+OPD-REQHI704,5,General Medicine,0,,1
+OPD-RF15GFQU,4,General Medicine,0,,1
+OPD-RFWCEIC9,4,General Medicine,0,,1
+OPD-RG3W6POU,5,Dental,0,,1
+OPD-RGB9CJDL,4,Paediatrics,0,,1
+OPD-RGCT5R5Q,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-RGEL6K72,5,Dental,0,,1
+OPD-RGHXURGX,4,General Medicine,0,,1
+OPD-RGJSFXHD,4,General Medicine,0,,1
+OPD-RGLIGB6X,4,Dental,0,,1
+OPD-RGUYNRID,4,Orthopaedics,0,,1
+OPD-RHNNKUWM,5,Obstetrics & Gynaecology,0,,1
+OPD-RHSC7NKQ,5,Orthopaedics,0,,1
+OPD-RHW19R0Y,5,ENT,0,,1
+OPD-RHXAIJBM,5,Obstetrics & Gynaecology,0,,1
+OPD-RI6EN0DL,5,Dermatology,0,,1
+OPD-RIV1VPA1,4,General Medicine,0,,1
+OPD-RJ4UU7TE,4,General Medicine,0,,1
+OPD-RJBP7O0G,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-RJHXWYHE,5,ENT,0,,1
+OPD-RJR2G9SI,3,General Surgery,0,,1
+OPD-RJTK3GJU,4,Orthopaedics,0,,1
+OPD-RK5NAPIQ,4,General Medicine,0,,1
+OPD-RK85CSK2,4,General Medicine,0,,1
+OPD-RKFW5YPV,3,General Medicine,0,,1
+OPD-RKM6XF3G,4,General Medicine,0,,1
+OPD-RKUV9JTD,5,General Medicine,0,,1
+OPD-RL6THDAT,5,General Medicine,0,,1
+OPD-RLS6Z1NW,4,General Medicine,0,,1
+OPD-RLU424WS,5,Obstetrics & Gynaecology,0,,1
+OPD-RLWOD3IY,4,General Medicine,0,,1
+OPD-RMNUW9LF,5,ENT,0,,1
+OPD-RMR6PT2Q,4,General Medicine,0,,1
+OPD-RMWX3N4F,4,General Medicine,0,,1
+OPD-RN9WJPO4,5,Paediatrics,0,,1
+OPD-RNB8D38R,4,General Medicine,0,,1
+OPD-RNV3E1FX,3,General Medicine,0,,1
+OPD-RNYD9RK6,4,General Medicine,0,,1
+OPD-RO5PPF06,5,Psychiatry,0,,1
+OPD-RO861M9Z,4,Orthopaedics,0,,1
+OPD-ROCHR2M3,4,General Medicine,0,,1
+OPD-RODT2SPY,5,General Medicine,0,,1
+OPD-ROWJ6C0M,4,Dental,0,,1
+OPD-ROZEFFM9,4,General Medicine,0,,1
+OPD-RPI6IDNP,5,Ophthalmology,0,,1
+OPD-RPLYTAXY,5,General Medicine,0,,1
+OPD-RQ2Z5P36,4,General Medicine,0,,1
+OPD-RQ89FPOM,5,Paediatrics,0,,1
+OPD-RQAY0PLM,2,Emergency/Casualty,1,RF_SCORPION_STING,1
+OPD-RQPUR974,4,General Medicine,0,,1
+OPD-RQTXMZ9C,3,Pulmonology/Chest & TB,0,,1
+OPD-RRHUWVNH,4,General Medicine,0,,1
+OPD-RS25UFN0,3,Paediatrics,0,,1
+OPD-RSCTRXYV,4,General Surgery,0,,1
+OPD-RSQ4AL7T,4,Psychiatry,0,,1
+OPD-RT8AUTZN,5,Psychiatry,0,,1
+OPD-RT93NYXM,3,Paediatrics,0,,1
+OPD-RTCIJHYK,4,General Surgery,0,,1
+OPD-RTMNIL5D,5,Ophthalmology,0,,1
+OPD-RTNURIOW,2,Emergency/Casualty,1,RF_HIGH_FEVER_INFANT,1
+OPD-RTNXR57W,4,General Surgery,0,,1
+OPD-RTP4Q8KE,4,Obstetrics & Gynaecology,0,,1
+OPD-RTUIB708,3,General Surgery,0,,1
+OPD-RU1UE0J4,5,General Medicine,0,,1
+OPD-RU79BGIY,4,Paediatrics,0,,1
+OPD-RUIYML9B,4,General Surgery,0,,1
+OPD-RUWCTC6S,5,Orthopaedics,0,,1
+OPD-RV16JHNE,4,General Medicine,0,,1
+OPD-RV4279K7,3,Orthopaedics,0,,1
+OPD-RV8GMBOC,3,General Medicine,0,,1
+OPD-RVCUJ1XX,5,General Medicine,0,,1
+OPD-RVYJXV9H,5,Obstetrics & Gynaecology,0,,1
+OPD-RW6JGXFF,5,Dental,0,,1
+OPD-RWDMCIXW,4,Pulmonology/Chest & TB,0,,1
+OPD-RWTYYONP,5,General Medicine,0,,1
+OPD-RWUIIRHW,4,General Medicine,0,,1
+OPD-RXLY747N,3,Paediatrics,0,,1
+OPD-RXNJ2YNY,4,General Surgery,0,,1
+OPD-RXZELH6U,5,Obstetrics & Gynaecology,0,,1
+OPD-RYCOHZVB,5,Dermatology,0,,1
+OPD-RYULF878,4,General Medicine,0,,1
+OPD-RYUR3KM2,4,Paediatrics,0,,1
+OPD-RZ18IKI9,5,ENT,0,,1
+OPD-RZ2DJ3GW,5,ENT,0,,1
+OPD-RZ7WCC8Q,5,General Medicine,0,,1
+OPD-RZARWX71,5,General Medicine,0,,1
+OPD-RZGDXGR1,4,Paediatrics,0,,1
+OPD-RZJ27ZPQ,4,General Medicine,0,,1
+OPD-RZKD5ZV2,2,Emergency/Casualty,1,RF_SCORPION_STING,1
+OPD-RZO467VD,4,General Medicine,0,,1
+OPD-S0HTS1M4,3,Obstetrics & Gynaecology,0,,1
+OPD-S0UC4ABH,4,General Medicine,0,,1
+OPD-S19LM0NS,5,General Medicine,0,,1
+OPD-S1CK6XSF,5,General Medicine,0,,1
+OPD-S1O8Q0YJ,5,Obstetrics & Gynaecology,0,,1
+OPD-S21Y0CPM,3,General Medicine,0,,1
+OPD-S26G81SG,5,Ophthalmology,0,,0
+OPD-S2F6L5LQ,4,General Medicine,0,,1
+OPD-S2GWZJH4,3,General Medicine,0,,1
+OPD-S30UIS2S,5,General Medicine,0,,1
+OPD-S33EMT1C,4,Orthopaedics,0,,1
+OPD-S58H9KHB,4,General Surgery,0,,1
+OPD-S5EJSKZX,3,General Medicine,0,,1
+OPD-S5QLCVOX,5,Dermatology,0,,1
+OPD-S6T3WJIU,5,Orthopaedics,0,,1
+OPD-S76JFCM7,3,General Medicine,0,,1
+OPD-S78IG27H,4,General Medicine,0,,1
+OPD-S78VA9EN,4,General Medicine,0,,1
+OPD-S799ZMK8,5,Dermatology,0,,1
+OPD-S8CTFT3J,3,General Medicine,0,,1
+OPD-S8I7HKXB,4,General Medicine,0,,1
+OPD-S8KHJBAQ,4,General Medicine,0,,1
+OPD-S8P0VKSY,5,Obstetrics & Gynaecology,0,,1
+OPD-S8SN7L72,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-S934X560,5,Obstetrics & Gynaecology,0,,1
+OPD-S9FIHAYW,4,General Medicine,0,,1
+OPD-S9KPXJIJ,3,Pulmonology/Chest & TB,0,,1
+OPD-S9TF2KVV,4,General Surgery,0,,1
+OPD-SARH19R1,4,Paediatrics,0,,1
+OPD-SATNZW0B,5,Dental,0,,1
+OPD-SAURR3OU,3,General Medicine,0,,1
+OPD-SBX70R9N,3,Pulmonology/Chest & TB,0,,0
+OPD-SCGPU5QU,5,Obstetrics & Gynaecology,0,,1
+OPD-SCK85H7S,4,General Medicine,0,,1
+OPD-SCNLW3OJ,4,General Surgery,0,,0
+OPD-SCQ7DDF0,4,General Medicine,0,,1
+OPD-SCTBU1WO,3,General Surgery,0,,1
+OPD-SD405QEH,5,General Medicine,0,,1
+OPD-SDG3DIPB,4,Paediatrics,0,,1
+OPD-SDRYU2GV,4,General Medicine,0,,1
+OPD-SDSLHL3K,3,General Medicine,0,,1
+OPD-SDTZK8Q9,5,General Medicine,0,,1
+OPD-SDUGMPH2,4,Orthopaedics,0,,1
+OPD-SDWQ2NQR,5,Obstetrics & Gynaecology,0,,1
+OPD-SE3JW6M5,3,Orthopaedics,0,,1
+OPD-SEAFEIU1,3,Obstetrics & Gynaecology,0,,1
+OPD-SENED8QT,5,Ophthalmology,0,,1
+OPD-SET9A3N1,5,General Medicine,0,,1
+OPD-SEU16JF1,4,General Medicine,0,,1
+OPD-SF1B5F4F,4,Orthopaedics,0,,1
+OPD-SF2BS1ZB,3,Pulmonology/Chest & TB,0,,1
+OPD-SFJSIB5B,4,General Surgery,0,,1
+OPD-SFXMO18Q,4,General Medicine,0,,1
+OPD-SFZR7LZ6,5,ENT,0,,1
+OPD-SGIH9MJN,3,Orthopaedics,0,,1
+OPD-SGJT50OW,5,Dermatology,0,,1
+OPD-SH2KSPCF,5,General Medicine,0,,1
+OPD-SH3YU92B,4,General Medicine,0,,1
+OPD-SH65CENN,5,Paediatrics,0,,1
+OPD-SH9XP5DB,5,General Medicine,0,,1
+OPD-SHHG9GY2,5,Paediatrics,0,,0
+OPD-SHTYNLOO,3,General Medicine,0,,1
+OPD-SHU90PCQ,4,General Medicine,0,,1
+OPD-SHZJKCAB,4,Psychiatry,0,,1
+OPD-SI1YQFSY,4,Paediatrics,0,,1
+OPD-SI1ZHVJ0,4,General Surgery,0,,1
+OPD-SI8G4K9Q,4,Pulmonology/Chest & TB,0,,1
+OPD-SIBX6YQ6,4,General Surgery,0,,1
+OPD-SIW1FJIF,5,Orthopaedics,0,,1
+OPD-SJUYG63A,4,Orthopaedics,0,,1
+OPD-SK1JWLZI,4,Pulmonology/Chest & TB,0,,1
+OPD-SK3B45PY,4,General Medicine,0,,1
+OPD-SK5Q0MAG,4,Paediatrics,0,,1
+OPD-SK9K6P1K,5,General Medicine,0,,1
+OPD-SK9QR5P5,4,General Medicine,0,,1
+OPD-SKAV1I4S,4,Obstetrics & Gynaecology,0,,1
+OPD-SKE4IUOU,4,General Medicine,0,,1
+OPD-SKL6E1WB,5,General Medicine,0,,1
+OPD-SKLP5UYV,5,General Medicine,0,,1
+OPD-SL040GT1,5,General Medicine,0,,1
+OPD-SL60YZCZ,4,General Medicine,0,,1
+OPD-SL95W2W5,5,General Medicine,0,,1
+OPD-SM1PHQX1,4,Obstetrics & Gynaecology,0,,1
+OPD-SM36NZ1H,5,Dermatology,0,,1
+OPD-SMTT5T36,4,General Medicine,0,,1
+OPD-SN4W3E5I,4,General Medicine,0,,1
+OPD-SNOGFC0V,4,General Medicine,0,,1
+OPD-SNVHJX9J,5,Obstetrics & Gynaecology,0,,1
+OPD-SO0GG02B,4,Paediatrics,0,,1
+OPD-SO5YH8B3,4,Dental,0,,1
+OPD-SO6D3AXZ,4,General Medicine,0,,1
+OPD-SO8VBM4T,4,General Medicine,0,,0
+OPD-SOPMQ17S,4,General Medicine,0,,1
+OPD-SOQ1WIVD,4,Paediatrics,0,,1
+OPD-SPE4Q298,3,Paediatrics,0,,1
+OPD-SPEB0MT3,3,General Surgery,0,,1
+OPD-SPMCPGMY,3,Pulmonology/Chest & TB,0,,1
+OPD-SPTQWNGL,3,General Medicine,0,,1
+OPD-SPVA7VRL,3,General Medicine,0,,1
+OPD-SPXOGQVI,5,Paediatrics,0,,1
+OPD-SQ5JUXGD,4,Paediatrics,0,,1
+OPD-SQB4YBCX,5,General Medicine,0,,1
+OPD-SQD3H967,5,Paediatrics,0,,1
+OPD-SQF4OFKZ,4,General Medicine,0,,1
+OPD-SQMJNUN6,4,Dental,0,,1
+OPD-SQMMA1BP,5,Dermatology,0,,1
+OPD-SR8O1MJ0,5,General Medicine,0,,1
+OPD-SR9ALJ88,3,Paediatrics,0,,1
+OPD-SR9IAXKL,3,Pulmonology/Chest & TB,0,,1
+OPD-SS8YEMD8,4,Pulmonology/Chest & TB,0,,1
+OPD-SSUERCT7,5,General Medicine,0,,1
+OPD-SSZ9Q519,4,General Medicine,0,,1
+OPD-ST66YI5C,5,Ophthalmology,0,,1
+OPD-STNV69ZI,3,Pulmonology/Chest & TB,0,,1
+OPD-STVNBO0U,4,General Medicine,0,,1
+OPD-STWF5RIW,3,General Medicine,0,,1
+OPD-STWOQ4JA,5,General Medicine,0,,1
+OPD-SU87XBE5,4,General Medicine,0,,1
+OPD-SUD1PNUC,4,Paediatrics,0,,1
+OPD-SUIMPFAT,4,General Medicine,0,,1
+OPD-SURDQ1XT,4,Orthopaedics,0,,1
+OPD-SVQ7XDXC,5,Dermatology,0,,1
+OPD-SVQPWB4P,4,General Surgery,0,,1
+OPD-SVYLII8I,4,Paediatrics,0,,1
+OPD-SVYP827Q,3,Pulmonology/Chest & TB,0,,1
+OPD-SW3OP58R,4,General Surgery,0,,1
+OPD-SW471YMR,5,Orthopaedics,0,,1
+OPD-SWL1XPR7,3,General Medicine,0,,1
+OPD-SWMN1K1W,5,General Medicine,0,,1
+OPD-SX0OVH3C,4,Pulmonology/Chest & TB,0,,1
+OPD-SX4T9UIQ,5,Obstetrics & Gynaecology,0,,1
+OPD-SXC920EC,5,Dermatology,0,,1
+OPD-SXT94XNB,4,General Medicine,0,,1
+OPD-SXUMQC9Z,3,General Medicine,0,,1
+OPD-SYDWPDRL,3,Paediatrics,0,,1
+OPD-SYIO2H3C,4,Orthopaedics,0,,1
+OPD-SYQPTWAY,4,General Medicine,0,,1
+OPD-SYQQ7ZBG,4,General Surgery,0,,1
+OPD-SZZZC4VL,5,General Medicine,0,,1
+OPD-SZZZUM9F,3,General Surgery,0,,1
+OPD-T06DTI17,4,General Surgery,0,,1
+OPD-T09VM0AQ,5,General Medicine,0,,1
+OPD-T0PYY3E5,5,Dermatology,0,,1
+OPD-T0Z50WJY,4,General Medicine,0,,1
+OPD-T11809KR,4,General Medicine,0,,1
+OPD-T1227A09,3,General Medicine,0,,1
+OPD-T184AQBD,4,General Medicine,0,,1
+OPD-T1UWQ6RN,2,Emergency/Casualty,1,RF_DENGUE_WARNING,1
+OPD-T1YI392A,5,Psychiatry,0,,1
+OPD-T1Z9U7U7,4,Paediatrics,0,,1
+OPD-T24LFXL6,5,Paediatrics,0,,1
+OPD-T26Y01TQ,4,General Medicine,0,,1
+OPD-T2GZGWC0,3,General Medicine,0,,1
+OPD-T2SMQVSF,4,Ophthalmology,0,,1
+OPD-T2Y3RMI5,3,Cardiology,0,,1
+OPD-T30LXKN6,3,General Surgery,0,,1
+OPD-T36VRDWA,3,Paediatrics,0,,1
+OPD-T45QK73S,3,General Medicine,0,,1
+OPD-T49W8WKM,4,General Medicine,0,,1
+OPD-T4BBDXMH,5,ENT,0,,1
+OPD-T4GDIUG0,4,General Medicine,0,,1
+OPD-T4GYMB43,4,General Medicine,0,,1
+OPD-T52PNFW8,4,General Surgery,0,,1
+OPD-T5CMO4VX,3,General Medicine,0,,1
+OPD-T5QZ1W82,3,Paediatrics,0,,1
+OPD-T5YBDZ6M,5,Orthopaedics,0,,1
+OPD-T5YTZI8M,3,General Medicine,0,,1
+OPD-T641RLTG,5,Dermatology,0,,1
+OPD-T6HGMBU9,5,General Medicine,0,,1
+OPD-T71E8KWF,4,Orthopaedics,0,,1
+OPD-T7BQAN3U,5,General Medicine,0,,1
+OPD-T7C3EEOG,5,Obstetrics & Gynaecology,0,,1
+OPD-T7ECCRPZ,5,General Medicine,0,,1
+OPD-T7MEHW1C,3,General Medicine,0,,1
+OPD-T7P3URYE,5,Dermatology,0,,1
+OPD-T7U7QSWQ,5,General Medicine,0,,1
+OPD-T824QAXM,4,General Medicine,0,,1
+OPD-T8LVBA6D,3,General Medicine,0,,1
+OPD-T8SXWCQM,4,General Medicine,0,,1
+OPD-T917RHBU,3,Cardiology,0,,1
+OPD-T9A9YEUG,4,Psychiatry,0,,1
+OPD-T9FP1P4Q,4,General Medicine,0,,1
+OPD-T9MH96KA,5,General Surgery,0,,1
+OPD-T9MNJIK7,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_HIGH_FEVER_INFANT,1
+OPD-T9MZI7UX,2,Emergency/Casualty,1,,1
+OPD-T9O52BMY,4,General Medicine,0,,1
+OPD-T9WYPV9K,4,Paediatrics,0,,1
+OPD-T9YDTTJ5,5,General Medicine,0,,1
+OPD-TA8PFEAH,5,Dental,0,,1
+OPD-TAI83AF2,5,ENT,0,,1
+OPD-TANA2NDM,4,Orthopaedics,0,,1
+OPD-TANZAS7N,3,General Medicine,0,,1
+OPD-TB6Q9IJR,4,General Medicine,0,,1
+OPD-TBLGDL2C,5,ENT,0,,1
+OPD-TBNI1HK2,5,Orthopaedics,0,,1
+OPD-TBXU9HKZ,4,General Medicine,0,,1
+OPD-TC1FP0OJ,3,Paediatrics,0,,1
+OPD-TC6L3AJH,5,Dermatology,0,,1
+OPD-TCF6Y1BV,4,General Medicine,0,,1
+OPD-TCHEPKER,5,General Medicine,0,,1
+OPD-TCK3RSH9,4,Paediatrics,0,,1
+OPD-TCSY2I0Y,5,Obstetrics & Gynaecology,0,,1
+OPD-TCZ720MZ,4,General Medicine,0,,1
+OPD-TDAS9H93,3,General Surgery,0,,1
+OPD-TDQT085L,5,Obstetrics & Gynaecology,0,,1
+OPD-TE1X25HB,5,General Medicine,0,,1
+OPD-TE58M1E5,4,General Medicine,0,,1
+OPD-TE72DPGP,4,Pulmonology/Chest & TB,0,,1
+OPD-TECYP7VU,5,Orthopaedics,0,,1
+OPD-TEM2XPGW,5,Orthopaedics,0,,1
+OPD-TESIAOS4,5,General Medicine,0,,1
+OPD-TESTFQQI,3,General Medicine,0,,1
+OPD-TEX3IPKQ,2,Emergency/Casualty,1,,1
+OPD-TF7BFRWY,4,Paediatrics,0,,1
+OPD-TFCD1743,4,ENT,0,,1
+OPD-TFEA46UL,4,General Surgery,0,,1
+OPD-TFUF7C3O,4,Orthopaedics,0,,1
+OPD-TFZY38X5,4,Orthopaedics,0,,1
+OPD-TGFHHJ0D,3,Pulmonology/Chest & TB,0,,1
+OPD-TGK6ML4H,3,Cardiology,0,,1
+OPD-TGPZQOU6,3,General Medicine,0,,1
+OPD-TGQF0UH8,3,General Medicine,0,,1
+OPD-TGZSCLZG,4,General Medicine,0,,1
+OPD-THGT43UV,4,Pulmonology/Chest & TB,0,,1
+OPD-THIZ1TLM,2,Emergency/Casualty,1,RF_TESTICULAR_TORSION,1
+OPD-THK53WAN,5,Ophthalmology,0,,1
+OPD-THOXD1RM,4,General Medicine,0,,1
+OPD-THPYPN1L,4,General Medicine,0,,1
+OPD-THS0977Z,3,Pulmonology/Chest & TB,0,,1
+OPD-THYDZ9OS,5,General Medicine,0,,1
+OPD-TIE6YC2M,3,General Medicine,0,,1
+OPD-TIE9497E,4,General Medicine,0,,1
+OPD-TIQZUKP4,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-TJ6B8JH9,3,General Medicine,0,,1
+OPD-TJJ8VX0I,4,General Medicine,0,,1
+OPD-TJKAHGCC,4,Dental,0,,1
+OPD-TJP3074H,4,Psychiatry,0,,1
+OPD-TK3ZSYOK,4,Paediatrics,0,,1
+OPD-TKQHTQII,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-TKTFYK7I,4,Orthopaedics,0,,1
+OPD-TKX2MD76,5,Orthopaedics,0,,1
+OPD-TL0WTADM,4,General Medicine,0,,1
+OPD-TL397HB5,4,General Surgery,0,,1
+OPD-TLE52P9J,5,Dental,0,,1
+OPD-TLEBC8LJ,4,Paediatrics,0,,1
+OPD-TLG9Q19D,5,Psychiatry,0,,1
+OPD-TLJALT5O,4,General Medicine,0,,1
+OPD-TLO8UGM2,3,Cardiology,0,,1
+OPD-TLZCRSV0,4,Paediatrics,0,,1
+OPD-TM1TZIF4,3,Pulmonology/Chest & TB,0,,1
+OPD-TM4G9HQJ,4,General Surgery,0,,1
+OPD-TM939QWP,5,Ophthalmology,0,,1
+OPD-TMCETUDP,4,Psychiatry,0,,1
+OPD-TMDNVGJT,4,Orthopaedics,0,,1
+OPD-TMG0G6JU,3,Cardiology,0,,1
+OPD-TN59J96C,5,General Medicine,0,,1
+OPD-TN5IN49Z,3,General Medicine,0,,1
+OPD-TN6E63GE,5,Psychiatry,0,,1
+OPD-TNLMYPKU,5,Paediatrics,0,,1
+OPD-TNPJNUNH,5,General Medicine,0,,1
+OPD-TNW4OWAS,4,General Medicine,0,,1
+OPD-TOC6VL5M,4,General Surgery,0,,1
+OPD-TOI7LMY8,5,ENT,0,,1
+OPD-TOUK3KT0,4,General Medicine,0,,1
+OPD-TOVFKRCT,3,Pulmonology/Chest & TB,0,,1
+OPD-TP0ZQEI9,3,General Medicine,0,,1
+OPD-TPMHEBHJ,4,General Surgery,0,,0
+OPD-TPWFODTC,3,General Medicine,0,,1
+OPD-TQ3S15R2,5,Dental,0,,0
+OPD-TQCSMYIJ,5,Dental,0,,1
+OPD-TQCZCHM0,2,Emergency/Casualty,1,RF_TRAUMA_MAJOR,1
+OPD-TQJSQOJR,4,Paediatrics,0,,1
+OPD-TQK6YBAW,4,Paediatrics,0,,1
+OPD-TQNKZGOV,5,General Medicine,0,,1
+OPD-TQOY4LUC,4,General Medicine,0,,1
+OPD-TQRBQDWP,4,General Medicine,0,,1
+OPD-TQSHDFNC,3,General Medicine,0,,1
+OPD-TQSY0XYB,5,Obstetrics & Gynaecology,0,,1
+OPD-TQUJ65QN,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-TR0CJXJA,3,General Surgery,0,,1
+OPD-TR3GBXZ5,5,General Medicine,0,,1
+OPD-TRKQRBMO,4,Obstetrics & Gynaecology,0,,1
+OPD-TRPHSHE5,4,Paediatrics,0,,1
+OPD-TRWFBDFZ,3,Paediatrics,0,,1
+OPD-TRZHP83I,3,Pulmonology/Chest & TB,0,,1
+OPD-TSXDNPJB,4,General Medicine,0,,1
+OPD-TTBRA7HC,3,General Medicine,0,,1
+OPD-TTOHMFPB,4,Orthopaedics,0,,1
+OPD-TU5V6V0T,4,General Medicine,0,,1
+OPD-TU6J43JD,4,Dental,0,,1
+OPD-TU8IXH8P,3,Orthopaedics,0,,1
+OPD-TVPHQY58,4,Dental,0,,1
+OPD-TVPM6K9F,4,General Medicine,0,,1
+OPD-TVQCW53Y,5,Ophthalmology,0,,1
+OPD-TW7CNR4R,3,General Medicine,0,,1
+OPD-TWQ1PFFT,4,General Medicine,0,,1
+OPD-TWWYY5Y6,4,Dental,0,,1
+OPD-TX6Y2D0T,4,General Surgery,0,,1
+OPD-TXB42L1F,3,General Surgery,0,,1
+OPD-TXBWZLYF,3,Pulmonology/Chest & TB,0,,1
+OPD-TXGI47AA,5,Ophthalmology,0,,1
+OPD-TXRQE023,4,General Medicine,0,,1
+OPD-TXVHSS6B,4,Paediatrics,0,,1
+OPD-TXW0OOOR,4,Paediatrics,0,,1
+OPD-TY0CQY0E,5,Orthopaedics,0,,1
+OPD-TYFJTQU8,3,Pulmonology/Chest & TB,0,,1
+OPD-TYJCIH0J,4,General Medicine,0,,1
+OPD-TYM6NVVO,4,Paediatrics,0,,1
+OPD-TYZ8XTSU,5,Obstetrics & Gynaecology,0,,1
+OPD-TZ5GT9NT,4,General Medicine,0,,1
+OPD-TZDL0A1Y,5,Dermatology,0,,1
+OPD-TZFVLTMA,5,Orthopaedics,0,,1
+OPD-TZGWYWNF,5,Pulmonology/Chest & TB,0,,1
+OPD-TZM9IWL5,4,General Medicine,0,,1
+OPD-TZR67IYC,5,General Medicine,0,,1
+OPD-U0AVRQDP,3,General Surgery,0,,1
+OPD-U0DLLWW6,4,General Medicine,0,,1
+OPD-U0J0IPH9,5,General Medicine,0,,1
+OPD-U0Q1Q68T,3,General Surgery,0,,1
+OPD-U0RC1788,5,Ophthalmology,0,,1
+OPD-U0U6KBXS,5,Obstetrics & Gynaecology,0,,1
+OPD-U0WF2CW0,5,Obstetrics & Gynaecology,0,,1
+OPD-U0YI1TBO,5,Obstetrics & Gynaecology,0,,1
+OPD-U1DXV9LU,4,General Medicine,0,,1
+OPD-U1IDZ3PO,4,General Surgery,0,,1
+OPD-U1PZKS40,4,Pulmonology/Chest & TB,0,,1
+OPD-U1X0O17E,3,General Medicine,0,,1
+OPD-U2JRY4HS,4,Obstetrics & Gynaecology,0,,1
+OPD-U2L5AH1M,2,Emergency/Casualty,1,RF_SNAKEBITE,1
+OPD-U2UR3HY4,4,General Surgery,0,,1
+OPD-U2XOKH3D,4,General Medicine,0,,1
+OPD-U32LCQKP,5,General Medicine,0,,1
+OPD-U3F36N1O,5,ENT,0,,1
+OPD-U3I22W41,5,ENT,0,,1
+OPD-U4DGC48L,4,General Medicine,0,,1
+OPD-U4OTM99H,3,Paediatrics,0,,1
+OPD-U4Z72YBU,3,Obstetrics & Gynaecology,0,,1
+OPD-U5HN2MM7,4,Paediatrics,0,,1
+OPD-U5U7YKK1,3,Paediatrics,0,,1
+OPD-U67ORJWB,5,Ophthalmology,0,,1
+OPD-U6DA7TZ6,3,Paediatrics,0,,1
+OPD-U6LTSBPB,5,Paediatrics,0,,1
+OPD-U6SEP466,4,ENT,0,,1
+OPD-U6ZWB46L,5,General Surgery,0,,1
+OPD-U7LC6AAO,5,General Medicine,0,,1
+OPD-U7QED2XI,5,General Medicine,0,,1
+OPD-U7U46AIJ,4,General Medicine,0,,1
+OPD-U7ZQSE66,5,Dermatology,0,,1
+OPD-U84KMICR,5,Psychiatry,0,,1
+OPD-U8G5JOL0,5,Dental,0,,1
+OPD-U8LXBVJR,5,Dental,0,,1
+OPD-U8MM3MYK,4,Pulmonology/Chest & TB,0,,1
+OPD-U8USOJSI,3,General Surgery,0,,1
+OPD-U9LDLBRL,4,Orthopaedics,0,,1
+OPD-U9LQO36C,5,Obstetrics & Gynaecology,0,,1
+OPD-U9UU78H6,3,General Surgery,0,,1
+OPD-UA3H79R1,5,General Medicine,0,,1
+OPD-UA98UK9G,3,Cardiology,0,,1
+OPD-UA9SX52J,4,General Medicine,0,,1
+OPD-UAD9Q7J7,3,General Surgery,0,,1
+OPD-UAE6TLTG,5,Dental,0,,1
+OPD-UAMQLUXA,5,General Medicine,0,,1
+OPD-UB4VD36N,3,Obstetrics & Gynaecology,0,,1
+OPD-UBSFMBBR,5,Obstetrics & Gynaecology,0,,0
+OPD-UC29SI99,5,Obstetrics & Gynaecology,0,,1
+OPD-UC3EBBNI,4,General Medicine,0,,1
+OPD-UCO2E43X,1,Emergency/Casualty,1,RF_ANAPHYLAXIS,1
+OPD-UDZEFV5G,5,Dental,0,,1
+OPD-UE9ZZRTJ,4,General Medicine,0,,1
+OPD-UES59HUM,2,Emergency/Casualty,1,RF_ACUTE_PSYCHOSIS_AGITATION,1
+OPD-UET5P9Q7,5,Psychiatry,0,,1
+OPD-UEV8O9DA,4,General Medicine,0,,1
+OPD-UF8LVPM1,3,General Medicine,0,,1
+OPD-UFYO8PC2,4,General Medicine,0,,1
+OPD-UG8BWIF3,4,General Medicine,0,,1
+OPD-UGAKPUOV,4,Obstetrics & Gynaecology,0,,1
+OPD-UGF0Y04V,5,Orthopaedics,0,,1
+OPD-UH3HS78J,5,Pulmonology/Chest & TB,0,,1
+OPD-UH58V6P8,5,Obstetrics & Gynaecology,0,,1
+OPD-UHSF0TKN,5,Orthopaedics,0,,1
+OPD-UI04VBJ5,5,General Medicine,0,,1
+OPD-UIAXK2EC,3,General Surgery,0,,1
+OPD-UIBJI5Z9,4,Pulmonology/Chest & TB,0,,1
+OPD-UII37EAY,3,General Medicine,0,,1
+OPD-UIZJWY0V,3,General Medicine,0,,1
+OPD-UJ1Y9LQM,4,General Medicine,0,,1
+OPD-UK7ZRJ7J,5,Paediatrics,0,,1
+OPD-UK89FZPX,4,General Medicine,0,,1
+OPD-UKY8D21L,4,ENT,0,,1
+OPD-UL6A66VA,5,General Medicine,0,,1
+OPD-ULKI8OEM,4,Orthopaedics,0,,1
+OPD-UM8T3YIR,5,General Medicine,0,,1
+OPD-UM9XO2WG,4,General Medicine,0,,1
+OPD-UN12OH4Z,5,General Medicine,0,,1
+OPD-UN5OT0B1,4,Ophthalmology,0,,1
+OPD-UNHHYND6,4,Paediatrics,0,,1
+OPD-UNW7K5UH,4,General Surgery,0,,1
+OPD-UNWH6OS8,5,Dermatology,0,,1
+OPD-UNXN2VV9,3,General Surgery,0,,1
+OPD-UO3R34FQ,4,General Medicine,0,,1
+OPD-UOTWCYLD,4,General Medicine,0,,1
+OPD-UOXU78WG,5,General Medicine,0,,1
+OPD-UPC75XQ1,4,General Medicine,0,,1
+OPD-UPI70QK9,3,General Surgery,0,,1
+OPD-UPTGP3GH,3,Paediatrics,0,,1
+OPD-UPYLE273,5,Obstetrics & Gynaecology,0,,1
+OPD-UPZERU4T,3,General Surgery,0,,1
+OPD-UQ7AN23F,3,General Surgery,0,,1
+OPD-UQC98EGZ,5,Ophthalmology,0,,1
+OPD-UQVXDU93,4,General Medicine,0,,1
+OPD-UR1MQNQ5,5,Dental,0,,1
+OPD-UR6MWK22,5,Obstetrics & Gynaecology,0,,1
+OPD-US66RAXZ,3,General Medicine,0,,1
+OPD-USDV69Y1,5,General Medicine,0,,1
+OPD-USNG1L1Y,5,Orthopaedics,0,,1
+OPD-USP1ZJHH,4,General Medicine,0,,1
+OPD-USQ89JGF,4,Dental,0,,1
+OPD-USYXHW9Y,5,General Medicine,0,,1
+OPD-USZGRCID,4,General Medicine,0,,1
+OPD-UTBV82W7,3,General Surgery,0,,1
+OPD-UTG0N2DX,4,Orthopaedics,0,,1
+OPD-UTHUYFU6,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-UTR68A48,4,General Medicine,0,,1
+OPD-UTS7FM49,4,General Medicine,0,,1
+OPD-UTVEPHMG,3,Paediatrics,0,,1
+OPD-UU37SXX9,3,General Medicine,0,,1
+OPD-UU3LQRR8,3,Cardiology,0,,1
+OPD-UUM2XWRG,4,Orthopaedics,0,,1
+OPD-UV2L7COJ,4,Orthopaedics,0,,1
+OPD-UV8UNOJT,4,Obstetrics & Gynaecology,0,,1
+OPD-UVFU5YVA,4,Paediatrics,0,,1
+OPD-UVIWX7MW,3,Pulmonology/Chest & TB,0,,1
+OPD-UVRG7SRB,4,General Medicine,0,,1
+OPD-UVRI0AWW,4,Paediatrics,0,,1
+OPD-UVTNAUL4,5,General Medicine,0,,1
+OPD-UW85DIPD,4,General Medicine,0,,1
+OPD-UW9CUL7V,3,Pulmonology/Chest & TB,0,,1
+OPD-UWC6JFE1,5,Dental,0,,1
+OPD-UWJLOHJJ,5,Ophthalmology,0,,1
+OPD-UXE1JTRI,5,Obstetrics & Gynaecology,0,,1
+OPD-UXSBVXO1,5,Ophthalmology,0,,1
+OPD-UXVDDNZW,5,Dermatology,0,,1
+OPD-UXXW0EUN,4,Orthopaedics,0,,1
+OPD-UYR3XKHN,3,Pulmonology/Chest & TB,0,,1
+OPD-UYSLQC8Q,4,ENT,0,,1
+OPD-UYWWEH8E,5,General Medicine,0,,1
+OPD-UYX9UG2D,3,General Medicine,0,,1
+OPD-UZQ8ZF9L,4,Orthopaedics,0,,1
+OPD-V02W33CX,3,Paediatrics,0,,1
+OPD-V0AWPAXJ,3,Orthopaedics,0,,1
+OPD-V0E3M5PE,3,Paediatrics,0,,1
+OPD-V0J0ZEDF,5,Ophthalmology,0,,1
+OPD-V0PSGUUA,4,General Medicine,0,,1
+OPD-V0UF3I1L,4,Paediatrics,0,,1
+OPD-V0XLGUYC,5,General Medicine,0,,1
+OPD-V18AL0BI,4,ENT,0,,1
+OPD-V1O2D45Z,5,Orthopaedics,0,,1
+OPD-V1VTNKBS,4,General Medicine,0,,1
+OPD-V1YPIKTY,4,General Medicine,0,,1
+OPD-V1YVBJXX,5,Ophthalmology,0,,1
+OPD-V23C50BU,5,General Medicine,0,,1
+OPD-V24DRS0R,5,General Medicine,0,,1
+OPD-V257VA2X,5,ENT,0,,1
+OPD-V2NSBI9K,5,General Medicine,0,,1
+OPD-V2WNEDI7,4,General Surgery,0,,1
+OPD-V2ZD9K1M,5,Ophthalmology,0,,1
+OPD-V32VCI0P,5,Ophthalmology,0,,1
+OPD-V35LE2FD,5,General Medicine,0,,1
+OPD-V36ETY6P,3,General Medicine,0,,1
+OPD-V3QGBR82,4,General Medicine,0,,1
+OPD-V3STMQ2W,4,Orthopaedics,0,,1
+OPD-V3VVE0IR,4,General Surgery,0,,1
+OPD-V430CTNL,4,General Medicine,0,,1
+OPD-V44M4AHK,5,Obstetrics & Gynaecology,0,,1
+OPD-V4A9P56L,3,General Medicine,0,,1
+OPD-V4MGJTAR,3,Pulmonology/Chest & TB,0,,1
+OPD-V4T3RB5A,4,Paediatrics,0,,1
+OPD-V4VV7LBJ,4,General Medicine,0,,1
+OPD-V50N57YP,5,Obstetrics & Gynaecology,0,,1
+OPD-V6H9G4YI,5,General Medicine,0,,1
+OPD-V6LY4B8K,5,Dental,0,,1
+OPD-V6R3HLT0,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,0
+OPD-V779E7M0,4,General Medicine,0,,1
+OPD-V7SD8TN2,5,General Medicine,0,,1
+OPD-V7UTXJ1F,4,Pulmonology/Chest & TB,0,,1
+OPD-V7WB7P5I,5,General Medicine,0,,0
+OPD-V86RBS23,4,General Medicine,0,,1
+OPD-V8J43DLY,5,ENT,0,,0
+OPD-V8KDSDVN,3,Paediatrics,0,,1
+OPD-V8SMTQU7,3,General Medicine,0,,1
+OPD-V8WKJYG5,3,General Surgery,0,,1
+OPD-V94QTIR9,3,Paediatrics,0,,1
+OPD-V94WP2YN,4,General Medicine,0,,1
+OPD-VAA5H6JD,3,Pulmonology/Chest & TB,0,,1
+OPD-VAGJ5S79,3,Pulmonology/Chest & TB,0,,1
+OPD-VAID32TB,5,Ophthalmology,0,,1
+OPD-VALE6LQI,5,Dermatology,0,,1
+OPD-VAX2E6NJ,4,General Medicine,0,,1
+OPD-VAX9PG5M,5,Ophthalmology,0,,1
+OPD-VAZSNLNB,4,General Medicine,0,,1
+OPD-VB2EV6FB,4,Paediatrics,0,,1
+OPD-VB7SN433,5,General Medicine,0,,1
+OPD-VBHAY9L3,4,General Medicine,0,,1
+OPD-VBTY1M8B,3,General Surgery,0,,1
+OPD-VBUXB5R7,5,Dermatology,0,,1
+OPD-VBZMYOPI,4,General Surgery,0,,1
+OPD-VC09O0PH,4,Paediatrics,0,,1
+OPD-VCEPW51E,4,General Medicine,0,,1
+OPD-VCLHSIIN,5,Dental,0,,1
+OPD-VD2SLH6S,5,General Medicine,0,,1
+OPD-VD5BFMT8,3,General Medicine,0,,0
+OPD-VDJD3FKY,5,Dermatology,0,,1
+OPD-VF45YHIA,2,Emergency/Casualty,1,RF_RESP_DISTRESS,1
+OPD-VFFZ3BPL,4,General Medicine,0,,1
+OPD-VGCS9BES,5,Obstetrics & Gynaecology,0,,1
+OPD-VGFMGTBH,5,Psychiatry,0,,1
+OPD-VGJHODSL,5,General Surgery,0,,1
+OPD-VGMC481A,4,Paediatrics,0,,1
+OPD-VHI51JGU,3,General Surgery,0,,1
+OPD-VHRJMJJD,4,Dental,0,,1
+OPD-VI1GOXJ0,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-VI9ER6O3,4,General Surgery,0,,1
+OPD-VIA53FO7,4,General Medicine,0,,1
+OPD-VIIM7CJT,4,Paediatrics,0,,1
+OPD-VJ34PHNI,5,Orthopaedics,0,,1
+OPD-VJ4LYNI3,3,General Medicine,0,,1
+OPD-VJGAZXJJ,5,Ophthalmology,0,,1
+OPD-VJTCTVJ3,3,Pulmonology/Chest & TB,0,,0
+OPD-VK968D73,5,Ophthalmology,0,,1
+OPD-VKLPBDH0,4,Dental,0,,1
+OPD-VKQ5CFHK,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,0
+OPD-VLRT2F6Y,4,General Surgery,0,,1
+OPD-VLZ4HM7H,3,General Surgery,0,,1
+OPD-VMCQWWER,4,General Medicine,0,,1
+OPD-VMCZNLWK,5,Orthopaedics,0,,1
+OPD-VMPRO5KZ,4,Orthopaedics,0,,1
+OPD-VMW0WTJP,3,General Surgery,0,,1
+OPD-VMXAT7PY,5,ENT,0,,1
+OPD-VMZOWNXR,3,General Surgery,0,,1
+OPD-VN8VL1FX,4,General Medicine,0,,1
+OPD-VNPNF4GW,4,General Medicine,0,,1
+OPD-VNSLQK6R,4,General Medicine,0,,1
+OPD-VNVZ9GDI,3,General Medicine,0,,1
+OPD-VOYHMDQD,3,General Medicine,0,,1
+OPD-VPOVVV5S,3,General Medicine,0,,1
+OPD-VQF3HOCP,3,Paediatrics,0,,1
+OPD-VQHRTJ7T,3,General Medicine,0,,1
+OPD-VQKY7QL7,5,General Medicine,0,,1
+OPD-VR1V7GVJ,5,Dental,0,,1
+OPD-VR8B3PFK,4,General Surgery,0,,1
+OPD-VRJCW28A,5,Ophthalmology,0,,1
+OPD-VSFQ8HGV,5,Ophthalmology,0,,1
+OPD-VSKFW0LJ,3,General Surgery,0,,1
+OPD-VSNW24ES,4,General Medicine,0,,1
+OPD-VSPXZIWO,5,Paediatrics,0,,1
+OPD-VSX1M85M,3,Pulmonology/Chest & TB,0,,1
+OPD-VSYRUJ9F,3,General Medicine,0,,1
+OPD-VT4PVGSL,5,Orthopaedics,0,,1
+OPD-VU4NCWLC,3,General Medicine,0,,1
+OPD-VU7T2JC7,4,Pulmonology/Chest & TB,0,,1
+OPD-VUGUI604,4,ENT,0,,1
+OPD-VUH0AQVX,5,General Surgery,0,,1
+OPD-VUJPH7SW,4,General Medicine,0,,1
+OPD-VUXFMGZ4,4,Orthopaedics,0,,1
+OPD-VUZ5JLEH,4,Pulmonology/Chest & TB,0,,1
+OPD-VV4Y4OG1,5,Obstetrics & Gynaecology,0,,1
+OPD-VVJM2RBQ,3,Pulmonology/Chest & TB,0,,1
+OPD-VVT1P96F,5,Paediatrics,0,,1
+OPD-VW641C46,5,General Medicine,0,,1
+OPD-VW8ACLF4,4,Ophthalmology,0,,1
+OPD-VW8VWL7Z,4,General Medicine,0,,0
+OPD-VWJ4T8YF,5,Ophthalmology,0,,1
+OPD-VWNFJFFH,4,General Medicine,0,,1
+OPD-VWNZ4I0Y,3,Cardiology,0,,1
+OPD-VWTW0TIN,4,Paediatrics,0,,1
+OPD-VWYF424E,3,Pulmonology/Chest & TB,0,,1
+OPD-VX5LF0WK,4,General Medicine,0,,1
+OPD-VY4GUY8L,4,General Medicine,0,,1
+OPD-VY9BKPSW,3,General Surgery,0,,1
+OPD-VYJSV5AX,5,Dermatology,0,,1
+OPD-VYKS6HZ4,4,ENT,0,,1
+OPD-VYWP9A5O,5,Psychiatry,0,,1
+OPD-VZ1WJ95P,4,General Medicine,0,,1
+OPD-W00GPPCI,4,Paediatrics,0,,1
+OPD-W04ZGT3N,3,Pulmonology/Chest & TB,0,,1
+OPD-W07DWOQT,5,General Medicine,0,,1
+OPD-W08PTEN2,5,Orthopaedics,0,,1
+OPD-W0KZPWG6,4,Dental,0,,1
+OPD-W11MBHF7,5,Orthopaedics,0,,1
+OPD-W1N4JMTC,5,General Medicine,0,,1
+OPD-W1ORLPNH,4,General Medicine,0,,1
+OPD-W1UUXES8,4,General Surgery,0,,1
+OPD-W1VD4GLM,3,Pulmonology/Chest & TB,0,,1
+OPD-W1ZVCWD8,4,General Medicine,0,,1
+OPD-W216M3QG,4,Paediatrics,0,,1
+OPD-W2A03183,3,Paediatrics,0,,1
+OPD-W2AXB28L,4,Paediatrics,0,,1
+OPD-W2H51LXP,4,General Surgery,0,,1
+OPD-W2W741L0,4,Orthopaedics,0,,1
+OPD-W32IO9PN,5,General Medicine,0,,1
+OPD-W34ZRL7S,5,Dental,0,,1
+OPD-W398B0VJ,4,General Medicine,0,,1
+OPD-W3FUEQL9,4,General Medicine,0,,1
+OPD-W3P4SS7I,4,General Medicine,0,,1
+OPD-W3RT7N53,5,Paediatrics,0,,1
+OPD-W3XAYY33,4,Obstetrics & Gynaecology,0,,1
+OPD-W446M8XB,5,Ophthalmology,0,,1
+OPD-W4PQLXS7,4,Psychiatry,0,,1
+OPD-W4R9VNWS,3,Paediatrics,0,,1
+OPD-W51MI6QD,4,General Medicine,0,,1
+OPD-W59FE3SY,5,Dermatology,0,,1
+OPD-W5JBGM94,4,Psychiatry,0,,1
+OPD-W64DX1DA,3,General Medicine,0,,1
+OPD-W6A65JU0,4,General Surgery,0,,1
+OPD-W6LXD7PK,4,Paediatrics,0,,1
+OPD-W6XUKSXP,4,General Medicine,0,,1
+OPD-W6YRE5WG,3,General Surgery,0,,1
+OPD-W7AJMO7R,4,General Surgery,0,,1
+OPD-W7I3HG1Z,5,General Medicine,0,,1
+OPD-W7ILPYNK,5,General Medicine,0,,1
+OPD-W7WPOGUL,3,Pulmonology/Chest & TB,0,,1
+OPD-W80FOX42,5,General Medicine,0,,1
+OPD-W80ZY9E1,5,General Medicine,0,,1
+OPD-W8C0DCMD,5,Obstetrics & Gynaecology,0,,1
+OPD-W8JF6E4X,3,Pulmonology/Chest & TB,0,,1
+OPD-W8PAEYLS,5,Ophthalmology,0,,1
+OPD-W9539Q5B,5,ENT,0,,1
+OPD-W97WQJW4,4,Paediatrics,0,,1
+OPD-W991ADKU,3,General Medicine,0,,1
+OPD-W995T9UB,4,General Medicine,0,,1
+OPD-W9DISXU7,4,General Surgery,0,,1
+OPD-W9NZ24WN,3,Pulmonology/Chest & TB,0,,1
+OPD-W9U2MN6H,4,General Surgery,0,,1
+OPD-WA1PVKUA,4,General Medicine,0,,1
+OPD-WA516AW8,4,Paediatrics,0,,1
+OPD-WADA0PLR,5,Pulmonology/Chest & TB,0,,1
+OPD-WAGSDRDB,5,General Medicine,0,,1
+OPD-WAOYL711,3,Pulmonology/Chest & TB,0,,1
+OPD-WARTEYET,4,Pulmonology/Chest & TB,0,,1
+OPD-WAU0DINQ,4,General Surgery,0,,1
+OPD-WB4QFTYN,5,General Medicine,0,,1
+OPD-WBDKK8VL,4,General Medicine,0,,1
+OPD-WBFKQZFB,5,General Medicine,0,,1
+OPD-WCEUY66A,4,Orthopaedics,0,,1
+OPD-WCLN97ML,2,Emergency/Casualty,1,RF_SEVERE_BLEEDING,1
+OPD-WCYP8QZC,5,General Medicine,0,,1
+OPD-WD5H0XOF,3,General Medicine,0,,1
+OPD-WDQHWE74,5,Ophthalmology,0,,1
+OPD-WDYWW7N8,3,Paediatrics,0,,1
+OPD-WE1EJMXH,4,General Medicine,0,,1
+OPD-WEYEAHP9,5,Paediatrics,0,,1
+OPD-WF4MUORY,5,General Medicine,0,,1
+OPD-WF6WKY7L,4,Pulmonology/Chest & TB,0,,1
+OPD-WF8DRG6M,5,Dermatology,0,,1
+OPD-WFAZT8MY,4,General Medicine,0,,1
+OPD-WFCOPUAX,4,Paediatrics,0,,1
+OPD-WFOFQUX2,5,Paediatrics,0,,1
+OPD-WG3FPET5,3,General Surgery,0,,1
+OPD-WGCVIURH,5,ENT,0,,1
+OPD-WGL8TT2X,4,General Surgery,0,,1
+OPD-WGYV8SR5,4,Paediatrics,0,,1
+OPD-WH6QLF8R,5,General Medicine,0,,1
+OPD-WH7CLKKR,4,Paediatrics,0,,1
+OPD-WHLIDEVH,4,General Medicine,0,,1
+OPD-WHN8R5E8,4,General Medicine,0,,1
+OPD-WHRTXGBS,4,General Medicine,0,,1
+OPD-WI92RUOX,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-WIH1JCO3,3,General Medicine,0,,1
+OPD-WILJT296,4,Paediatrics,0,,1
+OPD-WINVYS1O,3,General Medicine,0,,1
+OPD-WIP7T5CB,3,Pulmonology/Chest & TB,0,,1
+OPD-WIRHG289,4,Paediatrics,0,,1
+OPD-WIUCSW0V,4,General Surgery,0,,1
+OPD-WJBLPW56,5,Dermatology,0,,1
+OPD-WJJTAULP,5,Ophthalmology,0,,1
+OPD-WJRSNITY,5,Ophthalmology,0,,1
+OPD-WK70LJNZ,4,General Medicine,0,,1
+OPD-WKOFLICZ,3,General Medicine,0,,1
+OPD-WL4C0Y7F,5,Pulmonology/Chest & TB,0,,1
+OPD-WL4FISPH,4,Dental,0,,1
+OPD-WL6GU5WB,3,Orthopaedics,0,,1
+OPD-WL8TQ1JW,4,Orthopaedics,0,,1
+OPD-WMBLWYQ1,4,General Medicine,0,,1
+OPD-WMCVKR19,4,ENT,0,,1
+OPD-WN9BO9AN,4,General Medicine,0,,1
+OPD-WNJHWTQX,5,General Medicine,0,,1
+OPD-WNU7FXDH,4,Paediatrics,0,,1
+OPD-WNVQW99U,5,Obstetrics & Gynaecology,0,,1
+OPD-WNXZRZD2,3,Cardiology,0,,1
+OPD-WNYC9PG7,5,General Medicine,0,,1
+OPD-WO49ZQ4R,3,Obstetrics & Gynaecology,0,,1
+OPD-WOKZK7PD,3,General Surgery,0,,1
+OPD-WP1LXD1F,5,General Medicine,0,,1
+OPD-WP2RBCL0,5,ENT,0,,1
+OPD-WPRJYJ82,4,General Surgery,0,,1
+OPD-WPW71HKN,4,General Medicine,0,,1
+OPD-WQ0BIAZ9,3,Pulmonology/Chest & TB,0,,1
+OPD-WQHXYJXF,4,Orthopaedics,0,,1
+OPD-WREIVZ6N,5,Psychiatry,0,,1
+OPD-WRJ9V14U,3,Paediatrics,0,,1
+OPD-WRU43TNB,5,ENT,0,,1
+OPD-WS0I4VNA,5,General Medicine,0,,1
+OPD-WS411TWR,4,General Medicine,0,,1
+OPD-WS46QNV3,5,General Surgery,0,,1
+OPD-WSEYEJBF,3,General Surgery,0,,1
+OPD-WSP49BGI,4,General Medicine,0,,1
+OPD-WSTP5HGK,4,General Medicine,0,,1
+OPD-WT0HTQU2,3,General Surgery,0,,1
+OPD-WT62M8G6,4,General Medicine,0,,1
+OPD-WTFRKHVU,4,General Medicine,0,,1
+OPD-WTGVNJ3I,5,Pulmonology/Chest & TB,0,,1
+OPD-WTHHJXD3,4,General Medicine,0,,1
+OPD-WUL17V2Q,2,Emergency/Casualty,1,,1
+OPD-WVWGHK7G,2,Emergency/Casualty,1,RF_HIGH_FEVER_INFANT,1
+OPD-WW9AH5H0,5,General Medicine,0,,1
+OPD-WWCJRKPO,4,General Medicine,0,,1
+OPD-WWH77ZQD,3,Pulmonology/Chest & TB,0,,1
+OPD-WX128H3H,5,General Surgery,0,,1
+OPD-WX2GGLXH,3,Paediatrics,0,,1
+OPD-WXESPU7X,3,Paediatrics,0,,1
+OPD-WXQ8VHKS,4,General Medicine,0,,1
+OPD-WXRZVV0G,3,General Medicine,0,,1
+OPD-WY7JOJFX,2,Emergency/Casualty,1,RF_POISONING,1
+OPD-WYDM2EKN,4,General Surgery,0,,1
+OPD-WYDMQ504,4,General Medicine,0,,1
+OPD-WZ3NLAG8,4,General Medicine,0,,1
+OPD-WZ5T0B5P,4,General Medicine,0,,1
+OPD-WZ93GO2C,4,General Surgery,0,,1
+OPD-WZFF8G9X,4,General Medicine,0,,1
+OPD-WZN0POA8,2,Emergency/Casualty,1,RF_TESTICULAR_TORSION,1
+OPD-WZNC38S6,4,General Medicine,0,,1
+OPD-WZU5ZBUO,5,Obstetrics & Gynaecology,0,,1
+OPD-X0KVOLM9,3,General Medicine,0,,1
+OPD-X0ZNY5C3,3,General Medicine,0,,1
+OPD-X1JJOOFR,5,Paediatrics,0,,1
+OPD-X1JWDR2P,3,Obstetrics & Gynaecology,0,,1
+OPD-X1N7N4DI,5,Obstetrics & Gynaecology,0,,1
+OPD-X1RZC2PF,4,General Medicine,0,,1
+OPD-X254I06G,4,Obstetrics & Gynaecology,0,,1
+OPD-X25ONIJM,3,General Medicine,0,,1
+OPD-X2931LZ5,3,General Surgery,0,,1
+OPD-X2947E5Y,4,Paediatrics,0,,1
+OPD-X41ID2ZT,3,Paediatrics,0,,0
+OPD-X4KEPM0U,5,Dermatology,0,,1
+OPD-X4KS0T8Q,4,Paediatrics,0,,0
+OPD-X5D5RMAH,5,Dermatology,0,,1
+OPD-X5IXNH3H,5,Paediatrics,0,,1
+OPD-X5N57VO2,4,General Medicine,0,,1
+OPD-X5TXQY2H,4,General Medicine,0,,1
+OPD-X61C2MJ1,5,General Medicine,0,,1
+OPD-X6CPVPTM,4,General Surgery,0,,1
+OPD-X6JJEOK3,4,Paediatrics,0,,1
+OPD-X6XO1YYJ,3,General Medicine,0,,1
+OPD-X78MKB8L,4,Paediatrics,0,,1
+OPD-X7KUFRVB,4,General Medicine,0,,1
+OPD-X7NIF8EE,4,General Medicine,0,,1
+OPD-X7SGXGJD,4,General Medicine,0,,1
+OPD-X7ZV5F9U,5,Obstetrics & Gynaecology,0,,1
+OPD-X805NREF,4,General Surgery,0,,1
+OPD-X84DXV39,5,General Medicine,0,,1
+OPD-X8QLD2E6,5,Orthopaedics,0,,1
+OPD-X8V6ENI4,4,General Surgery,0,,1
+OPD-X8Y1EBO1,2,Emergency/Casualty,1,RF_HIGH_FEVER_INFANT,1
+OPD-X91YVLAS,5,General Medicine,0,,1
+OPD-X9392571,3,Pulmonology/Chest & TB,0,,1
+OPD-X93DQSNC,3,General Medicine,0,,1
+OPD-X99GG4F9,3,Orthopaedics,0,,1
+OPD-X99J080D,3,General Medicine,0,,1
+OPD-X9EKMOZA,3,Paediatrics,0,,1
+OPD-X9TGY6ML,3,General Surgery,0,,1
+OPD-XA1N842C,5,Ophthalmology,0,,1
+OPD-XA5YRPDH,4,ENT,0,,1
+OPD-XA8Z3QBM,4,General Medicine,0,,1
+OPD-XADFFA3W,4,Orthopaedics,0,,1
+OPD-XAKU22M0,5,Dermatology,0,,1
+OPD-XB2Q3B53,3,General Medicine,0,,1
+OPD-XBFM14TX,4,Orthopaedics,0,,1
+OPD-XBIQD499,5,General Medicine,0,,1
+OPD-XBPUTE2R,3,General Surgery,0,,1
+OPD-XBRN8QHL,3,Obstetrics & Gynaecology,0,,1
+OPD-XBZ880KA,3,General Medicine,0,,1
+OPD-XC2LO8BS,4,General Surgery,0,,1
+OPD-XC3HOWD2,3,Cardiology,0,,1
+OPD-XC5BK1CC,4,General Medicine,0,,1
+OPD-XCD3XECF,1,Emergency/Casualty,1,RF_ANAPHYLAXIS,1
+OPD-XCNORN1L,3,General Medicine,0,,1
+OPD-XCOA3G6O,5,Dental,0,,1
+OPD-XCPVPPXR,5,General Medicine,0,,1
+OPD-XCSSBMSN,5,Obstetrics & Gynaecology,0,,1
+OPD-XD4FPK98,2,Emergency/Casualty,1,RF_PREGNANCY_BLEEDING,1
+OPD-XD9KZ5G1,5,Dermatology,0,,1
+OPD-XDHNYD1P,5,Orthopaedics,0,,1
+OPD-XEA7DLP1,5,Orthopaedics,0,,1
+OPD-XEBKT1Q9,5,Obstetrics & Gynaecology,0,,1
+OPD-XEHL2MPS,4,Orthopaedics,0,,1
+OPD-XFFQD29A,3,General Surgery,0,,1
+OPD-XFI58OD3,4,Orthopaedics,0,,1
+OPD-XFJ7WWMA,3,Paediatrics,0,,1
+OPD-XFQ1TFSG,4,Paediatrics,0,,1
+OPD-XGHJCW9L,5,Orthopaedics,0,,0
+OPD-XGUKWFFJ,5,Ophthalmology,0,,1
+OPD-XGXVDARO,5,General Medicine,0,,1
+OPD-XH31LGC9,4,General Medicine,0,,1
+OPD-XH3AAJBY,4,General Medicine,0,,1
+OPD-XHDCOLM5,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-XHESYHRU,4,General Medicine,0,,1
+OPD-XHP4VBOB,5,General Medicine,0,,1
+OPD-XHYAHAPR,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-XIQ80G56,4,General Medicine,0,,1
+OPD-XJ2SMLAT,4,General Medicine,0,,1
+OPD-XJ7HI5UU,5,Orthopaedics,0,,1
+OPD-XJM3CRBD,5,Ophthalmology,0,,1
+OPD-XJROVHRU,3,General Medicine,0,,1
+OPD-XJS7LDII,4,General Surgery,0,,1
+OPD-XJTSWC5K,4,General Medicine,0,,1
+OPD-XJUM61D4,5,Obstetrics & Gynaecology,0,,1
+OPD-XJW5KBHK,4,Orthopaedics,0,,1
+OPD-XK0G71MR,4,Ophthalmology,0,,1
+OPD-XK73AK03,4,General Medicine,0,,1
+OPD-XKN4NAZ9,4,General Medicine,0,,1
+OPD-XLJ0WL9X,5,General Medicine,0,,1
+OPD-XLUHV3RT,4,General Surgery,0,,1
+OPD-XMFJSJ26,5,Obstetrics & Gynaecology,0,,1
+OPD-XMIL2K13,4,General Surgery,0,,1
+OPD-XMZ3XJQ4,4,General Medicine,0,,1
+OPD-XN2T72B2,2,Emergency/Casualty,1,RF_SEVERE_DEHYDRATION,1
+OPD-XNBFENOX,4,General Medicine,0,,1
+OPD-XOK4YAG7,3,General Medicine,0,,1
+OPD-XONOM8QU,5,Obstetrics & Gynaecology,0,,1
+OPD-XOOLS3DZ,5,Dental,0,,1
+OPD-XP0HA4QA,5,Obstetrics & Gynaecology,0,,1
+OPD-XP2ON13L,4,Orthopaedics,0,,1
+OPD-XPLE99DC,4,Paediatrics,0,,1
+OPD-XPR4FQ9S,5,General Medicine,0,,1
+OPD-XQ84DA8K,4,General Medicine,0,,1
+OPD-XQ9A0HM5,4,Orthopaedics,0,,1
+OPD-XQGKA5VW,4,General Surgery,0,,1
+OPD-XQNVW8O4,4,General Medicine,0,,1
+OPD-XQUE8GQA,3,Pulmonology/Chest & TB,0,,1
+OPD-XRAM8VMM,4,Orthopaedics,0,,1
+OPD-XRD58MXR,5,Dermatology,0,,1
+OPD-XRP5AFYM,5,Dermatology,0,,1
+OPD-XRV0VFMV,4,General Medicine,0,,1
+OPD-XSKFR058,5,General Medicine,0,,1
+OPD-XSMP37FH,4,General Medicine,0,,1
+OPD-XTIC9RIN,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-XTJ8ABDD,4,General Surgery,0,,1
+OPD-XTJDM6QG,5,Obstetrics & Gynaecology,0,,1
+OPD-XTV5M7AZ,3,General Medicine,0,,1
+OPD-XU5I9I48,5,General Medicine,0,,1
+OPD-XUMD0IZG,4,General Medicine,0,,1
+OPD-XV0IJSV4,3,Orthopaedics,0,,1
+OPD-XV2YKRW1,4,General Surgery,0,,1
+OPD-XVIY2APZ,3,General Medicine,0,,1
+OPD-XVZB1UXU,4,General Surgery,0,,1
+OPD-XW8X46TW,4,General Surgery,0,,1
+OPD-XWGBMS9B,4,General Surgery,0,,1
+OPD-XX3M266D,3,General Medicine,0,,1
+OPD-XX88LSWF,3,General Medicine,0,,1
+OPD-XX97FWUN,3,Pulmonology/Chest & TB,0,,1
+OPD-XXKNAQWQ,5,Ophthalmology,0,,1
+OPD-XXO7X2YC,4,Pulmonology/Chest & TB,0,,1
+OPD-XXQB8ERH,4,Orthopaedics,0,,1
+OPD-XXY6U0JK,4,Pulmonology/Chest & TB,0,,1
+OPD-XY5R9C1U,4,General Surgery,0,,1
+OPD-XYJF1C09,5,ENT,0,,1
+OPD-XZEZ1FJA,4,Orthopaedics,0,,1
+OPD-XZK71YSY,3,Cardiology,0,,1
+OPD-XZMHXZSG,3,General Medicine,0,,1
+OPD-XZVJDHD6,2,Emergency/Casualty,1,RF_CHILD_DANGER_SIGNS;RF_SEVERE_DEHYDRATION,1
+OPD-Y0DI2PHE,4,General Medicine,0,,1
+OPD-Y0FFCSJZ,5,Ophthalmology,0,,1
+OPD-Y0KI731U,4,General Medicine,0,,1
+OPD-Y0O2TM12,5,Pulmonology/Chest & TB,0,,1
+OPD-Y0TPKWF3,5,Psychiatry,0,,1
+OPD-Y0XRPZT5,5,General Medicine,0,,1
+OPD-Y12IWW3T,4,General Medicine,0,,1
+OPD-Y1FJA2K9,4,General Medicine,0,,1
+OPD-Y23EEOMY,4,General Medicine,0,,1
+OPD-Y2NN5ATG,4,Orthopaedics,0,,1
+OPD-Y2X1WNS9,4,General Surgery,0,,1
+OPD-Y34S5LW9,4,General Medicine,0,,1
+OPD-Y3MIXC3W,4,Orthopaedics,0,,1
+OPD-Y3O71VMS,5,General Medicine,0,,1
+OPD-Y45XPE8W,4,ENT,0,,1
+OPD-Y4ELMCHT,3,General Surgery,0,,1
+OPD-Y4FTPY3Z,4,Orthopaedics,0,,1
+OPD-Y4LU85LQ,4,General Medicine,0,,1
+OPD-Y4OQ8Z57,4,General Medicine,0,,1
+OPD-Y4R8QFQU,4,General Medicine,0,,1
+OPD-Y66E310E,5,General Medicine,0,,1
+OPD-Y6HN4TUH,4,Paediatrics,0,,1
+OPD-Y6KE1AYU,4,General Medicine,0,,1
+OPD-Y6QDAKTS,4,Paediatrics,0,,1
+OPD-Y762HCYH,3,General Medicine,0,,1
+OPD-Y7A0I7IG,4,General Surgery,0,,1
+OPD-Y7CK5Y3K,5,Dental,0,,1
+OPD-Y7FTBGEU,5,ENT,0,,1
+OPD-Y7INNL09,4,General Medicine,0,,1
+OPD-Y85K4EKU,4,Paediatrics,0,,0
+OPD-Y8ATAN8U,5,General Medicine,0,,1
+OPD-Y8ND26EQ,4,Orthopaedics,0,,1
+OPD-Y9A58CG0,4,Ophthalmology,0,,1
+OPD-Y9LUWTCE,3,General Medicine,0,,1
+OPD-Y9YHJ04A,5,Dermatology,0,,1
+OPD-Y9ZNGQDL,4,General Medicine,0,,1
+OPD-YA3JVQNV,3,Pulmonology/Chest & TB,0,,1
+OPD-YASLWUJ4,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-YAUW231R,4,General Surgery,0,,1
+OPD-YAYXC6M5,5,Dermatology,0,,1
+OPD-YB96Y87R,5,Orthopaedics,0,,1
+OPD-YBLLTET2,4,General Medicine,0,,1
+OPD-YBWRFXV4,4,Paediatrics,0,,1
+OPD-YC81VZ8V,4,General Medicine,0,,1
+OPD-YC9G20IG,5,Obstetrics & Gynaecology,0,,1
+OPD-YCDNZKQY,3,General Medicine,0,,1
+OPD-YCRF99CS,4,General Medicine,0,,1
+OPD-YD5BPPOK,5,Psychiatry,0,,1
+OPD-YDAOBST9,4,General Medicine,0,,1
+OPD-YDCJ4KK5,4,General Medicine,0,,1
+OPD-YDE6JHXG,4,General Surgery,0,,1
+OPD-YDL66H41,3,Pulmonology/Chest & TB,0,,1
+OPD-YDMM96Y4,4,Pulmonology/Chest & TB,0,,1
+OPD-YDXQ08D1,3,General Surgery,0,,1
+OPD-YEIHR74M,3,General Surgery,0,,1
+OPD-YEQTK5PB,4,General Medicine,0,,1
+OPD-YEUK3XI4,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-YEWBZFUJ,3,General Medicine,0,,1
+OPD-YFX2E0TG,4,General Medicine,0,,1
+OPD-YGFBTQUU,5,General Medicine,0,,1
+OPD-YGGGCI87,4,Orthopaedics,0,,1
+OPD-YGKSYADA,5,Orthopaedics,0,,1
+OPD-YGYTZ1GN,4,General Surgery,0,,1
+OPD-YHMCORZF,4,Paediatrics,0,,1
+OPD-YHVXLTBW,5,Ophthalmology,0,,1
+OPD-YII8LH5Q,4,General Medicine,0,,1
+OPD-YJKAXDL2,4,General Medicine,0,,1
+OPD-YK34X4FP,2,Emergency/Casualty,1,RF_POISONING,1
+OPD-YK6JVEPJ,4,General Medicine,0,,1
+OPD-YKMH969W,5,General Medicine,0,,1
+OPD-YKXQWNZU,5,General Medicine,0,,1
+OPD-YKYXAWSQ,4,General Surgery,0,,1
+OPD-YLFNLT59,5,General Medicine,0,,1
+OPD-YLGOB0GD,4,Paediatrics,0,,1
+OPD-YLP7YYB2,4,Orthopaedics,0,,1
+OPD-YLTRO4ZS,4,General Surgery,0,,1
+OPD-YM1Y9ZFA,4,Dental,0,,1
+OPD-YMAQFLL8,4,Orthopaedics,0,,1
+OPD-YMRKC828,4,General Medicine,0,,1
+OPD-YNMMXPEO,3,Pulmonology/Chest & TB,0,,1
+OPD-YNO4MJAW,4,General Medicine,0,,1
+OPD-YO701XBT,4,General Surgery,0,,1
+OPD-YO8EDAC6,4,Psychiatry,0,,1
+OPD-YOC2FM8Y,3,General Medicine,0,,1
+OPD-YOGRBH1G,5,Ophthalmology,0,,1
+OPD-YOIVOI11,2,Emergency/Casualty,1,RF_STROKE_SIGNS,1
+OPD-YOKE4NYM,5,Dermatology,0,,1
+OPD-YOWDRW1R,4,General Medicine,0,,1
+OPD-YOWYQSRU,4,Obstetrics & Gynaecology,0,,1
+OPD-YP75J0WA,5,General Medicine,0,,1
+OPD-YPKH5621,4,General Medicine,0,,1
+OPD-YPR5A6P1,4,General Medicine,0,,1
+OPD-YQ3LIJ1A,4,General Medicine,0,,1
+OPD-YQO3V1QR,3,General Surgery,0,,1
+OPD-YRM4GQWX,4,Orthopaedics,0,,1
+OPD-YRO7H582,5,Dermatology,0,,1
+OPD-YRWMQNQM,4,General Medicine,0,,1
+OPD-YSAUEBHL,4,General Surgery,0,,1
+OPD-YSCL74EB,4,General Medicine,0,,1
+OPD-YSE67548,3,General Surgery,0,,0
+OPD-YSWR2YW1,5,General Medicine,0,,1
+OPD-YT1KZTMK,5,General Medicine,0,,1
+OPD-YT2P3JR3,5,Ophthalmology,0,,1
+OPD-YT5JZGWM,4,General Medicine,0,,1
+OPD-YTGQPFJT,2,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_CHILD_DANGER_SIGNS;RF_SEIZURE,1
+OPD-YTIUYH8U,3,Pulmonology/Chest & TB,0,,1
+OPD-YTOI00OM,5,Obstetrics & Gynaecology,0,,1
+OPD-YTOZPM8W,5,Orthopaedics,0,,1
+OPD-YU528VWG,5,Dermatology,0,,1
+OPD-YUK8ZQEZ,3,Pulmonology/Chest & TB,0,,1
+OPD-YUKP7311,3,Pulmonology/Chest & TB,0,,1
+OPD-YUM17NKD,4,General Medicine,0,,0
+OPD-YUVMDMTO,3,General Medicine,0,,1
+OPD-YUYFJZXW,5,General Medicine,0,,1
+OPD-YV04NE1G,3,Pulmonology/Chest & TB,0,,1
+OPD-YV1211BU,4,General Surgery,0,,1
+OPD-YVBRE3WT,4,General Medicine,0,,1
+OPD-YVCEXPSN,5,General Medicine,0,,1
+OPD-YVYK0BEC,4,General Medicine,0,,1
+OPD-YVZYYS93,3,General Medicine,0,,1
+OPD-YW0IHJB4,5,Ophthalmology,0,,1
+OPD-YW49W59Z,5,ENT,0,,1
+OPD-YW6L0LO6,4,General Medicine,0,,1
+OPD-YWF2YJS4,4,General Medicine,0,,0
+OPD-YWHPKS0P,4,General Medicine,0,,1
+OPD-YWY0DV03,4,General Medicine,0,,1
+OPD-YX47ERP0,5,General Medicine,0,,1
+OPD-YX5LPQ3U,4,ENT,0,,1
+OPD-YXJ4CKWP,3,Paediatrics,0,,1
+OPD-YXMQI44L,5,General Medicine,0,,1
+OPD-YXQQ4K9R,4,General Surgery,0,,1
+OPD-YY9KZ3UV,5,Obstetrics & Gynaecology,0,,1
+OPD-YYE15Y15,4,General Medicine,0,,0
+OPD-YYG06HU1,4,Obstetrics & Gynaecology,0,,1
+OPD-YYGNCWOV,5,Obstetrics & Gynaecology,0,,1
+OPD-YYL2YABS,4,General Medicine,0,,1
+OPD-YYYF7YVU,3,Paediatrics,0,,1
+OPD-YYZRKDRD,3,General Medicine,0,,1
+OPD-YZ1VJ98B,5,General Medicine,0,,1
+OPD-YZ2CYY3M,4,Orthopaedics,0,,1
+OPD-YZPXFRIO,5,General Medicine,0,,1
+OPD-Z051GUCT,3,General Medicine,0,,1
+OPD-Z05DNBZR,3,General Medicine,0,,1
+OPD-Z07QIY7Q,5,Orthopaedics,0,,0
+OPD-Z0EQ7RE0,4,Pulmonology/Chest & TB,0,,1
+OPD-Z0IKB33F,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-Z0JNU5ZW,4,Paediatrics,0,,1
+OPD-Z0LFR0XJ,5,General Medicine,0,,1
+OPD-Z0PI1TJ7,5,Obstetrics & Gynaecology,0,,1
+OPD-Z0ZHYW1Z,4,General Surgery,0,,1
+OPD-Z14CVRK4,5,General Medicine,0,,1
+OPD-Z15UBSEG,3,Pulmonology/Chest & TB,0,,1
+OPD-Z17IXXLG,4,Obstetrics & Gynaecology,0,,1
+OPD-Z1Y0PYPZ,4,Paediatrics,0,,1
+OPD-Z20XRPZ4,5,Orthopaedics,0,,1
+OPD-Z2807DEW,5,General Medicine,0,,1
+OPD-Z2HPVB6J,2,Emergency/Casualty,1,,1
+OPD-Z2PWLESZ,5,Orthopaedics,0,,1
+OPD-Z2S6NKUF,5,General Medicine,0,,1
+OPD-Z32LKFA7,5,ENT,0,,1
+OPD-Z32OXLX7,5,ENT,0,,1
+OPD-Z37DCFKC,5,Ophthalmology,0,,1
+OPD-Z387A08M,4,General Medicine,0,,1
+OPD-Z38ORM3W,5,Orthopaedics,0,,1
+OPD-Z3AD3IBD,4,General Medicine,0,,1
+OPD-Z3CFUR4H,3,General Medicine,0,,1
+OPD-Z3G7NLX6,4,Paediatrics,0,,1
+OPD-Z3NE53TX,3,General Medicine,0,,1
+OPD-Z3NOJBJO,5,General Medicine,0,,1
+OPD-Z3OOLBRL,5,Obstetrics & Gynaecology,0,,1
+OPD-Z3OSVWY1,5,Dental,0,,1
+OPD-Z461ASCB,5,Psychiatry,0,,1
+OPD-Z4KO8K9Y,4,Orthopaedics,0,,1
+OPD-Z507KOJ4,4,Orthopaedics,0,,1
+OPD-Z54HZFW7,4,Dental,0,,1
+OPD-Z5K9J2PK,5,General Surgery,0,,1
+OPD-Z615O74E,1,Emergency/Casualty,1,RF_ALTERED_SENSORIUM;RF_POISONING;RF_SUICIDAL,1
+OPD-Z61LU5N8,5,General Medicine,0,,1
+OPD-Z68XSBJQ,2,Emergency/Casualty,1,RF_CHEST_PAIN_CARDIAC,1
+OPD-Z6B4RNHL,3,General Medicine,0,,1
+OPD-Z6HJANGY,3,General Medicine,0,,1
+OPD-Z6NWNVSB,4,Paediatrics,0,,1
+OPD-Z70TZDVT,3,Orthopaedics,0,,1
+OPD-Z7B12TDU,3,General Medicine,0,,1
+OPD-Z7HTQRPK,4,ENT,0,,1
+OPD-Z7WQ55SD,4,General Medicine,0,,1
+OPD-Z7Y1KHW9,5,Dermatology,0,,1
+OPD-Z81EASWK,4,Dental,0,,1
+OPD-Z86WPAPC,5,General Medicine,0,,1
+OPD-Z8L00CXV,4,General Medicine,0,,1
+OPD-Z9A7VAOE,4,General Medicine,0,,1
+OPD-Z9CLCR1T,4,General Medicine,0,,1
+OPD-Z9CZZIZH,5,General Medicine,0,,1
+OPD-Z9ZNGQTB,5,General Medicine,0,,0
+OPD-ZA2T81D1,4,General Medicine,0,,1
+OPD-ZA48WB3M,4,General Medicine,0,,1
+OPD-ZA5KWW9C,5,General Medicine,0,,1
+OPD-ZA65L5F5,5,Dental,0,,1
+OPD-ZA7X6YJI,5,Pulmonology/Chest & TB,0,,1
+OPD-ZAHHWHGU,5,General Medicine,0,,1
+OPD-ZAP3H3GI,4,Obstetrics & Gynaecology,0,,1
+OPD-ZAYMWZYL,4,General Surgery,0,,1
+OPD-ZB4ODKSY,4,General Medicine,0,,1
+OPD-ZBC27TNW,5,Psychiatry,0,,1
+OPD-ZBR4O1EM,3,Paediatrics,0,,1
+OPD-ZCIGRRGF,4,Paediatrics,0,,1
+OPD-ZCU75CDS,4,ENT,0,,1
+OPD-ZCUGEC33,5,Obstetrics & Gynaecology,0,,1
+OPD-ZDEZUR5C,4,General Surgery,0,,1
+OPD-ZDKSRIXQ,4,General Medicine,0,,1
+OPD-ZDLDE8F1,4,Orthopaedics,0,,1
+OPD-ZDMFFAQ3,5,General Medicine,0,,1
+OPD-ZE5DXF5I,4,General Medicine,0,,1
+OPD-ZEO5XPXJ,4,General Surgery,0,,1
+OPD-ZERQWDNH,4,General Medicine,0,,1
+OPD-ZF1ECN0S,4,General Medicine,0,,1
+OPD-ZFLIP6ZD,4,General Surgery,0,,1
+OPD-ZGMEQCQQ,4,General Medicine,0,,1
+OPD-ZGWN6X90,4,General Medicine,0,,1
+OPD-ZH4Q6UM5,2,Emergency/Casualty,1,RF_POISONING,1
+OPD-ZI05FUI2,4,Orthopaedics,0,,0
+OPD-ZIBSW5PD,4,General Surgery,0,,1
+OPD-ZIOEPX7V,5,Orthopaedics,0,,1
+OPD-ZJPWG8YK,4,General Medicine,0,,1
+OPD-ZJYWGES2,4,General Medicine,0,,1
+OPD-ZKCKSLAL,3,General Medicine,0,,1
+OPD-ZKF5JELL,3,Pulmonology/Chest & TB,0,,1
+OPD-ZKJ5J5IN,5,General Medicine,0,,1
+OPD-ZKKDPMCW,4,Paediatrics,0,,1
+OPD-ZKMS9GUL,4,Paediatrics,0,,1
+OPD-ZKOZVPHJ,2,Emergency/Casualty,1,RF_EYE_EMERGENCY,1
+OPD-ZLADBFRH,4,General Medicine,0,,1
+OPD-ZM1HGIOT,4,Paediatrics,0,,1
+OPD-ZM6QEXQD,2,Emergency/Casualty,1,RF_HYPOGLYCAEMIA,1
+OPD-ZMZ4JO4I,3,Obstetrics & Gynaecology,0,,1
+OPD-ZN1BB49Q,5,Ophthalmology,0,,1
+OPD-ZNY6CZCI,3,General Medicine,0,,1
+OPD-ZOTHAW79,4,General Medicine,0,,1
+OPD-ZOUCIFP1,3,General Surgery,0,,1
+OPD-ZP1WSCMD,4,General Medicine,0,,1
+OPD-ZPJ93SOE,4,General Surgery,0,,1
+OPD-ZPR3QYBG,4,General Medicine,0,,1
+OPD-ZPX0TUUS,5,ENT,0,,1
+OPD-ZQ7C82HH,4,General Medicine,0,,1
+OPD-ZQQJO17Y,3,General Medicine,0,,1
+OPD-ZR09CJZQ,3,Cardiology,0,,1
+OPD-ZRAJQZOA,5,ENT,0,,1
+OPD-ZRIB53MW,5,Obstetrics & Gynaecology,0,,1
+OPD-ZS7QV93Z,4,General Medicine,0,,1
+OPD-ZSGK34N0,4,General Surgery,0,,1
+OPD-ZSTCRSOM,4,Orthopaedics,0,,1
+OPD-ZSUCLIDZ,5,General Medicine,0,,1
+OPD-ZSVAXPUY,4,General Medicine,0,,1
+OPD-ZSX6WYPN,3,General Surgery,0,,1
+OPD-ZT19ZPHA,5,Obstetrics & Gynaecology,0,,1
+OPD-ZT1OCGY1,3,Paediatrics,0,,1
+OPD-ZTGLRJQV,5,General Surgery,0,,1
+OPD-ZTIEBS3L,3,General Surgery,0,,1
+OPD-ZTRDQ7GM,4,General Medicine,0,,1
+OPD-ZTW84R6D,5,ENT,0,,1
+OPD-ZTYRNOL6,5,Ophthalmology,0,,1
+OPD-ZU939K7A,4,General Surgery,0,,1
+OPD-ZU9WW423,5,General Medicine,0,,1
+OPD-ZUE363LN,4,Dental,0,,1
+OPD-ZUZAJ2RT,4,General Medicine,0,,1
+OPD-ZV0DMXRU,5,Orthopaedics,0,,1
+OPD-ZV2AAHQ6,4,General Surgery,0,,1
+OPD-ZVAMWTLM,3,General Medicine,0,,1
+OPD-ZVKTX3XQ,4,Paediatrics,0,,1
+OPD-ZVNYE0AH,4,General Surgery,0,,1
+OPD-ZVUVVIYG,4,General Medicine,0,,1
+OPD-ZW2TZEK2,5,General Medicine,0,,1
+OPD-ZW7VI4AH,4,General Medicine,0,,1
+OPD-ZWBEVPBR,5,Orthopaedics,0,,1
+OPD-ZWF7QVFQ,5,Dermatology,0,,1
+OPD-ZX9K7LXA,4,General Medicine,0,,1
+OPD-ZX9WA5IB,5,Paediatrics,0,,1
+OPD-ZXJHI94T,5,Dermatology,0,,1
+OPD-ZXNP3DT2,3,Pulmonology/Chest & TB,0,,1
+OPD-ZXQZNMBA,5,Paediatrics,0,,1
+OPD-ZXT2UE5N,4,General Medicine,0,,1
+OPD-ZXVKXVM4,4,Psychiatry,0,,1
+OPD-ZXVMK9AL,5,Dental,0,,1
+OPD-ZYEWXB7Q,4,General Medicine,0,,1
+OPD-ZYHT7T5G,4,General Medicine,0,,1
+OPD-ZYYYAZ7A,3,General Surgery,0,,1
+OPD-ZZ0ILXYH,4,Orthopaedics,0,,1
+OPD-ZZH0VE2G,4,General Medicine,0,,1
+OPD-ZZPEDERN,5,Orthopaedics,0,,1
+OPD-ZZV2C4SZ,4,General Medicine,0,,1

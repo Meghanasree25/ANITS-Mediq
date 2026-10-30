@@ -1,0 +1,460 @@
+
+/* ==========================================
+   MEDIQ — OPD REGISTRATION
+   White / Blue / Teal Design
+========================================== */
+
+.opd-registration {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #193a55;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+.opd-registration * ,
+.opd-confirmation * {
+  box-sizing: border-box;
+}
+
+/* INTRODUCTION */
+
+.opd-intro {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 25px 28px;
+  margin-bottom: 20px;
+  border: 1px solid #e3edf3;
+  border-radius: 17px;
+  background: #ffffff;
+}
+
+.opd-intro-icon {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #e3faf8, #e8f2ff);
+  color: #0a99a4;
+}
+
+.opd-eyebrow {
+  display: inline-block;
+  margin-bottom: 9px;
+  color: #0b9da6;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+}
+
+.opd-intro h2 {
+  margin: 0 0 9px;
+  color: #1b3e59;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.opd-intro p {
+  margin: 0;
+  color: #8197a8;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* FORM PROGRESS LABELS */
+
+.opd-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.opd-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 18px;
+  border: 1px solid #e4edf3;
+  border-radius: 12px;
+  background: white;
+  color: #506d82;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.opd-step span {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #e6f8f9;
+  color: #0a99a4;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+/* FORM LAYOUT */
+
+.opd-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.opd-section {
+  padding: 30px;
+  border: 1px solid #e3edf3;
+  border-radius: 17px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(25, 60, 90, 0.025);
+}
+
+.opd-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 27px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #edf2f6;
+}
+
+.opd-section-icon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: #eaf9fa;
+  color: #0b99a4;
+}
+
+.opd-section-heading h3 {
+  margin: 0 0 6px;
+  color: #23435d;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.opd-section-heading p {
+  margin: 0;
+  color: #91a4b4;
+  font-size: 12px;
+}
+
+.opd-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 23px 20px;
+}
+
+.opd-field {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.opd-full {
+  grid-column: 1 / -1;
+}
+
+.opd-field label {
+  color: #344f66;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.opd-field input,
+.opd-field select,
+.opd-field textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 13px 15px;
+  border: 1px solid #dce7ef;
+  border-radius: 10px;
+  background: #f9fbfd;
+  color: #24445d;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.opd-field input,
+.opd-field select {
+  min-height: 49px;
+}
+
+.opd-field textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.opd-field input::placeholder,
+.opd-field textarea::placeholder {
+  color: #a3b3c1;
+}
+
+.opd-field input:focus,
+.opd-field select:focus,
+.opd-field textarea:focus {
+  border-color: #0da2a8;
+  background: white;
+  box-shadow: 0 0 0 4px rgba(13, 162, 168, 0.09);
+}
+
+.opd-field small {
+  color: #93a5b5;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+/* INFORMATION AND CONSENT */
+
+.opd-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 17px 19px;
+  border: 1px solid #cfe6f0;
+  border-radius: 12px;
+  background: #eff8fd;
+  color: #557e96;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.opd-alert svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: #1983b1;
+}
+
+.opd-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #597184;
+  font-size: 12px;
+  line-height: 1.7;
+  cursor: pointer;
+}
+
+.opd-consent input {
+  width: 17px;
+  height: 17px;
+  margin-top: 2px;
+  flex-shrink: 0;
+  accent-color: #0b9da6;
+}
+
+.opd-error {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #f1c9c9;
+  border-radius: 10px;
+  background: #fff2f2;
+  color: #bb4040;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+/* FORM BUTTONS */
+
+.opd-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-bottom: 12px;
+}
+
+.opd-primary-button,
+.opd-secondary-button {
+  min-height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.opd-primary-button {
+  border: none;
+  background: linear-gradient(105deg, #0da6a7, #087bb7);
+  color: white;
+}
+
+.opd-primary-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 9px 22px rgba(8, 130, 170, 0.18);
+}
+
+.opd-secondary-button {
+  border: 1px solid #dce7ef;
+  background: white;
+  color: #6e8599;
+}
+
+.opd-secondary-button:hover {
+  background: #f5fafc;
+}
+
+/* SUBMISSION CONFIRMATION */
+
+.opd-confirmation {
+  width: 100%;
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 45px;
+  border: 1px solid #e3edf3;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 10px 35px rgba(20, 60, 90, 0.04);
+}
+
+.opd-confirmation-icon {
+  width: 85px;
+  height: 85px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 22px;
+  border-radius: 25px;
+  background: #e5f9ef;
+  color: #1fa775;
+}
+
+.opd-confirmation h2 {
+  margin: 0 0 15px;
+  color: #1d415d;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.opd-confirmation > p {
+  max-width: 520px;
+  margin: 0 auto 25px;
+  color: #8197a8;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.opd-confirmation-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  padding: 12px 25px;
+  border: 1px solid #e5edf3;
+  border-radius: 13px;
+  background: #f9fbfd;
+  text-align: left;
+}
+
+.opd-confirmation-details > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 0;
+  border-bottom: 1px solid #e5edf3;
+}
+
+.opd-confirmation-details > div:last-child {
+  border-bottom: none;
+}
+
+.opd-confirmation-details span {
+  color: #8499aa;
+  font-size: 12px;
+}
+
+.opd-confirmation-details strong {
+  color: #25465f;
+  font-size: 12px;
+  text-align: right;
+}
+
+.opd-confirmation .opd-alert {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 750px) {
+  .opd-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .opd-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .opd-full {
+    grid-column: auto;
+  }
+
+  .opd-section {
+    padding: 22px;
+  }
+
+  .opd-intro {
+    padding: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .opd-intro {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .opd-intro-icon {
+    width: 46px;
+    height: 46px;
+  }
+
+  .opd-intro h2 {
+    font-size: 20px;
+  }
+
+  .opd-section {
+    padding: 18px;
+  }
+
+  .opd-form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .opd-primary-button,
+  .opd-secondary-button {
+    width: 100%;
+  }
+
+  .opd-confirmation {
+    padding: 25px 18px;
+  }
+
+  .opd-confirmation-details {
+    padding: 10px 15px;
+  }
+}

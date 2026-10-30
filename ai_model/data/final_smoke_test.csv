@@ -1,0 +1,2 @@
+visit_id,arrival_ts,age_years,age_months,sex,pregnant,arrival_mode,bp_systolic,bp_diastolic,pulse_bpm,temp_c,spo2_pct,chief_complaint,known_conditions,current_medications
+OPD-FFHFZ3Y3,2026-08-30T08:00:26,17,,F,N,walk-in,126,80,84,,99,amar 5 din dhore phora hoyechhe,,-
