@@ -41,8 +41,26 @@ export async function evaluatePatientTriage(
   const worseningDesc = questionnaire.isGettingWorse
     ? "progressively worsening"
     : "stable";
+  const onsetDesc = questionnaire.onsetTime
+    ? `onset: ${questionnaire.onsetTime}`
+    : "";
+  const otherSymps =
+    questionnaire.otherSymptoms &&
+    questionnaire.otherSymptoms.length > 0 &&
+    !questionnaire.otherSymptoms.includes("none")
+      ? `associated signs: ${questionnaire.otherSymptoms.join(", ")}`
+      : "";
 
-  const synthesizedChiefComplaint = `${symptomsList}. ${durationDesc}, ${severityDesc}, ${worseningDesc}.`;
+  const synthesizedChiefComplaint = [
+    symptomsList,
+    durationDesc,
+    severityDesc,
+    worseningDesc,
+    onsetDesc,
+    otherSymps,
+  ]
+    .filter(Boolean)
+    .join(". ");
 
   // 3. Assemble exact PatientIntake payload expected by decision_engine.py
   const payload: MEDIQPatientInput = {

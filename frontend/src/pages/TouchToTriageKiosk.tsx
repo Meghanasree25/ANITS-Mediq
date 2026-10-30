@@ -50,7 +50,8 @@ export default function TouchToTriageKiosk() {
     knownConditions: [],
   });
 
-  const [selectedRegion, setSelectedRegion] = useState<BodyRegionId | null>("chest");
+  const [selectedRegions, setSelectedRegions] = useState<BodyRegionId[]>(["Chest"]);
+  const [selectedRegion, setSelectedRegion] = useState<BodyRegionId>("Chest");
   const [selectedSymptoms, setSelectedSymptoms] = useState<SymptomOption[]>([]);
   const [questionnaire, setQuestionnaire] = useState<VisualQuestionnaireAnswers>({
     duration: "just_started",
@@ -62,6 +63,28 @@ export default function TouchToTriageKiosk() {
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [completedRecord, setCompletedRecord] = useState<PatientTriageRecord | null>(null);
   const [isEmergencyModalOpen, setIsEmergencyModalOpen] = useState(false);
+
+  // Multi-region selection handlers
+  const handleToggleRegion = (regionId: BodyRegionId) => {
+    setSelectedRegions((prev) => {
+      const exists = prev.includes(regionId);
+      if (exists) {
+        const remaining = prev.filter((r) => r !== regionId);
+        if (selectedRegion === regionId && remaining.length > 0) {
+          setSelectedRegion(remaining[remaining.length - 1]);
+        }
+        return remaining;
+      } else {
+        setSelectedRegion(regionId);
+        return [...prev, regionId];
+      }
+    });
+  };
+
+  const handleClearSelection = () => {
+    setSelectedRegions([]);
+    setSelectedSymptoms([]);
+  };
 
   // 4-Step Navigation Progress definition
   const journeySteps: { id: KioskStep; stepNum: number; label: Record<LanguageCode, string> }[] = [
@@ -117,10 +140,6 @@ export default function TouchToTriageKiosk() {
   const handleLanguageChange = (newLang: LanguageCode) => {
     setLanguage(newLang);
     announceStep(currentStep, newLang);
-  };
-
-  const handleRegionSelect = (regionId: BodyRegionId) => {
-    setSelectedRegion(regionId);
   };
 
   const handleToggleSymptom = (symptom: SymptomOption) => {
@@ -191,7 +210,7 @@ export default function TouchToTriageKiosk() {
   const emergencyFlags = selectedSymptoms.filter((s) => s.isRedFlag);
 
   return (
-    <div className="min-h-screen bg-[#F8FAF8] text-stone-900 flex flex-col font-sans select-none">
+    <div className="min-h-screen bg-[#FAF8F5] text-stone-900 flex flex-col font-sans select-none">
       {/* Top Accessible Hospital Navigation Bar */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-emerald-100 shadow-xs px-4 sm:px-8 py-3.5 flex items-center justify-between flex-wrap gap-3">
         {/* Hospital Branding */}
@@ -524,20 +543,30 @@ export default function TouchToTriageKiosk() {
               </div>
 
               <InteractiveBodyMap
+                selectedRegions={selectedRegions}
                 selectedRegion={selectedRegion}
-                onSelectRegion={handleRegionSelect}
+                onToggleRegion={handleToggleRegion}
+                onSelectRegion={(regId) => {
+                  setSelectedRegion(regId);
+                  if (!selectedRegions.includes(regId)) {
+                    setSelectedRegions((prev) => [...prev, regId]);
+                  }
+                }}
+                onClearSelection={handleClearSelection}
                 language={language}
               />
             </div>
 
             {/* Right Column: Dynamic Symptom Problem Cards */}
-            <div className="w-full lg:w-7/12 bg-white rounded-3xl p-6 sm:p-7 border border-emerald-100 shadow-xl flex flex-col gap-6">
-              {selectedRegion ? (
+            <div className="w-full lg:w-7/12 bg-white rounded-3xl p-6 sm:p-7 border border-emerald-900/10 shadow-xl flex flex-col gap-6">
+              {selectedRegions.length > 0 || selectedRegion ? (
                 <>
                   <BodyProblemSelector
                     regionId={selectedRegion}
+                    selectedRegions={selectedRegions}
                     selectedSymptoms={selectedSymptoms}
                     onToggleSymptom={handleToggleSymptom}
+                    onSelectRegionTab={(rId) => setSelectedRegion(rId)}
                     language={language}
                   />
 
@@ -702,6 +731,13 @@ export default function TouchToTriageKiosk() {
           </div>
         )}
       </main>
+
+      {/* Persistent Medical Disclaimer */}
+      <footer className="w-full py-3 px-4 text-center text-[11px] text-stone-500 bg-white/70 border-t border-stone-200/80">
+        <p className="max-w-3xl mx-auto">
+          <strong>Clinical Notice:</strong> MEDIQ Touch-to-Triage is an initial clinical decision support aid for OPD prioritization in government hospitals. It does not provide medical diagnoses or replace licensed clinical evaluation.
+        </p>
+      </footer>
 
       {/* EMERGENCY RED-FLAG ESCALATION MODAL */}
       <EmergencyEscalationModal

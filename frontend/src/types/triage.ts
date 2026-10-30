@@ -12,6 +12,14 @@ export interface LocalizedText {
 }
 
 export type BodyRegionId =
+  | "Head"
+  | "Neck"
+  | "Chest"
+  | "Abdomen"
+  | "LeftArm"
+  | "RightArm"
+  | "LeftLeg"
+  | "RightLeg"
   | "head"
   | "eyes"
   | "ears"
@@ -62,9 +70,13 @@ export type PainSeverity =
   | "severe"
   | "unbearable";
 
+export type OnsetType = "sudden" | "gradual";
+
 export interface VisualQuestionnaireAnswers {
   duration: SymptomDuration;
   severity: PainSeverity;
+  onsetTime?: OnsetType;
+  otherSymptoms?: string[];
   isGettingWorse: boolean;
   hasOccurredBefore: boolean;
   additionalNotes?: string;

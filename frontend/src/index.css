@@ -59,6 +59,17 @@
   }
 }
 
+@keyframes coralPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(244, 63, 94, 0.45));
+    stroke-width: 3.5;
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(225, 29, 72, 0.85));
+    stroke-width: 5;
+  }
+}
+
 .animate-fadeIn {
   animation: fadeIn 0.3s ease-out forwards;
 }
@@ -69,4 +80,8 @@
 
 .animate-pulseGlow {
   animation: pulseGlow 2s infinite ease-in-out;
+}
+
+.animate-coralPulse {
+  animation: coralPulse 1.8s infinite ease-in-out;
 }

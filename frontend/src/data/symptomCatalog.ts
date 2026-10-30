@@ -4,552 +4,671 @@
    Trilingual: English, Telugu (తెలుగు), Hindi (हिंदी)
    ========================================================================== */
 
-import type { BodyRegionInfo, SymptomOption } from "../types/triage";
+import type { BodyRegionId, BodyRegionInfo, SymptomOption } from "../types/triage";
 
 export const BODY_REGIONS: BodyRegionInfo[] = [
+  // Core Required Regions
   {
-    id: "head",
-    view: "both",
-    label: {
-      en: "Head & Face",
-      te: "తల మరియు ముఖం",
-      hi: "सिर और चेहरा",
-    },
-    description: {
-      en: "Headache, dizziness, confusion, eye or face issues",
-      te: "తల నొప్పి, తల తిరగడం, గాయం",
-      hi: "सिरदर्द, चक्कर, चोट या भ्रम",
-    },
-  },
-  {
-    id: "eyes",
+    id: "Head",
     view: "front",
     label: {
-      en: "Eyes & Vision",
-      te: "కళ్ళు",
-      hi: "आँखें और दृष्टि",
+      en: "Head",
+      te: "తల",
+      hi: "सिर",
     },
     description: {
-      en: "Eye redness, pain, sudden vision loss or injury",
-      te: "కంటి నొప్పి, ఎరుపు, చూపు మందగించడం",
-      hi: "आँखों में दर्द, लालिमा या दृष्टि समस्या",
+      en: "Headache, dizziness, fever or eye discomfort",
+      te: "తల నొప్పి, తల తిరగడం, జ్వరం లేదా కంటి అసౌకర్యం",
+      hi: "सिरदर्द, चक्कर, बुखार या आँखों में परेशानी",
     },
   },
   {
-    id: "ears",
-    view: "both",
-    label: {
-      en: "Ears & Hearing",
-      te: "చెవులు",
-      hi: "कान और सुनना",
-    },
-    description: {
-      en: "Ear pain, discharge, hearing loss or ringing",
-      te: "చెవి నొప్పి, చీము కారడం",
-      hi: "कान दर्द, मवाद या सुनने में कमी",
-    },
-  },
-  {
-    id: "throat",
+    id: "Neck",
     view: "front",
     label: {
-      en: "Nose, Mouth & Throat",
-      te: "ముక్కు, నోరు మరియు గొంతు",
-      hi: "नाक, मुँह और गला",
-    },
-    description: {
-      en: "Sore throat, difficulty swallowing, nosebleeds, toothache",
-      te: "గొంతు నొప్పి, మింగలేకపోవడం, దంతాల నొప్పి",
-      hi: "गले में दर्द, निगलने में दर्द, दाँत दर्द",
-    },
-  },
-  {
-    id: "neck",
-    view: "both",
-    label: {
-      en: "Neck & Cervical",
+      en: "Neck",
       te: "మెడ",
       hi: "गर्दन",
     },
     description: {
-      en: "Neck stiffness, swelling, severe pain",
-      te: "మెడ పట్టేయడం, వాపు లేదా నొప్పి",
-      hi: "गर्दन में अकड़न, दर्द या सूजन",
+      en: "Neck pain, stiffness or swelling",
+      te: "మెడ నొప్పి, పట్టేయడం లేదా వాపు",
+      hi: "गर्दन में दर्द, अकड़न या सूजन",
     },
+  },
+  {
+    id: "Chest",
+    view: "front",
+    label: {
+      en: "Chest",
+      te: "ఛాతీ",
+      hi: "छाती",
+    },
+    description: {
+      en: "Chest pain, breathing difficulty, cough or palpitations",
+      te: "ఛాతీ నొప్పి, శ్వాస ఇబ్బంది, దగ్గు లేదా గుండె దడ",
+      hi: "सीने में दर्द, सांस लेने में तकलीफ, खांसी या घबराहట్",
+    },
+  },
+  {
+    id: "Abdomen",
+    view: "front",
+    label: {
+      en: "Abdomen",
+      te: "కడుపు",
+      hi: "पेट",
+    },
+    description: {
+      en: "Stomach pain, vomiting, nausea or burning sensation",
+      te: "కడుపు నొప్పి, వాంతులు, వికారం లేదా మంట",
+      hi: "पेट दर्द, उल्टी, मतली या जलन",
+    },
+  },
+  {
+    id: "LeftArm",
+    view: "front",
+    label: {
+      en: "Left Arm",
+      te: "ఎడమ చెయ్యి",
+      hi: "बायाँ हाथ",
+    },
+    description: {
+      en: "Arm pain, joint pain, swelling or numbness",
+      te: "చెయ్యి నొప్పి, కీళ్ళ నొప్పి, వాపు లేదా తిమ్మిరి",
+      hi: "हाथ दर्द, जोड़ों का दर्द, सूजन या सुन्न होना",
+    },
+  },
+  {
+    id: "RightArm",
+    view: "front",
+    label: {
+      en: "Right Arm",
+      te: "కుడి చెయ్యి",
+      hi: "दायाँ हाथ",
+    },
+    description: {
+      en: "Arm pain, joint pain, swelling or numbness",
+      te: "చెయ్యి నొప్పి, కీళ్ళ నొప్పి, వాపు లేదా తిమ్మిరి",
+      hi: "हाथ दर्द, जोड़ों का दर्द, सूजन या सुन्न होना",
+    },
+  },
+  {
+    id: "LeftLeg",
+    view: "front",
+    label: {
+      en: "Left Leg",
+      te: "ఎడమ కాలు",
+      hi: "बायाँ पैर",
+    },
+    description: {
+      en: "Leg pain, knee pain, swelling or difficulty walking",
+      te: "కాలు నొప్పి, మోకాలి నొప్పి, వాపు లేదా నడవలేకపోవడం",
+      hi: "पैर दर्द, घुटने का दर्द, सूजन या चलने में कठिनाई",
+    },
+  },
+  {
+    id: "RightLeg",
+    view: "front",
+    label: {
+      en: "Right Leg",
+      te: "కుడి కాలు",
+      hi: "दायाँ पैर",
+    },
+    description: {
+      en: "Leg pain, knee pain, swelling or difficulty walking",
+      te: "కాలు నొప్పి, మోకాలి నొప్పి, వాపు లేదా నడవలేకపోవడం",
+      hi: "पैर दर्द, घुटने का दर्द, सूजन या चलने में कठिनाई",
+    },
+  },
+
+  // Backward compatibility alias definitions
+  {
+    id: "head",
+    view: "both",
+    label: { en: "Head", te: "తల", hi: "सिर" },
+    description: { en: "Headache, dizziness, fever", te: "తల నొప్పి, జ్వరం", hi: "सिरदर्द, बुखार" },
+  },
+  {
+    id: "neck",
+    view: "both",
+    label: { en: "Neck", te: "మెడ", hi: "गर्दन" },
+    description: { en: "Neck pain or stiffness", te: "మెడ నొప్పి", hi: "गर्दन दर्द" },
   },
   {
     id: "chest",
     view: "front",
-    label: {
-      en: "Chest & Heart",
-      te: "ఛాతీ మరియు గుండె",
-      hi: "छाती और दिल",
-    },
-    description: {
-      en: "Chest pain, heavy pressure, severe breathing difficulty, palpitations",
-      te: "ఛాతీ నొప్పి, గుండె దడ, ఆయాసం",
-      hi: "सीने में दर्द, भारीपन, सांस फूलना, बेचैनी",
-    },
+    label: { en: "Chest", te: "ఛాతీ", hi: "छाती" },
+    description: { en: "Chest discomfort", te: "ఛాతీ సమస్య", hi: "छाती की परेशानी" },
   },
   {
     id: "abdomen",
     view: "front",
-    label: {
-      en: "Stomach & Belly",
-      te: "కడుపు",
-      hi: "पेट और पाचन",
-    },
-    description: {
-      en: "Severe stomach pain, vomiting, loose motions, blood in vomit or stools",
-      te: "కడుపు నొప్పి, వాంతులు, విరేచనాలు",
-      hi: "पेट में तेज दर्द, उल्टी, दस्त, जलन",
-    },
-  },
-  {
-    id: "pelvis",
-    view: "front",
-    label: {
-      en: "Pelvic & Urinary Region",
-      te: "కటి మరియు మూత్ర సంబంధిత",
-      hi: "कमर और मूत्र संबंधी",
-    },
-    description: {
-      en: "Urinary burning, bleeding during pregnancy, severe lower pelvic pain",
-      te: "మూత్రంలో మంట, గర్భధారణ సమస్యలు",
-      hi: "पेशाब में जलन, गर्भावस्था की समस्या",
-    },
-  },
-  {
-    id: "back",
-    view: "back",
-    label: {
-      en: "Back & Spine",
-      te: "వెనుకభాగం మరియు వెన్నెముక",
-      hi: "पीठ और रीढ़",
-    },
-    description: {
-      en: "Severe back pain, spinal injury, kidney pain radiating to back",
-      te: "నడుము నొప్పి, వెన్నెముక నొప్పి",
-      hi: "पीठ दर्द, कमर दर्द या रीढ़ की चोट",
-    },
-  },
-  {
-    id: "shoulders",
-    view: "both",
-    label: {
-      en: "Shoulders",
-      te: "భుజాలు",
-      hi: "कंधे",
-    },
-    description: {
-      en: "Shoulder pain, dislocation, inability to move arm",
-      te: "భుజం నొప్పి, కదపలేకపోవడం",
-      hi: "कंधे में दर्द या उठने में परेशानी",
-    },
+    label: { en: "Abdomen", te: "కడుపు", hi: "पेट" },
+    description: { en: "Stomach issues", te: "కడుపు సమస్య", hi: "पेट की समस्या" },
   },
   {
     id: "arms",
     view: "both",
-    label: {
-      en: "Arms & Hands",
-      te: "చేతులు",
-      hi: "हाथ और बाहें",
-    },
-    description: {
-      en: "Arm fracture, hand wound, cut, numbness or sudden weakness",
-      te: "చెయ్యి గాయం, నొప్పీ, చచ్చుబడటం",
-      hi: "हाथ की चोट, कमजोरी या सुन्न होना",
-    },
+    label: { en: "Arms", te: "చేతులు", hi: "हाथ" },
+    description: { en: "Arm pain or weakness", te: "చేతుల నొప్పి", hi: "हाथ में दर्द" },
   },
   {
     id: "legs",
     view: "both",
-    label: {
-      en: "Legs & Thighs",
-      te: "కాళ్ళు",
-      hi: "पैर और जांघें",
-    },
-    description: {
-      en: "Leg swelling, sudden weakness, deep pain, inability to walk",
-      te: "కాళ్ళ వాపు, నడవలేకపోవడం",
-      hi: "पैरों में सूजन, चलने में असमर्थता",
-    },
-  },
-  {
-    id: "knees",
-    view: "both",
-    label: {
-      en: "Knees & Joints",
-      te: "మోకాళ్ళు",
-      hi: "घुटने और जोड़",
-    },
-    description: {
-      en: "Severe knee pain, swelling, sprain or fracture",
-      te: "మోకాళ్ళ నొప్పి, కీళ్ళ వాపు",
-      hi: "घुटनों में दर्द, सूजन या चोट",
-    },
-  },
-  {
-    id: "feet",
-    view: "both",
-    label: {
-      en: "Ankles & Feet",
-      te: "పాదాలు మరియు చీలమండలు",
-      hi: "पैर के पंजे और टखने",
-    },
-    description: {
-      en: "Diabetic foot ulcer, foot swelling, sprain, cut or dog bite",
-      te: "పాదాల పుండ్లు, వాపు, గాయం",
-      hi: "पैर में छाला, सूजन या घाव",
-    },
+    label: { en: "Legs", te: "కాళ్ళు", hi: "पैर" },
+    description: { en: "Leg pain or swelling", te: "కాళ్ళ నొప్పి", hi: "पैरों में दर्द" },
   },
 ];
 
 export const SYMPTOM_OPTIONS: SymptomOption[] = [
-  // --- HEAD ---
+  // ==========================================
+  // HEAD SYMPTOMS (Headache, Dizziness, Fever, Eye discomfort)
+  // ==========================================
   {
-    id: "head_pain_severe",
-    regionId: "head",
+    id: "head_headache",
+    regionId: "Head",
     label: {
-      en: "Severe 'Worst-Ever' Headache",
-      te: "తీవ్రమైన తల నొప్పి (Worst headache)",
-      hi: "अचानक बहुत तेज सिरदर्द",
+      en: "Headache",
+      te: "తల నొప్పి",
+      hi: "सिरदर्द",
     },
     iconName: "Flame",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Moderate to severe persistent headache with tension",
+  },
+  {
+    id: "head_dizziness",
+    regionId: "Head",
+    label: {
+      en: "Dizziness & Vertigo",
+      te: "తల తిరగడం (కళ్ళు తిరగడం)",
+      hi: "चक्कर आना (घूमना)",
+    },
+    iconName: "RotateCcw",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Feeling dizzy, lightheadedness and vertigo on standing",
+  },
+  {
+    id: "head_fever",
+    regionId: "Head",
+    label: {
+      en: "Fever & Chills",
+      te: "జ్వరం మరియు చలి",
+      hi: "बुखार और ठंड लगना",
+    },
+    iconName: "Activity",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "High body temperature, febrile chills and body aches",
+  },
+  {
+    id: "head_eye_discomfort",
+    regionId: "Head",
+    label: {
+      en: "Eye Discomfort / Redness",
+      te: "కంటి అసౌకర్యం లేదా ఎర్రబడటం",
+      hi: "आँखों में जलन या लालिमा",
+    },
+    iconName: "Eye",
+    isRedFlag: false,
+    typicalDepartment: "Ophthalmology",
+    clinicalPrompt: "Eye irritation, conjunctival redness and light sensitivity",
+  },
+  {
+    id: "head_worst_headache_rf",
+    regionId: "Head",
+    label: {
+      en: "Sudden Severe 'Thunderclap' Headache",
+      te: "అత్యంత తీవ్రమైన తల నొప్పి (Worst headache)",
+      hi: "अचानक बहुत तेज असहनीय सिरदर्द",
+    },
+    iconName: "AlertTriangle",
     isRedFlag: true,
     redFlagCode: "RF_THUNDERCLAP_HEADACHE",
     typicalDepartment: "Emergency/Casualty",
     clinicalPrompt: "Sudden worst-ever thunderclap headache with vomiting",
   },
+
+  // ==========================================
+  // NECK SYMPTOMS (Neck pain, Stiffness, Swelling)
+  // ==========================================
   {
-    id: "head_dizziness",
-    regionId: "head",
+    id: "neck_pain",
+    regionId: "Neck",
     label: {
-      en: "Dizziness & Giddiness",
-      te: "తల తిరగడం (కళ్ళు తిరగడం)",
-      hi: "चक्कर आना और कमजोरी",
-    },
-    iconName: "RotateCcw",
-    isRedFlag: false,
-    typicalDepartment: "General Medicine",
-    clinicalPrompt: "Feeling dizzy, lightheadedness and weakness",
-  },
-  {
-    id: "head_stroke_signs",
-    regionId: "head",
-    label: {
-      en: "Facial Droop or Slurred Speech",
-      te: "ముఖం ఒకవైపు వాలడం లేదా మాట తడబడటం",
-      hi: "चेहरे का टेढ़ापन या बोलने में लड़खड़ाहट",
-    },
-    iconName: "AlertTriangle",
-    isRedFlag: true,
-    redFlagCode: "RF_STROKE_SIGNS",
-    typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt: "Sudden face drooping and slurred speech weakness",
-  },
-  {
-    id: "head_convulsions",
-    regionId: "head",
-    label: {
-      en: "Seizures / Fits / Convulsions",
-      te: "ఫిట్స్ లేదా మూర్ఛ రావడం",
-      hi: "दौरे पड़ना या बेहोशी (Fits)",
-    },
-    iconName: "Zap",
-    isRedFlag: true,
-    redFlagCode: "RF_SEIZURE",
-    typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt: "Fits and convulsions with drowsiness",
-  },
-  {
-    id: "head_routine_pain",
-    regionId: "head",
-    label: {
-      en: "Mild to Moderate Headache",
-      te: "సాధారణ తల నొప్పి",
-      hi: "हल्का या मध्यम सिरदर्द",
+      en: "Neck Pain",
+      te: "మెడ నొప్పి",
+      hi: "गर्दन में दर्द",
     },
     iconName: "Activity",
     isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Cervical neck pain radiating to shoulders",
+  },
+  {
+    id: "neck_stiffness",
+    regionId: "Neck",
+    label: {
+      en: "Neck Stiffness / Inability to Move",
+      te: "మెడ పట్టేయడం (కదపలేకపోవడం)",
+      hi: "गर्दन में अकड़न (हिलने में असमर्थ)",
+    },
+    iconName: "ShieldAlert",
+    isRedFlag: false,
     typicalDepartment: "General Medicine",
-    clinicalPrompt: "Dull chronic headache without fever or vomiting",
+    clinicalPrompt: "Marked neck stiffness and restricted cervical motion",
+  },
+  {
+    id: "neck_swelling",
+    regionId: "Neck",
+    label: {
+      en: "Neck Swelling or Gland Lump",
+      te: "మెడ వాపు లేదా గడ్డ",
+      hi: "गर्दन में सूजन या गांठ",
+    },
+    iconName: "Droplet",
+    isRedFlag: false,
+    typicalDepartment: "ENT",
+    clinicalPrompt: "Visible neck swelling or tender lymph node enlargement",
   },
 
-  // --- CHEST ---
+  // ==========================================
+  // CHEST SYMPTOMS (Chest pain, Breathing difficulty, Cough, Palpitations)
+  // ==========================================
   {
-    id: "chest_pain_cardiac",
-    regionId: "chest",
+    id: "chest_pain",
+    regionId: "Chest",
     label: {
-      en: "Heavy Chest Pain & Pressure",
-      te: "ఛాతీలో తీవ్రమైన నొప్పి లేదా ఒత్తిడి",
-      hi: "सीने में तेज दर्द, भारीपन या दबाव",
+      en: "Chest Pain / Pressure",
+      te: "ఛాతీ నొప్పి లేదా ఒత్తిడి",
+      hi: "सीने में दर्द या भारीपन",
     },
     iconName: "HeartPulse",
     isRedFlag: true,
     redFlagCode: "RF_CHEST_PAIN_CARDIAC",
     typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt:
-      "Severe chest pressure with sweating and shortness of breath",
+    clinicalPrompt: "Acute substernal chest pressure with diaphoresis and radiation",
   },
   {
-    id: "chest_breathing_distress",
-    regionId: "chest",
+    id: "chest_breathing_difficulty",
+    regionId: "Chest",
     label: {
-      en: "Severe Breathlessness (Cannot Speak)",
-      te: "తీవ్రమైన శ్వాస ఇబ్బంది (ఆయాసం)",
-      hi: "सांस लेने में बहुत तकलीफ",
+      en: "Breathing Difficulty / Shortness of Breath",
+      te: "శ్వాస తీసుకోవడంలో ఇబ్బంది (ఆయాసం)",
+      hi: "सांस लेने में तकलीफ या घबराहट",
     },
     iconName: "Wind",
     isRedFlag: true,
     redFlagCode: "RF_RESP_DISTRESS",
     typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt:
-      "Severe breathing difficulty unable to speak full sentences",
+    clinicalPrompt: "Severe acute dyspnea and shortness of breath at rest",
   },
   {
-    id: "chest_cough_persistent",
-    regionId: "chest",
+    id: "chest_cough",
+    regionId: "Chest",
     label: {
-      en: "Cough > 2 Weeks / Sputum",
-      te: "రెండు వారాలకు పైగా దగ్గు",
-      hi: "दो सप्ताह से अधिक समय से खांसी",
+      en: "Persistent Cough / Phlegm",
+      te: "దగ్గు లేదా కఫం",
+      hi: "लगातार खांसी या कफ",
     },
     iconName: "Activity",
     isRedFlag: false,
     typicalDepartment: "Pulmonology/Chest & TB",
-    clinicalPrompt: "Chronic cough with phlegm for more than 2 weeks",
+    clinicalPrompt: "Chronic cough with expectoration and wheezing",
   },
   {
     id: "chest_palpitations",
-    regionId: "chest",
+    regionId: "Chest",
     label: {
-      en: "Fast Heartbeat / Palpitations",
+      en: "Palpitations / Fast Heartbeat",
       te: "గుండె దడ లేదా వేగంగా కొట్టుకోవడం",
-      hi: "दिल की धड़कन तेज होना (घबराहट)",
+      hi: "दिल की धड़कन तेज होना",
     },
-    iconName: "Heart",
+    iconName: "HeartPulse",
     isRedFlag: false,
     typicalDepartment: "Cardiology",
-    clinicalPrompt: "Recurrent fast heartbeat sensation and ghabrahat",
+    clinicalPrompt: "Frequent palpitations and tachycardia sensation",
   },
 
-  // --- ABDOMEN ---
+  // ==========================================
+  // ABDOMEN SYMPTOMS (Stomach pain, Vomiting, Nausea, Burning sensation)
+  // ==========================================
   {
-    id: "abdomen_severe_acute",
-    regionId: "abdomen",
+    id: "abdomen_stomach_pain",
+    regionId: "Abdomen",
     label: {
-      en: "Severe Sharp Abdominal Pain",
-      te: "తీవ్రమైన కడుపు నొప్పి",
-      hi: "पेट में असहनीय तेज दर्द",
+      en: "Stomach Pain / Cramping",
+      te: "కడుపు నొప్పి",
+      hi: "पेट में तेज दर्द या मरोड़",
     },
-    iconName: "AlertCircle",
-    isRedFlag: true,
-    redFlagCode: "RF_ACUTE_ABDOMEN",
-    typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt:
-      "Severe acute abdominal pain with rigid belly and no flatus",
-  },
-  {
-    id: "abdomen_blood_vomit",
-    regionId: "abdomen",
-    label: {
-      en: "Vomiting Blood / Black Stools",
-      te: "రక్తం వాంతులు లేదా నల్లటి మలం",
-      hi: "उल्टी में खून या काला शौच आना",
-    },
-    iconName: "Droplet",
-    isRedFlag: true,
-    redFlagCode: "RF_SEVERE_BLEEDING",
-    typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt: "Vomiting blood and black tarry stools",
-  },
-  {
-    id: "abdomen_loose_motions",
-    regionId: "abdomen",
-    label: {
-      en: "Loose Motions / Diarrhoea & Vomiting",
-      te: "విరేచనాలు మరియు వాంతులు",
-      hi: "दस्त और लगातार उल्टियां",
-    },
-    iconName: "RefreshCw",
+    iconName: "AlertTriangle",
     isRedFlag: false,
     typicalDepartment: "General Medicine",
-    clinicalPrompt:
-      "Acute watery diarrhoea and mild vomiting for one day",
+    clinicalPrompt: "Generalized abdominal cramping and discomfort",
   },
   {
-    id: "abdomen_acidity_burning",
-    regionId: "abdomen",
+    id: "abdomen_vomiting",
+    regionId: "Abdomen",
     label: {
-      en: "Acidity, Gas & Burning Sensation",
-      te: "ఎసిడిటీ, గ్యాస్ మరియు కడుపులో మంట",
-      hi: "पेट में जलन, गैस और बदहजमी",
+      en: "Persistent Vomiting",
+      te: "వాంతులు",
+      hi: "लगातार उल्टियां आना",
+    },
+    iconName: "RotateCcw",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Frequent vomiting and inability to retain fluids",
+  },
+  {
+    id: "abdomen_nausea",
+    regionId: "Abdomen",
+    label: {
+      en: "Nausea & Queasiness",
+      te: "వికారం లేదా వికారంగా ఉండటం",
+      hi: "जी मिचलाना (मतली)",
+    },
+    iconName: "Activity",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Nausea, loss of appetite and dyspepsia",
+  },
+  {
+    id: "abdomen_burning",
+    regionId: "Abdomen",
+    label: {
+      en: "Burning Sensation / Acidity",
+      te: "కడుపులో మంట లేదా ఎసిడిటీ",
+      hi: "पेट या सीने में जलन (एसिडिटी)",
     },
     iconName: "Flame",
     isRedFlag: false,
     typicalDepartment: "General Medicine",
-    clinicalPrompt: "Upper abdominal burning and acid regurgitation",
-  },
-
-  // --- THROAT & ENT ---
-  {
-    id: "throat_sore",
-    regionId: "throat",
-    label: {
-      en: "Sore Throat & Pain Swallowing",
-      te: "గొంతు నొప్పి, మింగడంలో నొప్పి",
-      hi: "गले में दर्द और निगलने में तकलीफ",
-    },
-    iconName: "ShieldAlert",
-    isRedFlag: false,
-    typicalDepartment: "ENT",
-    clinicalPrompt: "Sore throat, tonsil inflammation and painful swallowing",
+    clinicalPrompt: "Epigastric burning sensation, acid regurgitation and sour belching",
   },
   {
-    id: "throat_toothache",
-    regionId: "throat",
+    id: "abdomen_acute_blood_rf",
+    regionId: "Abdomen",
     label: {
-      en: "Severe Toothache or Gum Swelling",
-      te: "దంతాల నొప్పి లేదా చిగుళ్ళ వాపు",
-      hi: "दाँत में तेज दर्द या मसूड़ों में सूजन",
-    },
-    iconName: "Smile",
-    isRedFlag: false,
-    typicalDepartment: "Dental",
-    clinicalPrompt: "Severe toothache and localized dental gum swelling",
-  },
-
-  // --- EYES ---
-  {
-    id: "eyes_redness",
-    regionId: "eyes",
-    label: {
-      en: "Red Eye, Watery & Irritation",
-      te: "కళ్ళు ఎర్రబడటం, నీరు కారడం",
-      hi: "आँखें लाल होना और पानी बहना",
-    },
-    iconName: "Eye",
-    isRedFlag: false,
-    typicalDepartment: "Ophthalmology",
-    clinicalPrompt: "Acute conjunctivitis with redness and irritation in eyes",
-  },
-  {
-    id: "eyes_emergency_chemical",
-    regionId: "eyes",
-    label: {
-      en: "Chemical Splash or Sudden Vision Loss",
-      te: "కంటిలో రసాయనాలు పడటం లేదా దృష్టి పోవడం",
-      hi: "आँख में केमिकल जाना या अचानक रोशनी जाना",
+      en: "Vomiting Blood or Rigid Belly",
+      te: "రక్తం వాంతులు లేదా కడుపు గట్టిగా బిగుసుకుపోవడం",
+      hi: "खून की उल्टी या पेट का कड़ा होना",
     },
     iconName: "AlertTriangle",
     isRedFlag: true,
-    redFlagCode: "RF_EYE_EMERGENCY",
+    redFlagCode: "RF_ACUTE_ABDOMEN",
     typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt: "Sudden complete loss of vision in eye emergency",
+    clinicalPrompt: "Hematemesis with acute severe abdominal guarding and rigidity",
   },
 
-  // --- PELVIS & PREGNANCY ---
+  // ==========================================
+  // ARMS SYMPTOMS (Arm pain, Joint pain, Swelling, Numbness)
+  // Shared between LeftArm & RightArm
+  // ==========================================
   {
-    id: "pelvis_pregnancy_bleeding",
-    regionId: "pelvis",
+    id: "arm_pain",
+    regionId: "LeftArm",
     label: {
-      en: "Vaginal Bleeding in Pregnancy",
-      te: "గర్భధారణ సమయంలో రక్తస్రావం",
-      hi: "गर्भावस्था में रक्तस्राव (ब्लीडिंग)",
+      en: "Arm Pain / Muscle Ache",
+      te: "చెయ్యి నొప్పి",
+      hi: "हाथ में दर्द या मांसपेशियों का खिंचाव",
+    },
+    iconName: "Activity",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Aching pain in upper limb with restricted movement",
+  },
+  {
+    id: "arm_joint_pain",
+    regionId: "LeftArm",
+    label: {
+      en: "Joint Pain (Shoulder, Elbow, Wrist)",
+      te: "కీళ్ళ నొప్పి (భుజం, మోచేయి, మణికట్టు)",
+      hi: "जोड़ों का दर्द (कंधा, कोहनी, कलाई)",
+    },
+    iconName: "Zap",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Joint stiffness and arthritis pain in arm joints",
+  },
+  {
+    id: "arm_swelling",
+    regionId: "LeftArm",
+    label: {
+      en: "Swelling in Arm or Hand",
+      te: "చెయ్యి లేదా చేతి వాపు",
+      hi: "हाथ या बांह में सूजन",
     },
     iconName: "Droplet",
-    isRedFlag: true,
-    redFlagCode: "RF_PREGNANCY_BLEEDING",
-    typicalDepartment: "Emergency/Casualty",
-    clinicalPrompt: "Vaginal bleeding during pregnancy emergency review",
-  },
-  {
-    id: "pelvis_urine_burning",
-    regionId: "pelvis",
-    label: {
-      en: "Burning Sensation While Urinating",
-      te: "మూత్రం పోసేటప్పుడు మంట",
-      hi: "पेशाब करते समय तेज जलन",
-    },
-    iconName: "Flame",
     isRedFlag: false,
     typicalDepartment: "General Medicine",
-    clinicalPrompt: "Dysuria with burning sensation on urination without fever",
+    clinicalPrompt: "Unilateral or bilateral upper limb edema and swelling",
+  },
+  {
+    id: "arm_numbness",
+    regionId: "LeftArm",
+    label: {
+      en: "Numbness / Tingling ('Pins & Needles')",
+      te: "తిమ్మిరి లేదా సూదులు గుచ్చినట్లు ఉండటం",
+      hi: "हाथ सुन्न होना या झनझनाहट",
+    },
+    iconName: "Zap",
+    isRedFlag: false,
+    typicalDepartment: "Neurology/Medicine",
+    clinicalPrompt: "Peripheral paresthesia, tingling and numbness in hand",
   },
 
-  // --- LEGS & ORTHOPAEDICS ---
+  // Duplicate for RightArm
   {
-    id: "legs_swelling",
-    regionId: "legs",
+    id: "r_arm_pain",
+    regionId: "RightArm",
     label: {
-      en: "Leg Swelling or Fluid Retention",
-      te: "కాళ్ళ వాపు",
-      hi: "पैरों में सूजन",
+      en: "Arm Pain / Muscle Ache",
+      te: "కుడి చెయ్యి నొప్పి",
+      hi: "दाहिने हाथ में दर्द",
     },
-    iconName: "ArrowDown",
+    iconName: "Activity",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Aching pain in right upper limb with muscle soreness",
+  },
+  {
+    id: "r_arm_joint_pain",
+    regionId: "RightArm",
+    label: {
+      en: "Joint Pain (Shoulder, Elbow, Wrist)",
+      te: "కుడి కీళ్ళ నొప్పి (భుజం, మోచేయి, మణికట్టు)",
+      hi: "दाहिने जोड़ों का दर्द (कंधा, कोहनी, कलाई)",
+    },
+    iconName: "Zap",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Joint stiffness and pain in right arm joints",
+  },
+  {
+    id: "r_arm_swelling",
+    regionId: "RightArm",
+    label: {
+      en: "Swelling in Arm or Hand",
+      te: "కుడి చెయ్యి వాపు",
+      hi: "दाहिने हाथ में सूजन",
+    },
+    iconName: "Droplet",
     isRedFlag: false,
     typicalDepartment: "General Medicine",
-    clinicalPrompt: "Bilateral leg swelling for a few days",
+    clinicalPrompt: "Right arm edema and inflammatory swelling",
   },
   {
-    id: "legs_fracture_injury",
-    regionId: "legs",
+    id: "r_arm_numbness",
+    regionId: "RightArm",
     label: {
-      en: "Suspected Fracture / Unable to Stand",
-      te: "ఎముక విరగడం లేదా నిలబడలేకపోవడం",
-      hi: "हड्डी में फ्रैक्चर या पैर पर खड़ा न हो पाना",
+      en: "Numbness / Tingling ('Pins & Needles')",
+      te: "కుడి చెయ్యి తిమ్మిరి",
+      hi: "दाहिना हाथ सुन्न होना",
     },
-    iconName: "ShieldAlert",
+    iconName: "Zap",
     isRedFlag: false,
-    typicalDepartment: "Orthopaedics",
-    clinicalPrompt: "Suspected leg bone fracture after fall unable to bear weight",
+    typicalDepartment: "Neurology/Medicine",
+    clinicalPrompt: "Paresthesia, tingling and numbness in right hand fingers",
   },
+
+  // ==========================================
+  // LEGS SYMPTOMS (Leg pain, Knee pain, Swelling, Difficulty walking)
+  // Shared between LeftLeg & RightLeg
+  // ==========================================
   {
-    id: "knees_joint_pain",
-    regionId: "knees",
+    id: "leg_pain",
+    regionId: "LeftLeg",
     label: {
-      en: "Severe Knee Joint Pain & Stiffness",
-      te: "మోకాళ్ళ నొప్పులు, కీళ్ళు పట్టేయడం",
-      hi: "घुटनों में दर्द और चलने में परेशानी",
-    },
-    iconName: "Activity",
-    isRedFlag: false,
-    typicalDepartment: "Orthopaedics",
-    clinicalPrompt: "Knee osteoarthritis with stiffness and pain on walking",
-  },
-  {
-    id: "feet_diabetic_ulcer",
-    regionId: "feet",
-    label: {
-      en: "Foot Wound, Ulcer or Dog Bite",
-      te: "పాదంలో పుండు, గాయం లేదా కుక్క కాటు",
-      hi: "पैर का घाव, छाला या कुत्ते का काटना",
-    },
-    iconName: "AlertCircle",
-    isRedFlag: false,
-    typicalDepartment: "General Surgery",
-    clinicalPrompt: "Diabetic foot wound with ulcer and local redness",
-  },
-  {
-    id: "back_pain",
-    regionId: "back",
-    label: {
-      en: "Severe Lower Back Pain & Spasm",
-      te: "తీవ్రమైన నడుము నొప్పి",
-      hi: "कमर में तेज दर्द या अकड़न",
+      en: "Leg Pain / Thigh / Calf Ache",
+      te: "కాలు నొప్పి (తొడ లేదా పిక్క నొప్పి)",
+      hi: "पैर में दर्द (जांघ या पिंडली)",
     },
     iconName: "Activity",
     isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Leg pain and calf muscle cramp soreness",
+  },
+  {
+    id: "leg_knee_pain",
+    regionId: "LeftLeg",
+    label: {
+      en: "Knee Pain & Stiffness",
+      te: "మోకాలి నొప్పి మరియు బిగుతు",
+      hi: "घुटने में दर्द और अकड़न",
+    },
+    iconName: "Zap",
+    isRedFlag: false,
     typicalDepartment: "Orthopaedics",
-    clinicalPrompt: "Acute lower back muscle spasm unable to bend",
+    clinicalPrompt: "Knee osteoarthritis with stiffness and pain on flexion",
+  },
+  {
+    id: "leg_swelling",
+    regionId: "LeftLeg",
+    label: {
+      en: "Swelling in Leg, Ankle or Foot",
+      te: "కాలు, చీలమండ లేదా పాదం వాపు",
+      hi: "पैर, टखने या पंजे में सूजन",
+    },
+    iconName: "Droplet",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Lower extremity pedal edema and swelling",
+  },
+  {
+    id: "leg_difficulty_walking",
+    regionId: "LeftLeg",
+    label: {
+      en: "Difficulty Walking / Limping",
+      te: "నడవలేకపోవడం లేదా కుంటడం",
+      hi: "चलने में परेशानी या लंगड़ाना",
+    },
+    iconName: "AlertTriangle",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Unable to bear weight on lower limb with acute antalgic gait",
+  },
+
+  // Duplicate for RightLeg
+  {
+    id: "r_leg_pain",
+    regionId: "RightLeg",
+    label: {
+      en: "Leg Pain / Thigh / Calf Ache",
+      te: "కుడి కాలు నొప్పి",
+      hi: "दाहिने पैर में दर्द",
+    },
+    iconName: "Activity",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Right leg aching and calf muscle cramp",
+  },
+  {
+    id: "r_leg_knee_pain",
+    regionId: "RightLeg",
+    label: {
+      en: "Knee Pain & Stiffness",
+      te: "కుడి మోకాలి నొప్పి",
+      hi: "दाहिने घुटने में दर्द",
+    },
+    iconName: "Zap",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Right knee joint pain and restricted weight bearing",
+  },
+  {
+    id: "r_leg_swelling",
+    regionId: "RightLeg",
+    label: {
+      en: "Swelling in Leg, Ankle or Foot",
+      te: "కుడి కాలు వాపు",
+      hi: "दाहिने पैर में सूजन",
+    },
+    iconName: "Droplet",
+    isRedFlag: false,
+    typicalDepartment: "General Medicine",
+    clinicalPrompt: "Right lower limb edema and localized ankle swelling",
+  },
+  {
+    id: "r_leg_difficulty_walking",
+    regionId: "RightLeg",
+    label: {
+      en: "Difficulty Walking / Limping",
+      te: "కుడి కాలితో నడవలేకపోవడం",
+      hi: "दाहिने पैर से चलने में कठिनाई",
+    },
+    iconName: "AlertTriangle",
+    isRedFlag: false,
+    typicalDepartment: "Orthopaedics",
+    clinicalPrompt: "Right leg limping and acute difficulty in walking",
   },
 ];
 
-export function getSymptomsForRegion(regionId: string): SymptomOption[] {
-  return SYMPTOM_OPTIONS.filter((s) => s.regionId === regionId);
+/**
+ * Normalizes region queries so that case variations ("Head" / "head", "LeftArm" / "arms")
+ * return the clinically appropriate symptoms.
+ */
+export function getSymptomsForRegion(regionId: BodyRegionId | string): SymptomOption[] {
+  const norm = regionId.toLowerCase();
+
+  if (norm === "head") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "Head");
+  }
+  if (norm === "neck") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "Neck");
+  }
+  if (norm === "chest") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "Chest");
+  }
+  if (norm === "abdomen") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "Abdomen");
+  }
+  if (norm === "leftarm" || norm === "arms") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "LeftArm");
+  }
+  if (norm === "rightarm") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "RightArm");
+  }
+  if (norm === "leftleg" || norm === "legs") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "LeftLeg");
+  }
+  if (norm === "rightleg") {
+    return SYMPTOM_OPTIONS.filter((s) => s.regionId === "RightLeg");
+  }
+
+  // Exact match fallback
+  const direct = SYMPTOM_OPTIONS.filter((s) => s.regionId === regionId);
+  if (direct.length > 0) return direct;
+
+  // General fallback to Head if unknown
+  return SYMPTOM_OPTIONS.filter((s) => s.regionId === "Head");
 }
 
-export function getRegionById(regionId: string): BodyRegionInfo | undefined {
-  return BODY_REGIONS.find((r) => r.id === regionId);
+export function getRegionById(regionId: BodyRegionId | string): BodyRegionInfo | undefined {
+  const norm = regionId.toLowerCase();
+  return (
+    BODY_REGIONS.find((r) => r.id === regionId) ||
+    BODY_REGIONS.find((r) => r.id.toLowerCase() === norm)
+  );
 }
